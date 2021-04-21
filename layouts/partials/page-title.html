@@ -1,5 +1,5 @@
 {{ "<!-- page title -->" | safeHTML }}
-<section class="section bg-cover overlay" style="background-image: url('{{ .Params.Bg_image_webp | relURL }}'),url('{{ .Params.Bg_image | relURL }}'),url('{{ `images/backgrounds/page-title-5.jpg` | relURL }}');">
+<section class="section bg-cover overlay" style="background-image: url('{{ .Params.Bg_image_webp | relURL }}'),url('{{ .Params.Bg_image | relURL }}'),url('{{ `https://tvax1.sinaimg.cn/large/ad5fbf65ly1ge3jdcoeujj20rs0ijju6.jpg` | relURL }}');">
   <div class="container">
     <div class="row">
       <div class="col-12">
@@ -13,7 +13,7 @@
           </ol>
         </nav>
         -->
-        <p class="text-white">{{ .Params.Description | markdownify }}</p>
+        <p class="text-white">{{ .Params.Summary | markdownify }}</p>
       </div>
     </div>
   </div>
