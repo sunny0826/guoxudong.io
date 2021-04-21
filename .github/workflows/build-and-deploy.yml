@@ -26,3 +26,8 @@ jobs:
       #   #   keep_files: true
       #     publish_branch: master
       #     cname: guoxudong.io
+      - uses: darrenjennings/algolia-docsearch-action@master
+        with:
+          algolia_application_id: 'N2KB4TAKFF'
+          algolia_api_key: ${{ secrets.ADMIN_KEY }}
+          file: 'public/index.json'
