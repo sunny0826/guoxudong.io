@@ -1,9 +1,5 @@
-{{/* 生成Algolia搜索索引文件 */}}
-{{- $.Scratch.Add "index" slice -}}
-{{/* content/posts或content/post目录下的博文才生成索引 */}}
-{{- range where (where .Site.Pages "Type" "in" (slice "zh/post")) "IsPage" true -}}
-  {{- if and (not .Draft) (not .Params.private) -}}
-    {{- $.Scratch.Add "index" (dict "objectID" .File.UniqueID "url" .Permalink "content" (.Summary | plainify) "tags" .Params.Tags "lvl0" .Title "lvl1" .Params.Categories "lvl2" "摘要") -}}
-  {{- end -}}
+{{- $index := slice -}}
+{{- range $page := $.Site.RegularPages -}}
+    {{- $index = $index | append (dict "objectID" $page.File.UniqueID "title" $page.Title "date" $page.Date "href" $page.Permalink "summary" $page.Summary "tags" $page.Params.tags ) -}}
 {{- end -}}
-{{- $.Scratch.Get "index" | jsonify -}}
+{{- $index | jsonify -}}
