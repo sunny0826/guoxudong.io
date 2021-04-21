@@ -1,0 +1,295 @@
+########################### hero slider ############################
+slider:
+  enable : true
+  slider_item:
+     - subtitle : ""
+       title : "我们的目标是星辰大海 💫"
+       content : "郭旭东的博客 | 云原生之路"
+       bg_image : "https://tvax2.sinaimg.cn/large/ad5fbf65gy1gn8zymurorj264w43cx6p.jpg"
+       animation : "fadeInUp" # animation select from : https://daneden.github.io/animate.css/
+       button:
+         enable : true
+         label : "Github"
+         link : "https://github.com/sunny0826"
+         animation : "zoomIn" # animation select from : https://daneden.github.io/animate.css/
+
+################################## banner feature ############################
+banner_feature:
+  enable : true
+  # Max use 4 item
+  feature_item:
+    # banner feature item loop
+    - name : "开源"
+      icon : "fa-github" # font-awesome 4.7.0 : https://fontawesome.com/v4.7.0/icons/
+      content : "积极参与各种开源项目，推广布道开源文化。"
+
+    # banner feature item loop
+    - name : "云原生"
+      icon : "fa-cloud" # font-awesome 4.7.0 : https://fontawesome.com/v4.7.0/icons/
+      content : "云原生爱好者、实践者，专注于云原生及周边干货知识分享。"
+
+    # banner feature item loop
+    - name : "DevOps"
+      icon : "fa-dashboard" # font-awesome 4.7.0 : https://fontawesome.com/v4.7.0/icons/
+      content : "DevOps 文化坚定支持者，致力于 DevOps 文化的的推广与普及。"
+
+    # banner feature item loop
+    - name : "宠物达人"
+      icon : "fa-paw" # font-awesome 4.7.0 : https://fontawesome.com/v4.7.0/icons/
+      content : "柴猫双全，拥有一只柴犬 🐕 名叫 sunny，一只橘猫 🐈  名叫毛线。"
+
+
+################################## about ####################################
+about:
+  enable : true
+  title : "关于博主"
+  subtitle : ""
+  content : "郭旭东，宠物达人，柴猫双全，[阿里云MVP](https://mvp.aliyun.com/mvp/detail/426)，[云原生社区管委会成员](https://cloudnative.to/team/)·[上海站](https://github.com/cloudnativeto/community/issues/51)站长，CCF 会员，云原生爱好者、实践者，专注于云原生及周边干货知识分享，实践达人。"
+  #bg_image : "images/backgrounds/about-us-bg.png"
+  image : "https://tva3.sinaimg.cn/large/ad5fbf65ly1ghds6bthggj21dv0rsb29.jpg"
+  button:
+    enable : true
+    label : "了解详情"
+    link : "about"
+
+################################## funfacts ###############################
+funfacts :
+  enable : false
+  funfacts_item :
+    # fanfacts item loop
+    - name : "project done"
+      count : "50"
+      icon : "fa-bullseye" # font-awesome 4.7.0 : https://fontawesome.com/v4.7.0/icons/
+
+    # fanfacts item loop
+    - name : "Years Experience"
+      count : "25"
+      icon : "fa-calendar" # font-awesome 4.7.0 : https://fontawesome.com/v4.7.0/icons/
+
+    # fanfacts item loop
+    - name : "Awards Win"
+      count : "250"
+      icon : "fa-trophy" # font-awesome 4.7.0 : https://fontawesome.com/v4.7.0/icons/
+
+    # fanfacts item loop
+    - name : "Happy Coustomers"
+      count : "500"
+      icon : "fa-smile-o" # font-awesome 4.7.0 : https://fontawesome.com/v4.7.0/icons/
+
+
+################################# feature ############################################
+feature:
+  enable : false
+  subtitle : "Why Choose Us"
+  title : "Why They Choose Bexar"
+  image_webp : "images/feature/feature.webp"
+  image : "images/feature/feature.jpg"
+  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius tempor incididunt ut labore."
+  feature_item:
+    # feature item loop
+    - name : "Creative Design"
+      icon : "fa-snowflake-o" # font-awesome 4.7.0 : https://fontawesome.com/v4.7.0/icons/
+      content : "Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia."
+
+    # feature item loop
+    - name : "Pixel Perfect Coding"
+      icon : "fa-code" # font-awesome 4.7.0 : https://fontawesome.com/v4.7.0/icons/
+      content : "Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia."
+
+################################# service ############################################
+service:
+  enable : false
+  subtitle : "服务"
+  title : "我们可以为您做什么"
+  # service item comes from "content/*/service" folder
+
+################################# team ##############################################
+team:
+  enable : false
+  subtitle : "多样性的创始团队"
+  title : " 管理委员会"
+  # team member comes from "content/*/team" folder
+
+################################# team ##############################################
+city:
+  enable : false
+  subtitle : "云原生社区-城市站"
+  title : "云原生社区-城市站"
+  # team member comes from "content/*/team" folder
+
+################################# project ############################################
+project:
+  enable : false
+  subtitle : "Case Study"
+  title : "Bexar Case Studies"
+  button:
+    enable : true
+    label : "more projects"
+    link : "project"
+  # project item comes from "content/*/project" folder
+
+################################# testimonial #########################################
+testimonial:
+  enable : false
+  title : "社区寄语"
+  testimonial_item:
+    # testimonial item loop
+    - client_image : "images/testimonial/jimmysong.jpg"
+      name : "Jimmy Song"
+      designation : "云原生社区创始人"
+      content : "云原生是云计算的未来，我们将看到该领域更多的创新从社区里孵化，让云原生社区陪你一路同行。"
+
+    - client_image : "images/testimonial/luoguangming.jpg"
+      name : "罗广明"
+      designation : "云原生社区联合创始人"
+      content : "这是一个最好的时代，人人都应该可以从开源社区与云原生技术中获益！"
+
+    - client_image : "images/testimonial/lijiansheng.jpg"
+      name : "李建盛（适兕）"
+      designation : "资深布道师"
+      content : "开源的核心来自于其背后的共同体（Community），推动云原生技术的发展和壮大，必须从 Cloud Native Community 做起！"
+
+################################# blog ################################################
+cta:
+  enable : false
+  title : "云原生学院直播日程表"
+  bg_image : "images/backgrounds/cta-lg.jpg"
+  button:
+    enable : true
+    label : "查看"
+    link : "https://i.cloudnative.to/academy/webinar"
+
+################################# blog ################################################
+blog:
+  enable : true
+  subtitle : "最新博客"
+  title : "博客"
+  find_all: "查看全部"
+  # blog post comes from "content/*/blog" folder
+
+################################# sponsors ################################################
+sponsor:
+  enable : false
+  title : "合作伙伴列表"
+  type:
+    project:
+      title: "开源项目"
+      list:
+        - image: "/images/sponsors/kubernetes.jpg"
+          url: "https://kubernetes.io/"
+          name: "Kubernetes"
+        - image: "/images/sponsors/istio.png"
+          url: "https://istio.io/"
+          name: "Istio"
+        - image: "/images/sponsors/apache-skywalking.png"
+          url: "https://skywalking.apache.org/"
+          name: "Apache SkyWalking"
+        - image: "/images/sponsors/apache-apisix.png"
+          url: "https://apisix.apache.org/"
+          name: "Apache APISIX"
+        - image: "/images/sponsors/apache-pulsar.png"
+          url: "https://pulsar.apache.org/"
+          name: "Apache Pulsar"
+        - image: "/images/sponsors/tidb.png"
+          url: "https://github.com/pingcap/tidb"
+          name: "TiDB"
+        - image: "/images/sponsors/harbor.png"
+          url: "https://goharbor.io/"
+          name: "Harbor"
+        - image: "/images/sponsors/oam.png"
+          url: "https://oam.dev/"
+          name: "OAM"
+        - image: "/images/sponsors/envoy.png"
+          url: "https://envoyproxy.io/"
+          name: "Envoy"
+        - image: "/images/sponsors/kubesphere.svg"
+          url: "https://kubesphere.io"
+          name: "Kubesphere"
+        - image: "/images/sponsors/chubaofs.jpg"
+          url: "https://chubao.io"
+          name: "ChubaoFS"
+        - image: "/images/sponsors/shardingsphere.jpg"
+          url: "https://shardingsphere.apache.org"
+          name: "ShardingSphere"
+        - image: "/images/sponsors/dapr.png"
+          url: "https://dapr.io"
+          name: "dapr"
+        - image: "/images/sponsors/chaosmesh.png"
+          url: "https://chaos-mesh.org"
+          name: "Chaos Mesh"
+        - image: "/images/sponsors/kubevela.png"
+          url: "https://kubevela.io"
+          name: "KubeVela"
+        - image: "/images/sponsors/nocalhost.png"
+          url: "https://nocalhost.dev"
+          name: "Nocalhost"
+    org:
+      title: "开源社区"
+      list:
+        - image: "/images/sponsors/devops-china.png"
+          url: "https://devopschina.org/"
+          name: "DevOps 中国社区"
+        - image: "/images/sponsors/edge-computing-community.png"
+          url: "http://byjs.com.cn/"
+          name: "边缘计算社区"
+        - image: "/images/sponsors/alc-beijing.jpg"
+          url: "https://alc-beijing.github.io/alc-site/"
+          name: "ALC Beijing"
+    company:
+      title: "合作企业"
+      list:
+        - image: "/images/sponsors/tetrate.png"
+          url: "https://www.tetrate.io/"
+          name: "Tetrate"
+        - image: "/images/sponsors/pingcap.png"
+          url: "https://pingcap.com/"
+          name: "PingCAP"
+        - image: "/images/sponsors/stream_native.png"
+          url: "https://streamnative.io/"
+          name: "StreamNative"
+        - image: "/images/sponsors/api7.jpg"
+          url: "https://www.apiseven.com/"
+          name: "API7"
+        - image: "/images/sponsors/ucloud.jpg"
+          url: "https://www.ucloud.cn/"
+          name: "UCloud"
+        - image: "/images/sponsors/aliyun.png"
+          url: "https://www.aliyun.com/"
+          name: "阿里云"
+        - image: "/images/sponsors/tencent-cloud.jpg"
+          url: "https://cloud.tencent.com/"
+          name: "腾讯云"
+        - image: "/images/sponsors/netease-shufan.png"
+          url: "https://www.163yun.com/"
+          name: "网易数帆"
+    media:
+      title: "合作机构"
+      list:
+        - image: "/images/sponsors/cncf.png"
+          url: "https://www.cncf.io/"
+          name: "CNCF"
+        - image: "/images/sponsors/bailinzhe.png"
+          url: "http://www.bailinzhe.com/"
+          name: "百林哲（CSD的主办方）"
+        - image: "/images/sponsors/msup.jpg"
+          url: "https://www.msup.com.cn/"
+          name: "麦斯博（GIAC 的主办方）"
+        - image: "/images/sponsors/xintongyuan.png"
+          url: "http://www.caict.ac.cn/"
+          name: "中国信通院"
+        - image: "/images/sponsors/njsd.jpg"
+          url: "https://t.1yb.co/9ty3"
+          name: "NJSD"
+        - image: "/images/sponsors/broadview.jpg"
+          url: "http://www.broadview.com.cn/"
+          name: "电子工业出版社博文视点"
+        - image: "/images/sponsors/huazhang.jpg"
+          url: "http://www.hzbook.com/"
+          name: "机械工业出版社华章图书"
+
+################################# contact ################################################
+contact:
+  enable : true
+  title : "联系信息"
+  image : "https://tva3.sinaimg.cn/large/ad5fbf65gy1gfm3j2vo79g20b90b9x6r.gif"
+  description : "欢迎扫描二维码关注公众号，了解更多云原生知识。"

@@ -1,0 +1,55 @@
+################################### philosophy ###########################
+philosophy:
+  enable : true
+  philosophy_item:
+    # philosophy item loop
+    - title : "开源"
+      content : "积极参与开源，布道开源文化。"
+      #bullet_point:
+      #  - "Quality Services"
+      #  - "Clients Satisfaction"
+
+    # philosophy item loop
+    - title : "云原生"
+      content : "云原生爱好者、实践者，专注于云原生及周边干货知识分享，实践达人，demo 小王子。"
+      #bullet_point:
+      #  - "Quality Services"
+      #  - "Clients Satisfaction"
+
+      # philosophy item loop
+    - title : "DevOps"
+      content : "DevOps 文化坚定支持者，致力于 DevOps 文化的的推广与普及。"
+      #bullet_point:
+      #   - "Quality Services"
+      #   - "Clients Satisfaction"
+
+################################### about ###########################
+about:
+  enable : true
+  # about content comes from `data/*/homepage.yml` file
+
+################################### service ###########################
+service:
+  enable : false
+  # service item comes from `content/*/service` folder
+
+################################### team ###########################
+team:
+  enable : false
+  # team member comes from `content/*/team` folder
+
+contact:
+  enable : true
+  item:
+    - title: "微信"
+      img: "https://tva4.sinaimg.cn/large/ad5fbf65ly1ghelq5ndvkj2050050dfz.jpg"
+      description: "**添加微信请备注姓名公司并说明来意**"
+    - title: "GitHub"
+      img: "https://tvax3.sinaimg.cn/large/ad5fbf65ly1ghelosouakj2050050745.jpg"
+      description: "[sunny0826](https://github.com/sunny0826)"
+    - title: "邮箱"
+      img: "https://tvax3.sinaimg.cn/large/ad5fbf65ly1gheloxweaej2050050dfo.jpg"
+      description: "[guoxudong.dev@gmail.com](mailto:guoxudong.dev@gmail.com)"
+    - title: "**微信公众号**"
+      img: "https://tva1.sinaimg.cn/large/ad5fbf65ly1ghelpfjpb8j205005074d.jpg"
+      description: "**扫码关注**"

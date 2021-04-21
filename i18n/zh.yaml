@@ -1,0 +1,107 @@
+- id: read_more
+  translation: 了解详情
+
+- id: address
+  translation: 分布
+
+- id: phone
+  translation: 电话
+
+- id: email
+  translation: 邮箱
+
+- id: contact_form
+  translation: 联系方式
+
+- id: send
+  translation: 发送消息
+
+- id: follow
+  translation: 关注我
+
+- id: services
+  translation: 服务
+
+- id: contact_info
+  translation: 联系信息
+
+- id: subscribe_newsletter
+  translation: 订阅信息
+
+- id: subscribe
+  translation: 订阅
+
+- id: connect_with_us
+  translation: 联系我
+
+- id: call_now
+  translation: 致电
+
+- id: search_placeholder
+  translation: 输入搜索词
+
+- id: quick_contact
+  translation: 快速联系
+
+- id: related_article
+  translation: 文章推荐
+
+- id: previous_article
+  translation: 上一篇
+
+- id: next_article
+  translation: 下一篇
+
+- id: category
+  translation: 类别
+
+- id: tags
+  translation: 标签
+
+- id: toc
+  translation: 目录
+
+- id: all
+  translation: 所有
+
+- id: client
+  translation: 客户
+
+- id: date
+  translation: 日期
+
+- id: status
+  translation: 状态
+
+- id: site_name
+  translation: 云原生社区
+
+- id: author
+  translation: 作者
+
+- id: published_at
+  translation: 发表于
+
+- id: dateFormat
+  translation: "2006年1月2日"
+
+- id: wechat
+  translation: 微信
+
+- id: join_us
+  translation: "加入我们"
+
+- id: translator
+  translation: "译者"
+
+- id: see_all
+  translation: "查看所有"
+
+- id: previousPost
+  translation: "上一篇"
+
+- id: nextPost
+  translation: "下一篇"
+
+- id: categories
+  translation: "分类"

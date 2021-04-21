@@ -1,0 +1,21 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ "<!-- contact -->" | safeHTML }}
+    <section class="section pb-1 mt-4">
+        <div class="container">
+            <center>
+                <h2 class="md-5">联系方式</h2>
+            </center>
+            <div class="row">
+                {{ range $data.about.contact.item }}
+                <div class="col-md-6 mb-6 mb-md-5">
+                    <center>
+                        <h3 class="md-5 pb-3">{{ .title | markdownify }}</h3>
+                    </center>
+                    <center><img class="img-fluid w-5 pb-3" src="{{ .img | relURL}}" alt="about image"></center>
+                    <center>{{ .description | markdownify }}</center>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </section>
+{{ "<!-- /contact -->" | safeHTML }}
