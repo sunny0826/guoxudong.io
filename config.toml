@@ -12,7 +12,18 @@ hasCJKLanguage = true
 DefaultContentLanguage = "zh"
 
 [outputs]
-home = ["HTML", "RSS", "JSON"]
+home = ["HTML", "RSS", "JSON", "Algolia"]
+
+[outputFormats.Algolia]
+  baseName = "algolia"
+  isPlainText = true
+  mediaType = "application/json"
+  notAlternative = true
+
+[params.algolia]
+  appId = "N2KB4TAKFF"
+  indexName = "guoxudong.io"
+  searchOnlyKey = "b8a269688857cb7ea2bc24386b32280b"
 
 ############################### Plugins #################################
 # CSS Plugins
@@ -203,4 +214,3 @@ URL = "about"
 name = "声明与政策"
 URL = "/policy"
 weight = 1
-
