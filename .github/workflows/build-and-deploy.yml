@@ -30,4 +30,5 @@ jobs:
         with:
           algolia_application_id: 'N2KB4TAKFF'
           algolia_api_key: ${{ secrets.ADMIN_KEY }}
-          file: 'public/algolia.json'
+          algolia_index_name: 'guoxudong.io'
+          index_path: 'public/algolia.json'
