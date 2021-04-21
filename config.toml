@@ -123,7 +123,7 @@ mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this co
 [params.gitalk]
 clientID = "4a9de8af7e1050d54872" # Your client ID
 clientSecret = "3496974b10da2cbd315a427e45cd7f4a25ec2d05" # Your client secret
-repo = "guoxudong.github.io" # The repo to store comments
+repo = "guoxudong.io" # The repo to store comments
 owner = "sunny0826" # Your GitHub ID
 admin= "sunny0826" # Required. Github repository owner and collaborators. (Users who having write access to this repository)
 id= "location.pathname" # The unique id of the page.
