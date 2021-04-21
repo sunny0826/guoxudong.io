@@ -1,4 +1,4 @@
-name: build-and-deploy
+name: algolia-index-update
 on: push
 jobs:
   deploy:
@@ -26,8 +26,9 @@ jobs:
       #   #   keep_files: true
       #     publish_branch: master
       #     cname: guoxudong.io
-      - uses: darrenjennings/algolia-docsearch-action@master
+      - uses: rxrw/algolia-index-uploader@v1
         with:
-          algolia_application_id: 'N2KB4TAKFF'
-          algolia_api_key: ${{ secrets.ADMIN_KEY }}
-          file: 'public/index.json'
+          algolia_index_id: 'N2KB4TAKFF'
+          algolia_index_admin_key: ${{ secrets.ADMIN_KEY }}
+          algolia_index_name: 'guoxudong.io'
+          index_path: 'public/index.json'
