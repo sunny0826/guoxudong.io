@@ -19,7 +19,7 @@
           {{ end }}
             {{ i18n "published_at" }} <strong class="text-dark">{{ default (i18n "dateFormat") .Site.Params.dateformat | .PublishDate.Format }}</strong></div>
         <hr>
-        <div class="content">
+        <div class="content" id="road">
           {{ .Content }}
         </div>
         {{ "<!-- tags -->" | safeHTML }}
