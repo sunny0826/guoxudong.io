@@ -94,9 +94,9 @@
 <script src="https://cdn.jsdelivr.net/npm/docsearch.js@2.6.3/dist/cdn/docsearch.min.js"></script>
 <script>
   docsearch({
-    apiKey: 'b8a269688857cb7ea2bc24386b32280b',
-    indexName: 'guoxudong.io',
-    appId: 'N2KB4TAKFF',
+    apiKey: '{{ .Site.Params.algolia.searchOnlyKey }}',
+    indexName: '{{ .Site.Params.algolia.indexName }}',
+    appId: '{{ .Site.Params.algolia.appId }}',
     inputSelector: '#js-algolia-btn',
     debug: false,
   });

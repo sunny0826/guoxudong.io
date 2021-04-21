@@ -31,4 +31,4 @@ jobs:
           algolia_index_id: 'N2KB4TAKFF'
           algolia_index_admin_key: ${{ secrets.ADMIN_KEY }}
           algolia_index_name: 'guoxudong.io'
-          index_path: 'public/index.json'
+          index_path: 'public/algolia.json'
