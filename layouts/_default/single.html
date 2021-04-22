@@ -2,9 +2,11 @@
 
 {{ "<!-- blog details -->" | safeHTML }}
 <section class="section">
-  {{ partial "ad.html" . }}
   <div class="container blog">
     <div class="row">
+      <div class="col-lg-12">
+        {{ partial "ad.html" . }}
+      </div>
       <div class="col-lg-8">
         {{ "<!-- post thumb -->" | safeHTML }}
         <div class="position-relative mb-5">
