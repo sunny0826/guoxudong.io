@@ -212,7 +212,7 @@ weight = 3
 URL = "about"
 
 # footer menu
-[[Languages.zh.menu.footer]]
-name = "声明与政策"
-URL = "/policy"
-weight = 1
+# [[Languages.zh.menu.footer]]
+# name = "声明与政策"
+# URL = "/policy"
+# weight = 1
