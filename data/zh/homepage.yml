@@ -106,15 +106,8 @@ service:
 ################################# team ##############################################
 team:
   enable : false
-  subtitle : "多样性的创始团队"
-  title : " 管理委员会"
-  # team member comes from "content/*/team" folder
-
-################################# team ##############################################
-city:
-  enable : false
-  subtitle : "云原生社区-城市站"
-  title : "云原生社区-城市站"
+  subtitle : ""
+  title : " "
   # team member comes from "content/*/team" folder
 
 ################################# project ############################################
@@ -141,13 +134,14 @@ testimonial:
 
 ################################# blog ################################################
 cta:
-  enable : false
-  title : "云原生学院直播日程表"
-  bg_image : "images/backgrounds/cta-lg.jpg"
+  enable : true
+  title : "互动教程"
+  bg_image : "https://tva3.sinaimg.cn/large/ad5fbf65ly1ge3if5zqkzj21qq15ojvp.jpg"
+  content : "Katacoda 是一个面向软件工程师的交互式学习和培训平台，可在浏览器中使用真实环境学习和测试新技术，帮助开发人员学习，并掌握最佳实践。这里有一些博主制作的交互教程[点击了解更多...](https://katacoda.com/guoxudong)"
   button:
     enable : true
     label : "查看"
-    link : "https://i.cloudnative.to/academy/webinar"
+    link : "try"
 
 ################################# blog ################################################
 blog:

@@ -187,14 +187,20 @@
   style="background-image: url('{{ .bg_image_webp | relURL }}'),url('{{ .bg_image | relURL }}');">
   <div class="container">
     <div class="row">
-      <div class="col-lg-7 col-md-10 col-11 text-center mx-auto">
+      <div class="col-lg-6 col-md-8 col-8 mx-auto">
         <h2 class="section-title text-white">{{ .title | markdownify }}</h2>
-        {{ if .button.enable }}
-        {{ with .button }}
-        <a href="{{ .link | absLangURL }}" class="btn btn-primary hover-ripple">{{ .label }}</a>
-        {{ end }}
-        {{ end }}
+        <p class="font-italic mb-5 h5 text-white">{{ .content | markdownify }}</p>
       </div>
+      {{ if .button.enable }}
+      {{ with .button }}
+      <div class="col-lg-4 col-md-2 col-2 text-center mx-auto" style="display: flex; align-items: center;">
+        <a class="btn btn-outline-light btn-lg hover-ripple" ata-duration-in=".3"
+              data-animation-in="{{ .button.animation }}" data-delay-in=".4" href="{{ .link | absLangURL }}">
+          <i class="fa fa-play-circle-o fa-2x"></i>
+        </a>
+      </div>
+      {{ end }}
+      {{ end }}
     </div>
   </div>
 </section>
