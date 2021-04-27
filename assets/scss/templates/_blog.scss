@@ -110,7 +110,7 @@ blockquote {
 
   &::before {
     position: absolute;
-    content: "\f10d";
+    // content: "\f10d";
     font-family: $icon-font;
     font-size: 100px;
     color: rgba($color: $primary-color, $alpha: .3);
