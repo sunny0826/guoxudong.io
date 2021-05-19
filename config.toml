@@ -21,9 +21,9 @@ home = ["HTML", "RSS", "JSON", "Algolia"]
   notAlternative = true
 
 [params.algolia]
-  appId = "N2KB4TAKFF"
+  appId = "QD329MV9NX"
   indexName = "guoxudong.io"
-  searchOnlyKey = "b8a269688857cb7ea2bc24386b32280b"
+  searchOnlyKey = "172be5493ac0fc22f6af179cb9f02067"
   vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
   params = ["categories", "tags"]
 
