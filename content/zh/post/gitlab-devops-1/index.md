@@ -33,7 +33,7 @@ Group 是一组 Project 的集合，形式类似于文件夹。但其与 GitHub 
 
 ### Project（项目）
 
-Project 是 GitLab 的核心组件，是最基础的模块，除了保存代码以外，还是管理、交付和协作的核心构建快。
+Project 是 GitLab 的核心组件，是最基础的模块，除了保存代码以外，还是管理、交付和协作的核心构建块。
 
 **类似概念**：Repository
 
@@ -58,7 +58,7 @@ MR 连接 Issue 和实际代码的变化，包括：设计、实现细节（code
 
 ### Epic（史诗）
 
-一组拥有相同主题为于不同 Group 和 Project 的相关 Issue。
+一组拥有相同主题位于不同 Group 和 Project 的相关 Issue。
 
 **类似概念**：initiatives、Themes
 
