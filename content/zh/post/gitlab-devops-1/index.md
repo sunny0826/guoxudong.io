@@ -90,7 +90,7 @@ Project 和 Issue 的可视化列表、有助于管理积压的团队工作，�
 
 GitLab 推荐使用 Issue 并配合 Label 完成整个 DevOps 工作流，在体验上与 GitHub 上的操作类似，但在企业内部团队协作方面 GitLab 做的更加精细。以 Issue 为起点，通过添加和删除不同 Label 进行协作，不同的 Label 可以代表不同的**团队**、**阶段**、**环境**以及一些特定需求（如需要技术文档团队或营销团队接入）；在不同阶段不同的团队介入开发，完成后提交 MR（合并请求）并运行 CI Pipeline 和 review，通过不同环境的 CI 直到最终审核通过；接下来就是合并触发 CD Pipeline 完成发布并关闭 Issue。之后是监控和分析的接入，然后开启下一轮的 DevOps 工作流。
 
-![gitlab workflow](https://tvax4.sinaimg.cn/large/ad5fbf65gy1gr61hg4t7ej20xl0brth4.jpg)
+![gitlab workflow](https://tva2.sinaimg.cn/large/ad5fbf65gy1grawt8qrklj22yk1nuhdt.jpg)
 
 ## 结语
 
