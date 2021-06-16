@@ -24,8 +24,8 @@ home = ["HTML", "RSS", "JSON", "Algolia"]
   appId = "QD329MV9NX"
   indexName = "guoxudong.io"
   searchOnlyKey = "172be5493ac0fc22f6af179cb9f02067"
-  vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
-  params = ["categories", "tags"]
+  # vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
+  # params = ["categories", "tags"]
 
 ############################### Plugins #################################
 # CSS Plugins
