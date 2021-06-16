@@ -1,5 +1,5 @@
 {{- $index := slice -}}
 {{- range $page := $.Site.RegularPages -}}
-    {{- $index = $index | append (dict "objectID" $page.File.UniqueID "title" $page.Title "date" $page.Date "href" $page.Permalink "summary" $page.Summary "tags" $page.Params.tags  "hierarchy" (dict "lvl0" .Params.Categories "lvl1" .Title "lvl2" "" "lvl3" "")) -}}
+    {{- $index = $index | append (dict "objectID" $page.File.UniqueID "title" $page.Title "date" $page.Date "url" $page.Permalink "href" $page.Permalink "summary" $page.Summary "tags" $page.Params.tags  "hierarchy" (dict "lvl0" .Params.Categories "lvl1" .Title "lvl2" "" "lvl3" "")) -}}
 {{- end -}}
 {{- $index | jsonify -}}
