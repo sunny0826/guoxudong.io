@@ -12,7 +12,7 @@ image: "https://tvax2.sinaimg.cn/large/ad5fbf65gy1grr2t5dhigj20p00anac1.jpg"
 ---
 ## 前言
 
-在之前的文章中，笔者分别介绍了 [AWS CDK](./aws-cdk-introduction) 和 [Pulumi](./pulumi-introduction) 两种目前比较流行的编程式 IaC 框架，通过使用熟悉的编程语言，用编程的方式快速定义云资源。即获得了基础设施即代码的便利，又增加了配置的可读性和可维护性，降低了心智负担，将云资源管理者从复杂的模板和各种 YAML/JSON 配置中解放出来。
+在之前的文章中，笔者分别介绍了 [AWS CDK](../aws-cdk-introduction) 和 [Pulumi](../pulumi-introduction) 两种目前比较流行的编程式 IaC 框架，通过使用熟悉的编程语言，用编程的方式快速定义云资源。即获得了基础设施即代码的便利，又增加了配置的可读性和可维护性，降低了心智负担，将云资源管理者从复杂的模板和各种 YAML/JSON 配置中解放出来。
 
 与 AWS CloudFormation 和 Terraform 类似，阿里云也有自己的 IaC 产品：资源编排（ROS），使用 ROS 笔者将大量云资源的变更和部署抽象为 ROS Template，不但提高了工作效率还降低了出错的概率。与 AWS CDK 基于 CloudFormation 类似，阿里云也提供了是基于 ROS 的 ROS CDK，不过在先前的尝试中，ROS CDK 的体验不佳，且与 AWS CDK 还有一些差距，所以就暂时搁置了。
 
@@ -354,4 +354,3 @@ RequestedId: F761DE09-F8E3-431C-B897-06667207A6C5
 
 - [从原子操作走向模板部署，详解云上资源自动化部署新模式](https://developer.aliyun.com/article/784662)
 - [ROS  CDK](https://help.aliyun.com/document_detail/204690.html?spm=a2c4g.11186623.6.644.1eb37f2eXMjNHy)
-
