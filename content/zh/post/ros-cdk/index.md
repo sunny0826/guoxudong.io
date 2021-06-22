@@ -121,7 +121,7 @@ tree .
 
 资源之间关系为：
 
-![可视化机构图](https://tva2.sinaimg.cn/large/ad5fbf65gy1grqzmgfbsqj21020vgjug.jpg)
+![可视化架构图](https://tva2.sinaimg.cn/large/ad5fbf65gy1grqzmgfbsqj21020vgjug.jpg)
 
 ### Show me the code
 
