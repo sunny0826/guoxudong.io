@@ -1,7 +1,7 @@
 ---
 title: "开发环境即代码"
 summary: "Dev environments as code"
-authors: "[Sven Efftinge](https://twitter.com/svenefftinge)"
+authors: ["Sven Efftinge"]
 tags: ["工具"]
 categories: ["翻译"]
 date: 2021-08-17T09:17:54+08:00
