@@ -9,8 +9,10 @@ slider:
        animation : "fadeInUp" # animation select from : https://daneden.github.io/animate.css/
        button:
          enable : true
-         label : "Github"
-         link : "https://github.com/sunny0826"
+         label1 : "Github"
+         link1 : "https://github.com/sunny0826"
+         label2 : "GitLab"
+         link2 : "https://gitlab.cn/guoxudong"
          animation : "zoomIn" # animation select from : https://daneden.github.io/animate.css/
 
 ################################## banner feature ############################
