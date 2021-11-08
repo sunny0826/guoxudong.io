@@ -5,7 +5,7 @@ slider:
      - subtitle : ""
        title : "My Conquest is the Sea of Stars 💫"
        content : "Guo Xudong's Blog | The Road Of Cloud Native"
-       bg_image : "https://tvax2.sinaimg.cn/large/ad5fbf65gy1gn8zymurorj264w43cx6p.jpg"
+       bg_image : "https://tva1.sinaimg.cn/large/ad5fbf65gy1gw7krfeojnj21xg0pce81.jpg"
        animation : "fadeInUp" # animation select from : https://daneden.github.io/animate.css/
        button:
          enable : true
