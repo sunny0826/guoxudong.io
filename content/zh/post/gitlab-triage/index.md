@@ -81,7 +81,9 @@ run:triage:triage:
 
 ## 策略
 
-生成 **triage policy** 策略文件 `./.triage-policies.yml` 来保存所有策略。
+策略是 Gitlab Triage 的核心概念，每个策略都可以声明许多条件（`condition`），在满足全部条件后会执行操作（`action`）。同时还提供了 Summary policies（摘要策略）功能，摘要策略是一个特殊的策略，它将多个策略整合在一起，创建一个带有所有子策略的摘要 Issue，详细内容请参考[官方文档](https://gitlab.com/gitlab-org/ruby/gems/gitlab-triage#summary-policies)。
+
+Gitlab Triage 使用 **triage policy** 策略文件 `./.triage-policies.yml` 来保存所有策略。
 
 > 💡 可以使用 `--init` 选项命令可以生成示例策略文件
 
