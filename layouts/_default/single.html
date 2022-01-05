@@ -22,7 +22,9 @@
           {{ .Params.translator | markdownify }}
           </strong>
           {{ end }}
-            {{ i18n "published_at" }} <strong class="text-dark">{{ default (i18n "dateFormat") .Site.Params.dateformat | .PublishDate.Format }}</strong></div>
+            {{ i18n "published_at" }} <strong class="text-dark">{{ default (i18n "dateFormat") .Site.Params.dateformat | .PublishDate.Format }}</strong>
+            {{ i18n "updated_at" }} <strong class="text-dark">{{ default (i18n "dateFormat") .Site.Params.dateformat | .Lastmod.Format }}</strong>
+          </div>
         <hr>
         <div class="content" id="road">
           {{ .Content }}

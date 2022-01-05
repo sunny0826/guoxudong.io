@@ -82,6 +82,9 @@
 - id: published_at
   translation: "on"
 
+- id: updated_at
+  translation: "updated on"
+
 - id: dateFormat
   translation: "Jan 2, 2006"
 

@@ -10,6 +10,7 @@ summaryLength = "10"
 disableLanguages = [] # desable language from here
 hasCJKLanguage = true
 DefaultContentLanguage = "zh"
+enableGitInfo = true
 
 [outputs]
 home = ["HTML", "RSS", "JSON", "Algolia"]
@@ -216,3 +217,7 @@ URL = "about"
 # name = "声明与政策"
 # URL = "/policy"
 # weight = 1
+
+[frontmatter]
+  date = ['date', 'publishDate', 'lastmod']
+  lastmod = [':git', 'lastmod', 'date', 'publishDate']

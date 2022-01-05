@@ -82,6 +82,9 @@
 - id: published_at
   translation: 发表于
 
+- id: updated_at
+  translation: "更新于"
+
 - id: dateFormat
   translation: "2006年1月2日"
 
