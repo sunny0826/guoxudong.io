@@ -5,7 +5,7 @@ title: "回顾 2020 | 柴猫双全程序猿的云原生之路"
 subtitle: ""
 summary: "对自己的 2020 来个小总结。"
 authors: ["guoxudong"]
-tags: ["云原生"]
+tags: ["总结"]
 categories: ["程序员趣闻"]
 date: 2021-02-01T09:55:06+08:00
 lastmod: 2021-02-01T09:55:06+08:00
@@ -66,7 +66,7 @@ image: "https://tvax2.sinaimg.cn/large/ad5fbf65gy1gn9adtaz57j21hc0u0hdw.jpg"
 
 ![疫情 Dashboard](https://tva2.sinaimg.cn/large/ad5fbf65gy1gn9ath44cbj21400u0hdt.jpg)
 
-10 月份，我参加了阿里云线上举办的 CodeSample 挑战赛，混了一个等奖。
+10 月份，我参加了阿里云线上举办的 CodeSample 挑战赛，混了个一等奖。
 
 ![奖牌](https://tvax4.sinaimg.cn/large/ad5fbf65gy1gn96yyddlkj21400u0u0y.jpg)
 
