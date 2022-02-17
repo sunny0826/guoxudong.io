@@ -1,6 +1,6 @@
 ---
 title: "GitLab 冷知识：使用 Gitlab Webhook 触发 Pipeline"
-summary: "Gitlab Webhook Trigger Pipeline"
+summary: "除了 push，还有很多方法可以出发 Gitlab Pipeline"
 authors: ["guoxudong"]
 tags: ["GitLab", "DevOps","自动化"]
 categories: ["GitLab 冷知识"]
