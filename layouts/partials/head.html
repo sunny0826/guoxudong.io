@@ -28,10 +28,11 @@
   <meta property="og:image" content="{{ `images/favicon.png` | absURL }}">
   {{ "<!--Algolia-->" | safeHTML }}
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2.6.3/dist/cdn/docsearch.min.css">
+  <link rel="preconnect" href="https://{{ .Site.Params.algolia.appId }}-dsn.algolia.net" crossorigin />
   {{ "<!--Twitter card-->" | safeHTML }}
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="Cloud Native Community|云原生之路" />
-  <meta name="twitter:creator" content="@CloudNativeCN" />
+  <meta name="twitter:site" content="Cloud Native Road|云原生之路" />
+  <meta name="twitter:creator" content="@guoxudong2" />
   <meta property="og:url" content="{{ with .Permalink }}{{ . }}{{ end }}" />
   <meta property="og:title" content="{{ .Title }}" />
   <meta property="og:description" content="{{ with .Description }}{{ . }}{{ end }}" />
