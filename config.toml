@@ -103,7 +103,7 @@ author = " 郭旭东"
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
 # Google Analitycs
-google_analitycs_id = "UA-173948186-1" # your id
+google_analitycs_id = "G-T3BLT94RB1" # your id
 # Baidu tongji
 baidu_tongji_id = "4d507f28a1daf58fc7aca939db57093d"
 # page sidebar quick contact form
