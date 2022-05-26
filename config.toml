@@ -79,7 +79,7 @@ weight = 3
 
 [[menu.main]]
 name = "About"
-URL = "about"
+URL = "https://about.guoxudong.io/"
 weight = 4
 
 
@@ -210,7 +210,7 @@ URL = "post"
 [[Languages.zh.menu.main]]
 name = "关于"
 weight = 3
-URL = "about"
+URL = "https://about.guoxudong.io/"
 
 # footer menu
 # [[Languages.zh.menu.footer]]
