@@ -12,7 +12,7 @@ slider:
          label1 : "Github"
          link1 : "https://github.com/sunny0826"
          label2 : "GitLab"
-         link2 : "https://gitlab.cn/guoxudong"
+         link2 : "https://jihulab.com/guoxudong"
          animation : "zoomIn" # animation select from : https://daneden.github.io/animate.css/
 
 ################################## banner feature ############################
@@ -22,23 +22,23 @@ banner_feature:
   feature_item:
     # banner feature item loop
     - name : "Open Source"
-      icon : "fa-github" # font-awesome 4.7.0 : https://fontawesome.com/v4.7.0/icons/
-      content : "积极参与各种开源项目，推广布道开源文化。"
+      icon : "fa-gitlab" # font-awesome 4.7.0 : https://fontawesome.com/v4.7.0/icons/
+      content : ""
 
     # banner feature item loop
     - name : "Cloud Native"
       icon : "fa-cloud" # font-awesome 4.7.0 : https://fontawesome.com/v4.7.0/icons/
-      content : "云原生爱好者、实践者，专注于云原生及周边干货知识分享。"
+      content : ""
 
     # banner feature item loop
     - name : "DevOps"
       icon : "fa-dashboard" # font-awesome 4.7.0 : https://fontawesome.com/v4.7.0/icons/
-      content : "DevOps 文化坚定支持者，致力于 DevOps 文化的的推广与普及。"
+      content : ""
 
     # banner feature item loop
     - name : "Pet People"
       icon : "fa-paw" # font-awesome 4.7.0 : https://fontawesome.com/v4.7.0/icons/
-      content : "柴猫双全，拥有一只柴犬 🐕 名叫 sunny，一只橘猫 🐈  名叫毛线。"
+      content : ""
 
 
 ################################## about ####################################
@@ -46,7 +46,7 @@ about:
   enable : true
   title : "About"
   subtitle : ""
-  content : "郭旭东，极狐(Gitlab)云原生架构师，宠物达人，柴猫双全，[阿里云MVP](https://mvp.aliyun.com/mvp/detail/426)，[云原生社区管委会成员](https://cloudnative.to/team/)·[上海站](https://github.com/cloudnativeto/community/issues/51)站长，CCF 会员，云原生爱好者、实践者，专注于云原生及周边干货知识分享，实践达人。"
+  content : "Xudong Guo is a Cloud Native Architect at JiHu Gitlab. He specializes in promoting and sharing DevOps and Cloud Native technologies, is a LF APAC Open Source Evangelist, and the maintainer of the CNCF SandBox project KubeVela / ChaosBlade."
   #bg_image : "images/backgrounds/about-us-bg.png"
   image : "https://tva3.sinaimg.cn/large/ad5fbf65ly1ghds6bthggj21dv0rsb29.jpg"
   button:

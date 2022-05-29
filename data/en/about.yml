@@ -4,21 +4,21 @@ philosophy:
   philosophy_item:
     # philosophy item loop
     - title : "Open Source"
-      content : "积极参与开源，布道开源文化。"
+      content : "Actively participate in open source and preach open source culture."
       #bullet_point:
       #  - "Quality Services"
       #  - "Clients Satisfaction"
 
     # philosophy item loop
     - title : "Cloud Native"
-      content : "云原生爱好者、实践者，专注于云原生及周边干货知识分享，实践达人，demo 小王子。"
+      content : "Cloud native enthusiast and practitioner, focusing on cloud native and surrounding dry knowledge sharing."
       #bullet_point:
       #  - "Quality Services"
       #  - "Clients Satisfaction"
 
       # philosophy item loop
     - title : "DevOps"
-      content : "DevOps 文化坚定支持者，致力于 DevOps 文化的的推广与普及。"
+      content : "I am committed to the promotion and dissemination of DevOps culture."
       #bullet_point:
       #   - "Quality Services"
       #   - "Clients Satisfaction"

@@ -12,7 +12,7 @@ slider:
          label1 : "Github"
          link1 : "https://github.com/sunny0826"
          label2 : "GitLab"
-         link2 : "https://gitlab.cn/guoxudong"
+         link2 : "https://jihulab.com/guoxudong"
          animation : "zoomIn" # animation select from : https://daneden.github.io/animate.css/
 
 ################################## banner feature ############################
@@ -22,7 +22,7 @@ banner_feature:
   feature_item:
     # banner feature item loop
     - name : "开源"
-      icon : "fa-github" # font-awesome 4.7.0 : https://fontawesome.com/v4.7.0/icons/
+      icon : "fa-gitlab" # font-awesome 4.7.0 : https://fontawesome.com/v4.7.0/icons/
       content : "积极参与各种开源项目，推广布道开源文化。"
 
     # banner feature item loop
