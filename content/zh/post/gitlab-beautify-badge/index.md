@@ -60,7 +60,7 @@ Coverage:
 
 ![shields](https://tva4.sinaimg.cn/large/ad5fbf65gy1h2lxqsbyg0j21rk0aidp0.jpg)
 
-以 Open Issue 数为例，首先找到 GitLab 相应的 API：[Get issues statistics](https://docs.gitlab.com/ee/api/issues_statistics.html，使用 `Curl` 测试一下其返回值：
+以 Open Issue 数为例，首先找到 GitLab 相应的 API：[Get issues statistics](https://docs.gitlab.com/ee/api/issues_statistics.html)，使用 `Curl` 测试一下其返回值：
 
 ```shell
 # 13953 是 gitlab-cn/gitlab 的 project id
