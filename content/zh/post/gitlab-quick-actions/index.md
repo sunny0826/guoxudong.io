@@ -2,7 +2,7 @@
 title: "GitLab 冷知识：Quick Actions 快速操作 Issue"
 summary: "使用 Quick Actions 在评论中快速操作 GitLab 的 Issue、Merge Request、Epic"
 authors: ["guoxudong"]
-tags: ["GitLab", "DevOps"]
+tags: ["GitLab", "DevOps", "CI/CD"]
 categories: ["GitLab 冷知识"]
 date: 2022-02-23T10:05:26+08:00
 lastmod: 2022-02-23T10:05:26+08:00

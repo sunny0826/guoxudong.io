@@ -2,7 +2,7 @@
 title: "GitLab 冷知识：妙用 Badge 徽章"
 summary: "在 Gitlab 中使用 Badge"
 authors: ["guoxudong"]
-tags: ["GitLab", "DevOps"]
+tags: ["GitLab", "DevOps", "开源"]
 categories: ["GitLab 冷知识"]
 date: 2022-05-26T16:13:31+08:00
 lastmod: 2022-05-26T16:13:31+08:00

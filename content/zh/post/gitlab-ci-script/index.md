@@ -2,7 +2,7 @@
 title: "GitLab 冷知识：GitLab CI 最熟悉的陌生关键字 script"
 summary: "介绍 `script` 关键字的一些实用技巧，帮助您快速、高效的玩转 GItLab CI"
 authors: ["guoxudong"]
-tags: ["GitLab", "DevOps"]
+tags: ["GitLab", "DevOps", "CI/CD"]
 categories: ["GitLab 冷知识"]
 date: 2022-06-14T15:36:48+08:00
 lastmod: 2022-06-14T15:36:48+08:00
