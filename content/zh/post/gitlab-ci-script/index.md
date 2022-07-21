@@ -12,7 +12,7 @@ image: "https://tvax1.sinaimg.cn/large/ad5fbf65gy1gqupsoso0bj20zk0f4q3w.jpg"
 ---
 ## 前言
 
-在 GItLab CI 中 `script` 是最常用的关键字，用于指定 Runner 要执行的命令，同时也是除了 [trigger](https://docs.gitlab.cn/jh/ci/yaml/index.html#trigger) 之外所有 Job 都必须包含一个关键字。本文就来介绍 `script` 关键字的一些实用技巧，帮助您快速、高效的玩转 GItLab CI。
+在 GItLab CI 中 `script` 是最常用的关键字，用于指定 Runner 要执行的命令，同时也是除了 [trigger](https://docs.gitlab.cn/jh/ci/yaml/index.html#trigger) 之外所有 Job 都必须包含一个关键字。本文就来介绍 `script` 关键字的一些实用技巧，帮助您快速、高效地玩转 GItLab CI。
 
 ## 拆分长命令
 

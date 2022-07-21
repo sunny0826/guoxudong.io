@@ -62,7 +62,7 @@ curl --request POST --header "PRIVATE-TOKEN: <your_access_token>" \
 
 ### 常见用法
 
-多数情况下，用户只需在 Issue、Epic、MR 的描述或评论中键入 `/`，Quick Actions 就会自动提示哪些命令可以使用，再配合自动完成(Autocompletes)字符，用户可以非常快速的完成任务。这里例举一些常见用法，以供参考：
+多数情况下，用户只需在 Issue、Epic、MR 的描述或评论中键入 `/`，Quick Actions 就会自动提示哪些命令可以使用，再配合自动完成(Autocompletes)字符，用户可以非常快速地完成任务。这里列举一些常见用法，以供参考：
 
 #### 快速创建 Issue
 

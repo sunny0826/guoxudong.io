@@ -17,7 +17,7 @@ image: "https://tvax1.sinaimg.cn/large/ad5fbf65gy1gqupsoso0bj20zk0f4q3w.jpg"
 那么有没有方法可以将这三步合并成一步呢？答案是有的，**[git push options](https://git-scm.com/docs/git-push#Documentation/git-push.txt--oltoptiongt)** 可以直接通过 `git push` 来创建 GitLab Merge Request。
 
 > Tips:
-> 在您向 GitLab 推送新分支完成后，GitLab 会再您的终端用链接提示您创建合并请求，效果如下：
+> 在您向 GitLab 推送新分支完成后，GitLab 会在您的终端用链接提示您创建合并请求，效果如下：
 > ```shell
 >...
 >remote: To create a merge request for my-new-branch, visit:

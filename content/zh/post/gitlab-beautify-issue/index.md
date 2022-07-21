@@ -62,7 +62,7 @@ Markdown 的灵活度非常高，用户只需简单的操作就可配制出非�
 
 ![task list](https://tva4.sinaimg.cn/large/ad5fbf65gy1h0bi12djx2j20cp08t75n.jpg)
 
-所有任务会以 `n of x tasks completed`  的形式显示在 Issue list 个 Issue 详细中。
+所有任务会以 `n of x tasks completed`  的形式显示在 Issue list 的 Issue 详细中。
 
 ![image](https://tva4.sinaimg.cn/large/ad5fbf65gy1h0bi4tqkgrj20rw03ijsr.jpg)
 
@@ -129,7 +129,7 @@ end
 
 ![mermaid](https://tva1.sinaimg.cn/large/ad5fbf65gy1h0bisnmc0gj213e0x8gnv.jpg)
 
-GitLab Markdown 还支持很多有趣的功能，这里就不一一列举的，有兴趣的朋友可以在[官方文档](https://jihulab.com/help/user/markdown)找到详细内容。
+GitLab Markdown 还支持很多有趣的功能，这里就不一一列举了，有兴趣的朋友可以在[官方文档](https://jihulab.com/help/user/markdown)找到详细内容。
 
 ## 巧用 emoji
 

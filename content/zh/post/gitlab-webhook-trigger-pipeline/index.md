@@ -12,9 +12,9 @@ image: "https://tvax1.sinaimg.cn/large/ad5fbf65gy1gqupsoso0bj20zk0f4q3w.jpg"
 ---
 ## 前言
 
-新年新气象，本年度新开一个系列，介绍哪些 GitLab 中比较冷门却十分好玩的功能，本篇为该系列开篇。
+新年新气象，本年度新开一个系列，介绍那些 GitLab 中比较冷门却十分好玩的功能，本篇为该系列开篇。
 
-GitLab 提供了非常丰富事件以及 Webhook，这项功能常被用与其他系统集成。事实上，GitLab 的 Webhook 也可以用来触发 GitLab CI 并运行 Pipeline 的，这只需一些简单的配置。
+GitLab 提供了非常丰富事件以及 Webhook，这项功能常被用于与其他系统集成。事实上，GitLab 的 Webhook 也可以用来触发 GitLab CI 并运行 Pipeline 的，这只需一些简单的配置。
 
 ## Step By Step
 

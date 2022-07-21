@@ -16,7 +16,7 @@ image: "https://tvax1.sinaimg.cn/large/ad5fbf65gy1gqupsoso0bj20zk0f4q3w.jpg"
 
 ## Badge 设置
 
-与 GItHub 只能在 `README` 中，以 Markdown 形式展示 Badge 不同，GitLab 的 Project 页面，留有专门的 Badge 展示位。这样用户以打开 Project 页面，无需再继续滑动到 `README` 内容，映入眼帘的就是醒目的 Badge。
+与 GItHub 只能在 `README` 中，以 Markdown 形式展示 Badge 不同，GitLab 的 Project 页面，留有专门的 Badge 展示位。这样用户打开 Project 页面，无需再继续滑动到 `README` 内容，映入眼帘的就是醒目的 Badge。
 
 ![project page](https://tvax3.sinaimg.cn/large/ad5fbf65gy1h2lwgsf9tgj20ye0hcgow.jpg)
 
