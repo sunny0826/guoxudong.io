@@ -1,5 +1,5 @@
 ---
-title: "GitLab 冷知识：试用 git push 创建 Merge Request"
+title: "GitLab 冷知识：使用 git push 创建 Merge Request"
 summary: "无需 UI 操作，只需 git push 命令就可以在 GitLab 创建 Merge Request"
 authors: ["guoxudong"]
 tags: ["GitLab", "DevOps", "CI/CD"]
