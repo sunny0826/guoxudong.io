@@ -1,5 +1,5 @@
 ---
-title: "在 Gitlab CI Pipeline 中进行 Git Push 操作 🦊"
+title: "GitLab 冷知识：在 Gitlab CI Pipeline 中进行 Git Push 操作 🦊"
 summary: "在 Pipeline 中推送代码的技巧"
 authors: ["guoxudong"]
 tags: ["GitLab", "DevOps"]
