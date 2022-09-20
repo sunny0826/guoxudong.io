@@ -1,0 +1,20 @@
+{
+    "replacementPatterns": [
+      {
+        "pattern": "^&quot;",
+        "replacement": ""
+      }
+    ],
+    "httpHeaders": [
+      {
+        "urls": ["https://github.com/", "https://guides.github.com/", "https://help.github.com/", "https://docs.github.com/", "https://gitlab.com", "https://jihulab.com"],
+        "headers": {
+          "Accept-Encoding": "zstd, br, gzip, deflate"
+        }
+      }
+    ],
+    "aliveStatusCodes": [
+        200, 
+        206
+    ]
+  }
