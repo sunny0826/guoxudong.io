@@ -28,7 +28,7 @@ image: https://tvax2.sinaimg.cn/large/ad5fbf65ly1ge3iy1axydj21900u07it.jpg
 
 ![image](https://tva2.sinaimg.cn/large/ad5fbf65gy1g4lcu8mpmsj21480tokjl.jpg)
 <center>《未来架构-从服务化到云原生》作者敖小剑老师现场签名</center>
-
+<!-- markdown-link-check-disable-next-line -->
 午饭后短暂旁听了华为主办的 Apache ServiceComb Meetup ，虽然时间短暂，只有不到1个小时，但是对于国内运作开源项目，尤其是 Apache 项目有个更深的理解，同时让我联想到了之前在 [《从开源小白到 Apache Member ，阿里工程师的成长笔记》](https://developer.aliyun.com/article/704943) 阿里巴巴技术专家望陶成为的文章，中国的开源软件和开发者在开源领域起到越来越重要的作用。
 
 ![IMG_2470](https://tva2.sinaimg.cn/large/ad5fbf65gy1g4lcxc767gj23402c07wi.jpg)

@@ -32,11 +32,11 @@ Darabonba(原名 TeaDSL)，是一种 OpenAPI 应用的领域特定语言。可�
 ### 组件
 
 Darabonba 目前支持：**Java**、**C#**、**TypeScript**、**PHP**、**Golang** 和 **Python** 代码的生成，除了解析器和多语言生成器，还提供了：
-
+<!-- markdown-link-check-disable -->
 - [VS Code 插件](https://github.com/aliyun/darabonba-vscode)：提供语法高亮、代码提示、代码格式化、语法检查等功能。
 - [CLI](https://github.com/aliyun/darabonba-cli)：命令行工具，快速在本地拉起一个 Darabonba 项目。
 - [Darabonba 模块仓库](https://darabonba.api.aliyun.com/module)：模块仓库，提供 Darabonba 模块的发布和下载。
-
+<!-- markdown-link-check-enable -->
 ### Darabonba 语言优势
 
 - 更宽泛的风格支持：支持 RESTful 风格的 OpenAPI，及其他所有基于 HTTP 协议的 OpenAPI。对非 RESTful 风格的 OpenAPI 更友好。
@@ -258,7 +258,7 @@ Check success !
 ![Code Sample](https://tvax4.sinaimg.cn/large/ad5fbf65gy1gic2hxwdtaj21ha0qb441.jpg)
 
 ## Code Sample 全民赛码
-
+<!-- markdown-link-check-disable-next-line -->
 最近阿里云还推出了这么一个比赛，看了下奖品有机械键盘、无人机、双肩包和内推资格，有兴趣的同学可以关注一下，还是挺好玩的：[传送门](https://developer.aliyun.com/topic/codesample/active1?spm=dara_code_sample.home.0.0.2ee614e5L9uDCw)
 
 ![](https://tvax4.sinaimg.cn/large/ad5fbf65gy1gic2ef0fxgj21o00hyh65.jpg)

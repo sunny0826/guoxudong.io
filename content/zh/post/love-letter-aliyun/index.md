@@ -124,5 +124,5 @@ UI 的整体感觉非常棒，完全不像是“阿里云”的 UI，风格简�
 通过这次七夕活动，体验了一把云效 DevOps，整体来说用户体验很好，同时还提供了30人一下团队免费使用的政策，可以为小团队省出不少搭建和开发 DevOps 环境和流程的时间和经历，非常推荐大家都来尝试一下，制作一封云上情书送给你的他/她吧。
 
 ## 参考
-
+<!-- markdown-link-check-disable-next-line -->
 - [云效DevOps七夕云中密书 - developer.aliyun.com](https://developer.aliyun.com/adc/scenario/exp/8464960ac980400d95ff092b95e1a97e)

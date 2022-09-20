@@ -73,6 +73,7 @@ OAM App Engine 由 CLI 命令行工具、 Dashboard UI 管理页面和一系列�
 >
 > 希望所有的开发者、架构师和技术决策者们，共同定义、共同迎接云原生时代。
 
+<!-- markdown-link-check-disable-next-line -->
 《云原生架构白皮书》下载链接 ： https://developer.aliyun.com/topic/download?id=721
 
 ## 参考

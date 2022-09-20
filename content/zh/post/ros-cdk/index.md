@@ -351,6 +351,6 @@ RequestedId: F761DE09-F8E3-431C-B897-06667207A6C5
 本文涉及代码已经全部上传 GitHub，地址：[https://github.com/sunny0826/ros-cdk-simple-gitlab](https://github.com/sunny0826/ros-cdk-simple-gitlab)
 
 ## 参考
-
+<!-- markdown-link-check-disable-next-line -->
 - [从原子操作走向模板部署，详解云上资源自动化部署新模式](https://developer.aliyun.com/article/784662)
 - [ROS  CDK](https://help.aliyun.com/document_detail/204690.html?spm=a2c4g.11186623.6.644.1eb37f2eXMjNHy)
