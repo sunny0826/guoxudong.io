@@ -3,18 +3,11 @@ title: "由一封邮件看 Mailing List 在开源项目中的重要性"
 date: 2019-07-04T09:16:41+08:00
 draft: false
 type: blog
-banner: "https://tva2.sinaimg.cn/large/ad5fbf65gy1g4nkephdw7j21qf15odp5.jpg"
 authors: ["guoxudong"]
-authorlink: "https://github.com/sunny0826"
-# translator: "郭旭东"
-# translatorlink: "https://github.com/sunny0826"
-# originallink: ""
 summary: "从发现、使用 Kubernetes Client/Python 这个项目的过程，谈谈 mailing list 在开源项目中的重要性。"
 tags: ["kubernetes", "python", "工具"]
 categories: ["kustomize"]
-keywords: ["kubernetes", "python", "工具"]
-image: "https://tvax1.sinaimg.cn/large/ad5fbf65ly1ge3iyhw047j21qf15odp5.jpg"
-
+image: https://tvax1.sinaimg.cn/large/ad5fbf65ly1ge3iyhw047j21qf15odp5.jpg
 ---
 
 > 只要仔细找，想要的轮子总会有的。

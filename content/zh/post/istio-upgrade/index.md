@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "Istio 升级新方式：金丝雀升级"
 subtitle: ""
 summary: "Istio 1.6 推出了渐进式的升级方式：金丝雀升级，为相对头疼的 Istio 升级问题提供了一种解决方案。"
@@ -12,19 +10,7 @@ lastmod: 2020-07-08T15:08:09+08:00
 featured: false
 draft: false
 type: blog
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image: "https://tva3.sinaimg.cn/large/ad5fbf65ly1ggjn49yrfgj228011bjuj.jpg"
-
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
+image: https://tva3.sinaimg.cn/large/ad5fbf65ly1ggjn49yrfgj228011bjuj.jpg
 ---
 ## 前言
 

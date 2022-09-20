@@ -5,14 +5,11 @@ draft: false
 type: blog
 tags: ["kubernetes"]
 categories: ["问题解决"]
-banner: "http://tva2.sinaimg.cn/large/ad5fbf65ly1g0t1c036hkj21qi15odl1.jpg"
-authors: ["guoxudong"]
-authorlink: "https://github.com/sunny0826"
 summary: "kubernetes解决删除的namespace一直处于Terminating状态的情况。"
-keywords: ["容器", "kubernetes"]
-image: "https://tva3.sinaimg.cn/large/ad5fbf65ly1ge3ip90wwoj21qi15odl1.jpg"
+image: https://tva3.sinaimg.cn/large/ad5fbf65ly1ge3ip90wwoj21qi15odl1.jpg
 
 ---
+<!-- markdown-link-check-disable -->
 >近期由于公司需要将部署在ucloud上的rancher迁移到阿里云上，所以需要将原有Rancher依赖的namespace（cattle-system）删除，但在删除中出现了删除的namespace一直处于Terminating状态的情况
 
 ![imgage](/images/source/d-n-1.png)
@@ -34,3 +31,4 @@ kubectl edit namespaces cattle-system
 保存即可看到该namespace已被删除
 
 ![imgage](/images/source/d-n-3.png)
+<!-- markdown-link-check-enable -->

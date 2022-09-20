@@ -8,14 +8,14 @@ date: 2021-08-25T11:11:51+08:00
 lastmod: 2021-08-25T11:11:51+08:00
 draft: false
 type: blog
-image: 'https://tva3.sinaimg.cn/large/ad5fbf65gy1gtt9lieoqqj21j10z942u.jpg'
+image: https://tva3.sinaimg.cn/large/ad5fbf65gy1gtt9lieoqqj21j10z942u.jpg
 ---
 ## 前言
 
 对于开发者而言，最痛苦的莫过于接手新项目，搭建新的开发环境，我们不得不处理各种工具的版本、依赖冲突以及一些未知问题。越复杂的项目搭建开发环境所需的时间越多，有时还会由于开发终端的芯片架构、系统版本等原因，导致无法运行特定开发环境。
 
 ## GitLab Development Kit (GDK)
-
+<!-- markdown-link-check-disable-next-line -->
 对于开源软件而言，困难的开发环境搭建带来的直接影响就是潜在项目贡献者的流失以及随之而来贡献者的减少。为此各个开源项目都在尝试解决这个问题，比如 GitLab 专门为开发者开发了一个工具包： [GitLab Development Kit (GDK)](https://gitlab.com/gitlab-org/gitlab-development-kit/-/tree/main)，用来帮助 GitLab  Team Member 和社区贡献者快速的搭建和启动整套 GitLab 的开发环境。
 
 ## Gitpod
@@ -60,7 +60,7 @@ GDK 配合 Gitpod 使用，让开发者完全不需要担心本地环境、项�
 > Tips：GDK 启动的 GitLab 默认用户名为 `root`，密码为 `5iveL!fe`，首次登录需要修改密码。
 
 ## 结语
-
+<!-- markdown-link-check-disable-next-line -->
 GitLab 最新版本 `14.2` [与 Gitpod 进行了更深度的集成](https://about.gitlab.com/releases/2021/08/22/gitlab-14-2-released/#launch-a-preconfigured-gitpod-workspace-from-a-merge-request)，现在可以在 MR 中直接打开该分支的代码，在云上对运行效果进行 Review 了。
 
 ![](https://tva4.sinaimg.cn/large/ad5fbf65gy1gtt96u0pzgj21d90hgjxp.jpg)

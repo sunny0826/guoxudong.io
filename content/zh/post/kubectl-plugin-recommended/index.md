@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "Kubectl Plugin 推荐（一）| 可观测性篇"
 subtitle: ""
 summary: "推荐一些 Kubectl Plugin，本篇主要是提升可观测性篇的插件。"

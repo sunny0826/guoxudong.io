@@ -15,7 +15,7 @@ image: "https://tvax1.sinaimg.cn/large/ad5fbf65gy1gqupsoso0bj20zk0f4q3w.jpg"
 极狐GitLab 中使用 Epic、Issue、Merge Request 进行计划和管理，继而组织和追踪进度。尤其是在 GitLab 主库 [gitlab-org/gitlab](https://gitlab.com/gitlab-org/gitlab) 存在总计超过 **10W+** 的 Issue 以及 **4W+** 打开的 Issue，如果每个 Issue 都要手动分类管理，那将是一场噩梦。
 
 ## Gitlab Triage
-
+<!-- markdown-link-check-disable -->
 [gitlab-triage](https://gitlab.com/gitlab-org/ruby/gems/gitlab-triage) 是使用 `gem` 管理，旨在让项目经理和 maintainers 能够通过自定义策略自动处理 GitLab 项目或组中的 Issue 和 Merge Request。
 
 ### 安装
@@ -182,3 +182,4 @@ resource_rules:
 示例项目: <https://gitlab.cn/cloud-native/demo/triage-demo/-/snippets>
 
 目前 `gitlab-triage` 已经是一个比较完备的工具，在 GitLab 内部基于该项目孵化了 [triage-ops](https://gitlab.com/gitlab-org/quality/triage-ops) 这样的原型来进行内部 dogfooding，并希望将其整合到 GitLab 产品当中。
+<!-- markdown-link-check-enable -->

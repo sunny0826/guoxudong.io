@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "可视化 Tekton 组件 Tekton Dashboard"
 subtitle: "Tekton Dashboard"
 summary: "Tekton Dashboard 使用指南。"
@@ -12,19 +10,8 @@ lastmod: 2020-05-13T09:55:51+08:00
 featured: false
 draft: false
 type: blog
+image: https://tva3.sinaimg.cn/large/ad5fbf65gy1geblt77f4bj22bd0qqq91.jpg
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image: "https://tva3.sinaimg.cn/large/ad5fbf65gy1geblt77f4bj22bd0qqq91.jpg"
-
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
 ---
 
 ## 前言
@@ -36,9 +23,9 @@ Tekton 作为一款开源的云原生 CI/CD 框架，前身是 Knative 的 build
 本文将会使用 Tekton Dashboard，通过 UI 界面在 K8S 集群中部署一个 Java 项目：[pipeline-example-maven](https://github.com/sunny0826/pipeline-example-maven)
 
 ## 交互式学习
-
+<!-- markdown-link-check-disable-next-line -->
 [katacoda]: https://katacoda.com
-
+<!-- markdown-link-check-disable-next-line -->
 本文还提供 [katacoda] 交互式学习版本，用户可以直接访问 katacoda 页面：https://katacoda.com/guoxudong/scenarios/tekton-dashboard ，使用 [katacoda] 在浏览器端学习使用 Tekton Dashboard。
 
 该教程属于官方教程的汉化版，并得到了[许可](https://github.com/ncskier/katacoda/issues/2)。
@@ -61,7 +48,7 @@ $ kubectl apply --filename https://storage.googleapis.com/tekton-releases/pipeli
 # 克隆版
 $ kubectl apply -f https://raw.githubusercontent.com/sunny0826/tekton-local/v0.10.1/tekton-pipeline.yaml
 ```
-
+<!-- markdown-link-check-disable-next-line -->
 **安装 [Tekton Dashboard](https://github.com/tektoncd/dashboard#install-dashboard)**
 
 ```shell
@@ -81,7 +68,7 @@ Forwarding from [::1]:8097 -> 9097
 ```
 
 **访问 Tekton Dashboard**
-
+<!-- markdown-link-check-disable-next-line -->
 打开浏览器访问访问 http://localhost:8097
 
 ![](https://tvax3.sinaimg.cn/large/ad5fbf65gy1geqnhem9i9j21mk0tu425.jpg)

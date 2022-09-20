@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "使用 kubectl-rabbitmq 部署和运维 K8S 上的 RabbitMQ 集群"
 subtitle: ""
 summary: "推荐一个 kubectl 插件：kubectl-rabbitmq"
@@ -11,7 +9,7 @@ date: 2021-01-15T15:34:10+08:00
 lastmod: 2021-01-15T15:34:10+08:00
 draft: false
 type: blog
-image: "https://tva2.sinaimg.cn/large/ad5fbf65gy1gmohurr6m0j21qi15owkb.jpg"
+image: https://tva2.sinaimg.cn/large/ad5fbf65gy1gmohurr6m0j21qi15owkb.jpg
 ---
 ## 前言
 

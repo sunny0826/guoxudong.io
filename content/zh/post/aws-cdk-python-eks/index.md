@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "使用 AWS CDK Python 从零开始构建 EKS 集群"
 subtitle: ""
 summary: "使用 AWS CDK Python 版本从零开始构建一个 EKS 集群。"
@@ -11,7 +9,7 @@ date: 2021-01-22T10:07:01+08:00
 lastmod: 2021-01-22T10:07:01+08:00
 draft: false
 type: blog
-image: "https://tva1.sinaimg.cn/large/ad5fbf65gy1gmwl7ox518j20rs0kut9l.jpg"
+image: https://tva1.sinaimg.cn/large/ad5fbf65gy1gmwl7ox518j20rs0kut9l.jpg
 ---
 ## 前言
 

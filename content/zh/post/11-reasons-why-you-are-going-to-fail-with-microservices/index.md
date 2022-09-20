@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "导致你的微服务走向失败的11个原因"
 subtitle: ""
 summary: "大多数时候，我发现团队在使用微服务时都很不顺利，他们没能利用微服务的优势。在这篇文章中，我将分享导致你的微服务走向失败的11个原因。"
@@ -12,12 +10,7 @@ lastmod: 2020-04-09T09:06:57+08:00
 featured: false
 draft: false
 type: blog
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image: "https://tva2.sinaimg.cn/large/ad5fbf65ly1ge3hdzo7x3j20iw0dwjuc.jpg"
-projects: []
+image: https://tva2.sinaimg.cn/large/ad5fbf65ly1ge3hdzo7x3j20iw0dwjuc.jpg
 ---
 
 在过去的几年里，我对多个正在进行数字化转型的产品团队进行了架构审查。发现大多数团队都会使用微服务架构来构建产品，他们使用微服务架构的意图都是正确的：更快的开发速度、更好的可扩展性、更小的独立团队、独立的部署、使用合适的技术来完成工作等等。但大多数时候，我发现团队在使用微服务时都很不顺利，他们没能利用微服务的优势。在这篇文章中，我将分享导致你的微服务走向失败的11个原因。
@@ -142,7 +135,7 @@ projects: []
 
 1. 设计文件
 1. [C4 模型](https://c4model.com/)中的内容图和容器图
-1. 以[架构决策记录]((http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions))的形式跟踪关键的架构决策
+1. 以[架构决策记录](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions)的形式跟踪关键的架构决策
 1. 开发人员入职指南
 
 我建议所有的文件都要在版本控制系统中进行维护。

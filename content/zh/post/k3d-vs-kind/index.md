@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "K3d vs Kind 谁更适合本地研发"
 subtitle: ""
 summary: "对比 K3d 和 Kind 在本地开发侧的能力。"

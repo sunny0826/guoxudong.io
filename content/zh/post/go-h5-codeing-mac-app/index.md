@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "使用 Golang 和 HTML5 开发一个 MacOS App"
 subtitle: ""
 summary: "本篇文章将介绍如何使用 Go 语言 和 HTML5 来开发一个 MacOS App。"
@@ -11,7 +9,7 @@ date: 2020-08-18T09:23:28+08:00
 lastmod: 2020-08-18T09:23:28+08:00
 draft: false
 type: blog
-image: "https://tva4.sinaimg.cn/large/ad5fbf65gy1ghuq4vr97sj21qi15odgp.jpg"
+image: https://tva4.sinaimg.cn/large/ad5fbf65gy1ghuq4vr97sj21qi15odgp.jpg
 ---
 ## 前言
 
@@ -68,7 +66,7 @@ $ sips -z 512 512   logo.png --out tmp.iconset/icon_256x256@2x.png
 $ sips -z 512 512   logo.png --out tmp.iconset/icon_512x512.png
 $ sips -z 1024 1024   logo.png --out tmp.iconset/icon_512x512@2x.png
 ```
-- 使用 [iconutil](https://developer.apple.com/library/content/documentation/GraphicsAnimation/Conceptual/HighResolutionOSX/Optimizing/Optimizing.html#//apple_ref/doc/uid/TP40012302-CH7-SW2) 生成图标
+- 使用 [iconutil](https://developer.apple.com/library/archive/documentation/GraphicsAnimation/Conceptual/HighResolutionOSX/Optimizing/Optimizing.html) 生成图标
 
 ```bash
 $ iconutil -c icns tmp.iconset -o icon.icns

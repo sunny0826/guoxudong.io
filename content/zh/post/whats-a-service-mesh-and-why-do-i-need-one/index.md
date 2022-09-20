@@ -3,14 +3,10 @@ title: "Service Mesh是什么，我们又为什么需要它"
 date: 2019-03-25T18:17:20+08:00
 draft: false
 type: blog
-banner: "http://tva2.sinaimg.cn/large/ad5fbf65ly1g1ji5k4b8dj21qg15ojvt.jpg"
-authors: ["guoxudong"]
-authorlink: "https://github.com/sunny0826"
 summary: "Service Mesh 是一个专门用于使服务与服务之间的通信变得安全、快速和可靠的的基础设施。如果你正在在构建一个云原生（ Cloud Native ）应用，那么 Service Mesh 是你需要的。"
 tags: ["翻译","service mesh"]
 categories: ["翻译"]
-keywords: ["翻译","service mesh"]
-image: "https://tva4.sinaimg.cn/large/ad5fbf65ly1ge3je975r1j21qg15ojvt.jpg"
+image: https://tva4.sinaimg.cn/large/ad5fbf65ly1ge3je975r1j21qg15ojvt.jpg
 
 ---
 >作者：William Morgan 发表于2017年4月25日，2018年11月26日有所修改。
@@ -34,7 +30,7 @@ Service Mesh 是一个位于 TCP/IP 上的抽象层的网络模型。它假定�
 与 TCP 不同的是， Service Mesh 想要达成的目的不仅仅是正常的网络通讯。它为应用提供了统一的，可视化的以及可控制的控制平面。Service Mesh 是要将服务间的通信从无法发现和控制的基础设施中分离出来，并对其进行监控、管理和控制。
 
 ## Service Mesh 实际上做了什么？
-在云原生应用中传递可靠的请求是十分复杂的。而 [Linkerd](https://linkerd.io/#_ga=2.114183109.310878331.1553762133-1927878916.1553476024) 提供了服务熔断、重试、负载均衡、熔断降级等功能，通过其强大的功能来管理那些必须运行在复杂环境中的服务。
+在云原生应用中传递可靠的请求是十分复杂的。而 [Linkerd](https://linkerd.io) 提供了服务熔断、重试、负载均衡、熔断降级等功能，通过其强大的功能来管理那些必须运行在复杂环境中的服务。
 
 这里列举一个通过 Linkerd 向服务发出请求的简单流程：
 
@@ -72,6 +68,6 @@ Service Mesh 在云生态下迅速的成长，并且有着令人激动的未来�
 ## 结语
 Service Mesh 是云原生技术栈的关键技术。Linkerd 成立仅1年就成为了云原生基金会（CNCF）的一部分，拥有蓬勃发展的社区和贡献者。使用者从像 Monzo 这样颠覆英国银行业的创业公司，到像 Paypal、 Ticketmaster 和 Credit Karma 这样的互联网大厂，再到像 Houghton Mifflin Harcourt 这样经营了数百年的公司。
 
-使用者和贡献者每天都在 Linkerd 社区展示 Service Mesh 创造的价值。我们将致力于打造这一令人惊叹的产品，并继续发展壮大我们的社区，[加入我们吧](https://linkerd.io/#_ga=2.40265824.310878331.1553762133-1927878916.1553476024)！
-
+使用者和贡献者每天都在 Linkerd 社区展示 Service Mesh 创造的价值。我们将致力于打造这一令人惊叹的产品，并继续发展壮大我们的社区，[加入我们吧](https://linkerd.io)！
+<!-- markdown-link-check-disable-next-line -->
 **原文链接** https://buoyant.io/2017/04/25/whats-a-service-mesh-and-why-do-i-need-one/

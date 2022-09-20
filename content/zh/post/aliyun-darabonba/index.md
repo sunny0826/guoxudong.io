@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "听说，阿里云给它的 OpenAPI 开发了一套编程语言"
 subtitle: ""
 summary: "这回是 OpenAPI as code 了"
@@ -11,7 +9,7 @@ date: 2020-09-01T11:49:12+08:00
 lastmod: 2020-09-01T11:49:12+08:00
 draft: false
 type: blog
-image: "https://tvax3.sinaimg.cn/large/ad5fbf65gy1gic33rn8o2j21qq15ogsv.jpg"
+image: https://tvax3.sinaimg.cn/large/ad5fbf65gy1gic33rn8o2j21qq15ogsv.jpg
 ---
 ## OpenAPI
 

@@ -3,19 +3,12 @@ title: "阿里云产品夜谈-容器服务交流"
 date: 2019-09-30T09:32:35+08:00
 draft: false
 type: blog
-banner: "https://tva1.sinaimg.cn/large/ad5fbf65gy1g7he2xumccj21qi15on6r.jpg"
 authors: ["guoxudong"]
-authorlink: "https://github.com/sunny0826"
-# translator: "郭旭东"
-# translatorlink: "https://github.com/sunny0826"
-# originallink: ""
 summary: "9月25日晚受邀来到阿里云飞天园区参加阿里云MVP产品夜谈，在会上遇到了容器服务团队的负责人易立，并就容器服务进行了交流。"
 tags: ["阿里云","容器"]
 categories: ["kubernetes"]
-keywords: ["阿里云","容器"]
-image: "https://tva2.sinaimg.cn/large/ad5fbf65ly1ge3i8tb0rgj21qi15on6r.jpg"
+image: https://tva2.sinaimg.cn/large/ad5fbf65ly1ge3i8tb0rgj21qi15on6r.jpg
 ---
-![image](https://tvax4.sinaimg.cn/large/ad5fbf65gy1g7hb4iwdpvj213i0vs4qq.jpg)
 ## 前言
 
 9月25日晚受邀来到阿里云飞天园区参加阿里云MVP产品夜谈，在会上遇到了容器服务团队的负责人易立，并就容器服务进行了交流。此次参加夜谈的除了来自全球各地的阿里云MVP，还有来自安全团队、容器团队、AIoT 团队、大数据团队、数据库团队、人工智能团队、中间件团队、搜索引擎&智能推荐团队的负责人&产品经理。各个参会的MVP可以根据自己的研究方向或者感兴趣的方向选择，直接与团队负责人面对面交流，获取阿里云产品的最新信息，并提出使用意见，促进产品的发展。由于主要从事云原生&容器方面的工作，我选择了容器团队，与阿里云容器服务团队负责人易立就容器服务进行交流，本文记录了部分交流内容。

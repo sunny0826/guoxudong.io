@@ -5,12 +5,8 @@ draft: false
 type: blog
 tags: ["kubernetes"]
 categories: ["问题解决"]
-banner: "http://tva2.sinaimg.cn/large/ad5fbf65ly1g0t1f80hkgj21qo15oglu.jpg"
-authors: ["guoxudong"]
-authorlink: "https://github.com/sunny0826"
 summary: "解决容器中时区问题。"
-keywords: ["容器", "kubernetes"]
-image: "https://tva3.sinaimg.cn/large/ad5fbf65ly1ge3jag24tsj21qo15oglu.jpg"
+image: https://tva3.sinaimg.cn/large/ad5fbf65ly1ge3jag24tsj21qo15oglu.jpg
 
 ---
 >新版监控大屏于18年最后一天正式上线，之后陆续进行了几次优化和修改，最近发现一个比较大的bug，就是监控显示的时间轴不对，显示的就是和目前的时间相差8小时，这就引出了docker中的时区问题
@@ -51,9 +47,3 @@ spec:
             hostPath:
             path: /etc/localtime
 ```
-
-# 效果对比
-## 修改时区前
-![image](/images/source/time-1.png)
-## 修改时区后
-![image](/images/source/time-2.png)

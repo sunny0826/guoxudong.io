@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "告别手写 Helm Chart README"
 subtitle: "一键生成 Helm Chart README 文件"
 summary: "helm-docs 可以根据 charts 内容自动生成 markdown 文件。"
@@ -12,19 +10,7 @@ lastmod: 2020-05-08T11:20:01+08:00
 featured: false
 draft: false
 type: blog
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image: "https://tva1.sinaimg.cn/large/ad5fbf65gy1gekvrbpjl9j21qn15odjn.jpg"
-
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
+image: https://tva1.sinaimg.cn/large/ad5fbf65gy1gekvrbpjl9j21qn15odjn.jpg
 ---
 ## 前言
 

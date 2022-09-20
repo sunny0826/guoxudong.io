@@ -3,17 +3,11 @@ title: "使用 Grafana 展示阿里云监控指标"
 date: 2019-11-07T11:08:36+08:00
 draft: false
 type: blog
-banner: "https://tvax1.sinaimg.cn/large/ad5fbf65gy1g8piqjask7j21y014swo7.jpg"
 authors: ["guoxudong"]
-authorlink: "https://github.com/sunny0826"
-# translator: "郭旭东"
-# translatorlink: "https://github.com/sunny0826"
-# originallink: ""
 summary: "本文介绍使用 Grafana 展示阿里云监控指标的方法，并提供了使用 helm chart 一键部署包含阿里云监控 dashboard 的 Grafana-Server。"
 tags: ["阿里云","kubernetes","grafana"]
 categories: ["kubernetes"]
-keywords: ["阿里云","kubernetes","grafana"]
-image: "https://tva2.sinaimg.cn/large/ad5fbf65ly1ge3i6sry8nj21y014swo7.jpg"
+image: https://tva2.sinaimg.cn/large/ad5fbf65ly1ge3i6sry8nj21y014swo7.jpg
 ---
 
 ## 前言

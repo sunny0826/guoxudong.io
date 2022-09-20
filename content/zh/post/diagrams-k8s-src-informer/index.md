@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "图解 K8S 源码 - Informer 篇（上）"
 subtitle: ""
 summary: "图解 K8S 源码中的 Informer 机制及 Reflector 实现。"
@@ -11,7 +9,7 @@ date: 2020-10-12T15:21:14+08:00
 lastmod: 2020-10-12T15:21:14+08:00
 draft: false
 type: blog
-image: "https://tva1.sinaimg.cn/large/ad5fbf65ly1gjmmoourdcj21qi15oafv.jpg"
+image: https://tva1.sinaimg.cn/large/ad5fbf65ly1gjmmoourdcj21qi15oafv.jpg
 ---
 
 ## 前言
@@ -22,7 +20,7 @@ image: "https://tva1.sinaimg.cn/large/ad5fbf65ly1gjmmoourdcj21qi15oafv.jpg"
 
 控制器模式最核心的就是控制循环的概念。而 Informer 机制，也就是控制循环中负责观察系统的传感器（Sensor）主要由 Reflector、Informer、Indexer 三个组件构成。其与各种资源的 Controller 相配合，就可以完成完整的控制循环，不断的使系统向终态趋近 `status` -> `spec`。
 
-![informer 机制](https://tva2.sinaimg.cn/large/ad5fbf65ly1gjme5nhuykj20mr0fmn6j.jpg)
+![informer 机制](https://tva4.sinaimg.cn/large/ad5fbf65ly1gjme5nhuykj20mr0fmn6j.jpg)
 
 ### Informer
 
@@ -98,7 +96,7 @@ Reflector 用于监测制定 Kubernetes 资源，当资源发生变化时，触�
 
 而 `Watch()` 则会根据 Reflector 实例 `period` 参数，周期性的监控资源对象是否有变更。如果发生变更，则通过 `r.watchHandler` 处理变更事件。
 
-![Reflector](https://tva4.sinaimg.cn/large/ad5fbf65ly1gjmkxmiboej20mr0uwh9f.jpg)
+![Reflector](https://tva1.sinaimg.cn/large/ad5fbf65ly1gjmkxmiboej20mr0uwh9f.jpg)
 
 #### DeltaFIFO
 

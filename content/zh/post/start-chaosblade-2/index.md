@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "ChaosBlade：从零开始的混沌工程（三）"
 subtitle: "pod 实验场景"
 summary: "本篇为系列文章第三篇，将使用 ChaosBlade Operator 对 Kubernetes Pod 进行混沌工程实验，实验包括：删除 POD 场景、Pod 网络延迟场景、Pod 网络丢包场景、Pod 域名访问异常场景和Pod 文件系统 I/O 故障场景。"
@@ -12,19 +10,7 @@ lastmod: 2020-06-15T15:45:36+08:00
 featured: false
 draft: false
 type: blog
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image: "https://tva1.sinaimg.cn/large/ad5fbf65gy1gfgdamuzm1j212t0lq46x.jpg"
-
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
+image: https://tva1.sinaimg.cn/large/ad5fbf65gy1gfgdamuzm1j212t0lq46x.jpg
 ---
 ## 前言
 

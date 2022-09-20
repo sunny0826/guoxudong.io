@@ -3,17 +3,11 @@ title: "Golang 装逼指南：在 GitHub 上构建一个看上去正规的 Golan
 date: 2019-07-19T10:38:26+08:00
 draft: false
 type: blog
-banner: "https://tva2.sinaimg.cn/large/ad5fbf65gy1g55b5m53wjj21qf15oq62.jpg"
 authors: ["guoxudong"]
-authorlink: "https://github.com/sunny0826"
-# translator: "郭旭东"
-# translatorlink: "https://github.com/sunny0826"
-# originallink: ""
 summary: "接触 golang 时间很长，但是真正动手开始写 golang 也就是在最近。跟着我在 GitHub 上构建一个看上去正规的 Golang 项目。"
 tags: ["go"]
 categories: ["go"]
-keywords: ["go","golang","goreleaser"]
-image: "https://tvax3.sinaimg.cn/large/ad5fbf65ly1ge3iinqxvnj21qf15oq62.jpg"
+image: https://tvax3.sinaimg.cn/large/ad5fbf65ly1ge3iinqxvnj21qf15oq62.jpg
 
 ---
 ## 前言
@@ -79,7 +73,7 @@ Go 开发环境的安装网上教程很多，这里就不做介绍了。这里�
 - `golangci-lint` : 静态代码质量检测工具，用于包的质量分析。
 - `goimports` : 自动 import 依赖包工具。
 
-![image](https://ws3.sinaimg.cn/large/ad5fbf65gy1g557ps83gsj20s30njtbs.jpg)
+![image](https://tvax3.sinaimg.cn/large/ad5fbf65gy1g557ps83gsj20s30njtbs.jpg)
 
 ### 安装配置 `golint`
 
@@ -129,7 +123,7 @@ __装逼重点：__ 你以为使用 Travis CI 就是为了持续集成吗？那�
 
 __又一装逼重点__：我们在 GoLand 上安装了 `golint` 等工具进行代码质量检测，在撸码的时候就能进行代码检查，那么这个就是为了纯装逼了。[GO Report Card](https://goreportcard.com/) 是一个 golang 代码检测网站，你只需把 Github 地址填上去即可。获取 Badges 的方法和 Travis CI 类似，将 MarkDown 中的内容拷贝到 `RERADME.md` 中就好。
 
-![image](https://ws3.sinaimg.cn/large/ad5fbf65gy1g559flsl3xj21t410ok1a.jpg)
+![image](https://tvax3.sinaimg.cn/large/ad5fbf65gy1g559flsl3xj21t410ok1a.jpg)
 
 ## GoReleaser
 

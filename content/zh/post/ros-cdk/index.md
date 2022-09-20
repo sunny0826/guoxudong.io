@@ -186,7 +186,7 @@ export class RosGitlabStack extends ros.Stack {
     // ECS 密码，用于 SSH 登录
     let YourPass = 'eJXuYnNT6LD4PS'
     // URL 地址，用于访问安装好的 GitLab
-    let ExternalUrl = 'http://jh.gxd'
+    let ExternalUrl = ''
     
 
     // 构建 VPC

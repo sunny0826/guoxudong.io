@@ -7,13 +7,36 @@
             "pattern": "^https://gitlab.com/-/profile/preferences"
         },
         {
-            "pattern": "^https://sourcethemes.com/academic/docs/managing-content/"
+            "pattern": "^http://flaskapp/env/version"
+        },
+        {
+            "pattern": "^http://weibo.com"
+        },
+        {
+          "pattern": "^http://jh.gxd"
+        },
+        {
+          "pattern": "^file:"
+        },
+        {
+          "pattern": "^https://www.katacoda.com"
+        },
+        {
+          "pattern": "^https://katacoda.com"
         }
 	],
     "replacementPatterns": [
       {
         "pattern": "^&quot;",
         "replacement": ""
+      },
+      {
+        "pattern": "^&#39;",
+        "replacement": ""
+      },
+      {
+        "pattern": "^./",
+        "replacement": "https://guoxudong.io/post/"
       }
     ],
     "httpHeaders": [

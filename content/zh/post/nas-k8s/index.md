@@ -3,17 +3,11 @@ title: "阿里云 ACK 挂载 NAS 数据卷"
 date: 2019-07-08T15:09:56+08:00
 draft: false
 type: blog
-banner: "https://tva2.sinaimg.cn/large/ad5fbf65gy1g4siutx8nrj21mf15oaby.jpg"
 authors: ["guoxudong"]
-authorlink: "https://github.com/sunny0826"
-# translator: "郭旭东"
-# translatorlink: "https://github.com/sunny0826"
-# originallink: ""
 summary: "记录在阿里云购买、配置、挂载 NAS 数据卷到 Kubernetes 集群，由于官方文档没有及时更新，可以看做是对官方文档的补充。"
 tags: ["阿里云","kubernetes","容器"]
 categories: ["kubernetes"]
-keywords: ["阿里云","kubernetes","容器"]
-image: "https://tva2.sinaimg.cn/large/ad5fbf65ly1ge3j8edws4j21y013ete4.jpg"
+image: https://tva2.sinaimg.cn/large/ad5fbf65ly1ge3j8edws4j21y013ete4.jpg
 
 ---
 ## 前言

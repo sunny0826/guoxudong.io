@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "让云原生应用的交付变得更简单 | KubeVela v1.0 正式发布"
 subtitle: ""
 summary: "Kubevela v1.0 正式发布"
@@ -11,7 +9,7 @@ date: 2021-04-06T09:40:41+08:00
 lastmod: 2021-04-06T09:40:41+08:00
 draft: false
 type: blog
-image: "https://tva4.sinaimg.cn/large/ad5fbf65gy1gpa21vzq1zj20p00angrh.jpg"
+image: https://tva4.sinaimg.cn/large/ad5fbf65gy1gpa21vzq1zj20p00angrh.jpg
 ---
 ## 背景
 
@@ -45,7 +43,7 @@ OAM 的出现提供了一种可拓展、方便快捷的将 Kubernetes 的能力�
 
 此次 KubeVela 的 v1.0 版本较之 v0.X 版本最大的亮点除了 API 版本升级至 `v1beta1`，标志着 API Resource 基本稳定以外，最大的亮点就是支持 CUE 、Helm 和原生 Kubernetes 资源模板三种应用抽象模式。
 
-CUE 是一门强大的 DSL 语言，其专为大规模配置而设计，借助 CUE 用户可以定制非常复杂的模板，十分适合用来定义抽象模板。关于 CUE 的更多内容见[官方文档](https://kubevela.io/zh/docs/cue/basic)，这里不做详细介绍。
+CUE 是一门强大的 DSL 语言，其专为大规模配置而设计，借助 CUE 用户可以定制非常复杂的模板，十分适合用来定义抽象模板。关于 CUE 的更多内容见[官方文档](https://kubevela.io/docs/platform-engineers/cue/basic)，这里不做详细介绍。
 
 而在 v1.0 版本中最大的惊喜则是支持纳管 Helm 为 `ComponentDefinition`。在实际场景中，常常会用到 Helm 来部署第三方应用，但 Helm chart 本身是一个黑盒，如果有一些定制需求则需要手动去修改 Helm chart 的 template，十分的痛苦。而 KubeVela 1.0 版本提供了纳管 Helm chart 的功能，通过如下代码即可将一个 `elasticsearch` 的 Helm chart 定义为 `ComponentDefinition`：
 
@@ -260,5 +258,5 @@ KubeVela 社区是一个非常开放的社区，目前还有大量的新功能�
 
 ## 参考资料
 
-- [KubeVela - The Extensible App Platform Based on Open Application Model and Kubernetes](https://kubevela.io/blog/kubevela-the-extensible-app-platform-based-on-open-application-model-and-kubernetes/)
+- [KubeVela - The Extensible App Platform Based on Open Application Model and Kubernetes](https://kubevela.io/blog/2020/12/7/kubevela-the-extensible-app-platform-based-on-open-application-model-and-kubernetes)
 - [KubeVela - Release v1.0.0](https://github.com/oam-dev/kubevela/releases/tag/v1.0.0)

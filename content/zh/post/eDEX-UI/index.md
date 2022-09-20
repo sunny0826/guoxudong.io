@@ -3,14 +3,11 @@ title: "炫酷的终端软件 eDEX-UI"
 date: 2019-04-29T11:55:47+08:00
 draft: false
 type: blog
-banner: "https://tva2.sinaimg.cn/large/ad5fbf65gy1g2jfg79sy3j21hc0tztfr.jpg"
 authors: ["guoxudong"]
-authorlink: "https://github.com/sunny0826"
 summary: "eDEX-UI 是一个全屏且跨平台、可定制的终端模拟器，具有先进的监控和触摸屏支持。它的外观类似科幻的计算机界面。在保持未来感的外观和感觉的同时，它努力保持一定的功能水平并可用于现实场景，其更大的目标是将科幻用户体验纳入主流。"
 tags: ["工具"]
 categories: ["程序员趣闻"]
-keywords: ["eDEX-UI","工具"]
-image: "https://tvax4.sinaimg.cn/large/ad5fbf65ly1ge3ih2v4pkj21hc0tznfr.jpg"
+image: https://tvax4.sinaimg.cn/large/ad5fbf65ly1ge3ih2v4pkj21hc0tznfr.jpg
 
 ---
 马上就是五一假期了，而且今年的五一假期有4天！想必大家已经安排好是在家写代码还是出门去冒险了。不过在五一假期之前，我这里推荐一个好玩的又好用的软件给大家。

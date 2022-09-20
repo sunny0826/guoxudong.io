@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "如何选择开源许可证"
 subtitle: ""
 summary: "Open Source License"

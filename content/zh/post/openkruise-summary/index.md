@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "OpenKruise：Kubernetes 核心控制器 Plus"
 subtitle: ""
 summary: "Kruise 是 OpenKruise 中的核心项目之一，Kruise 是 cruise的谐音，字面意义巡航，豪华游艇（'K' for Kubernetes）。寓意 Kubernetes 上应用的自动巡航，如果把原生 Kubernetes 资源 Deployment 或 StatefulSet 比作小船，那 Kruise 确实就是豪华游艇了。"

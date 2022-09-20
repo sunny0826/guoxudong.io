@@ -3,17 +3,11 @@ title: "【转】Kubernetes 儿童插图指南"
 date: 2019-07-05T09:50:58+08:00
 draft: false
 type: blog
-banner: "https://tva2.sinaimg.cn/large/ad5fbf65gy1g4nwsdbr8wj20qo0hs0w2.jpg"
 author: "Matt Butcher"
-authorlink: "https://www.cncf.io/the-childrens-illustrated-guide-to-kubernetes/"
-translator: "江五渣"
-translatorlink: "http://jalan.space"
-originallink: "https://juejin.im/post/5d1b2a656fb9a07edc0b7058"
 summary: "献给所有试图向孩子们解释软件工程的家长。"
 tags: ["翻译","kubernetes"]
 categories: ["翻译"]
-keywords: ["翻译","kubernetes"]
-image: "https://tvax1.sinaimg.cn/large/ad5fbf65ly1ge3jcxaiwbj20qo0hs7mz.jpg"
+image: https://tvax1.sinaimg.cn/large/ad5fbf65ly1ge3jcxaiwbj20qo0hs7mz.jpg
 
 ---
 >转自掘金社区，原文地址：https://juejin.im/post/5d1b2a656fb9a07edc0b7058

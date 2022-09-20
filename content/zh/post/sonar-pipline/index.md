@@ -3,14 +3,11 @@ title: "Jenkins Pipeline集成Sonar进行代码质量检测"
 date: 2019-03-07T9:14:39+08:00
 draft: false
 type: blog
-banner: "http://tva2.sinaimg.cn/large/ad5fbf65ly1g0u28qlkvrj21pj15o4ji.jpg"
 authors: ["guoxudong"]
-authorlink: "https://github.com/sunny0826"
 summary: "在devops理念中，CI/CD毫无疑问是最重要的一环，而代码质量检查则是CI中必不可少的一步。在敏捷开发的思想下，代码的迭代周期变短，交付速度提升，这个时候代码的质量就很难保证，测试只能保证功能完整与可用，而代码的质量纯靠review的话效率又很低，这个时候sonar..."
 tags: ["devops","jenkins","sonar"]
 categories: ["devops"]
-keywords: ["devops","jenkins","sonar"]
-image: "https://tva1.sinaimg.cn/large/ad5fbf65ly1ge3jciuxh3j21pj15o4ji.jpg"
+image: https://tva1.sinaimg.cn/large/ad5fbf65ly1ge3jciuxh3j21pj15o4ji.jpg
 
 ---
 ## 简介
@@ -34,7 +31,7 @@ SonarQube is an open source platform to perform automatic reviews with static an
 SonarQube是一个开源的平台，以执行与代码的静态分析，自动审查，可以检测在25+的编程语言如Java，C＃，JavaScript，TypeScript，C/C++，COBOL等的代码缺陷和安全漏洞。
 
 ### OWASP
-OWASP，全称是：Open Web Application Security Project，翻译为中文就是：开放式Web应用程序安全项目，是一个非营利组织，不附属于任何企业或财团，这也是该组织可以不受商业控制地进行安全开发及安全普及的重要原因，[详细介绍](https://en.wikipedia.org/wiki/OWASP/)。OWASP Dependency-Check，它识别项目依赖关系，并检查是否存在任何已知的、公开的、漏洞，基于OWASP Top 10 2013。
+OWASP，全称是：Open Web Application Security Project，翻译为中文就是：开放式Web应用程序安全项目，是一个非营利组织，不附属于任何企业或财团，这也是该组织可以不受商业控制地进行安全开发及安全普及的重要原因，[详细介绍](https://en.wikipedia.org/wiki/OWASP)。OWASP Dependency-Check，它识别项目依赖关系，并检查是否存在任何已知的、公开的、漏洞，基于OWASP Top 10 2013。
 
 ## 场景
 在devops理念中，CI/CD毫无疑问是最重要的一环，而代码质量检查则是CI中必不可少的一步。在敏捷开发的思想下，代码的迭代周期变短，交付速度提升，这个时候代码的质量就很难保证，测试只能保证功能完整与可用，而代码的质量纯靠review的话效率又很低，这个时候sonar就可以很好的帮助开发自动化检测代码质量，降低bug数量，也可以根据扫描结果养成良好的编程习惯，同时也可以减少测试的工作量，真正提升整个团队效率，实现devops理念。

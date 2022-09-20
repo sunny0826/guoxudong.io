@@ -2,15 +2,11 @@
 title: "浅析ServiceMesh & Istio"
 date: 2019-03-20T09:12:28+08:00
 draft: flase
-banner: "http://tva2.sinaimg.cn/large/ad5fbf65ly1g19a5834ojj21m515oq8p.jpg"
 authors: ["guoxudong"]
-authorlink: "https://github.com/sunny0826"
 summary: "在云原生架构下，容器的使用给予了异构应用程序的更多可行性，Kubernetes 增强了应用的横向扩容能力，用户可以快速的编排出复杂环境、复杂依赖关系的应用程序，Istio可以使开发者又无须过分关心应用程序的监控、扩展性、服务发现和分布式追踪这些繁琐的事情而专注于程序开发，赋予开发者更多的创造性。"
 tags: ["istio","service mesh"]
 categories: ["istio"]
-keywords: ["istio","service mesh"]
-image: "https://tva3.sinaimg.cn/large/ad5fbf65ly1ge3io95s37j21m515oq8p.jpg"
-
+image: https://tva3.sinaimg.cn/large/ad5fbf65ly1ge3io95s37j21m515oq8p.jpg
 ---
 ## 前言
 >公司于**18年10月**正式确认服务容器化，到**18年12月4日**第一个服务正式部署到生产环境kubernetes集群，再到**如今**已有**23**个服务完成了生产环境容器化的切换，更多的服务在测试环境容器化部署随时可以切换到生产环境。目前新项目的开发，大部分都直接在测试环境容器化部署，不再需要新购ECS搭建测试环境。随着容器化的深入，服务间的通信和联系变的更加复杂，其中通信的可视化、流量的控制和服务质量的评估问题日益凸显，成为了微服务方案的短板。这个时候```Service mesh```就进入了我们的视野。
@@ -29,7 +25,7 @@ image: "https://tva3.sinaimg.cn/large/ad5fbf65ly1ge3io95s37j21m515oq8p.jpg"
 - 应用程序无感知
 - 解耦应用程序的重试/超时、监控、追踪和服务发现
 
-目前两款流行的服务网格开源软件 [Linkerd](https://linkerd.io) 和 [Istio](https://Istio.io) 都可以直接在 Kubernetes 中集成，其中 Linkerd 已经成为 CNCF 成员，Istio 在 2018年7月31日宣布 [1.0](https://istio.io/zh/blog/2018/announcing-1.0/)。
+目前两款流行的服务网格开源软件 [Linkerd](https://linkerd.io) 和 [Istio](https://istio.io) 都可以直接在 Kubernetes 中集成，其中 Linkerd 已经成为 CNCF 成员，Istio 在 2018年7月31日发布 1.0。
 
 ### 服务网格的发展历史
 

@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "ChaosBlade：从零开始的混沌工程（四）"
 subtitle: "node 实验场景"
 summary: "本篇为系列文章第四篇，将介绍使用 ChaosBlade Operator 对 Kubernetes Node 进行混沌工程实验，实验包括：Node CPU 负载场景、Node 网络延迟场景、Node 网络丢包场景、Node 域名访问异常场景、Node 磁盘填充场景、Node 杀指定进程和Node 挂起指定进程等。"
@@ -12,25 +10,13 @@ lastmod: 2020-07-22T17:30:53+08:00
 featured: false
 draft: false
 type: blog
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image: "https://tvax4.sinaimg.cn/large/ad5fbf65ly1ggzvw3dwypj21ha0q8toq.jpg"
-
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
+image: https://tvax4.sinaimg.cn/large/ad5fbf65ly1ggzvw3dwypj21ha0q8toq.jpg
 ---
 ## 前言
 
 在上篇文章中，我们介绍了如何使用 **ChaosBlade Operator** 对 pod 资源进行混沌实验。从本章将继续对 Kubernetes Node 资源的混沌实验进行讲解，同时也配套了 [katacode](https://katacoda.com/) 交互式教程，读者可用通过 katacode，在浏览器上操作真实的 Kubernetes 和 ChaosBlade。
 
-[chaosblade.io](https://chaosblade.io/) 官网已经正式上线，在官网的[互动教程](https://chaosblade.io/try/)模块，也可以找到 ChaosBlade 的 KataCoda 教程，目前官网由我维护，有任何问题，欢迎在 [ISSUE](https://github.com/chaosblade-io/chaosblade-website/issues) 中进行反馈。
+[chaosblade.io](https://chaosblade.io/) 官网已经正式上线。
 
 {{% pageinfo color="primary" %}}
 > KataCoda 教程：《ChaosBlade Node 实验场景》

@@ -3,17 +3,11 @@ title: "使用 Kustomize 帮你管理 kubernetes 应用（五）：配合 kubedo
 date: 2019-07-03T15:20:31+08:00
 draft: false
 type: blog
-banner: "http://tva2.sinaimg.cn/large/ad5fbf65gy1g4mm41w485j21qc15oq6d.jpg"
 authors: ["guoxudong"]
-authorlink: "https://github.com/sunny0826"
-# translator: "郭旭东"
-# translatorlink: "https://github.com/sunny0826"
-# originallink: ""
 summary: "在以往的 pipeline 中，使用 kubectl 进行部署 Deployment 后无法检查 Deployment 是否部署成功，只能通过使用命令/脚本来手动检查 Deployment 状态，而 kubedog 这个小工具完美解决了这个问题，完善了 CI/CD 流水线的最后一步。"
 tags: ["kubernetes", "kustomize", "工具"]
 categories: ["kustomize"]
-keywords: ["kubernetes", "kustomize", "工具"]
-image: "https://tvax1.sinaimg.cn/large/ad5fbf65ly1ge3j6dyag5j21qc15oq6d.jpg"
+image: https://tvax1.sinaimg.cn/large/ad5fbf65ly1ge3j6dyag5j21qc15oq6d.jpg
 
 ---
 >在以往的 pipeline 中，使用 kubectl 进行部署 Deployment 后无法检查 Deployment 是否部署成功，只能通过使用命令/脚本来手动检查 Deployment 状态，而 kubedog 这个小工具完美解决了这个问题，完善了 CI/CD 流水线的最后一步。

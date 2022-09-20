@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "手把手教你免费获取正版 Jetbrains 全家桶 License"
 subtitle: ""
 summary: "手把手教你免费获取正版 Jetbrains 全家桶 License"
@@ -11,7 +9,7 @@ date: 2020-12-15T14:50:50+08:00
 lastmod: 2020-12-15T14:50:50+08:00
 draft: false
 type: blog
-image: "https://tva3.sinaimg.cn/large/ad5fbf65gy1glomxhj37ej21hc0u0dve.jpg"
+image: https://tva3.sinaimg.cn/large/ad5fbf65gy1glomxhj37ej21hc0u0dve.jpg
 ---
 ## 前言
 
@@ -45,7 +43,7 @@ JetBrains 通过为开源项目核心项目贡献者免费提供一套一流的�
 - 许可证有效期为一年，之后如果您的项目仍符合支持计划要求，也可以续订。
 - 您只能将免费许可证用于开发非商业开源项目。
 - 您不能与任何第三方共享免费许可证。
-
+<!-- markdown-link-check-disable-next-line -->
 同时 JetBrains 还为 [The Apache Software Foundation](http://www.apache.org/foundation/how-it-works.html#committers)、[NumFOCUS 项目](http://numfocus.org/sponsored-projects)和 Drupal 核心贡献者提供免费的 License。
 
 ### 选择项目

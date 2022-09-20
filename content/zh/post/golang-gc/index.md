@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "浅析 Golang 垃圾回收机制"
 subtitle: ""
 summary: "介绍 Golang 的垃圾回收机制"

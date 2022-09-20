@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "使用 Helmfile 解放你的 Helm Chart"
 subtitle: ""
 summary: "介绍一款小工具：Helmfile"
@@ -11,7 +9,7 @@ date: 2020-12-22T15:59:28+08:00
 lastmod: 2020-12-22T15:59:28+08:00
 draft: false
 type: blog
-image: "https://tvax4.sinaimg.cn/large/ad5fbf65gy1glxx3p2nzsj21jk15oh0o.jpg"
+image: https://tvax4.sinaimg.cn/large/ad5fbf65gy1glxx3p2nzsj21jk15oh0o.jpg
 ---
 ## 前言
 
@@ -56,7 +54,7 @@ $ helm plugin install https://github.com/databus23/helm-diff
 
 ### helmfile.yaml
 
-`helmfile.yaml` 是 helmfile 的核心文件，其用来声明所有的配置。下面会简要介绍一下，详细内容见[官方文档](https://github.com/roboll/helmfile#configuration)。
+`helmfile.yaml` 是 helmfile 的核心文件，其用来声明所有的配置。下面会简要介绍一下，详细内容见[官方文档](https://github.com/roboll/helmfile)。
 
 ```yaml
 # 声明 repo 配置

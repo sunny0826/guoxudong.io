@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "Kubectl Plugin 推荐（二）| 简化操作篇"
 subtitle: ""
 summary: "推荐一些 Kubectl Plugin，本篇主要是简化操作的插件。"
@@ -11,7 +9,7 @@ date: 2021-03-09T11:18:48+08:00
 lastmod: 2021-03-09T11:18:48+08:00
 draft: false
 type: blog
-image: "https://tva2.sinaimg.cn/large/ad5fbf65gy1godp4trcrnj20p00an3zg.jpg"
+image: https://tva2.sinaimg.cn/large/ad5fbf65gy1godp4trcrnj20p00an3zg.jpg
 ---
 ## 补充
 

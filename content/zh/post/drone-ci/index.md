@@ -3,17 +3,11 @@ title: "轻量快速的 CI 工具 Drone"
 date: 2019-05-21T08:59:00+08:00
 draft: false
 type: blog
-banner: "https://tva2.sinaimg.cn/large/ad5fbf65gy1g38swbabmaj21jk15ognu.jpg"
 authors: ["guoxudong"]
-authorlink: "https://github.com/sunny0826"
-# translator: "郭旭东"
-# translatorlink: "https://github.com/sunny0826"
-# originallink: ""
 summary: "本文介绍一款轻量级的 CI 工具 Drone ，同时也介绍在实践中遇到的一些坑，帮助你快速搭建持续集成流水线。"
 tags: ["devops","drone","工具"]
 categories: ["devops"]
-keywords: ["devops","drone","工具"]
-image: "https://tvax2.sinaimg.cn/large/ad5fbf65ly1ge3ifzmi4yj21jk15ognu.jpg"
+image: https://tvax2.sinaimg.cn/large/ad5fbf65ly1ge3ifzmi4yj21jk15ognu.jpg
 
 ---
 ## 前言
@@ -167,7 +161,7 @@ trigger:
 
 值得注意的事：上面的这个 `.drone.yml` 文件将本地的`.m2`文件、kubeconfig文件、`docker.sock` 文件挂载到 pipeline 中以实现 maven 打包缓存，k8s 部署、docker 缓存的作用，以提高 CI 速度。而是用挂载需要管理员在项目 settings 中勾选 `Trusted` ，这个操作只能管理员进行，普通用户是看不到这个选项的。而管理员就是在docker运行时候 `--env=DRONE_USER_CREATE=username:{your-admin-username},admin:true ` 设置的。
 
-![WX20190521-104717@2x](https://ws3.sinaimg.cn/large/ad5fbf65gy1g38qvifxwij21d40tk76s.jpg)
+![WX20190521-104717@2x](https://tvax2.sinaimg.cn/large/ad5fbf65gy1g38qvifxwij21d40tk76s.jpg)
 
 而上传镜像和钉钉同时需要在 settings 设置中添加 secret
 

@@ -8,7 +8,7 @@ summary: "本文档介绍了在 Github/Gitee 的静态页托管Pages服务部署
 tags: ["阿里云"]
 categories: ["部署安装"]
 keywords: ["https","ssl","阿里云"]
-image: 'https://tvax2.sinaimg.cn/large/ad5fbf65ly1ge3i9py7k6j21jk15odie.jpg'
+image: https://tva4.sinaimg.cn/large/ad5fbf65ly1ge3i9py7k6j21jk15odie.jpg
 ---
 
 本文档介绍了在 [Github](https://pages.github.com/) / [Gitee](https://gitee.com/help/articles/4136) 的静态页托管Pages服务部署SSL证书，配置HTTPS安全访问的操作说明。
@@ -26,7 +26,7 @@ Github/Gitee的Pages是一个免费的静态网页托管服务，您可以使用
 - GitHub 仓库
 - 开启 GitHub Pages
 
-![image](https://tva2.sinaimg.cn/large/ad5fbf65gy1g69e503ukoj21ig0hwad9.jpg)
+![image](https://tva4.sinaimg.cn/large/ad5fbf65gy1g69e503ukoj21ig0hwad9.jpg)
 
 #### 证书签发
 
@@ -91,8 +91,6 @@ Github/Gitee的Pages是一个免费的静态网页托管服务，您可以使用
 
     进入购买域名所在网站进行DNS解析，这里以[name.com](https://www.name.com/zh-cn/)为例：
 
-    ![image](https://tva2.sinaimg.cn/large/ad5fbf65gy1g69fqad2euj221g0700tt.jpg)
-
     解析成功之后，返回阿里云SSL证书管理页面点击`验证`.
 
 5. 证书签发
@@ -105,7 +103,7 @@ Github/Gitee的Pages是一个免费的静态网页托管服务，您可以使用
 
     进入域名所在网站，添加DNS解析记录，将绑定了SSL证书的域名解析到`gitee.gitee.io`
 
-    ![image](https://ws3.sinaimg.cn/large/ad5fbf65gy1g69fyy5it5j21z606mjs9.jpg)
+    ![image](https://tva2.sinaimg.cn/large/ad5fbf65gy1g69fyy5it5j21z606mjs9.jpg)
 
 2. 配置域名
 

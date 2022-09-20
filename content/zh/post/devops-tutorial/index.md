@@ -3,14 +3,11 @@ title: "Devops入门手册"
 date: 2019-04-09T13:21:56+08:00
 draft: false
 type: blog
-banner: "http://tva2.sinaimg.cn/large/ad5fbf65gy1g1wiaimt98j21qi15owk9.jpg"
 authors: ["guoxudong"]
-authorlink: "https://github.com/sunny0826"
 summary: "“DevOps”这个词是 “development” 和 “operations”这两个词的组合。它是一种促进开发和运维团队之间的协作，以自动化和可重复的方式更快地将代码部署到生产中的文化。"
 tags: ["devops","翻译"]
 categories: ["翻译"]
-keywords: ["devops","翻译"]
-image: "https://tvax4.sinaimg.cn/large/ad5fbf65ly1ge3ielgql8j21qi15owk9.jpg"
+image: https://tvax4.sinaimg.cn/large/ad5fbf65ly1ge3ielgql8j21qi15owk9.jpg
 
 ---
 # DevOps 是什么？
@@ -23,7 +20,7 @@ DevOps 帮助团体提高软件和服务的交付速度。它使团队能够更�
 ![what is devops](http://tva2.sinaimg.cn/large/ad5fbf65gy1g1wbobryucj20db07dq2w.jpg)
 
 本手册中，您将学到：
-
+<!-- markdown-link-check-disable -->
 - [DevOps 是什么？](#devops-是什么)
 - [为什么需要 DevOps ？](#为什么需要-devops)
 - [DevOps 与传统运维有什么不同？](#devops-与传统运维有什么不同)
@@ -39,7 +36,7 @@ DevOps 帮助团体提高软件和服务的交付速度。它使团队能够更�
 - [DevOps 自动化工具](#devops-自动化工具)
 - [DevOps 的未来是怎样的？](#devops-的未来是怎样的)
 - [总结](#总结)
-
+<!-- markdown-link-check-enable -->
 # 为什么需要 DevOps ？
 - 在实行 DevOps 之前，开发和运维团队是完全孤立的。
 - 测试和部署是设计在构建之后完成的独立活动。因此，他们比实际构建周期消耗更多时间。

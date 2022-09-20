@@ -4,17 +4,11 @@ date: 2019-09-29T09:52:11+08:00
 lastmod: 2019-09-29T09:52:11+08:00
 draft: false
 type: "post"
-banner: "https://tvax1.sinaimg.cn/large/ad5fbf65gy1g7gejyynd0j21hc0zkwr2.jpg"
 authors: ["guoxudong"]
-authorlink: "https://github.com/sunny0826"
-# translator: "郭旭东"
-# translatorlink: "https://github.com/sunny0826"
-# originallink: ""
 summary: "9月25日下午参加阿里巴巴技术公益专场记录与感想。"
 tags: ["公益"]
 categories: ["公益"]
-keywords: ["公益","码上公益"]
-image: "https://tva3.sinaimg.cn/large/ad5fbf65ly1ge3i5d1pl0j21hc0zkwr2.jpg"
+image: https://tva3.sinaimg.cn/large/ad5fbf65ly1ge3i5d1pl0j21hc0zkwr2.jpg
 ---
 
 ## 前言

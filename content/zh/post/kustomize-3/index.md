@@ -3,17 +3,11 @@ title: "使用 Kustomize 帮你管理 kubernetes 应用（三）：将 Kustomize
 date: 2019-05-06T16:46:28+08:00
 draft: false
 type: blog
-banner: "https://tva2.sinaimg.cn/large/ad5fbf65gy1g2smcy97ooj21qi15o7bb.jpg"
 authors: ["guoxudong"]
-authorlink: "https://github.com/sunny0826"
-# translator: "郭旭东"
-# translatorlink: "https://github.com/sunny0826"
-# originallink: ""
 summary: "本篇为系列文章第三篇，使用 jenkins 发布一个简单的使用 flask 写的 web 项目，来演示在 CI/CD 流程中 Kustomize 的简单使用。"
 tags: ["kubernetes", "kustomize", "工具"]
 categories: ["kustomize"]
-keywords: ["kubernetes", "kustomize", "工具"]
-image: "https://tva1.sinaimg.cn/large/ad5fbf65ly1ge3j5cgy7cj21qi15o7bb.jpg"
+image: https://tva1.sinaimg.cn/large/ad5fbf65ly1ge3j5cgy7cj21qi15o7bb.jpg
 
 ---
 ## 前言
@@ -29,7 +23,7 @@ image: "https://tva1.sinaimg.cn/large/ad5fbf65ly1ge3j5cgy7cj21qi15o7bb.jpg"
 
 ## 前期准备
 
-- Jenkins ：本篇使用 Jenkins 演示 CI/CD ，安装 Jenkins 就不在赘述，可以使用多种方法安装 Jenkins ，详细方法见[官网](https://jenkins.io)。同时。 CI/CD 的工具有很多，这里为了省事使用笔者现有的 Jenkins 进行演示，**不推荐**使用同笔者一样的版本，请使用较新的版本；同时也可以使用其他 CI/CD 工具，这里推荐使用 [drone](https://drone.io/)。如果有更好的方案，欢迎交流，可以在[关于](https://blog.maoxianplay.com/contact/)中找到我的联系方式。
+- Jenkins ：本篇使用 Jenkins 演示 CI/CD ，安装 Jenkins 就不在赘述，可以使用多种方法安装 Jenkins ，详细方法见[官网](https://jenkins.io)。同时。 CI/CD 的工具有很多，这里为了省事使用笔者现有的 Jenkins 进行演示，**不推荐**使用同笔者一样的版本，请使用较新的版本；同时也可以使用其他 CI/CD 工具，这里推荐使用 [drone](https://drone.io/)。如果有更好的方案，欢迎交流，可以在[关于](https://guoxudong.io/about/)中找到我的联系方式。
 - ```kubectl``` & ```kustomize``` ：上文中提到了由于 Jenkins 版本比较老，所以这里笔者自己制作了包含二者的 docker 镜像，已上传 dockerhub ，需要自取： [```guoxudongdocker/kubectl```](https://hub.docker.com/r/guoxudongdocker/kubectl)
 - Web 应用：这里使用 flask 写了一个简单的 web 应用，用于演示，同样以上传 dockerhub [```guoxudongdocker/flask-python```](https://hub.docker.com/r/guoxudongdocker/flask-python)
 
@@ -74,7 +68,7 @@ Jenkins 的配置相对简单，只需要新建一个 pipeline 类型的 job
 
 然后配置代码仓库即可
 
-![WX20190507-094958](https://ws3.sinaimg.cn/large/ad5fbf65gy1g2sij1xlb2j214w0nw0uw.jpg)
+![WX20190507-094958](https://tva2.sinaimg.cn/large/ad5fbf65gy1g2sij1xlb2j214w0nw0uw.jpg)
 
 ## Pipeline 
 
@@ -168,7 +162,7 @@ image:
 
 ### 查看结果
 
-这里为了方便（其实就是懒），我就不给这个服务添加 ingress 来从外部访问了，这里使用 [KT](https://yq.aliyun.com/articles/690519) 打通本地和 k8s 集群网络来进行调试。
+这里为了方便（其实就是懒），我就不给这个服务添加 ingress 来从外部访问了，这里使用 KT 打通本地和 k8s 集群网络来进行调试。
 
 >为了简化在Kubernetes下进行联调测试的复杂度，云效在SSH隧道网络的基础上并结合Kubernetes特性构建了一款面向开发者的辅助工具kt
 
@@ -197,7 +191,7 @@ image:
 
 这里模拟一下发布生产环境，假设生产环境是在 `devops-prod` 的 namespace 中，这里只做演示之用，真正的生产环境中，可能存在不止一个 k8s 集群，这时需要修改 Jenkinsfile 中的 `secretVolume` 来挂载不同 k8s 的 kubeconfig 来达到发布到不同集群的目的。当然，一般发布生产环境只需选择测试通过的镜像来发布即可，不需要在进行构建打包。
 
-![WX20190507-110730](https://ws3.sinaimg.cn/large/ad5fbf65gy1g2skrnbjyuj20fc0bjmxp.jpg)
+![WX20190507-110730](https://tva2.sinaimg.cn/large/ad5fbf65gy1g2skrnbjyuj20fc0bjmxp.jpg)
 
 ### 查看生产版本
 

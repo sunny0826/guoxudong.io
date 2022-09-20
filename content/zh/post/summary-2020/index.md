@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "回顾 2020 | 柴猫双全程序猿的云原生之路"
 subtitle: ""
 summary: "对自己的 2020 来个小总结。"
@@ -44,7 +42,7 @@ image: "https://tvax2.sinaimg.cn/large/ad5fbf65gy1gn9adtaz57j21hc0u0hdw.jpg"
 
 ### 活动
 
-除了 coding 以外，2020 年我还成为了 [云原生社区管理委员会](https://cloudnative.to/team/)成员、[上海站](https://cloudnative.to/city/shanghai/)站长。发起并组织了云原生社区首次线下 meetup - [云原生社区第一期 meetup 上海站](https://mp.weixin.qq.com/s/h1OqUAXvhKaYN5pIO7xI7w)。
+除了 coding 以外，2020 年我还成为了 云原生社区管理委员会成员、上海站站长。发起并组织了云原生社区首次线下 meetup - [云原生社区第一期 meetup 上海站](https://mp.weixin.qq.com/s/h1OqUAXvhKaYN5pIO7xI7w)。
 
 这也是我第一次组织线下技术分享活动，从场地、赞助、讲师的邀请到宣传和主持，每一步都没有看上去那么容易，再加上新冠疫情反扑，让这场活动险些延期。所幸上海疫情得到了控制，活动有惊无险的举办了，现场的志愿者和来宾都十分给力，活动最终圆满结束。
 

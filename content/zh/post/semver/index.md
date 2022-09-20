@@ -3,17 +3,11 @@ title: "语义化版本控制规范（SemVer）"
 date: 2019-07-06T09:40:42+08:00
 draft: false
 type: blog
-banner: "https://tva2.sinaimg.cn/large/ad5fbf65gy1g4oq86rm4xj21qi15otci.jpg"
 authors: ["guoxudong"]
-authorlink: "https://github.com/sunny0826"
-# translator: "郭旭东"
-# translatorlink: "https://github.com/sunny0826"
-originallink: "https://semver.org/lang/zh-CN/"
 summary: "语义化的版本控制，在这套约定下，版本号及其更新方式包含了相邻版本间的底层代码和修改内容的信息。"
 tags: ["软件设计", "云原生", "微服务"]
 categories: ["应用程序开发"]
-keywords: ["软件设计","云原生","微服务","架构"]
-image: "https://tva2.sinaimg.cn/large/ad5fbf65ly1ge3jbni8k1j21qi15otci.jpg"
+image: https://tva2.sinaimg.cn/large/ad5fbf65ly1ge3jbni8k1j21qi15otci.jpg
 
 ---
 >原文地址：https://semver.org/lang/zh-CN/

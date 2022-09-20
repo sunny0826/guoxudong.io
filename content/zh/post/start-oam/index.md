@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "以应用为中心：开放应用模型（OAM）初探"
 subtitle: ""
 summary: "本文通过一个简单的示例，介绍开放应用模型（OAM）是如何实现以应用为中心，管理 Kubernetes 的。"
@@ -12,30 +10,18 @@ lastmod: 2020-06-28T14:53:23+08:00
 featured: false
 draft: false
 type: blog
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image: "https://tva3.sinaimg.cn/large/ad5fbf65ly1gg82nyjdvmj20s8089764.jpg"
-
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
+image: https://tva3.sinaimg.cn/large/ad5fbf65ly1gg82nyjdvmj20s8089764.jpg
 ---
 ## 前言
 
 不久前，Kubernetes 也迎来了他 6 岁的生日，在这 6 年中，从孵化之初的三足鼎立，到后来的一统天下，Kubernetes 成为容器编排领域的事实标准已经有段时间了。在这期间，云原生的概念开始深入人心，越来越的公司组织和开发者开始接受、了解、实践云原生。如今，已有无数的应用以容器的形式运行在各种版本 Kubernetes 中了。
-
+<!-- markdown-link-check-disable -->
 ## 应用管理之惑
 
 然而我们慢慢发现，随着应用和服务数量、使用场景以及承载业务的增加，Kubernetes 资源越来越难以管理。比如，有时候可能多个运维人员重复为一个 Deployment 配置了多个 Service 或 Ingress，而在一个 namespace 中动辄就有上百个 Service，在这些 Service 中找到那些重复、无效、甚至错误的 Service 可不是一件容易的事情。
 
 上面描述的只是运维人员内部可能存在的冲突，更多的冲突来自开发与运维人员之间，由于各自关注的角度不同，出现了对 Deployment 配置权的争夺，他们各自关心的字段不尽相同，但同时还要面对同一份 `deployment.yaml`，这就是冲突的根源。我们的做法是使用 kustomize 将一份 `deployment.yaml` 分成不同的 [overlays](https://kubernetes-sigs.github.io/kustomize/api-reference/glossary/#overlay)，将开发和运维关注的字段分开管理，而这只是缓兵之计，依旧没有一个统一的配置文件来描述整个应用，比如这个应用由几个 Deployment、Service、 Ingress 组成，一个新手如果想要查看一个资源相关的其他资源，只能通过 label 和“相似”的名称去找或者猜。而这样做显然是很危险的，这也是为什么我不敢轻易清理生产环境中无用的 Service 和 ConfigMap 的原因，你永远也想不到有什么地方可能引用了他们。
-
+<!-- markdown-link-check-enable -->
 相对标准 Kubernetes 资源，Operator 的管理难度就更大了，各式各样的 Operator 存在于我的 Kubernetes 集群中，`kubectl get crd` 命令输出的结果更是长的可怕。
 
 而开放应用模型（OAM）可能是助我脱离苦海的一味良药。

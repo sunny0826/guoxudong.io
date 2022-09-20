@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "K3d+Kubecm 本地开发运维两不误"
 subtitle: "k3d+k3s+kubecm 快速搭建集群并管理"
 summary: "使用 k3d 在本地快速搭建轻量级 k8s 集群 - k3s，并使用 kubecm 管理所有集群。"
@@ -12,19 +10,7 @@ lastmod: 2020-02-17T11:51:39+08:00
 featured: false
 draft: false
 type: blog
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image: "https://tvax1.sinaimg.cn/large/ad5fbf65ly1ge3ioptt0jj21qi15owjf.jpg"
-
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
 ---
 
 ## 前言

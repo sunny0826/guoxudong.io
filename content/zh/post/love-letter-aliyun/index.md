@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "云中谁寄锦书来，免费生成一封七夕情书吧"
 subtitle: ""
 summary: "在七夕节制作一封云上情书吧"
@@ -11,7 +9,7 @@ date: 2020-08-25T16:19:09+08:00
 lastmod: 2020-08-25T16:19:09+08:00
 draft: false
 type: blog
-image: "https://tva2.sinaimg.cn/large/ad5fbf65gy1gi34sbradjj20ge091wh0.jpg"
+image: https://tva2.sinaimg.cn/large/ad5fbf65gy1gi34sbradjj20ge091wh0.jpg
 ---
 ## 前言
 

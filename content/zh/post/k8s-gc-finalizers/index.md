@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "熟悉又陌生的 k8s 字段：finalizers"
 subtitle: ""
 summary: "metadata 中熟悉又陌生的字段 finalizers"
@@ -11,7 +9,7 @@ date: 2020-09-11T08:47:51+08:00
 lastmod: 2020-09-11T08:47:51+08:00
 draft: false
 type: blog
-image: "https://tva3.sinaimg.cn/large/ad5fbf65gy1gimpo3u78mj21qi15otcv.jpg"
+image: https://tva3.sinaimg.cn/large/ad5fbf65gy1gimpo3u78mj21qi15otcv.jpg
 ---
 ## 前言
 
@@ -21,7 +19,7 @@ image: "https://tva3.sinaimg.cn/large/ad5fbf65gy1gimpo3u78mj21qi15otcv.jpg"
 
 ## Finalizers
 
-Finalizers 字段属于 Kubernetes GC 垃圾收集器，是一种删除拦截机制，能够让控制器实现异步的删除前（Pre-delete）回调。其存在于任何一个资源对象的 [Meta](https://github.com/kubernetes/apimachinery/blob/master/pkg/apis/meta/v1/types.go#L246) 中，在 k8s 源码中声明为 `[]string`，该 Slice 的内容为需要执行的拦截器名称。
+Finalizers 字段属于 Kubernetes GC 垃圾收集器，是一种删除拦截机制，能够让控制器实现异步的删除前（Pre-delete）回调。其存在于任何一个资源对象的 [Meta](hhttps://github.com/kubernetes/apimachinery/blob/f8159af4957e1f55a9ba27d0ce48ad7a5fa41d02/pkg/apis/meta/v1/types.go) 中，在 k8s 源码中声明为 `[]string`，该 Slice 的内容为需要执行的拦截器名称。
 
 对带有 Finalizer 的对象的第一个删除请求会为其 `metadata.deletionTimestamp` 设置一个值，但不会真的删除对象。一旦此值被设置，finalizers 列表中的值就**只能**被移除。
 

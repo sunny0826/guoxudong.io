@@ -3,18 +3,11 @@ title: "使用 Helm 在多集群部署应用"
 date: 2019-07-14T14:16:56+08:00
 draft: false
 type: blog
-banner: "https://tva2.sinaimg.cn/large/ad5fbf65gy1g51gkx94erj21qy15owly.jpg"
 author: "Smaine Kahlouch"
-authorlink: "https://medium.com/@smainklh"
-translator: "郭旭东"
-translatorlink: "https://github.com/sunny0826"
-originallink: "https://medium.com/dailymotion/deploying-apps-on-multiple-kubernetes-clusters-with-helm-19ee2b06179e"
 summary: "本文将重点介绍我们如何在全球多个 Kubernetes 集群上部署我们的应用程序。为了将应用一次部署到多个 Kubernetes 集群，我们使用了 Helm ，并将所有 chart 存储在一个 git 仓库中。"
 tags: ["翻译","kubernetes"]
 categories: ["翻译"]
-keywords: ["翻译","kubernetes"]
-image: "https://tva2.sinaimg.cn/large/ad5fbf65ly1ge3idyfogjj21qy15owly.jpg"
-
+image: https://tva2.sinaimg.cn/large/ad5fbf65ly1ge3idyfogjj21qy15owly.jpg
 ---
 > [Dailymotion](https://www.dailymotion.com/) 在生产环境使用 Kubernetes 已经3年了，但是也面临着多集群部署应用的挑战，这也是在过去的几年中我一直努力优化工具和改进工作流的原因。
 
@@ -53,7 +46,7 @@ image:
 
 > chart 开发工作流
 
-![](https://ws3.sinaimg.cn/large/ad5fbf65gy1g50hg9gmh2j20gr047t8o.jpg)
+![](https://tva1.sinaimg.cn/large/ad5fbf65gy1g50hg9gmh2j20gr047t8o.jpg)
 
 1. 根据 [gazr.io](https://gazr.io/) 规范设置我们的 pipeline 任务（lint，unit-test）。
 2. push docker 镜像，该镜像包含部署应用程序的 Python 工具。
@@ -66,7 +59,7 @@ image:
 
 > Cluster federation
 
-我们使用 [Kubernetes cluster federation](https://kubernetes.io/docs/concepts/cluster-administration/federation/)，它允许我们从单个 API 端声明 Kubernetes 对象。但是我们遇到的问题是，无法在 federation 端中创建某些 Kubernetes 对象，因此很难维护 federation 对象和其他的群集对象。
+我们使用 Kubernetes cluster federation，它允许我们从单个 API 端声明 Kubernetes 对象。但是我们遇到的问题是，无法在 federation 端中创建某些 Kubernetes 对象，因此很难维护 federation 对象和其他的群集对象。
 
 为了解决这个问题，我们决定独立管理我们的集群，反而使这个过程变得更加容易（我们使用的是 federation v1，v2 可能有所改善）。
 

@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "K8S 资源可视化利器：Kubectl-Graph"
 subtitle: ""
 summary: "介绍一款可视化 kubernetes resource 关系的 Kubectl 插件：kubectl-graph"
@@ -11,14 +9,14 @@ date: 2020-12-29T10:19:18+08:00
 lastmod: 2020-12-29T10:19:18+08:00
 draft: false
 type: blog
-image: "https://tva2.sinaimg.cn/large/ad5fbf65gy1gm4uslnnn4j21y013e0ue.jpg"
+image: https://tva2.sinaimg.cn/large/ad5fbf65gy1gm4uslnnn4j21y013e0ue.jpg
 ---
 ## 前言
 
 最近接手了一个规模比较大的集群，光是整理集群中的资源就使人头昏眼花，虽然我自认 `kubectl` 使用的已经十分熟练，但是上千个 kubernetes resource 看下来还是不堪重负。在不能为集群安装任何其他工具的情况下，可以改造的就只有我自己的 client 端，也就是 `kubectl` 了。本文就介绍一个有趣的 kubectl 插件：`kubectl-graph`。
 
 ## krew
-
+<!-- markdown-link-check-disable-next-line -->
 要介绍 kubectl 的 plugin 机制，首先要介绍的就是 [krew](https://krew.sigs.k8s.io/) 。 krew 是 kubernetes [CLI SIG](https://github.com/kubernetes/community/blob/master/sig-cli/README.md#cli-special-interest-group) 项目，是用来管理 kubectl 插件的工具，作用类似于 yum 和 brew，可以用来搜索、安装和管理 kubectl 插件。
 
 ## kubectl-graph
@@ -76,7 +74,7 @@ $ brew install --cask neo4j
 ```bash
 $ docker run --rm -p 7474:7474 -p 7687:7687 -e NEO4J_AUTH=none neo4j
 ```
-
+<!-- markdown-link-check-disable-next-line -->
 只不过后续查看关系图时，需要使用浏览器访问 http://localhost:7474 来查看结果。
 
 ### 安装 kubectl-graph

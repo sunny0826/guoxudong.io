@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "使用 Grafana 展示肺炎疫情动态"
 subtitle: "开发 Grafana DataSource 和 Grafana Dashboard"
 summary: "开发 Grafana Dashboard 展示新型肺炎疫情动态。"
@@ -12,19 +10,8 @@ lastmod: 2020-02-14T10:12:52+08:00
 featured: false
 draft: false
 type: blog
+image: https://tva4.sinaimg.cn/large/ad5fbf65ly1ge3ihjkwh8j23402c0npp.jpg
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image: "https://tva4.sinaimg.cn/large/ad5fbf65ly1ge3ihjkwh8j23402c0npp.jpg"
-
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
 ---
 [Grafana]: https://grafana.com/
 [SimpleJson]: https://grafana.com/grafana/plugins/grafana-simple-json-datasource/installation
@@ -151,12 +138,6 @@ projects: []
 ### 数据表格：
 
 ![image](https://tvax3.sinaimg.cn/large/ad5fbf65gy1gbvsa2pharj21b30igdi1.jpg)
-
-## 效果
-
-整体效果还可以，先已用作公司大屏展示疫情情况（这里我司用于展示屏幕较小，只不过是一个小米电视，故字体和展示块都做的大了一些）。
-
-![](featured.png)
 
 ## 构建
 

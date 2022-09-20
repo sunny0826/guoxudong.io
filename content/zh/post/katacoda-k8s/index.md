@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "Katacoda：免费学习 Kubernetes 利器"
 subtitle: "在浏览器终端上学习 Kubernetes"
 summary: "本文介绍免费学习 Kubernetes 利器：Katacoda，Katacoda 是一个面向软件工程师的交互式学习和培训平台，可在浏览器中使用真实环境学习和测试新技术，帮助开发人员学习，并掌握最佳实践。"
@@ -12,20 +10,10 @@ lastmod: 2020-03-27T15:57:11+08:00
 featured: false
 draft: false
 type: blog
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image: "https://tva2.sinaimg.cn/large/ad5fbf65ly1ge3iwpp1lvj20r80dmn3s.jpg"
-
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
+image: https://tva2.sinaimg.cn/large/ad5fbf65ly1ge3iwpp1lvj20r80dmn3s.jpg
 ---
+
+> `katacoda.com` 已经停止服务
 
 ## 前言
 

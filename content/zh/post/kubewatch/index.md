@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "小工具介绍：KubeWatch"
 subtitle: "Kubernetes 资源观测利器"
 summary: "用于观测 Kubernetes 资源情况，并实时通知到各种协作软件/聊天软件"
@@ -12,11 +10,7 @@ lastmod: 2019-12-04T17:09:51+08:00
 featured: false
 draft: false
 type: blog
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image: "https://tva4.sinaimg.cn/large/ad5fbf65ly1ge3j3k1yrrj21qx15on2p.jpg"
+image: https://tva4.sinaimg.cn/large/ad5fbf65ly1ge3j3k1yrrj21qx15on2p.jpg
 
 ---
 ## 前言

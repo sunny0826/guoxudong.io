@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "修改 Nginx Ingress 日志打印格式"
 subtitle: "结合阿里云日志服务统计系统访问日志"
 summary: "修改 nginx-ingress 日志，并结合阿里云日志服务制作系统访问日志统计图表。"
@@ -12,26 +10,14 @@ lastmod: 2020-03-02T15:29:16+08:00
 featured: false
 draft: false
 type: blog
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image: "https://tvax2.sinaimg.cn/large/ad5fbf65ly1ge3ja0bo02j21qi15owib.jpg"
-
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
+image: https://tvax2.sinaimg.cn/large/ad5fbf65ly1ge3ja0bo02j21qi15owib.jpg
 ---
 
 ## 前言
 
 最近接到一个需求，需要展示 ingress 上面的访问日志，由于我们的业务系统都部署在 Kubernetes 上面，通过 ingress 进行访问，所以这里的访问日志，其实就是我们全部业务系统的访问日志。
 
-日志采集方面，阿里云天生就提供了 nginx-ingress 日志和采集和展示，本身提供很多不错的基于 ingress 日志数据的图表与分析。如果你使用的是阿里云 ACK 容器服务，那么极端推荐使用，配置方法见官方文档：https://help.aliyun.com/document_detail/86532.html。
+日志采集方面，阿里云天生就提供了 nginx-ingress 日志和采集和展示，本身提供很多不错的基于 ingress 日志数据的图表与分析。如果你使用的是阿里云 ACK 容器服务，那么极端推荐使用，配置方法见官方文档：https://help.aliyun.com/document_detail/86532.html
 
 ![image](https://tva2.sinaimg.cn/large/ad5fbf65gy1gcfmo5d410j21970nzwjg.jpg)
 
@@ -47,7 +33,7 @@ projects: []
 - 新增展示仪表盘
 
 ### 调整 ingress 日志输出
-
+<!-- markdown-link-check-disable-next-line -->
 我们 ingress 组件使用的是 `nginx-ingress-container`，这里要调整日志输出格式，老规矩，直接官方文档：https://kubernetes.github.io/ingress-nginx/user-guide/nginx-configuration/configmap/。
 
 从文档可见，只需要调整 `ingress-nginx` 的 ConfigMap `nginx-configuration` data 中的 `log-format-upstream` 字段即可。
@@ -67,7 +53,7 @@ I0302 08:20:58.393365 9 controller.go:200] Backend successfully reloaded.
 ### 调整阿里云日志组件配置
 
 {{% alert note %}}
-执行下面的步骤请确保已经按照[官方文档](https://help.aliyun.com/document_detail/86532.html)正确部署阿里云日志服务在您的 K8S 集群之后，并且已达到要求的版本。
+执行下面的步骤请确保已经按照官方文档正确部署阿里云日志服务在您的 K8S 集群之后，并且已达到要求的版本。
 {{% /alert %}}
 
 日志已经成功打印了，接下来就是调整日志采集的字段了，这里只需要调整日志服务 CRD 的扩展配置即可。

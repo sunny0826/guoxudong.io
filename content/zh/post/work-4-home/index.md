@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "疫情期间【在家/公司】远程办公指南"
 subtitle: "疫情下如何安全的办公"
 summary: "在疫情期间，如何安全有效的 在家/公司 办公"
@@ -12,19 +10,7 @@ lastmod: 2020-02-10T10:52:26+08:00
 featured: true
 draft: false
 type: blog
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image: "https://tvax2.sinaimg.cn/large/ad5fbf65ly1ge3jeoclz5j20yb0h9tfn.jpg"
-
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
+image: https://tvax2.sinaimg.cn/large/ad5fbf65ly1ge3jeoclz5j20yb0h9tfn.jpg
 ---
 
 ## 前言

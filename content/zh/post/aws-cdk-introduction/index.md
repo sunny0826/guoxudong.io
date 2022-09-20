@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "AWS CDK | IaC 何必只用 Yaml"
 subtitle: ""
 summary: "使用 AWS CDK 破解 IaC 的 Yaml 困局。"

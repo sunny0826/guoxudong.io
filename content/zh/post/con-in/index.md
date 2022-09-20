@@ -5,12 +5,9 @@ draft: false
 type: blog
 tags: ["容器", "云原生"]
 categories: ["kubernetes"]
-banner: "http://tva2.sinaimg.cn/large/ad5fbf65ly1g0t12qboftj21qf15otch.jpg"
 authors: ["guoxudong"]
-authorlink: "https://github.com/sunny0826"
 summary: "自从微服务（Microservice）的出现，出于业务的需要，IT应用模型不断的变革。开发模式从瀑布式到敏捷开发；开发、运维和测试互相配合的devops思想；应用程序架构从单体模型到分层模型再到微服务；部署方式也从面向物理机到虚拟键再到容器；应用程序的基础架构从自建机房到托管再到云计算，等等。这些变革使得IT技术应用的效率大大提升，同时却以更低的成本交付更高质量的产品。"
-keywords: ["容器","云原生"]
-image: "https://tva3.sinaimg.cn/large/ad5fbf65ly1ge3id08uwpj21qf15otch.jpg"
+image: https://tva3.sinaimg.cn/large/ad5fbf65ly1ge3id08uwpj21qf15otch.jpg
 ---
 # 背景
 
@@ -24,8 +21,8 @@ image: "https://tva3.sinaimg.cn/large/ad5fbf65ly1ge3id08uwpj21qf15otch.jpg"
 
 容器是一种轻量级、可移植、自包含的软件打包技术，它使得应用程序可以在几乎任何地方以相同的方式运行。
 
-容器有应用程序本身和它的环境依赖（库和其他应用程序）两部分组成，并在宿主机（Host）操作系统的用户空间中运行，但与操作系统的其他进程互相隔离，他们的实现机制有别于VMWare、KVM、Xen等实现方案的虚拟化技术。容器与虚拟机的对比关系如下图
-![image](/images/source/vs.png)
+容器有应用程序本身和它的环境依赖（库和其他应用程序）两部分组成，并在宿主机（Host）操作系统的用户空间中运行，但与操作系统的其他进程互相隔离，他们的实现机制有别于VMWare、KVM、Xen等实现方案的虚拟化技术。
+
 由于同一个宿主机上的所有容器都共享其底层操作系统（内核空间），这就使得容器在体积上要比传统的虚拟机小很多。另外，启动容器无须启动整个操作系统，所以容器部署和启动的速度更快，开销更小，也更容易迁移。事实上，容器赋予了应用程序超强的可移植能力。
 
 # 容器技术的优势

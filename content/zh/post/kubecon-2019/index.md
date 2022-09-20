@@ -3,17 +3,11 @@ title: "Kubecon 2019 见闻：云原生未来可期"
 date: 2019-07-02T10:18:18+08:00
 draft: false
 type: blog
-banner: "http://tva2.sinaimg.cn/large/ad5fbf65gy1g4k6mh797pj21900u07it.jpg"
 authors: ["guoxudong"]
-authorlink: "https://github.com/sunny0826"
-# translator: "郭旭东"
-# translatorlink: "https://github.com/sunny0826"
-# originallink: ""
 summary: "2019年6月24-26日，KubeCon + CloudNativeCon + Open Source Summit大会在上海世博中心举行。本次大会规模空前，预计有超过40个国家，3500多名云原生、开源领域的开发者参加，门票更是早早售罄。作为一名云原生应用的使用者与开发者，我也报名参与了这次大会。"
 tags: ["云原生"]
 categories: ["程序员趣闻"]
-keywords: ["kubecon"]
-image: "https://tvax2.sinaimg.cn/large/ad5fbf65ly1ge3iy1axydj21900u07it.jpg"
+image: https://tvax2.sinaimg.cn/large/ad5fbf65ly1ge3iy1axydj21900u07it.jpg
 
 ---
 ## 前言
@@ -30,7 +24,7 @@ image: "https://tvax2.sinaimg.cn/large/ad5fbf65ly1ge3iy1axydj21900u07it.jpg"
 
 会议第一天，先后参加了蚂蚁金服组织的 SOFAStack Workshop 和由 CNCF, VMware, 阿里云和 PingCAP 联合主办的中国原创CNCF项目社区沙龙，同时在午休时候短暂的旁听了华为主办的 Apache ServiceComb Meetup 。
 
-作为 [ServiceMesher](http://servicemesher.com) 社区的一员，与会议的组织者在社区中都很熟悉了，虽然没有注册 SOFAStack Workshop 会议，但也很自然的混进去了。作为金融级分布式框架 SOFAStack ，是用于快速构建金融级分布式架构的一套中间件，也是建立于蚂蚁金服海量金融场景锤炼出来的最佳实践。而此次的 Workshop 更是经过了精心的准备，准备了充足的材料，并在蚂蚁同学的帮助了使用 SOFAStack 实践了 __使用 SOFAStack 快速构建微服务__ 、 __SOFABoot 动态模块实践__ 、 __使用 Seata 保障支付一致性__ 、 __基于 Serverless 轻松构建云上应用__ 和 __使用 CloudMesh 轻松实践 Service Mesh__ 五个demo。在 Service Mesh 方面，蚂蚁的同学异常的活跃，是 Istio 中文文档翻译和 [ServiceMesher](http://servicemesher.com) 社区的主要组织者。
+作为 ServiceMesher 社区的一员，与会议的组织者在社区中都很熟悉了，虽然没有注册 SOFAStack Workshop 会议，但也很自然的混进去了。作为金融级分布式框架 SOFAStack ，是用于快速构建金融级分布式架构的一套中间件，也是建立于蚂蚁金服海量金融场景锤炼出来的最佳实践。而此次的 Workshop 更是经过了精心的准备，准备了充足的材料，并在蚂蚁同学的帮助了使用 SOFAStack 实践了 __使用 SOFAStack 快速构建微服务__ 、 __SOFABoot 动态模块实践__ 、 __使用 Seata 保障支付一致性__ 、 __基于 Serverless 轻松构建云上应用__ 和 __使用 CloudMesh 轻松实践 Service Mesh__ 五个demo。在 Service Mesh 方面，蚂蚁的同学异常的活跃，是 Istio 中文文档翻译和 ServiceMesher 社区的主要组织者。
 
 ![image](https://tva2.sinaimg.cn/large/ad5fbf65gy1g4lcu8mpmsj21480tokjl.jpg)
 <center>《未来架构-从服务化到云原生》作者敖小剑老师现场签名</center>
@@ -41,7 +35,7 @@ image: "https://tvax2.sinaimg.cn/large/ad5fbf65ly1ge3iy1axydj21900u07it.jpg"
 
 下午参加了由 CNCF, VMware, 阿里云和 PingCAP 联合主办的中国原创CNCF项目社区沙龙，聆听了 [Harbor](https://github.com/goharbor/harbor) 、 [Dragonfly](https://github.com/dragonflyoss/Dragonfly) 、 [TiKV](https://github.com/tikv/tikv) 三个中国原创 CNCF 项目的分享，同时 李响、Dan Kohn 等大佬也在会上发言表达了对国内 CNCF 开源项目的肯定及期待。而在会上也结识了阿里云容器镜像服务的开发小哥，作为阿里云的资深用户与开发小哥进行了交流，了解一些容器镜像服务方面的新功能，同时也反应了在使用中遇到的问题，总的来说收获颇丰。
 
-![IMG_2472](https://ws3.sinaimg.cn/large/ad5fbf65gy1g4lfret268j23402c0kjm.jpg)
+![IMG_2472](https://tvax2.sinaimg.cn/large/ad5fbf65gy1g4lfret268j23402c0kjm.jpg)
 
 ## 现场惊现 Linux 及 Git 创始人 Linus Torvalds
 
