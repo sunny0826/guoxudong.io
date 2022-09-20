@@ -10,7 +10,7 @@ lastmod: 2020-02-17T11:51:39+08:00
 featured: false
 draft: false
 type: blog
-image: "https://tvax1.sinaimg.cn/large/ad5fbf65ly1ge3ioptt0jj21qi15owjf.jpg"
+image: https://tvax1.sinaimg.cn/large/ad5fbf65ly1ge3ioptt0jj21qi15owjf.jpg
 ---
 
 ## 前言
@@ -97,7 +97,7 @@ Events:
 如果没有梯子的话，就只能选择使用离线安装。
 
 #### 下载离线镜像
-
+<!-- markdown-link-check-disable-next-line -->
 前往 [release 页面](https://github.com/rancher/k3s/releases) 下载指定版本的镜像，这里我们下载最新的 [v1.17.2+k3s1](https://github.com/rancher/k3s/releases/tag/v1.17.2%2Bk3s1) 镜像。
 
 ![image](https://tvax1.sinaimg.cn/large/ad5fbf65gy1gbzdedmqpdj20sh0k776o.jpg)

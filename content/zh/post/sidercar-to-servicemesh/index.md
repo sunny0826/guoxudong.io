@@ -76,7 +76,7 @@ Service Mesh 将底层那些难以控制的网络通讯统一管理，诸如：�
 
 
 ## 你真的需要 Service Mesh 吗？
-
+<!-- markdown-link-check-disable-next-line -->
 正如 NGINX 在其博客上发表的一篇文章名叫 [Do I Need a Service Mesh? ](https://www.nginx.com/blog/do-i-need-a-service-mesh/) 【[译文](https://cloudnative.to/blog/do-i-need-a-service-mesh)】 的文章中提到：
 
 > As the complexity of the application increases, service mesh becomes a realistic alternative to implementing capabilities service-by-service.

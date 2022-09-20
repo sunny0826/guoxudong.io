@@ -8,7 +8,7 @@ date: 2021-06-22T09:13:24+08:00
 lastmod: 2021-06-22T09:13:24+08:00
 draft: false
 type: blog
-image: "https://tvax2.sinaimg.cn/large/ad5fbf65gy1grr2t5dhigj20p00anac1.jpg"
+image: https://tvax2.sinaimg.cn/large/ad5fbf65gy1grr2t5dhigj20p00anac1.jpg
 ---
 ## 前言
 
@@ -315,7 +315,7 @@ StackId: 54901066-6228-46d8-a0ff-4bf523a95f16
 # 写入 /etc/hosts
 echo "47.100.198.131  jh.gxd">>/etc/hosts
 ```
-
+<!-- markdown-link-check-disable-next-line -->
 完成后访问 [http://jh.gxd](http://jh.gxd) 就可以使用 ROS CDK 部署的极狐 GitLab 了！
 
 ![首页](https://tva3.sinaimg.cn/large/ad5fbf65gy1grr17ezsf0j225e15ojy0.jpg)

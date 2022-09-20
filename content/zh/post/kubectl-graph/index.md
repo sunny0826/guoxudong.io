@@ -44,7 +44,7 @@ $ brew install graphviz
 Neo4j 是一个高性能的 NoSQL 图形数据库，它将结构化数据存储在网络上而不是表中，很适合用来展示 kubernetes resource 之间的关系，但 Neo4j 的依赖较多，需要一点时间来安装。
 
 #### 安装 Java
-
+<!-- markdown-link-check-disable-next-line -->
 Neo4j 依赖 Java 环境，如果本机上没有安装 Java，请先前往 http://www.java.com 下载并安装。
 
 #### 安装 cypher-shell

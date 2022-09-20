@@ -35,5 +35,5 @@ Kustomize 不像 Helm 那样需要一整套独立的体系来完成管理应用�
 
 ## 参考
 - [Kustomize - kustomize.io](https://kustomize.io/)
-
+<!-- markdown-link-check-disable-next-line -->
 - [从Kubernetes 1.14 发布，看技术社区演进方向 - yq.aliyun.com](https://yq.aliyun.com/articles/697883)

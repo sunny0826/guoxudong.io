@@ -7,7 +7,7 @@ authors: ["guoxudong"]
 summary: "本文介绍了使用 Velero 来进行 k8s 集群资源进行备份和迁移。"
 tags: ["阿里云","kubernetes","velero"]
 categories: ["kubernetes"]
-image: "https://tvax2.sinaimg.cn/large/ad5fbf65ly1ge3ia8txjdj21qi15o0yu.jpg"
+image: https://tvax2.sinaimg.cn/large/ad5fbf65ly1ge3ia8txjdj21qi15o0yu.jpg
 ---
 
 ## 前言

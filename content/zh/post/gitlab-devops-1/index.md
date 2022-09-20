@@ -8,11 +8,8 @@ date: 2021-06-03T16:53:31+08:00
 lastmod: 2021-06-03T16:53:31+08:00
 draft: false
 type: blog
-image: "https://tvax3.sinaimg.cn/large/ad5fbf65gy1gqupsoso0bj20zk0f4q3w.jpg"
+image: https://tvax3.sinaimg.cn/large/ad5fbf65gy1gqupsoso0bj20zk0f4q3w.jpg
 ---
-## Flag
-
-> 最近由于工作的变动，一直在调整工作的和生活的节奏，适应新的工作环境，导致没什么内容的产出。经过两周的调整，目前的工作和生活都已步入正确的节奏，内容分享自然也要重启。已经有近一年的时间没有写过系列文章了，趁着这个机会给自己立个 flag，今后将会出一到多个系列文章，都是干货内容分享，欢迎关注。本篇就为系列文章 **《重新认识 GitLab》** 的开篇，一起来重新认识一下作为一体化 DevOps 平台的 GiaLab。
 
 ## 背景
 
