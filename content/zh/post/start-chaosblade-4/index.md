@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "ChaosBlade：从零开始的混沌工程（五）"
 subtitle: "Container 实验场景"
 summary: "本篇为系列文章第五篇，将介绍使用 ChaosBlade Operator 对 Kubernetes Container 进行混沌工程实验，实验包括：删除 container、container 内CPU负载场景、container 网络延迟场景、container 网络丢包场景、container 域名访问异常场景、杀 container 内指定进程和挂起 container 内指定进程。"
@@ -11,18 +9,14 @@ date: 2020-08-06T16:34:23+08:00
 lastmod: 2020-08-06T16:34:23+08:00
 draft: false
 type: blog
-image: "https://tvax4.sinaimg.cn/large/ad5fbf65ly1ggzvw3dwypj21ha0q8toq.jpg"
+image: 'https://tvax4.sinaimg.cn/large/ad5fbf65ly1ggzvw3dwypj21ha0q8toq.jpg'
 ---
 ## 前言
 
 在上篇文章中，我们介绍了如何使用 **ChaosBlade Operator** 对 node 资源进行混沌实验。从本章将继续对 Kubernetes Container 资源的混沌实验进行讲解，同时也配套了 [katacode](https://katacoda.com/) 交互式教程，读者可用通过 katacode，在浏览器上操作真实的 Kubernetes 和 ChaosBlade，同时本篇也是系列文章的倒数第二篇，实践内容的最后一篇。
 
-[chaosblade.io](https://chaosblade.io/) 官网已经正式上线，在官网的[互动教程](https://chaosblade.io/try/)模块，也可以找到 ChaosBlade 的 KataCoda 教程，目前官网由我维护，有任何问题，欢迎在 [ISSUE](https://github.com/chaosblade-io/chaosblade-website/issues) 中进行反馈。
-
 {{% pageinfo color="primary" %}}
-> KataCoda 教程：《ChaosBlade Container 实验场景》
->
-> 地址：[https://katacoda.com/guoxudong/courses/chaosblade/chaosblade-container-experimentt](https://katacoda.com/guoxudong/courses/chaosblade/chaosblade-container-experiment)
+> katacode 现已关闭
 {{% /pageinfo %}}
 
 ## 实验对象：Container

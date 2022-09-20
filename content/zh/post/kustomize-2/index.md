@@ -3,14 +3,11 @@ title: "使用 Kustomize 帮你管理 kubernetes 应用（二）： Kustomize �
 date: 2019-04-19T16:05:02+08:00
 draft: false
 type: blog
-banner: "http://tva2.sinaimg.cn/large/ad5fbf65gy1g2816bavnxj21qi15oacw.jpg"
-authors: ["guoxudong"]
-authorlink: "https://github.com/sunny0826"
 summary: "本篇为系列文章第二篇，手把手教你使用 Kustomize 的两种方式。"
 tags: ["kubernetes", "kustomize", "工具"]
 categories: ["kustomize"]
 keywords: ["kubernetes", "kustomize", "工具"]
-image: "https://tva3.sinaimg.cn/large/ad5fbf65ly1ge3j4h35xpj21qi15oacw.jpg"
+image: 'https://tva3.sinaimg.cn/large/ad5fbf65ly1ge3j4h35xpj21qi15oacw.jpg'
 
 ---
 本文介绍使用和维护 Kustomize 的方法及步骤。
@@ -116,4 +113,4 @@ image: "https://tva3.sinaimg.cn/large/ad5fbf65ly1ge3j4h35xpj21qi15oacw.jpg"
     ```
 
 ## 参考
-- [kustomize workflows - github.com](https://github.com/kubernetes-sigs/kustomize/blob/master/docs/workflows.md)
+- [kustomize](https://kubectl.docs.kubernetes.io/guides/introduction/kustomize/)

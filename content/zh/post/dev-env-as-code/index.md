@@ -8,7 +8,7 @@ date: 2021-08-17T09:17:54+08:00
 lastmod: 2021-08-17T09:17:54+08:00
 draft: false
 type: blog
-image: "https://tvax1.sinaimg.cn/large/ad5fbf65gy1gtk5hl8zsej21hc0u0u0h.jpg"
+image: 'https://tvax1.sinaimg.cn/large/ad5fbf65gy1gtk5hl8zsej21hc0u0u0h.jpg'
 ---
 本文翻译自 [gitpod](https://www.gitpod.io/blog/) 的 blog 文章 [Dev environments as code](https://www.gitpod.io/blog/dev-env-as-code)。
 

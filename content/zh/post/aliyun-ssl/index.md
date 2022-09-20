@@ -3,17 +3,12 @@ title: "GitHub/Gitee 静态页托管页部署SSL证书"
 date: 2019-08-23T09:36:55+08:00
 draft: false
 type: blog
-banner: "https://tva2.sinaimg.cn/large/ad5fbf65gy1g69glqoddyj21jk15odie.jpg"
 authors: ["guoxudong"]
-authorlink: "https://github.com/sunny0826"
-# translator: "郭旭东"
-# translatorlink: "https://github.com/sunny0826"
-# originallink: ""
 summary: "本文档介绍了在 Github/Gitee 的静态页托管Pages服务部署SSL证书，配置HTTPS安全访问的操作说明。"
 tags: ["阿里云"]
 categories: ["部署安装"]
 keywords: ["https","ssl","阿里云"]
-image: "https://tvax2.sinaimg.cn/large/ad5fbf65ly1ge3i9py7k6j21jk15odie.jpg"
+image: 'https://tvax2.sinaimg.cn/large/ad5fbf65ly1ge3i9py7k6j21jk15odie.jpg'
 ---
 
 本文档介绍了在 [Github](https://pages.github.com/) / [Gitee](https://gitee.com/help/articles/4136) 的静态页托管Pages服务部署SSL证书，配置HTTPS安全访问的操作说明。

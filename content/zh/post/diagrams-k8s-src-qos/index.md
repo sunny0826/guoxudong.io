@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "图解 K8S 源码 - QoS 篇"
 subtitle: ""
 summary: "图解 K8S 中 QoS 源码，了解 QoS 分类、打分机制以及其本质"
@@ -11,7 +9,7 @@ date: 2020-10-14T10:28:06+08:00
 lastmod: 2020-10-14T10:28:06+08:00
 draft: false
 type: blog
-image: "https://tva2.sinaimg.cn/large/ad5fbf65ly1gjoy0ydwbgj20rs0iiqgp.jpg"
+image: 'https://tva2.sinaimg.cn/large/ad5fbf65ly1gjoy0ydwbgj20rs0iiqgp.jpg'
 ---
 
 ## 前言

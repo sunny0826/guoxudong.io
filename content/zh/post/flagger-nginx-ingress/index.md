@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "基于 Flagger 和 Nginx-Ingress 实现金丝雀发布"
 subtitle: ""
 summary: "本文介绍使用 Flagger 和 Nginx-Ingress 实现自动化金丝雀部署。"
@@ -12,19 +10,7 @@ lastmod: 2020-07-02T13:51:14+08:00
 featured: false
 draft: false
 type: blog
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image: "https://tvax2.sinaimg.cn/large/ad5fbf65gy1ggcq0kzq1pj20tw0ctqe5.jpg"
-
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
+image: 'https://tvax2.sinaimg.cn/large/ad5fbf65gy1ggcq0kzq1pj20tw0ctqe5.jpg'
 ---
 ## 前言
 
