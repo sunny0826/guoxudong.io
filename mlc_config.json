@@ -1,4 +1,15 @@
 {
+    "ignorePatterns": [
+		{
+			"pattern": "^https://www.YourDomainName.com"
+		},
+        {
+            "pattern": "^https://gitlab.com/-/profile/preferences"
+        },
+        {
+            "pattern": "^https://sourcethemes.com/academic/docs/managing-content/"
+        }
+	],
     "replacementPatterns": [
       {
         "pattern": "^&quot;",
