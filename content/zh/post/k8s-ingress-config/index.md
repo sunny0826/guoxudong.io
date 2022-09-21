@@ -3,14 +3,11 @@ title: "解决kubernetes中ingress-nginx配置问题"
 date: 2019-03-06T14:42:05+08:00
 draft: false
 type: blog
-banner: "https://tva2.sinaimg.cn/large/ad5fbf65gy1g61hrqctjnj20dw099aa9.jpg"
 authors: ["guoxudong"]
-authorlink: "https://github.com/sunny0826"
 summary: "随着公司容器化的深入，越来越多的服务陆续迁移到kubernetes集群中，有些问题在测试环境并未凸显，但是在生产环境中这些问题就显得格外的扎眼。这里就对实践中kubernetes集群中的7层负载均衡器ingress遇到的问题进行总结。"
 tags: ["kubernetes","容器"]
 categories: ["kubernetes"]
-keywords: ["kubernetes","容器"]
-image: "https://tvax1.sinaimg.cn/large/ad5fbf65ly1ge3ipmye8jj20dw099aa9.jpg"
+image: https://tvax1.sinaimg.cn/large/ad5fbf65ly1ge3ipmye8jj20dw099aa9.jpg
 
 ---
 ## 前言

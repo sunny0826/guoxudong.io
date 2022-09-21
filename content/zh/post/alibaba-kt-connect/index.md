@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "Kt Connect：研发侧利器，本地连通 Kubernetes 集群内网"
 subtitle: ""
 summary: "研发侧利器，云原生 VPN：Kt Connect，可在本地调用 Kubernetes 集群服务，或将 Kubernetes 集群流量转发到本地。"
@@ -12,12 +10,7 @@ lastmod: 2020-03-24T09:14:06+08:00
 featured: false
 draft: false
 type: blog
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image: "https://tva3.sinaimg.cn/large/ad5fbf65ly1ge3i33qlz7j21qm15o4f6.jpg"
-projects: []
+image: https://tva3.sinaimg.cn/large/ad5fbf65ly1ge3i33qlz7j21qm15o4f6.jpg
 ---
 
 ## 前言
@@ -36,7 +29,7 @@ projects: []
 - 基于 SSH 的轻量级 VPN 网络
 - 作为 kubectl 插件，集成到 Kubectl
 
-（以上内容来自[官方文档](https://alibaba.github.io/kt-connect/#/zh-cn/)）
+（以上内容来自[官方文档](https://alibaba.github.io/kt-connect)）
 
 目前使用下来最实用的功能就是**直接连接 Kubernetes 网络**实现在本地使用 k8s 内网域名调用 Kubernetes 集群内的服务以及**将 Kubernetes 集群中的流量转发到本地**，作用类似于一个 VPN，将本地网络与 Kubernetes 集群网络连接。
 ![](https://tvax1.sinaimg.cn/large/ad5fbf65gy1gd4wu5p3rmj20pb0dl75m.jpg)

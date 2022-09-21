@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "云中谁寄锦书来，免费生成一封七夕情书吧"
 subtitle: ""
 summary: "在七夕节制作一封云上情书吧"
@@ -11,7 +9,7 @@ date: 2020-08-25T16:19:09+08:00
 lastmod: 2020-08-25T16:19:09+08:00
 draft: false
 type: blog
-image: "https://tva2.sinaimg.cn/large/ad5fbf65gy1gi34sbradjj20ge091wh0.jpg"
+image: https://tva2.sinaimg.cn/large/ad5fbf65gy1gi34sbradjj20ge091wh0.jpg
 ---
 ## 前言
 
@@ -125,10 +123,6 @@ UI 的整体感觉非常棒，完全不像是“阿里云”的 UI，风格简�
 
 通过这次七夕活动，体验了一把云效 DevOps，整体来说用户体验很好，同时还提供了30人一下团队免费使用的政策，可以为小团队省出不少搭建和开发 DevOps 环境和流程的时间和经历，非常推荐大家都来尝试一下，制作一封云上情书送给你的他/她吧。
 
-{{% pageinfo color="primary" %}}
-活动地址：[https://developer.aliyun.com/adc/series/devops/?spm=a2c6h.12883283.1362932.3.2785201ctOUs0C&accounttraceid=fd6b3040ada34768aa78f84a9f645c46kouc](https://developer.aliyun.com/adc/series/devops/?spm=a2c6h.12883283.1362932.3.2785201ctOUs0C&accounttraceid=fd6b3040ada34768aa78f84a9f645c46kouc)
-{{% /pageinfo %}}
-
 ## 参考
-
+<!-- markdown-link-check-disable-next-line -->
 - [云效DevOps七夕云中密书 - developer.aliyun.com](https://developer.aliyun.com/adc/scenario/exp/8464960ac980400d95ff092b95e1a97e)

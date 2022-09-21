@@ -8,7 +8,7 @@ date: 2022-06-10T09:28:14+08:00
 lastmod: 2022-06-10T09:28:14+08:00
 draft: false
 type: blog
-image: "https://tvax1.sinaimg.cn/large/ad5fbf65gy1gqupsoso0bj20zk0f4q3w.jpg"
+image: https://tvax1.sinaimg.cn/large/ad5fbf65gy1gqupsoso0bj20zk0f4q3w.jpg
 ---
 ## 前言
 
@@ -26,7 +26,7 @@ image: "https://tvax1.sinaimg.cn/large/ad5fbf65gy1gqupsoso0bj20zk0f4q3w.jpg"
 > `⌘+点击该链接` 即可直接跳转 Merge Request 创建页面。
 
 ## 版本要求
-
+<!-- markdown-link-check-disable-next-line -->
 GitLab 自 11.7 版本开始支持 `git push options`，目前(GitLab 15.0)支持的 push options 有 **[CI/CD 操作](#cicd-push-options)** 和 **[Merge Request 操作](#创建-merge-request)** 两种。
 
 Git push options 仅适用于 `Git 2.10` 或更新版本。
@@ -106,7 +106,7 @@ Create Merge Request:
 
 - Name：`project_{project_id}_bot`
 - Email：`project{project_id}_bot@noreply.{Gitlab.config.gitlab.host}`
-
+<!-- markdown-link-check-disable-next-line -->
 更多内容见[官方文档](https://docs.gitlab.cn/jh/user/project/settings/project_access_tokens.html#%E9%A1%B9%E7%9B%AE%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%94%A8%E6%88%B7)。
 
 ## CI/CD Push options

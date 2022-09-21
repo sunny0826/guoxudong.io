@@ -3,14 +3,12 @@ title: "从边车模式到 Service Mesh"
 date: 2019-04-10T14:03:25+08:00
 draft: false
 type: blog
-banner: "http://tva2.sinaimg.cn/large/ad5fbf65gy1g1yqu5v6y7j21qi15on1j.jpg"
 authors: ["guoxudong"]
-authorlink: "https://github.com/sunny0826"
 summary: "谈谈从边车模式这一分布式架构的设计模式到 Service Mesh 的演变。"
 tags: ["Service Mesh"]
 categories: ["服务网格"]
 keywords: ["Service Mesh"]
-image: "https://tva4.sinaimg.cn/large/ad5fbf65ly1ge3jc2nizzj21qi15on1j.jpg"
+image: https://tva4.sinaimg.cn/large/ad5fbf65ly1ge3jc2nizzj21qi15on1j.jpg
 
 ---
 所谓边车模式（ Sidecar pattern ），也译作挎斗模式，是分布式架构中云设计模式的一种。因为其非常类似于生活中的边三轮摩托车而得名。该设计模式通过给应用程序加上一个“边车”的方式来拓展应用程序现有的功能。这种设计模式出现的很早，实现的方式也多种多样。现在这个模式更是随着微服务的火热与 Service Mesh 的逐渐成熟而进入人们的视野。
@@ -65,7 +63,7 @@ image: "https://tva4.sinaimg.cn/large/ad5fbf65ly1ge3jc2nizzj21qi15on1j.jpg"
 
 边车模式有效的分离了系统控制和业务逻辑，可以将所有的服务进行统一管理，让开发人员更专注于业务开发，显著的提升开发效率。而遵循这种模式进行实践从很早以前就开始了，开发人员一直试图将上文中我们提到的功能（如：流量控制、服务注册、服务发现、服务限流、服务熔断等）提取成一个标准化的 Sidecar ，通过 Sidecar 代理来与其他系统进行交互，这样可以大大简化业务开发和运维。而随着分布式架构和微服务被越来越多的公司和开发者接受并使用，这一需求日益凸显。
 
-这就是 Service Mesh 服务网格诞生的契机，它是 CNCF（Cloud Native Computing Foundation，云原生基金会）目前主推的新一代微服务架构。 William Morgan 在 [What's a service mesh? And why do I need one?](https://buoyant.io/2017/04/25/whats-a-service-mesh-and-why-do-i-need-one/) 【[译文](https://blog.maoxianplay.com/posts/whats-a-service-mesh-and-why-do-i-need-one/)】中解释了什么是 Service Mesh 。
+这就是 Service Mesh 服务网格诞生的契机，它是 CNCF（Cloud Native Computing Foundation，云原生基金会）目前主推的新一代微服务架构。 William Morgan 在 What's a service mesh? And why do I need one? 【[译文](https://guoxudong.io/post/whats-a-service-mesh-and-why-do-i-need-one)】中解释了什么是 Service Mesh 。
 
 Service Mesh 有如下几个特点：
 
@@ -78,8 +76,8 @@ Service Mesh 将底层那些难以控制的网络通讯统一管理，诸如：�
 
 
 ## 你真的需要 Service Mesh 吗？
-
-正如 NGINX 在其博客上发表的一篇文章名叫 [Do I Need a Service Mesh? ](https://www.nginx.com/blog/do-i-need-a-service-mesh/) 【[译文](http://www.servicemesher.com/blog/do-i-need-a-service-mesh/)】 的文章中提到：
+<!-- markdown-link-check-disable-next-line -->
+正如 NGINX 在其博客上发表的一篇文章名叫 [Do I Need a Service Mesh? ](https://www.nginx.com/blog/do-i-need-a-service-mesh/) 【[译文](https://cloudnative.to/blog/do-i-need-a-service-mesh)】 的文章中提到：
 
 > As the complexity of the application increases, service mesh becomes a realistic alternative to implementing capabilities service-by-service.
 
@@ -93,6 +91,6 @@ Service Mesh 将底层那些难以控制的网络通讯统一管理，诸如：�
 
 - Sidecar pattern ： https://docs.microsoft.com/en-us/azure/architecture/patterns/sidecar
 
-- What's a service mesh? And why do I need one?： https://buoyant.io/2017/04/25/whats-a-service-mesh-and-why-do-i-need-one/ 
+- What's a service mesh? And why do I need one?
 
 - Do I Need a Service Mesh?：https://www.nginx.com/blog/do-i-need-a-service-mesh/ 

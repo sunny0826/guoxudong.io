@@ -3,14 +3,10 @@ title: "GitHub 黑话指南"
 date: 2019-04-22T09:11:24+08:00
 draft: false
 type: blog
-banner: "http://tva2.sinaimg.cn/large/ad5fbf65gy1g2b5fe5ahmj20c80bhdg8.jpg"
-authors: ["guoxudong"]
-authorlink: "https://github.com/sunny0826"
 summary: "这里总结了一些在 GitHub 上常见的<黑话>，这些乱七八糟的缩写着实给很多新司机带来了许多困扰 :)"
 tags: ["GitHub","翻译"]
 categories: ["程序员趣闻"]
-keywords: ["GitHub","翻译"]
-image: "https://tva3.sinaimg.cn/large/ad5fbf65ly1ge3icinuxmj20c80bhdg8.jpg"
+image: https://tva3.sinaimg.cn/large/ad5fbf65ly1ge3icinuxmj20c80bhdg8.jpg
 ---
 这里的**黑话**，其实就是 GitHub 上的一些**迷之缩写**，这些歪果老司机们在 GitHub 上肆无忌惮的使用着他们的“黑话”，让我们这些非英语母语国家的新司机在 code review 时经常是一脸懵逼 + 黑人问好...
 

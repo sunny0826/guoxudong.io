@@ -3,18 +3,11 @@ title: "解决 Nginx-Ingress 重定向失败问题"
 date: 2019-08-16T11:15:37+08:00
 draft: false
 type: blog
-banner: "https://tva2.sinaimg.cn/large/ad5fbf65gy1g61duu66q4j20dw08ft8w.jpg"
 authors: ["guoxudong"]
-authorlink: "https://github.com/sunny0826"
-# translator: "郭旭东"
-# translatorlink: "https://github.com/sunny0826"
-# originallink: ""
 summary: "记录 Nginx-Ingress 重定向失败问题的解决过程。"
 tags: ["kubernetes","容器"]
 categories: ["kubernetes"]
-keywords: ["kubernetes","容器","ingress","nginx-ingress-controller"]
-image: "https://tvax2.sinaimg.cn/large/ad5fbf65ly1ge3j9d3bf0j20dw08ft8w.jpg"
-
+image: https://tvax2.sinaimg.cn/large/ad5fbf65ly1ge3j9d3bf0j20dw08ft8w.jpg
 ---
 
 ## 前言

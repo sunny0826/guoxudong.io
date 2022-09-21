@@ -2,20 +2,17 @@
 title: "Service Mesh是什么"
 date: 2019-03-19T16:12:56+08:00
 draft: flase
-banner: "http://tva2.sinaimg.cn/large/ad5fbf65ly1g188a7s4ttj21qi15ogpc.jpg"
 authors: ["guoxudong"]
-authorlink: "https://github.com/sunny0826"
 summary: "现在Service Mesh很热，但是到底什么事Service Mesh，Service Mesh能为我们做什么，我们为什么要用Service Mesh。"
 tags: ["Service Mesh"]
 categories: ["服务网格"]
-keywords: ["Service Mesh"]
-image: "https://tvax4.sinaimg.cn/large/ad5fbf65ly1ge3insli0hj21qi15ogpc.jpg"
+image: https://tvax4.sinaimg.cn/large/ad5fbf65ly1ge3insli0hj21qi15ogpc.jpg
 
 ---
-本文转自[《Istio 服务网格进阶实战》](http://www.servicemesher.com/istio-handbook/concepts-and-principle/what-is-service-mesh.html)
+本文转自《Istio 服务网格进阶实战》
 # 什么是服务网格？
 
-Service mesh 又译作 “服务网格”，作为服务间通信的基础设施层。Buoyant 公司的 CEO Willian Morgan 在他的这篇文章 [WHAT’S A SERVICE MESH? AND WHY DO I NEED ONE?](https://buoyant.io/2017/04/25/whats-a-service-mesh-and-why-do-i-need-one/) 中解释了什么是 Service Mesh，为什么云原生应用需要 Service Mesh。
+Service mesh 又译作 “服务网格”，作为服务间通信的基础设施层。Buoyant 公司的 CEO Willian Morgan 在他的这篇文章 WHAT’S A SERVICE MESH? AND WHY DO I NEED ONE? 中解释了什么是 Service Mesh，为什么云原生应用需要 Service Mesh。
 
 服务网格是用于处理服务间通信的专用基础设施层。它负责通过包含现代云原生应用程序的复杂服务拓扑来可靠地传递请求。实际上，服务网格通常通过一组轻量级网络代理来实现，这些代理与应用程序代码一起部署，而不需要感知应用程序本身。——  [Willian Morgan](https://twitter.com/wm) Buoyant CEO
 
@@ -30,7 +27,7 @@ Service mesh 又译作 “服务网格”，作为服务间通信的基础设施
 - 应用程序无感知
 - 解耦应用程序的重试/超时、监控、追踪和服务发现
 
-目前两款流行的服务网格开源软件 [Linkerd](https://linkerd.io) 和 [Istio](https://Istio.io) 都可以直接在 Kubernetes 中集成，其中 Linkerd 已经成为 CNCF 成员，Istio 在 2018年7月31日宣布 [1.0](https://istio.io/zh/blog/2018/announcing-1.0/)。
+目前两款流行的服务网格开源软件 [Linkerd](https://linkerd.io) 和 [Istio](https://Istio.io) 都可以直接在 Kubernetes 中集成，其中 Linkerd 已经成为 CNCF 成员，Istio 在 2018年7月31日发布 1.0。
 
 ## 理解服务网格
 
@@ -78,11 +75,10 @@ Service mesh 又译作 “服务网格”，作为服务间通信的基础设施
 
 ## 参考
 
-- [WHAT’S A SERVICE MESH? AND WHY DO I NEED ONE? - buoyant.io](https://buoyant.io/2017/04/25/whats-a-service-mesh-and-why-do-i-need-one/)
+- WHAT’S A SERVICE MESH? AND WHY DO I NEED ONE? - buoyant.io
 - [Istio: A service mesh for AWS ECS - medium.com](https://medium.com/attest-engineering/Istio-a-service-mesh-for-aws-ecs-937f201f847a)
 - [初次了解 Istio - istio.io](https://istio.io/blog/istio-service-mesh-for-microservices.html)
 - [Application Network Functions With ESBs, API Management, and Now.. Service Mesh? - blog.christianposta.com](http://blog.christianposta.com/microservices/application-network-functions-with-esbs-api-management-and-now-service-mesh/)
 - [Pattern: Service Mesh - philcalcado.com](http://philcalcado.com/2017/08/03/pattern_service_mesh.html)
-- [Envoy 官方文档中文版 - servicemesher.com](http://www.servicemesher.com/envoy/)
 - [Istio 官方文档 - istio.io](https://istio.io/zh)
 - [servicemesher/awesome-servicemesh - github.com](https://github.com/servicemesher/awesome-servicemesh/)

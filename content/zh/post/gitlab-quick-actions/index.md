@@ -8,7 +8,7 @@ date: 2022-02-23T10:05:26+08:00
 lastmod: 2022-02-23T10:05:26+08:00
 draft: false
 type: blog
-image: "https://tvax1.sinaimg.cn/large/ad5fbf65gy1gqupsoso0bj20zk0f4q3w.jpg"
+image: https://tvax1.sinaimg.cn/large/ad5fbf65gy1gqupsoso0bj20zk0f4q3w.jpg
 ---
 ## 前言
 
@@ -77,5 +77,5 @@ curl --request POST --header "PRIVATE-TOKEN: <your_access_token>" \
 ![comment quick action](https://tvax3.sinaimg.cn/large/ad5fbf65gy1gznc8f12hvj20xs0hqtbm.jpg)
 
 ## 结语
-
+<!-- markdown-link-check-disable-next-line -->
 对于高强度使用 GitLab 的用户，Quick Actions 和 Keyboard 快捷键配合使用可以大大提升工作效率与使用体验，十分推荐尝试。更多内容见[官方文档](https://docs.gitlab.com/ee/user/project/quick_actions.html#gitlab-quick-actions)。

@@ -3,18 +3,11 @@ title: "什么是 DevSecOps ?"
 date: 2019-05-03T14:37:14+08:00
 draft: false
 type: blog
-banner: "https://tva2.sinaimg.cn/large/ad5fbf65gy1g2o4u644j7j21qi15owio.jpg"
 author: "Red Hat"
-authorlink: "https://www.redhat.com"
-translator: "郭旭东"
-translatorlink: "https://github.com/sunny0826"
-originallink: "https://www.redhat.com/en/topics/devops/what-is-devsecops"
 summary: "DevOps 不仅仅是开发和运营团队。如果您想要充分发挥出 DevOps 方法的敏捷性和响应力，则必须在应用的整个生命周期内同时兼顾 IT 安全性。"
 tags: ["devops"]
 categories: ["devops"]
-keywords: ["devops"]
-image: "https://tva4.sinaimg.cn/large/ad5fbf65ly1ge3jds2cxfj21qi15owio.jpg"
-
+image: https://tva4.sinaimg.cn/large/ad5fbf65ly1ge3jds2cxfj21qi15owio.jpg
 ---
 DevOps 不仅仅是开发和运营团队。如果您想要充分发挥出 DevOps 方法的敏捷性和响应力，则必须在应用的整个生命周期内同时兼顾 [IT 安全性](https://www.redhat.com/zh/topics/security)。
 

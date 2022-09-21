@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "Kubectl Plugin 推荐（三）| 插件开发篇"
 subtitle: ""
 summary: "讲解如何快速开发一款自己的 Kubectl Plugin。"
@@ -10,7 +8,7 @@ date: 2021-03-17T09:54:18+08:00
 lastmod: 2021-03-17T09:54:18+08:00
 draft: false
 type: blog
-image: "https://tva4.sinaimg.cn/large/ad5fbf65gy1gomurdt886j20p00an3zg.jpg"
+image: https://tva4.sinaimg.cn/large/ad5fbf65gy1gomurdt886j20p00an3zg.jpg
 ---
 ## 前言
 

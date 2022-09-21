@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "ChaosBlade：从零开始的混沌工程（一）"
 subtitle: ""
 summary: "本篇为系列文章开篇，主要介绍混动工程以及混沌工程实验工具 ChaosBlade，后续会从实践的角度带领读者上手实践混沌工程，了解混沌工程的方法及原理。"
@@ -12,19 +10,7 @@ lastmod: 2020-06-04T17:02:58+08:00
 featured: false
 draft: false
 type: blog
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image: "https://tva1.sinaimg.cn/large/ad5fbf65gy1gfgdamuzm1j212t0lq46x.jpg"
-
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
+image: https://tva1.sinaimg.cn/large/ad5fbf65gy1gfgdamuzm1j212t0lq46x.jpg
 ---
 ## 前言
 

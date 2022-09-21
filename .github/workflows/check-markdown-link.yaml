@@ -1,7 +1,23 @@
 name: Check Markdown links
 
-on: push
+on:
+  schedule:
+  # Run everyday at 9:00 AM (See https://pubs.opengroup.org/onlinepubs/9699919799/utilities/crontab.html#tag_20_25_07)
+  - cron: "0 22 * * 1"
 
+jobs:
+  markdown-link-check:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - uses: gaurav-nelson/github-action-markdown-link-check@master
+      with:
+        use-quiet-mode: 'yes'
+        config-file: 'mlc_config.json'
+
+---
+on: [pull_request]
+name: Check links for modified files
 jobs:
   markdown-link-check:
     runs-on: ubuntu-latest
@@ -10,4 +26,6 @@ jobs:
     - uses: gaurav-nelson/github-action-markdown-link-check@v1
       with:
         use-quiet-mode: 'yes'
+        use-verbose-mode: 'yes'
+        check-modified-files-only: 'yes'
         config-file: 'mlc_config.json'

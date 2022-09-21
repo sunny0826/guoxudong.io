@@ -3,15 +3,11 @@ title: "阿里云环境Istio初探"
 date: 2019-03-13T15:45:43+08:00
 draft: false
 type: blog
-banner: "http://tva2.sinaimg.cn/large/ad5fbf65ly1g117v91a61j21qi15otcd.jpg"
 authors: ["guoxudong"]
-authorlink: "https://github.com/sunny0826"
 summary: "极简的istio样例部署，可以帮助新手快速入门，相较官方提供的Bookinfo应用更容易上手。"
 tags: ["istio","service mesh","阿里云"]
 categories: ["istio"]
-keywords: ["istio","service mesh","阿里云"]
-image: "https://tvax4.sinaimg.cn/large/ad5fbf65ly1ge3inbf8ahj21qi15otcd.jpg"
-
+image: https://tvax4.sinaimg.cn/large/ad5fbf65ly1ge3inbf8ahj21qi15otcd.jpg
 ---
 # istio应用部署样例
 
@@ -25,9 +21,10 @@ istio有多种部署方式，阿里云、华为云等云服务商均提供一键
 ### 部署两个版本的服务
 这里选择一个简单的Python项目作为服务端，这里使用[崔秀龙](https://github.com/fleeto)老哥的[flaskapp](https://github.com/fleeto/flaskapp/blob/master/app/main.py)服务，该服务的作用就是提供2个url路径：
     
+<!-- markdown-link-check-disable -->
 - 一个是/env，用户获取容器中的环境变量，例如 http://flaskapp/env/version
 - 另一个是/fetch ，用于获取在参数url中指定的网址的内容，例如 http://flaskapp/fetch?url=http://weibo.com
-
+<!-- markdown-link-check-enable -->
 创建2个Deployment，分别命名为 flaskapp-v1 和 flaskapp-v2 ，同时创建一个 Service ,将其命名为flaskapp。代码文件为 ```flaskapp.istio.yaml```。
 
 ```yaml

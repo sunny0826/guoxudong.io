@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "读完《云原生架构白皮书》，我们来谈谈开放应用模型（OAM）"
 subtitle: ""
 summary: "读完《云原生架构白皮书》，我们来谈谈开放应用模型（OAM）"
@@ -12,19 +10,8 @@ lastmod: 2020-07-24T10:53:04+08:00
 featured: false
 draft: false
 type: blog
+image: https://tvax4.sinaimg.cn/large/ad5fbf65gy1gh4iqcxmu7j20om0gomzp.jpg
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image: "https://tvax4.sinaimg.cn/large/ad5fbf65gy1gh4iqcxmu7j20om0gomzp.jpg"
-
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
 ---
 ## 前言
 
@@ -86,6 +73,7 @@ OAM App Engine 由 CLI 命令行工具、 Dashboard UI 管理页面和一系列�
 >
 > 希望所有的开发者、架构师和技术决策者们，共同定义、共同迎接云原生时代。
 
+<!-- markdown-link-check-disable-next-line -->
 《云原生架构白皮书》下载链接 ： https://developer.aliyun.com/topic/download?id=721
 
 ## 参考

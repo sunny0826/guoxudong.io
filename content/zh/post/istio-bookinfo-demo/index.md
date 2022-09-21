@@ -2,15 +2,11 @@
 title: "Istio初探之Bookinfo样例部署"
 date: 2019-03-21T09:42:18+08:00
 draft: flase
-banner: "http://tva2.sinaimg.cn/large/ad5fbf65ly1g1agvmgy2aj21qi15odmu.jpg"
 authors: ["guoxudong"]
-authorlink: "https://github.com/sunny0826"
 summary: "正如Linux 的创始人 Linus Torvalds 的那句话：Talk is cheap. Show me the code. 这里我们部署一个demo，由四个单独的微服务构成（注意这里的四个微服务是由不同的语言编写的），用来演示多种 Istio 特性。"
 tags: ["istio","service mesh","阿里云","华为云"]
 categories: ["istio"]
-keywords: ["istio","service mesh","阿里云","华为云"]
-image: "https://tvax1.sinaimg.cn/large/ad5fbf65ly1ge3imuejxuj21qi15odmu.jpg"
-
+image: https://tvax1.sinaimg.cn/large/ad5fbf65ly1ge3imuejxuj21qi15odmu.jpg
 ---
 ## 前言
 之前介绍了 Istio 和 Service Mesh 能给我们带来什么，我们为什么要用 Istio ，但大家对 Istio 的认识可能还没有那么深刻。正如Linux 的创始人 [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds) 的那句话：**Talk is cheap. Show me the code.** 这里我们部署一个demo，由四个单独的微服务构成**（注意这里的四个微服务是由不同的语言编写的）**，用来演示多种 Istio 特性。这个应用模仿在线书店的一个分类，显示一本书的信息。页面上会显示一本书的描述，书籍的细节（ISBN、页数等），以及关于这本书的一些评论。
@@ -31,7 +27,7 @@ Bookinfo 应用分为四个单独的微服务：
 - v3 版本会调用 ```ratings``` 服务，并使用 1 到 5 个红色星形图标来显示评分信息。
 
 下图展示了这个应用的端到端架构。
-![Istio 注入之前的 Bookinfo 应用](https://istio.io/docs/examples/bookinfo/noistio.svg)
+![Istio 注入之前的 Bookinfo 应用](https://istio.io/latest/docs/examples/bookinfo/noistio.svg)
 <center>Istio 注入之前的 Bookinfo 应用</center>
 
 Bookinfo 是一个异构应用，几个微服务是由不同的语言编写的。这些服务对 Istio **并无依赖**，但是构成了一个有代表性的服务网格的例子：它由多个服务、多个语言构成，并且 reviews 服务具有多个版本。
@@ -43,7 +39,7 @@ Bookinfo 是一个异构应用，几个微服务是由不同的语言编写的�
 
 在 Istio 中运行这一应用，无需对应用自身做出任何改变。我们只要简单的在 Istio 环境中对服务进行配置和运行，具体一点说就是把 Envoy sidecar 注入到每个服务之中。这个过程所需的具体命令和配置方法由运行时环境决定，而部署结果较为一致，如下图所示：
 
-![Bookinfo 应用](https://istio.io/docs/examples/bookinfo/withistio.svg)
+![Bookinfo 应用](https://istio.io/latest/docs/examples/bookinfo/withistio.svg)
 <center>Bookinfo 应用</center>
 
 所有的微服务都和 Envoy sidecar 集成在一起，被集成服务所有的出入流量都被 sidecar 所劫持，这样就为外部控制准备了所需的 Hook，然后就可以利用 Istio 控制平面为应用提供服务路由、遥测数据收集以及策略实施等功能。

@@ -3,17 +3,12 @@ title: "记一次使用 Kustomize 时遇到的愚蠢问题"
 date: 2019-07-03T13:44:50+08:00
 draft: false
 type: blog
-banner: "https://tva2.sinaimg.cn/large/ad5fbf65gy1g4mmuqm6n2j2098048a9z.jpg"
 authors: ["guoxudong"]
-authorlink: "https://github.com/sunny0826"
-# translator: "郭旭东"
-# translatorlink: "https://github.com/sunny0826"
-# originallink: ""
 summary: "解决使用 Kustomize 时遇到的报错： error: failed to find an object with apps_v1_Deployment|myapp to apply the patch "
 tags: ["kubernetes", "kustomize", "工具"]
 categories: ["kustomize"]
 keywords: ["kubernetes", "kustomize", "工具"]
-image: "https://tva2.sinaimg.cn/large/ad5fbf65ly1ge3j7v8sguj2098048a9z.jpg"
+image: https://tva2.sinaimg.cn/large/ad5fbf65ly1ge3j7v8sguj2098048a9z.jpg
 
 ---
 

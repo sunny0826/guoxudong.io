@@ -3,24 +3,18 @@ title: "使用 Kustomize 帮你管理 kubernetes 应用（四）：简述核心�
 date: 2019-05-23T12:50:12+08:00
 draft: false
 type: blog
-banner: "https://tva2.sinaimg.cn/large/ad5fbf65gy1g3bbl0silkj21qi15o7bb.jpg"
 authors: ["guoxudong"]
-authorlink: "https://github.com/sunny0826"
-# translator: "郭旭东"
-# translatorlink: "https://github.com/sunny0826"
-# originallink: ""
 summary: "本篇为系列文章第四篇，将简述 kustomize 的核心配置文件 kustomization.yaml"
 tags: ["kubernetes", "kustomize", "工具"]
 categories: ["kustomize"]
-keywords: ["kubernetes", "kustomize", "工具"]
-image: "https://tva3.sinaimg.cn/large/ad5fbf65ly1ge3j5pw2egj21qi15o7bb.jpg"
+image: https://tva3.sinaimg.cn/large/ad5fbf65ly1ge3j5pw2egj21qi15o7bb.jpg
 
 ---
 ## 前言
+<!-- markdown-link-check-disable-next-line -->
+在前面的文章中已经介绍了 kustomize 是什么，以及如何开始使用和如何简单的在 CI/CD 中使用，本篇文章将会介绍 kustomize 的核心文件 [kustomization.yaml](https://kubectl.docs.kubernetes.io/references/kustomize/glossary/#kustomization)。
 
-在前面的文章中已经介绍了 kustomize 是什么，以及如何开始使用和如何简单的在 CI/CD 中使用，本篇文章将会介绍 kustomize 的核心文件 [kustomization.yaml](https://github.com/kubernetes-sigs/kustomize/blob/master/docs/zh/kustomization.yaml)。
-
-另外，博主已经向 kustomize 贡献了中文文档，已被官方采纳，现在在 kustomize 中的 [`docs/zh`](https://github.com/kubernetes-sigs/kustomize/tree/master/docs/zh) 目录中就可看到，翻译的不好的地方欢迎指正。同时也在 GitHub 上新建了一个 名为 [kustomize-lab](https://github.com/sunny0826/kustomize-lab) 的 repo 用于演示 kustomize 的各种用法及技巧，本文中介绍的内容也会同步更新到该 repo 中，欢迎 fork、star、PR。
+另外，博主已经向 kustomize 贡献了中文文档，已被官方采纳，现在在 kustomize 中的 [`docs/zh`](https://github.com/kubernetes-sigs/kustomize/blob/e62480d11cf53b5845064be55f47d481d390a73d/examples/zh/README.md) 目录中就可看到，翻译的不好的地方欢迎指正。同时也在 GitHub 上新建了一个 名为 [kustomize-lab](https://github.com/sunny0826/kustomize-lab) 的 repo 用于演示 kustomize 的各种用法及技巧，本文中介绍的内容也会同步更新到该 repo 中，欢迎 fork、star、PR。
 
 ## `kustomization.yaml` 的作用
 
@@ -266,5 +260,5 @@ spec:
 ## 结语
 
 上面所有的 `kustomize build dir/` 都可以使用 `kubectl apply -k dir/` 实现，但是需要 `v14.0` 版以上的 `kubectl`，也就是说，其实我们在集成到 CI/CD 中的时候，甚至都不需要用来 `kustomize` 命令集，有 `kubectl` 就够了。
-
+<!-- markdown-link-check-disable-next-line -->
 由于篇幅有限，这里没法吧所有 `kustomization.yaml` 的用途都罗列出来，不过可以在官方文档中找到我提交的中文翻译版 [`kustomization.yaml`](https://github.com/kubernetes-sigs/kustomize/blob/master/docs/zh/kustomization.yaml)，可以直接去官方 GitHub 查看。同时 [kustomize-lab](https://github.com/sunny0826/kustomize-lab) 会持续更行，敬请关注。

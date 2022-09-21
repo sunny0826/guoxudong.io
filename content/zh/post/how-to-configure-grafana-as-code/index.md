@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "如何使 Grafana as code"
 subtitle: ""
 summary: "见多了 Infrastructure as code，今天我们来聊聊 Grafana as code。"
@@ -11,11 +9,11 @@ date: 2020-08-19T11:51:17+08:00
 lastmod: 2020-08-19T11:51:17+08:00
 draft: false
 type: blog
-image: "https://tvax3.sinaimg.cn/large/ad5fbf65ly1ghw47grdiuj21he0tyjw8.jpg"
+image: https://tvax3.sinaimg.cn/large/ad5fbf65ly1ghw47grdiuj21he0tyjw8.jpg
 ---
 ## 前言
 
-Grafana Dashboard 可以做很多事情，但您知道其实是可以通过代码来配置管理 Grafana Dashboard 的吗？本文是 Grafana Labs 软件开发工程师 Malcolm Holmes 和 Inuits 的开源顾问 Julien Pivotto 在 FOSDEM 2020 上的 topic 演讲记录。 演讲中，两人讨论了如何使用代码来管理您的 Grafana 实例，并介绍了一些使用 [Jsonnet](http://jsonnet.org/) 的秘诀和技巧以及 [Grafonnet](https://github.com/grafana/grafonnet-libs)（一个用于生成 Grafana Dashboard 的 [Jsonnet](http://jsonnet.org/) 库）。
+Grafana Dashboard 可以做很多事情，但您知道其实是可以通过代码来配置管理 Grafana Dashboard 的吗？本文是 Grafana Labs 软件开发工程师 Malcolm Holmes 和 Inuits 的开源顾问 Julien Pivotto 在 FOSDEM 2020 上的 topic 演讲记录。 演讲中，两人讨论了如何使用代码来管理您的 Grafana 实例，并介绍了一些使用 [Jsonnet](http://jsonnet.org/) 的秘诀和技巧以及 [Grafana Labs' Jsonnet libraries](https://github.com/grafana/jsonnet-libs)（一个用于生成 Grafana Dashboard 的 [Jsonnet](http://jsonnet.org/) 库）。
 
 ## 铺天盖地的 Dashboard
 

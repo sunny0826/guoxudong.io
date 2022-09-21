@@ -8,7 +8,7 @@ date: 2022-07-21T10:58:10+08:00
 lastmod: 2022-07-21T10:58:10+08:00
 draft: false
 type: blog
-image: "https://tvax1.sinaimg.cn/large/ad5fbf65gy1gqupsoso0bj20zk0f4q3w.jpg"
+image: https://tvax1.sinaimg.cn/large/ad5fbf65gy1gqupsoso0bj20zk0f4q3w.jpg
 ---
 ## 前言
 
@@ -56,7 +56,7 @@ image: "https://tvax1.sinaimg.cn/large/ad5fbf65gy1gqupsoso0bj20zk0f4q3w.jpg"
 使用 `include` 关键字可以将 git push 相关操作与 `.gitlab-ci.yml` 文件进行解耦，方便维护也更易于阅读。
 
 ### `extends` 关键字
-
+<!-- markdown-link-check-disable-next-line -->
 使用 `extends` 来重用配置，也是将 git push 相关操作插入具体 Job 的方法。它是 [YAML 锚点](https://docs.gitlab.cn/jh/ci/yaml/yaml_optimization.html#%E9%94%9A%E7%82%B9) 的替代方案，并且更加灵活和可读。
 
 ```yaml

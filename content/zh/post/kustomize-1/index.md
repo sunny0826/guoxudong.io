@@ -3,15 +3,11 @@ title: "使用 Kustomize 帮你管理 kubernetes 应用（一）：什么是 Kus
 date: 2019-04-15T13:32:59+08:00
 draft: false
 type: blog
-banner: "http://tva2.sinaimg.cn/large/ad5fbf65gy1g23bdrc5tuj20x80wudlh.jpg"
 authors: ["guoxudong"]
-authorlink: "https://github.com/sunny0826"
 summary: "本篇为系列文章第一篇，介绍我对 Kustomize 的了解过程以及 Kustomize 是什么，为什么它能解决我的燃眉之急。"
 tags: ["kubernetes", "kustomize", "工具"]
 categories: ["kustomize"]
-keywords: ["kubernetes", "kustomize", "工具"]
-image: "https://tva2.sinaimg.cn/large/ad5fbf65ly1ge3j40z93gj20x80wu7fr.jpg"
-
+image: https://tva2.sinaimg.cn/large/ad5fbf65ly1ge3j40z93gj20x80wu7fr.jpg
 ---
 ## 初识 Kustomize
 第一次听说 Kustomize 其实是在 kubernetes 1.14 发布时候，它被集成到 ```kubectl``` 中，成为了一个子命令，但也只是扫了一眼，并没有深究。真正让我注意到它，并主动开始了解其功能和使用方法的，是张磊大神在云栖社区发表的一篇文章[《从Kubernetes 1.14 发布，看技术社区演进方向》](https://yq.aliyun.com/articles/697883)，他在文中是这么说的：
@@ -39,5 +35,5 @@ Kustomize 不像 Helm 那样需要一整套独立的体系来完成管理应用�
 
 ## 参考
 - [Kustomize - kustomize.io](https://kustomize.io/)
-
+<!-- markdown-link-check-disable-next-line -->
 - [从Kubernetes 1.14 发布，看技术社区演进方向 - yq.aliyun.com](https://yq.aliyun.com/articles/697883)

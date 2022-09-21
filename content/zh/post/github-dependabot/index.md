@@ -8,7 +8,7 @@ date: 2021-12-01T14:18:59+08:00
 lastmod: 2021-12-01T14:18:59+08:00
 draft: false
 type: blog
-image: "https://tva4.sinaimg.cn/large/ad5fbf65gy1gwyf75bzdgj20p00anq9w.jpg"
+image: https://tva4.sinaimg.cn/large/ad5fbf65gy1gwyf75bzdgj20p00anq9w.jpg
 ---
 ## 前言
 
@@ -89,7 +89,7 @@ pip-compile    | `pip`            | 6.1.0            | | **✓** | |
 poetry         | `pip`            | v1               | | **✓** | |
 Terraform      | `terraform`      | >= 0.13, <= 1.0  | **✓** | **✓** | |
 yarn           | `npm`            | v1               | **✓** | **✓** | |
-
+<!-- markdown-link-check-disable-next-line -->
 更多内容可以参考[官方文档](https://docs.github.com/en/code-security/supply-chain-security/keeping-your-dependencies-updated-automatically/about-dependabot-version-updates#supported-repositories-and-ecosystems)。
 
 ## 亮点及注意事项
@@ -103,5 +103,5 @@ yarn           | `npm`            | v1               | **✓** | **✓** | |
 依赖管理一直都是应用开发管理的一大难点，尤其对于一些小型开源项目，维护人手有限且无法高效获得依赖包的最新版本号。Dependabot 很好的解决了这一问题，当有依赖更新时都会自动推送 PR 来更新依赖，项目维护者只需提高测试覆盖率和增加单元测试用例，保证项目可用性即可。
 
 ## 参考
-
+<!-- markdown-link-check-disable-next-line -->
 - [About Dependabot version update - github.com](https://docs.github.com/en/code-security/supply-chain-security/keeping-your-dependencies-updated-automatically/about-dependabot-version-updates)

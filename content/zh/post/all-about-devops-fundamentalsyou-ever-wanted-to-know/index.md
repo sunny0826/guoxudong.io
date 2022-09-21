@@ -3,17 +3,11 @@ title: "什么是 DevOps ？DevOps 是如何工作的？"
 date: 2019-05-09T09:55:11+08:00
 draft: false
 type: blog
-banner: "https://tva2.sinaimg.cn/large/ad5fbf65gy1g2uu2lvbzcj21hc0u042j.jpg"
 author: "Pramod Chandrayan"
-authorlink: "https://medium.com/@pramod.pandey83"
-translator: "郭旭东"
-translatorlink: "https://github.com/sunny0826"
-originallink: "https://medium.com/faun/all-about-devops-fundamentalsyou-ever-wanted-to-know-2333328a2b40"
 summary: "在当前的 IT 实践中，为了支持高效和快捷的软件开发，已经出现了伟大的转变--在传统的软件架构正在逐渐被微服务架构取代的情况下，开发、 QA 和运维团队为了摆脱了之前相互孤立的状况，开始将开发与运维相互关联并融合统一，我们将其称为DevOps。"
 tags: ["devops"]
 categories: ["翻译"]
-keywords: ["devops"]
-image: "https://tva4.sinaimg.cn/large/ad5fbf65ly1ge3iayhe20j21hc0u042j.jpg"
+image: https://tva4.sinaimg.cn/large/ad5fbf65ly1ge3iayhe20j21hc0u042j.jpg
 ---
 在当前的 IT 实践中，为了支持高效和快捷的软件开发，出现了巨大的转变：在单体应用的软件架构正在逐渐被微服务架构取代的情况下，开发、 QA 和运维团队为了摆脱了之前相互孤立的状况，开始相互关联并融合统一，我们将其称为DevOps。
 

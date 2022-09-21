@@ -3,16 +3,11 @@ title: "Kustomize: 无需模板定制你的 kubernetes 配置"
 date: 2019-04-15T17:23:21+08:00
 draft: false
 type: blog
-banner: "http://tva2.sinaimg.cn/large/ad5fbf65gy1g24hv1hekoj21y012cqc6.jpg"
 authors: ["guoxudong"]
-authorlink: "https://github.com/sunny0826"
 summary: "本文介绍了 Kubernetes 原生的应用管理工具 Kustomize。"
 tags: ["翻译", "kustomize", "kubernetes", "工具"]
 categories: ["翻译"]
-keywords: ["翻译", "kustomize", "kubernetes", "工具"]
-image:
-  curl: "https://tvax4.sinaimg.cn/large/ad5fbf65ly1ge3imde420j21y012cqc6.jpg"
-
+image: https://tvax4.sinaimg.cn/large/ad5fbf65ly1ge3imde420j21y012cqc6.jpg
 ---
 > 作者：Jeff Regan (Google), Phil Wittrock (Google) 2018-05-29
 
@@ -120,9 +115,9 @@ kustomize build someapp/overlays/production
 运行结果将作为一组完整资源打印到标准输出，并准备应用于集群。可以用类似的命令定义演示环境的配置。
 
 ## 综上所述
-使用 **kustomize** ，您可以仅使用 Kubernetes API 资源文件就可以管理任意数量的 Kubernetes 定制配置。kustomize 的每个产物都是纯 YAML 的，每个都可以进行验证和运行的。**kustomize** 鼓励通过 fork/modify/rebase 这样的[工作流](https://github.com/kubernetes-sigs/kustomize/blob/master/docs/workflows.md)来管理海量的应用描述文件。
+使用 **kustomize** ，您可以仅使用 Kubernetes API 资源文件就可以管理任意数量的 Kubernetes 定制配置。kustomize 的每个产物都是纯 YAML 的，每个都可以进行验证和运行的。**kustomize** 鼓励通过 `fork/modify/rebase` 这样的工作流来管理海量的应用描述文件。
 
-尝试[hello world](https://github.com/kubernetes-sigs/kustomize/tree/master/examples/helloWorld)示例，开始使用 **kustomize** 吧！有关的反馈与讨论，可以通过加入[邮件列表](https://groups.google.com/forum/#!forum/kustomize)或提 [issue](https://github.com/kubernetes-sigs/kustomize/issues/new)，欢迎提交PR。
+尝试[hello world](https://github.com/kubernetes-sigs/kustomize/tree/master/examples/helloWorld)示例，开始使用 **kustomize** 吧！有关的反馈与讨论，可以通过加入[邮件列表](https://groups.google.com/g/kustomize)或提 [issue](https://github.com/kubernetes-sigs/kustomize/issues/new)，欢迎提交PR。
 
 ## 译者按
 随着 kubernetes 1.14 的发布，kustomize 被集成到 ```kubectl``` 中，用户可以利用 ```kubectl apply -k dir/``` 将指定目录的 ```kustomization.yaml``` 提交到集群中。

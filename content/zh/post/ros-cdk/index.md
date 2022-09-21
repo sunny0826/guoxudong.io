@@ -8,7 +8,7 @@ date: 2021-06-22T09:13:24+08:00
 lastmod: 2021-06-22T09:13:24+08:00
 draft: false
 type: blog
-image: "https://tvax2.sinaimg.cn/large/ad5fbf65gy1grr2t5dhigj20p00anac1.jpg"
+image: https://tvax2.sinaimg.cn/large/ad5fbf65gy1grr2t5dhigj20p00anac1.jpg
 ---
 ## 前言
 
@@ -186,7 +186,7 @@ export class RosGitlabStack extends ros.Stack {
     // ECS 密码，用于 SSH 登录
     let YourPass = 'eJXuYnNT6LD4PS'
     // URL 地址，用于访问安装好的 GitLab
-    let ExternalUrl = 'http://jh.gxd'
+    let ExternalUrl = ''
     
 
     // 构建 VPC
@@ -315,7 +315,7 @@ StackId: 54901066-6228-46d8-a0ff-4bf523a95f16
 # 写入 /etc/hosts
 echo "47.100.198.131  jh.gxd">>/etc/hosts
 ```
-
+<!-- markdown-link-check-disable-next-line -->
 完成后访问 [http://jh.gxd](http://jh.gxd) 就可以使用 ROS CDK 部署的极狐 GitLab 了！
 
 ![首页](https://tva3.sinaimg.cn/large/ad5fbf65gy1grr17ezsf0j225e15ojy0.jpg)
@@ -351,6 +351,6 @@ RequestedId: F761DE09-F8E3-431C-B897-06667207A6C5
 本文涉及代码已经全部上传 GitHub，地址：[https://github.com/sunny0826/ros-cdk-simple-gitlab](https://github.com/sunny0826/ros-cdk-simple-gitlab)
 
 ## 参考
-
+<!-- markdown-link-check-disable-next-line -->
 - [从原子操作走向模板部署，详解云上资源自动化部署新模式](https://developer.aliyun.com/article/784662)
 - [ROS  CDK](https://help.aliyun.com/document_detail/204690.html?spm=a2c4g.11186623.6.644.1eb37f2eXMjNHy)

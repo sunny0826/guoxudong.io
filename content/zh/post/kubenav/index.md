@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "Kubenav: 使用手机管理你的 K8S 集群"
 subtitle: ""
 summary: "移动端 K8S 多集群管理利器：Kubenav"
@@ -11,7 +9,7 @@ date: 2021-04-12T16:57:26+08:00
 lastmod: 2021-04-12T16:57:26+08:00
 draft: false
 type: blog
-image: "https://tva1.sinaimg.cn/large/ad5fbf65gy1gph2vhtwssj229616swxv.jpg"
+image: https://tva1.sinaimg.cn/large/ad5fbf65gy1gph2vhtwssj229616swxv.jpg
 ---
 ## 背景
 

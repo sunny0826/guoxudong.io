@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "Cobra 命令自动补全指北"
 subtitle: ""
 summary: "本篇文章就来讲讲如何使用 Cobra 来实现命令自动补全。"
@@ -11,7 +9,7 @@ date: 2020-08-12T16:48:34+08:00
 lastmod: 2020-08-12T16:48:34+08:00
 draft: false
 type: blog
-image: "https://tva3.sinaimg.cn/large/ad5fbf65gy1gho5iaurclj20k00b9gsk.jpg"
+image: https://tva3.sinaimg.cn/large/ad5fbf65gy1gho5iaurclj20k00b9gsk.jpg
 ---
 ## 前言
 

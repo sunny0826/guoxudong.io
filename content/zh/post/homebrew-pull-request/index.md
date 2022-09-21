@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "将项目发布到 Homebrew 官方仓库"
 subtitle: ""
 summary: "最近将 kubecm 推到了官方 homebrew-core 仓库，分享一下经验。"
@@ -11,7 +9,7 @@ date: 2020-12-03T11:17:34+08:00
 lastmod: 2020-12-03T11:17:34+08:00
 draft: false
 type: blog
-image: "https://tvax4.sinaimg.cn/large/ad5fbf65gy1glaoy24l1yj21qi15otb1.jpg"
+image: https://tvax4.sinaimg.cn/large/ad5fbf65gy1glaoy24l1yj21qi15otb1.jpg
 ---
 ## 前言
 

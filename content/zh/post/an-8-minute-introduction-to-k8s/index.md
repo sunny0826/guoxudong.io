@@ -3,19 +3,13 @@ title: "8分钟入门 K8S"
 date: 2019-04-30T13:38:12+08:00
 draft: false
 type: blog
-banner: "https://ws3.sinaimg.cn/large/ad5fbf65gy1g2ji8i9dx3j20xc0m87ci.jpg"
 author: "Omer Hamerman"
-authorlink: "https://medium.com/@omerxx"
-translator: "郭旭东"
-translatorlink: "https://github.com/sunny0826"
-originallink: "https://medium.com/prodopsio/an-8-minute-introduction-to-k8s-94fda1fa5184"
 summary: "8分钟快速了解 Kubernetes 基本概念，快速入门 K8S。"
 tags: ["翻译", "kubernetes"]
 categories: ["翻译"]
-keywords: ["翻译", "kubernetes"]
-image: "https://tva2.sinaimg.cn/large/ad5fbf65ly1ge3ic1v5x3j20xc0m87ci.jpg"
+image: https://tva2.sinaimg.cn/large/ad5fbf65ly1ge3ic1v5x3j20xc0m87ci.jpg
 ---
-> 读完 [Kubernetes: Up and Running](https://www.amazon.com/Kubernetes-Running-Dive-Future-Infrastructure/dp/1491935677) 后，我写下了这篇文章。旨在为那些认为文章 [TL;DR](https://blog.maoxianplay.com/posts/cant/) 的人进行一些总结，这同时也是一种强迫自己检查所阅读内容的好方法。
+> 读完 [Kubernetes: Up and Running](https://www.amazon.com/Kubernetes-Running-Dive-Future-Infrastructure/dp/1491935677) 后，我写下了这篇文章。旨在为那些认为文章 [TL;DR](https://guoxudong.io/post/cant/) 的人进行一些总结，这同时也是一种强迫自己检查所阅读内容的好方法。
 
 基于 Google [Borg](https://kubernetes.io/blog/2015/04/borg-predecessor-to-kubernetes/) 的开源系统 K8S( Kubernetes ) 是一个非常强大的容器编排调度系统。 其整个生态系统，包括：工具，模块，附加组件等，都是使用 Golang 语言编写的，这使得 K8S 及其周边生态系统基本上是面向 API 对象、运行速度非常快的二进制文件的集合，并且这些二进制文件都有很好的文档记录，易于编写和构建应用程序。
 
@@ -66,10 +60,10 @@ K8S 核心团队考察了绝大多数需要使用编排系统的应用程序。�
 
 ### 9. ConfigMaps & Secrets
 
-如果您还不熟悉 [Twelve-Factor App manifest](https://12factor.net/) 《[十二要素应用](../12-factor)》 ，可以点击链接了解一下。现代应用程序的一个关键概念是无环境，可通过注入的环境变量进行配置。应用程序应完全与其所在位置无关。**ConfigMaps** 在 K8S 中实现这一重要概念。其本质上是环境变量的 key-value 列表，这些变量被传递给正在运行的工作负载以确定不同的 runtime 行为。
+如果您还不熟悉 [Twelve-Factor App manifest](https://12factor.net/) 《十二要素应用》 ，可以点击链接了解一下。现代应用程序的一个关键概念是无环境，可通过注入的环境变量进行配置。应用程序应完全与其所在位置无关。**ConfigMaps** 在 K8S 中实现这一重要概念。其本质上是环境变量的 key-value 列表，这些变量被传递给正在运行的工作负载以确定不同的 runtime 行为。
 
 **Secrets** 与 **ConfigMaps** 类似，通过加密的方式防止密钥、密码、证书等敏感信息泄漏。
-
+<!-- markdown-link-check-disable-next-line -->
 > 我个人认为在任何系统上使用密码的最佳选择是 Hashicorp 的 Vault 。请务必阅读我去年写的关于它的[文章](https://medium.com/prodopsio/security-for-dummies-protecting-application-secrets-made-easy-5ef3f8b748f7)，关于 Vault 可以为你的产品提供的功能，以及我的一位同事写的另一篇更具技术性的[文章](https://medium.com/prodopsio/taking-your-hashicorp-vault-to-the-next-level-8549e7988b24）。
 
 ### 10. Deployments

@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "熟悉又陌生的 k8s 字段：SecurityContext"
 subtitle: ""
 summary: "pod 和 containers 中熟悉又陌生的字段 SecurityContext"
@@ -11,7 +9,7 @@ date: 2020-11-04T11:54:04+08:00
 lastmod: 2020-11-04T11:54:04+08:00
 draft: false
 type: blog
-image: "https://tva2.sinaimg.cn/large/ad5fbf65ly1gkd7ceh6r0j21qi15otga.jpg"
+image: https://tva2.sinaimg.cn/large/ad5fbf65ly1gkd7ceh6r0j21qi15otga.jpg
 ---
 ## 前言
 

@@ -5,12 +5,9 @@ draft: false
 type: blog
 tags: ["kubernetes"]
 categories: ["kubernetes"]
-banner: "http://tva2.sinaimg.cn/large/ad5fbf65ly1g0t1e34opvj21qi15owjf.jpg"
 authors: ["guoxudong"]
-authorlink: "https://github.com/sunny0826"
 summary: "随着2017年AWS，Azure和阿里云相继在其原有容器服务上新增了对kubernetes的支持，而Docker官网也在同年10月宣布同时支持Swarm好kubernetes容器编排系统。kubernetes俨然已成为容器编排领域事实上的标准，而2018年更是各大公司相继将服务迁移到kubernetes上，而kubernetes则以惊人更新速度，保持着每个季度发布一个大版本的速度高速发展着。"
-keywords: ["容器", "kubernetes"]
-image: "https://tvax2.sinaimg.cn/large/ad5fbf65ly1ge3ivbmskjj21qi15owjf.jpg"
+image: https://tvax2.sinaimg.cn/large/ad5fbf65ly1ge3ivbmskjj21qi15owjf.jpg
 
 ---
 >随着2017年AWS，Azure和阿里云相继在其原有容器服务上新增了对kubernetes的支持，而Docker官网也在同年10月宣布同时支持Swarm好kubernetes容器编排系统。kubernetes俨然已成为容器编排领域事实上的标准，而2018年更是各大公司相继将服务迁移到kubernetes上，而kubernetes则以惊人更新速度，保持着每个季度发布一个大版本的速度高速发展着。
@@ -22,7 +19,6 @@ kubernetes是一种在一组主机上运行和协同容器化应用程序的系�
 # kubernetes组件及网络通信
 
 kubernetes集群的客户端可以分为两类：API Server客户端和应用程序（运行为Pod中的容器）客户端。
-![image](/images/source/kubernetes-topo.png)
 
 * 第一类客户端通常包含用户和Pod对象两种，它们通过API Server访问kubernetes集群完成管理任务，例如，管理集群上的各种资源对象。
 * 第二类客户端一般也包含人类用户和Pod对象两种，它们的访问目标是Pod上运行于容器中的应用程序提供的各种具体的服务，如redis或nginx等，不过，这些访问请求通常要经由Service或Ingress资源对象进行。另外，第二类客户端的访问目标对象的操作要经由第一类客户端创建和配置完成后才进行。

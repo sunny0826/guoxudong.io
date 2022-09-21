@@ -8,14 +8,14 @@ date: 2022-02-28T16:45:07+08:00
 lastmod: 2022-02-28T16:45:07+08:00
 draft: false
 type: blog
-image: "https://tvax1.sinaimg.cn/large/ad5fbf65gy1gqupsoso0bj20zk0f4q3w.jpg"
+image: https://tvax1.sinaimg.cn/large/ad5fbf65gy1gqupsoso0bj20zk0f4q3w.jpg
 ---
 ## 前言
 
 在使用 GitLab 时，创建 Issue 和 Merge Request 的方法，除了常规的使用 GitLab Web UI 进行操作和通过 API 调用操作，还有一些比较好玩的，比如使用 Email 来创建。
 
 ## Incoming email
-
+<!-- markdown-link-check-disable-next-line -->
 如果是 Self-Manager 的 GitLab 用户，在使用前需要配置，具体的配置方法和要求详见[官方文档](https://docs.gitlab.com/ee/administration/incoming_email.html#incoming-email)。本文采用[极狐 GitLab SaaS 平台](https://jihulab.com/)进行展示。
 
 ### New Issue by email

@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "Kubernetes 中优化流量和安全性需要注意的7点要求"
 subtitle: ""
 summary: "翻译【7 Requirements for Optimized Traffic Flow and Security in Kubernetes】"
@@ -12,19 +10,14 @@ lastmod: 2020-02-18T14:15:42+08:00
 featured: false
 draft: false
 type: blog
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image: "https://tva2.sinaimg.cn/large/ad5fbf65ly1ge3i18tkb7j20sg0iyjui.jpg"
-projects: []
+image: https://tva2.sinaimg.cn/large/ad5fbf65ly1ge3i18tkb7j20sg0iyjui.jpg
 ---
 
 根据 [Portworx 在2018年进行的一项调查](https://portworx.com/wp-content/uploads/2018/12/Portworx-Container-Adoption-Survey-Report-2018.pdf)，五分之四的企业现在正在使用容器，其中83％的企业正在生产环境中使用。而这个数字在2017年只有67％，很明显，容器不仅仅是一种时尚。
 
 但是，随着容器的流行，一些公司开始在 Kubernetes 内建立有效的流量控制和安全策略。
 
-作为容器调度和集群管理平台，Kubernetes 致力于提供出色的基础架构，因此被无数公司采用。它刚刚开源五周年，最近在福布斯发表的一篇名为[《Kubernetes “the most popular open source project of our times”》](https://www.forbes.com/sites/janakirammsv/2019/05/25/5-exciting-facts-about-kubernetes-on-the-eve-of-its-5th-anniversary/#87a930c3e736)的文章表示，Kubernetes 已被 Capital One，ING Group，Philips，VMware 和 Huawei 等公司使用。
+作为容器调度和集群管理平台，Kubernetes 致力于提供出色的基础架构，因此被无数公司采用。它刚刚开源五周年，最近在福布斯发表的一篇名为[《Kubernetes “the most popular open source project of our times”》](https://www.forbes.com/sites/janakirammsv/2019/05/25/5-exciting-facts-about-kubernetes-on-the-eve-of-its-5th-anniversary)的文章表示，Kubernetes 已被 Capital One，ING Group，Philips，VMware 和 Huawei 等公司使用。
 
 对于使用微服务架构（MSA）开发来应用程序的公司来说，Kubernetes 具有许多优势，特别是在应用程序部署方面。
 

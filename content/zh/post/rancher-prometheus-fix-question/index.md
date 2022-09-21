@@ -3,15 +3,11 @@ title: "Rancher 2.2.1 解决工作负载监控为空问题"
 date: 2019-04-18T17:46:08+08:00
 draft: false
 type: blog
-banner: "http://tva2.sinaimg.cn/large/ad5fbf65gy1g26yrcsxvhj21qx15owo8.jpg"
 authors: ["guoxudong"]
-authorlink: "https://github.com/sunny0826"
 summary: "记一次在 Rancher 官方小哥帮助下解决 Rancher 问题的过程。"
 tags: ["rancher","kubernetes","prometheus"]
 categories: ["问题解决"]
-keywords: ["rancher","kubernetes","prometheus"]
-image: "https://tvax4.sinaimg.cn/large/ad5fbf65ly1ge3jaudev1j21qx15owo8.jpg"
-
+image: https://tvax4.sinaimg.cn/large/ad5fbf65ly1ge3jaudev1j21qx15owo8.jpg
 ---
 ## 前言
 

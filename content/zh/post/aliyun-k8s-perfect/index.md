@@ -3,14 +3,11 @@ title: "阿里云容器服务新建集群优化方案(更新版)"
 date: 2019-04-25T22:26:06+08:00
 draft: false
 type: blog
-banner: "https://tva2.sinaimg.cn/large/ad5fbf65gy1g1ltc0evxsj20rs0ijq4s.jpg"
 authors: ["guoxudong"]
-authorlink: "https://github.com/sunny0826"
 summary: "这里记录了在工作中遇到阿里云容器服务的调优优化方案，帮助您绕过阿里云容器服务中的一些坑，来使用更好更优质的阿里云容器服务。"
 tags: ["阿里云","kubernetes","容器"]
 categories: ["kubernetes"]
-keywords: ["阿里云","kubernetes","容器"]
-image: "https://tvax2.sinaimg.cn/large/ad5fbf65ly1ge3i87o5kgj20rs0ijq4s.jpg"
+image: https://tvax2.sinaimg.cn/large/ad5fbf65ly1ge3i87o5kgj20rs0ijq4s.jpg
 ---
 ## 前言
 

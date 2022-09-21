@@ -1,8 +1,42 @@
 {
+    "ignorePatterns": [
+		{
+			"pattern": "^https://www.YourDomainName.com"
+		},
+        {
+            "pattern": "^https://gitlab.com/-/profile/preferences"
+        },
+        {
+            "pattern": "^http://flaskapp/env/version"
+        },
+        {
+            "pattern": "^http://weibo.com"
+        },
+        {
+          "pattern": "^http://jh.gxd"
+        },
+        {
+          "pattern": "^file:"
+        },
+        {
+          "pattern": "^https://www.katacoda.com"
+        },
+        {
+          "pattern": "^https://katacoda.com"
+        }
+	],
     "replacementPatterns": [
       {
         "pattern": "^&quot;",
         "replacement": ""
+      },
+      {
+        "pattern": "^&#39;",
+        "replacement": ""
+      },
+      {
+        "pattern": "^./",
+        "replacement": "https://guoxudong.io/post/"
       }
     ],
     "httpHeaders": [
@@ -13,8 +47,12 @@
         }
       }
     ],
+    "timeout": "20s",
+    "retryCount": 5,
+    "fallbackRetryDelay": "30s",
     "aliveStatusCodes": [
         200, 
-        206
+        206,
+        0
     ]
   }

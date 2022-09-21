@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "试用阿里网盘内测版-不限速、无广告、隐私安全我全都要"
 subtitle: ""
 summary: "阿里 Teambition 网盘体验实录"
@@ -11,7 +9,7 @@ date: 2020-11-02T09:26:27+08:00
 lastmod: 2020-11-02T09:26:27+08:00
 draft: false
 type: blog
-image: "https://tvax2.sinaimg.cn/large/ad5fbf65gy1gkatai1vr8j20gq07wn0f.jpg"
+image: https://tvax2.sinaimg.cn/large/ad5fbf65gy1gkatai1vr8j20gq07wn0f.jpg
 ---
 ## 前言
 

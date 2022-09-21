@@ -3,14 +3,10 @@ title: "单节点版rancher升级指南"
 date: 2019-03-31T11:15:35+08:00
 draft: false
 type: blog
-banner: "http://tva2.sinaimg.cn/large/ad5fbf65gy1g1lzzx3n3fj20k00m2gpd.jpg"
-authors: ["guoxudong"]
-authorlink: "https://github.com/sunny0826"
 summary: "Rancher 不仅可以在任何云提供商的任何地方部署 Kubernetes 集群，而且还将它们集中在集中式的身份验证和访问控制之下。由于它与资源的运行位置无关，因此您可以轻松地在不同的环境部署你的 kubernetes 集群并操作他们。 Rancher 不是将部署几个独立的 Kubernetes 集群，而是将它们统一为一个单独的托管Kubernetes Cloud。"
 tags: ["rancher","容器","kubernetes"]
 categories: ["部署安装"]
-keywords: ["rancher","容器","kubernetes"]
-image: "https://tvax3.sinaimg.cn/large/ad5fbf65ly1ge3jb8zw5hj20k00m27bc.jpg"
+image: https://tvax3.sinaimg.cn/large/ad5fbf65ly1ge3jb8zw5hj20k00m27bc.jpg
 
 ---
 > Rancher 不仅可以在任何云提供商的任何地方部署 Kubernetes 集群，而且还将它们集中在集中式的身份验证和访问控制之下。由于它与资源的运行位置无关，因此您可以轻松地在不同的环境部署你的 kubernetes 集群并操作他们。 Rancher 不是将部署几个独立的 Kubernetes 集群，而是将它们统一为一个单独的托管Kubernetes Cloud。
@@ -20,7 +16,7 @@ image: "https://tvax3.sinaimg.cn/large/ad5fbf65ly1ge3jb8zw5hj20k00m27bc.jpg"
 
 ## 升级前的准备
 - 首先查看当前 rancher 版本，记下这个版本号后面需要使用。查看方式就是登陆 rancher 在左下角就可以看到当前版本号，我们这里使用的```v2.1.1```版本。
-- 打开官方文档，这里推荐对照官方文档进行升级，一般官方文档都会及时更新并提供最佳升级方法，而一般的博客会因为其写作时间、使用版本、部署环境的不同有所偏差。官方文档： https://www.cnrancher.com/docs/rancher/v2.x/cn/upgrades/single-node-upgrade/
+- 打开官方文档，这里推荐对照官方文档进行升级，一般官方文档都会及时更新并提供最佳升级方法，而一般的博客会因为其写作时间、使用版本、部署环境的不同有所偏差。
 
 ## 升级
 1. 首先获取正在运行的 rancher 容器 ID,由以下命令可知 ```RANCHER_CONTAINER_ID``` 为 ```83167cb60134```

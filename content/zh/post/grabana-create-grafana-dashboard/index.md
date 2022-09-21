@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "Grabana：使用 Golang 或 Yaml 生成 Grafana Dashboard"
 subtitle: ""
 summary: "使用 Golang 或 Yaml 生成 Grafana Dashboard"
@@ -11,7 +9,7 @@ date: 2020-08-26T09:35:23+08:00
 lastmod: 2020-08-26T09:35:23+08:00
 draft: false
 type: blog
-image: "https://tva4.sinaimg.cn/large/ad5fbf65gy1gi48o1j7l6j21he0tydq9.jpg"
+image: https://tva4.sinaimg.cn/large/ad5fbf65gy1gi48o1j7l6j21he0tydq9.jpg
 ---
 ## 前言
 
@@ -80,7 +78,7 @@ if _, err := client.UpsertDashboard(ctx, folder, builder); err != nil {
 }
 ```
 
-当然官方还提供了一个比较完整的 [example](https://github.com/K-Phoen/grabana/blob/master/cmd/example)，直接使用 `go run main.go` 即可体验一键创建 Dashboard。
+当然官方还提供了一个比较完整的 example，直接使用 `go run main.go` 即可体验一键创建 Dashboard。
 
 ### Dashboard as YAML
 
@@ -146,7 +144,7 @@ if _, err := client.UpsertDashboard(ctx, folder, dashboard); err != nil {
 }
 ```
 
-同样也可以找到比较完整的 [example](https://github.com/K-Phoen/grabana/tree/master/cmd/yaml)，这些示例都可以在官方 GitHub 仓库中找到，有兴趣的同学可以看一下。
+同样也可以找到比较完整的 example，这些示例都可以在官方 GitHub 仓库中找到，有兴趣的同学可以看一下。
 
 ## 结语
 

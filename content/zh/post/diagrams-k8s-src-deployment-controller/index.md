@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "图解 K8S 源码 - Deployment Controller 篇"
 subtitle: ""
 summary: "两张图帮你了解 Deployment Controller 源码"
@@ -11,7 +9,7 @@ date: 2020-09-28T15:00:38+08:00
 lastmod: 2020-09-28T15:00:38+08:00
 draft: false
 type: blog
-image: "https://tvax2.sinaimg.cn/large/ad5fbf65gy1gj6tgx26vzj20rs0iqwii.jpg"
+image: https://tvax2.sinaimg.cn/large/ad5fbf65gy1gj6tgx26vzj20rs0iqwii.jpg
 ---
 ## 前言
 

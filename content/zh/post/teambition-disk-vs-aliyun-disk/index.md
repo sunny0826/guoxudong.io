@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "Teambition 网盘 VS 阿里云盘：阿里这个浓眉大眼的也开始玩赛马了？"
 subtitle: ""
 summary: "对比 Teambition 网盘与阿里云盘"
@@ -11,7 +9,7 @@ date: 2020-11-11T11:23:40+08:00
 lastmod: 2020-11-11T11:23:40+08:00
 draft: false
 type: blog
-image: "https://tva4.sinaimg.cn/large/ad5fbf65ly1gkl9o8fa9bj20r80ku12t.jpg"
+image: https://tva4.sinaimg.cn/large/ad5fbf65ly1gkl9o8fa9bj20r80ku12t.jpg
 ---
 ## 前言
 

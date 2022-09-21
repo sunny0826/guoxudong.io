@@ -3,17 +3,11 @@ title: "如何构建混合Kubernetes平台"
 date: 2019-08-06T14:01:30+08:00
 draft: false
 type: blog
-banner: "https://tva2.sinaimg.cn/large/ad5fbf65gy1g5q0b3o8laj20jg06sq36.jpg"
 author: "David Donchez"
-authorlink: "https://medium.com/@david.donchez"
-translator: "郭旭东"
-translatorlink: "https://github.com/sunny0826"
-originallink: "https://medium.com/dailymotion/how-we-built-our-hybrid-kubernetes-platform-d121ea9cb0bc"
 summary: "随着3年前重构 Dailymotion 核心API的决定，我们希望提供一种更有效的方式来托管应用程序，促进我们的开发和生产工作流程。 最终决定使用容器编排平台来实现这一目标，那么自然就选择了 Kubernetes。"
 tags: ["翻译","kubernetes"]
 categories: ["翻译"]
-keywords: ["翻译","kubernetes"]
-image: "https://tva2.sinaimg.cn/large/ad5fbf65ly1ge3ijjy5q6j20jg06sq36.jpg"
+image: https://tva2.sinaimg.cn/large/ad5fbf65ly1ge3ijjy5q6j20jg06sq36.jpg
 
 ---
 
@@ -77,7 +71,7 @@ Dailymotion 多年来在全球拥有自己的内容分发网络，每月有超�
 
 在我们的设计中，我们决定在专用的 10Gbps 刀片服务器上托管我们的控制器。每个控制器都插入其所属集群的 kube-apiserver 端点。在这些服务器上，我们还使用Exabgp来广播公共或私有IP。我们的网络拓扑允许我们使用来自这些控制器的BGP将所有流量直接路由到我们的pod，而无需使用NodePort服务类型。这样可以避免节点之间的水平流量，从而提高效率。
 
-![](https://ws3.sinaimg.cn/large/ad5fbf65gy1g5q05ex27bj20in0fbt9q.jpg)
+![](https://tva2.sinaimg.cn/large/ad5fbf65gy1g5q05ex27bj20in0fbt9q.jpg)
 <center>从 Internet 到 pods 的流量</center>
 
 现在我们已经看到了我们如何构建混合平台，我们可以深入了解流量迁移本身。

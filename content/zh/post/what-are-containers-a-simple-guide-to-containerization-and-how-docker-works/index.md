@@ -3,14 +3,11 @@ title: "什么的容器？Docker 工作原理及容器化简易指南"
 date: 2019-04-20T19:54:50+08:00
 draft: false
 type: blog
-banner: "http://tva2.sinaimg.cn/large/ad5fbf65gy1g2adn11fe3j20rs0ijju6.jpg"
 authors: ["guoxudong"]
-authorlink: "https://github.com/sunny0826"
 summary: "Docker 非常棒！ 它使软件开发者无需担心配置和依赖性，在任何地方打包，发送和运行他们的应用程序。而在与 kubernetes 相结合后，它使应用集群部署和管理变得更方便。这使得 Docker 深受软件开发者的喜爱，越来越多的开发者开始使用 Docker。"
 tags: ["翻译","Docker","容器"]
 categories: ["翻译"]
-keywords: ["翻译","Docker","容器"]
-image: "https://tva3.sinaimg.cn/large/ad5fbf65ly1ge3jdcoeujj20rs0ijju6.jpg"
+image: https://tva3.sinaimg.cn/large/ad5fbf65ly1ge3jdcoeujj20rs0ijju6.jpg
 
 ---
 **Docker 非常棒！** 它使软件开发者无需担心配置和依赖性，在任何地方打包，发送和运行他们的应用程序。而在与 kubernetes 相结合后，它使应用集群部署和管理变得更方便。这使得 Docker 深受软件开发者的喜爱，越来越多的开发者开始使用 Docker。
@@ -42,7 +39,7 @@ image: "https://tva3.sinaimg.cn/large/ad5fbf65ly1ge3jdcoeujj20rs0ijju6.jpg"
 
 让我们利用目前为止学到的所有内容，从头开始创建和运行 Docker 容器。如果你还没有将 Docker 安装在你的机器上，可以参考[这里](https://docs.docker.com/install/)安装 Docker 。在这个示例中，我们将创建一个 Docker 容器，下载一个用 C语言 写的 Web 服务，编译并运行它，然后使用浏览器访问这个 Web 服务。
 
-我们将从所有 Docker 项目开始的地方：创建一个 ```Dockerfile``` 开始。此文件描述了如何创建用于运行容器的 docker 镜像。既然我们还没有聊到镜像，那么让我们看一下[镜像的官方定义](https://docs.docker.com/get-started/#images-and-containers)：
+我们将从所有 Docker 项目开始的地方：创建一个 ```Dockerfile``` 开始。此文件描述了如何创建用于运行容器的 docker 镜像。既然我们还没有聊到镜像，那么让我们看一下[镜像的官方定义](https://docs.docker.com/get-started)：
 
 > 镜像是一个可执行包，其包含运行应用程序所需的代码、运行时、库、环境变量和配置文件，容器是镜像的运行时实例。
 
@@ -119,6 +116,6 @@ umermansoor:dockerprj$ docker run -p 8082:8082 codeahoydocker:latest
 
 希望上面这些内容有用。
 
-> 这篇文章由 [Umer Mansoor](https://www.linkedin.com/in/umansoor) 撰写，可以在 [Facebook](https://www.facebook.com/codeahoy) 或 [Twitter](https://twitter.com/codeahoy) 上关注并留下评论。
+> 这篇文章由 Umer Mansoor 撰写，可以在 [Facebook](https://www.facebook.com/codeahoy) 或 [Twitter](https://twitter.com/codeahoy) 上关注并留下评论。
 
 原文地址： https://codeahoy.com/2019/04/12/what-are-containers-a-simple-guide-to-containerization-and-how-docker-works/

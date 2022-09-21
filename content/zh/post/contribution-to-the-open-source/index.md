@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "如何参与开源项目"
 subtitle: ""
 summary: "本文根据作者参与开源项目的经验，介绍了如何参与到开源项目中贡献自己的力量。"
@@ -12,19 +10,7 @@ lastmod: 2020-05-20T11:12:59+08:00
 featured: false
 draft: false
 type: blog
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image: "https://tva1.sinaimg.cn/large/ad5fbf65gy1gf12hx32qgj20m40bmq2z.jpg"
-
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
+image: https://tva1.sinaimg.cn/large/ad5fbf65gy1gf12hx32qgj20m40bmq2z.jpg
 ---
 ## 前言
 

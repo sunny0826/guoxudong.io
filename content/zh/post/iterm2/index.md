@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "使用 iTerm2 打造美观高效的 Mac 终端"
 subtitle: ""
 summary: "快速配置 Iterm2 + oh my zsh + powerlevel10k"
@@ -11,7 +9,7 @@ date: 2021-01-04T14:14:02+08:00
 lastmod: 2021-01-04T14:14:02+08:00
 draft: false
 type: blog
-image: "https://tva4.sinaimg.cn/large/ad5fbf65gy1gmbpun02u3j20rs0ik0tn.jpg"
+image: https://tva4.sinaimg.cn/large/ad5fbf65gy1gmbpun02u3j20rs0ik0tn.jpg
 ---
 ## 前言
 

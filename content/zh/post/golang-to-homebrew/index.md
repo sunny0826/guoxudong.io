@@ -3,17 +3,11 @@ title: "Golang 装逼指南 Ⅱ：在 Homwebrew 上发布 Golang 项目"
 date: 2019-07-25T16:27:57+08:00
 draft: false
 type: blog
-banner: "https://tva2.sinaimg.cn/large/ad5fbf65gy1g5c8gzc1gwj21qi15otcf.jpg"
 authors: ["guoxudong"]
-authorlink: "https://github.com/sunny0826"
-# translator: "郭旭东"
-# translatorlink: "https://github.com/sunny0826"
-# originallink: ""
 summary: "本文介绍如何在 Homebrew 上发布 Golang 项目。"
 tags: ["go"]
 categories: ["go"]
-keywords: ["go","golang","homebrew"]
-image: "https://tvax2.sinaimg.cn/large/ad5fbf65ly1ge3ij34c4wj21qi15otcf.jpg"
+image: https://tvax2.sinaimg.cn/large/ad5fbf65ly1ge3ij34c4wj21qi15otcf.jpg
 
 ---
 

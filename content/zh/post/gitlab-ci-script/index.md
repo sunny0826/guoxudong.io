@@ -8,14 +8,14 @@ date: 2022-06-14T15:36:48+08:00
 lastmod: 2022-06-14T15:36:48+08:00
 draft: false
 type: blog
-image: "https://tvax1.sinaimg.cn/large/ad5fbf65gy1gqupsoso0bj20zk0f4q3w.jpg"
+image: https://tvax1.sinaimg.cn/large/ad5fbf65gy1gqupsoso0bj20zk0f4q3w.jpg
 ---
 ## 前言
 
 在 GItLab CI 中 `script` 是最常用的关键字，用于指定 Runner 要执行的命令，同时也是除了 [trigger](https://docs.gitlab.cn/jh/ci/yaml/index.html#trigger) 之外所有 Job 都必须包含一个关键字。本文就来介绍 `script` 关键字的一些实用技巧，帮助您快速、高效地玩转 GItLab CI。
 
 ## 拆分长命令
-
+<!-- markdown-link-check-disable-next-line -->
 这个也是在日常工作中最常遇到的场景，在一个 `script` 中要执行多个命令而又无法使用 array `-` 的方式（如：需要执行一个 for 循环），这时就可以使用 `|` 和 `>` 将长命令拆分为多行命令以提高可读性。
 
 使用 `|` 在 `script` 中每行将被视为一个单独的命令，在日志中只是打印第一行的命令，但后续的命令仍会正常执行。
@@ -188,7 +188,7 @@ job:
 还有这些符号在使用时也需要小心：
 
 - `{`、`}`、`[`、`]`、`,`、`&`、`*`、`#`、`?`、`|`、`-`、`<`、`>`、`=`、`!`、`%`、`@`、`` ` ``
-
+<!-- markdown-link-check-disable-next-line -->
 GItLab 提供了 [CI Lint](https://docs.gitlab.cn/jh/ci/lint.html) 工具来验证语法是否有效，这个工具在调试 `.gitlab-ci.yml` 时非常好用。
 
 ## 结语

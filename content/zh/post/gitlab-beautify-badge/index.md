@@ -8,10 +8,10 @@ date: 2022-05-26T16:13:31+08:00
 lastmod: 2022-05-26T16:13:31+08:00
 draft: false
 type: blog
-image: "https://tvax1.sinaimg.cn/large/ad5fbf65gy1gqupsoso0bj20zk0f4q3w.jpg"
+image: https://tvax1.sinaimg.cn/large/ad5fbf65gy1gqupsoso0bj20zk0f4q3w.jpg
 ---
 ## 前言
-
+<!-- markdown-link-check-disable -->
 在前一篇文章 [《GitLab 冷知识：如何美化 issue 内容》](../gitlab-beautify-issue/#自定义-badge) 中就有介绍**自定义 Badge**的使用方式。实际上 GitLab 本身就提供了一些实用的 Badge 以及专门的 Badge 展示位置和配置，本文就介绍一些 GitLab 自带 Badge 的使用以及一些 Badge 的妙用。
 
 ## Badge 设置
@@ -82,3 +82,4 @@ Badge：
 ## 结语
 
 Badge 在实际生产活动中用处不大，但对于开源项目却有着不同的效果，它可以帮助新成员和维护者快速了解到一些关键信息，同时也有一些美化文档的作用，推荐感兴趣的朋友在自己的开源项目中使用。
+<!-- markdown-link-check-enable -->

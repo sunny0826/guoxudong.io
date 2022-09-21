@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "Kubecm：管理你的 kubeconfig"
 subtitle: "帮助你管理杂乱无章的 kubeconfig"
 summary: "介绍一款小工具：kubecm，帮助你管理杂乱无章的 kubeconfig。 "
@@ -12,13 +10,7 @@ lastmod: 2019-12-09T10:07:46+08:00
 featured: false
 draft: false
 type: blog
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image: "https://tva1.sinaimg.cn/large/ad5fbf65ly1ge3ixa9p7oj21ae0sekjm.jpg"
-
-
+image: https://tva1.sinaimg.cn/large/ad5fbf65ly1ge3ixa9p7oj21ae0sekjm.jpg
 ---
 ## 前言
 
