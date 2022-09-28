@@ -62,7 +62,7 @@ image: https://tvax1.sinaimg.cn/large/ad5fbf65gy1gp0qzp2tq5j20p00anwgo.jpg
 
 ![](https://tvax4.sinaimg.cn/large/ad5fbf65gy1gp0lqc78h3j20zl0k075j.jpg)
 
-图片来源：[Open Source Licenses in 2021: Trends and Predictions](https://resources.whitesourcesoftware.com/blog-whitesource/open-source-licenses-trends-and-predictions)
+图片来源：[Open Source Licenses in 2021: Trends and Predictions](https://www.mend.io/resources/blog/open-source-licenses-trends-and-predictions/)
 
 另外再附上一张网上流传很广的图，可以更直观的了解如何选择开源许可证：
 
