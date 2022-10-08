@@ -20,7 +20,7 @@ image: https://tva1.sinaimg.cn/large/ad5fbf65gy1gfgdamuzm1j212t0lq46x.jpg
 
 ## 什么是混沌工程
 
-根据[混沌工程原则（PRINCIPLES OF CHAOS ENGINEERING）](https://principlesofchaos.org)：**混沌工程是在分布式系统上进行实验的学科, 目的是建立对系统抵御生产环境中失控条件的能力以及信心。**
+根据混沌工程原则（PRINCIPLES OF CHAOS ENGINEERING）：**混沌工程是在分布式系统上进行实验的学科, 目的是建立对系统抵御生产环境中失控条件的能力以及信心。**
 
 大规模分布式软件系统的发展正在改变软件工程。作为一个行业，我们很快就采用了提高开发灵活性和部署速度的实践。但伴随着这些优点，一个迫切问题出现了，那就是：我们对投入生产的复杂系统有多少信心？
 
