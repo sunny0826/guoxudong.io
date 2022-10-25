@@ -18,7 +18,7 @@ image: https://tvax1.sinaimg.cn/large/ad5fbf65gy1gqupsoso0bj20zk0f4q3w.jpg
 
 在开始之前，有一些预备知识需要介绍，这些知识也会帮您进一步掌握 GItLab CI 的使用技巧。
 
-### `incloud` 关键字
+### `include` 关键字
 
 使用 `include` 在 CI/CD 配置中 import 外部 YAML 文件。您可以将一个长的 `.gitlab-ci.yml` 文件拆分为多个文件以提高可读性，或减少同一配置在多个位置的重复。
 
