@@ -1,5 +1,5 @@
 ---
-title: "在 GitLab Issue 中和 ChatGPT 聊天"
+title: "将 ChatGPT 接入 GitLab Issue"
 summary: "无需外网服务器与翻墙，即可在 GitLab Issue 中与 ChatGPT 畅聊"
 authors: ["guoxudong"]
 tags: ["GitLab", "ChatGPT"]
@@ -8,7 +8,7 @@ date: 2022-12-13T08:55:02+08:00
 lastmod: 2022-12-13T08:55:02+08:00
 draft: false
 type: blog
-image: "https://tvax1.sinaimg.cn/large/ad5fbf65gy1gqupsoso0bj20zk0f4q3w.jpg"
+image: "https://tva2.sinaimg.cn/large/ad5fbf65gy1h922ztce3yj20p00anwkv.jpg"
 ---
 ## 前言
 
