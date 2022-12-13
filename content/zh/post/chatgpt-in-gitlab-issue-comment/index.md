@@ -12,6 +12,7 @@ image: "https://tvax1.sinaimg.cn/large/ad5fbf65gy1gqupsoso0bj20zk0f4q3w.jpg"
 ---
 ## 前言
 
+<!-- markdown-link-check-disable-next-line -->
 最近 [ChatGPT](https://chat.openai.com/chat) 着实是火了一把，一时间各种问题与回答充满整个朋友圈，大家玩的不亦乐乎。但由于网络的限制，很多人并不能注册和访问 OpenAI 网站，但这么好玩的东西我们怎么错过呢？本文就介绍一种在 GitLab Issue 中与 ChatGPT 聊天的方式，无需顾虑网络问题即可与 ChatGPT 畅聊！
 
 ## 预先准备
@@ -25,7 +26,8 @@ image: "https://tvax1.sinaimg.cn/large/ad5fbf65gy1gqupsoso0bj20zk0f4q3w.jpg"
 - 注册 [gitlab.com](https://gitlab.com) 账号
 - 注册 [openai](https://openai.com) 账号
 
-> Tips：如果您希望使用 `Self-Manager`(自部署)版或者 `jihulab.com`，那么请确保您的 GitLab Runner 能正常访问到 https://api.openai.com。
+<!-- markdown-link-check-disable-next-line -->
+> Tips：如果您希望使用 `Self-Manager`(自部署)版或者 `jihulab.com`，那么请确保您的 GitLab Runner 能正常访问到 https://api.openai.com
 
 具体的注册方法我就不再赘述了，已经有很多文章在介绍如何注册了。
 
@@ -79,6 +81,7 @@ image: "https://tvax1.sinaimg.cn/large/ad5fbf65gy1gqupsoso0bj20zk0f4q3w.jpg"
 
 ### 获取 GitLab Access Token
 
+<!-- markdown-link-check-disable-next-line -->
 访问 https://gitlab.com/-/profile/personal_access_tokens 生成一个 access token 用于调用 GitLab API。
 
 这里需要勾选 `api`。
@@ -110,6 +113,6 @@ job:
 
 ## Let's Chat
 
-现在我们就可以在 Issue 中使用 comment 进行聊天了！开始我们开始快乐的聊天吧。本项目使用的源码均已上传，有兴趣的同学可以自行查看: https://gitlab.com/guoxudong.io/chatgpt-in-issue。
+现在我们就可以在 Issue 中使用 comment 进行聊天了！开始我们开始快乐的聊天吧。本项目使用的源码均已上传，有兴趣的同学可以自行查看: https://gitlab.com/guoxudong.io/chatgpt-in-issue 。
 
 ![chat with chagpt](https://tva1.sinaimg.cn/large/ad5fbf65gy1h921o7czs9j21lq0no7aa.jpg)
