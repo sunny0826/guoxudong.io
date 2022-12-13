@@ -30,7 +30,7 @@ GitLab 提供了非常丰富事件以及 Webhook，这项功能常被用于与�
 
 ### 配置 Webhook
 
- **设置** -> **Webhooks** -> 选择想要触发 Webhook 的事件进行勾选
+**设置** -> **Webhooks** -> 选择想要触发 Webhook 的事件进行勾选
 
 在 **URL** 中插入： `https://GITLAB_HOST/api/v4/projects/PROJECT_ID/ref/REF_NAME/trigger/pipeline?token=TOKEN`
 
