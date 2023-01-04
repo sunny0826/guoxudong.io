@@ -105,7 +105,7 @@ Events:
 下载到 `~/airgap` 目录中，并进行解压，将解压后的目录重命名为 `1.17.2`。
 
 ### 运行离线镜像
-
+<!-- markdown-link-check-disable-next-line -->
 这里再次运行 k3d，部署 k3s 集群。这里要注意的是，挂载离线镜像的话，必须使用 `-i` flag 来指定镜像版本，这里我们使用的是 [v1.17.2+k3s1](https://github.com/rancher/k3s/releases/tag/v1.17.2%2Bk3s1) 版本，而镜像的 tag 则是 `v1.17.2-k3s1`，如果不确定 tag，可以去 [DockerHub](https://hub.docker.com/r/rancher/k3s/tags) 上查看。
 
 ```go

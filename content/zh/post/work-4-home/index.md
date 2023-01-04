@@ -103,10 +103,6 @@ image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3jeoclz5j20yb0h9tfn.j
 
 到达园区之后，尽量走楼梯，不要乘电梯。
 
-![走楼梯](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gbrcy6k5cxg20dc07i0y1.gif)
-
-<center>照片提供人：@王沛</center>
-
 ### 办公室内
 
 {{% alert warning %}}
