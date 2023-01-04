@@ -7,7 +7,7 @@ authors: ["guoxudong"]
 summary: "本篇为系列文章第三篇，使用 jenkins 发布一个简单的使用 flask 写的 web 项目，来演示在 CI/CD 流程中 Kustomize 的简单使用。"
 tags: ["kubernetes", "kustomize", "工具"]
 categories: ["kustomize"]
-image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3j5cgy7cj21qi15o7bb.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g2ji8i9dx3j20xc0m87ci.jpg
 
 ---
 ## 前言

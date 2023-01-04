@@ -39,13 +39,13 @@ image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3jeoclz5j20yb0h9tfn.j
 
 同时由于中小学线上课堂的开始，各路人民教师纷纷转型十八线主播，网络环境更是变的拥挤不堪。
 
-![](http://rnxuex1zk.bkt.clouddn.com/wap360/ad5fbf65gy1gbr5wkd8puj20c809f74q.jpg)
+![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gbr5wkd8puj20c809f74q.jpg)
 
 故取消线上晨会，这里就显的比较合理，同时可以采用异步的协同方式，通过 jira 和 confluence 进行工作的协同。利用 jira 实时更新自己任务的状态，项目组长与组员也可以实时通过 jira 了解项目的实时进度，这样就减少了面对面的沟通，安全又高效。
 
 **例如：**
 
-![image](http://rnxuex1zk.bkt.clouddn.com/wap360/ad5fbf65gy1gbr68kif3lj20me0xumzk.jpg)
+![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gbr68kif3lj20me0xumzk.jpg)
 
 ## 目标分级
 
@@ -67,7 +67,7 @@ image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3jeoclz5j20yb0h9tfn.j
 
 在家办公，工作效率很容易变差。毕竟沙发和床就在身边，很容易工作着突然就想去休息一会儿。这里就需要在家里划分出一个 **【工作区】** ，并在工作区中准备上班所需的一切；同时要按时起床，穿戴整齐，吃好早点，然后进入工作区开始一天的工作，通过这种简单的 **仪式感** 可以让我们快速进入工作状态，更好的提高效率，不至于出现「在家工作居然比在公司下班晚」的情况。
 
-![](http://rnxuex1zk.bkt.clouddn.com/wap360/ad5fbf65gy1gbraur5ylbj20hi0fiwf8.jpg)
+![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gbraur5ylbj20hi0fiwf8.jpg)
 
 ### 按日程工作
 

@@ -7,7 +7,7 @@ authors: ["guoxudong"]
 summary: "9月25日晚受邀来到阿里云飞天园区参加阿里云MVP产品夜谈，在会上遇到了容器服务团队的负责人易立，并就容器服务进行了交流。"
 tags: ["阿里云","容器"]
 categories: ["kubernetes"]
-image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3i8tb0rgj21qi15on6r.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g7hdbw7rwij21zk13ax6s.jpg
 ---
 ## 前言
 

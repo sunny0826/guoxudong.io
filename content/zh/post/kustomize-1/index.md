@@ -29,7 +29,7 @@ image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3j40z93gj20x80wu7fr.j
 
 而其成为 ```kubectl``` 子命令则代表这 ```kubectl``` 本身的插件机制的成熟，未来可能有更多的工具命令集成到 ```kubectl``` 中。拿张磊大神的这张图不难看出，在 kubernetes 原生应用管理系统中，应用描述文件在整个应用管理体系中占据核心位置，通过应用描述文件可以组合和编排多种 kubernetes API 资源，kubernetes 通过控制器来保证集群中的资源与应用状态与描述文件完全一致。
 
-![](http://tva2.sinaimg.cn/large/ad5fbf65gy1g23cqlrodkj21bq0r8znk.jpg)
+![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g23cqlrodkj21bq0r8znk.jpg)
 
 Kustomize 不像 Helm 那样需要一整套独立的体系来完成管理应用，而是完全采用 kubernetes 的设计理念来完成管理应用的目的。同时使用起来也更加的得心应手。
 

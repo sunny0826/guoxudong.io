@@ -96,7 +96,7 @@ Reflector 用于监测制定 Kubernetes 资源，当资源发生变化时，触�
 
 而 `Watch()` 则会根据 Reflector 实例 `period` 参数，周期性的监控资源对象是否有变更。如果发生变更，则通过 `r.watchHandler` 处理变更事件。
 
-![Reflector](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1gjmkxmiboej20mr0uwh9f.jpg)
+![Reflector](http://rnxuex1zk.bkt.clouddn.com/large/Reflector.png)
 
 #### DeltaFIFO
 

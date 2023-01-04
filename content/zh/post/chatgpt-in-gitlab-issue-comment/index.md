@@ -8,7 +8,7 @@ date: 2022-12-13T08:55:02+08:00
 lastmod: 2022-12-13T08:55:02+08:00
 draft: false
 type: blog
-image: "http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1h922ztce3yj20p00anwkv.jpg"
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1h922ztce3yj20p00anwkv.jpeg
 ---
 ## 前言
 
@@ -55,7 +55,7 @@ image: "http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1h922ztce3yj20p00anwkv.
 
 **Settings** -> **CI/CD** -> **Pipeline triggers** -> **Add trigger** -> **Copy Token**
 
-![pipeline triggers](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gzgnuzrauxj22fe0y0qfb.jpg)
+![pipeline triggers](http://rnxuex1zk.bkt.clouddn.com/large/5001672817047_.pic.jpg)
 
 ### 配置 Webhook
 

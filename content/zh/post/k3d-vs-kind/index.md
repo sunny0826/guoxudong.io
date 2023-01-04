@@ -19,7 +19,7 @@ image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gktbsfimhuj21qi15o78d.j
 
 ## Kind
 
-![](http://rnxuex1zk.bkt.clouddn.com/wap360/ad5fbf65gy1gkt56jeqr7j20rd0gimz7.jpg)
+![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gkt56jeqr7j20rd0gimz7.jpg)
 
 Kind 顾名思义 Kubernetes in docker，是一个使用 docker 容器在本地运行 Kubernetes 集群的工具。其本身就是为了测试 Kubernetes 而设计，所以天生就和 CI 紧密关联，广泛应用于各种云原生项目的 CI 中，同时因为其可以快速拉起集群和操作简单，深受开发者喜爱，可谓是“有 Kind 不思 Minikube”。
 
@@ -27,7 +27,7 @@ Kind 使用 kubeadm 进行集群的创建，内部使用 containerd 运行组件
 
 ## K3d
 
-![](http://rnxuex1zk.bkt.clouddn.com/wap360/ad5fbf65gy1gkt5pu3ifhj21s00ocaef.jpg)
+![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gkt5pu3ifhj21s00ocaef.jpg)
 
 与 Kind 类似，K3d 是使用 docker 容器在本地运行 k3s 集群，k3s 是由 Rancher Lab 开源的轻量级 Kubernetes。k3d 完美继承了 k3s 的简单、快速和占用资源少的优势，镜像大小只有 100 多 M，启动速度快，支持多节点集群。虽然 k3s 对 Kubernetes 进行了轻量化的裁剪，但是提供了完整了功能，像 Istio 这样复杂的云原生应用都可以在 k3s 上顺利运行。
 

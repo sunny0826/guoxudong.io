@@ -55,7 +55,7 @@ image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3io95s37j21m515oq8p.j
 * 控制平面是 Istio 的核心，负责管理和配置代理来路由流量。此外控制平面配置 Mixer 以实施策略和收集遥测数据。
 
 下图显示了构成每个面板的不同组件：
-![image](http://tva2.sinaimg.cn/large/ad5fbf65ly1g199o3s4g5j20lw0kijux.jpg)
+![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1g199o3s4g5j20lw0kijux.jpg)
 
 <center>图片为原创，转载请标记出处https://blog.maoxianplay.com/</center>
 

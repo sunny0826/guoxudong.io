@@ -38,15 +38,9 @@ Github/Gitee的Pages是一个免费的静态网页托管服务，您可以使用
 
     如果该域名是由阿里云购买，则选择自动DNS验证，如果不是在阿里云购买的，可以选择手动验证。
 
-    ![image](http://rnxuex1zk.bkt.clouddn.com/bmiddle/ad5fbf65gy1g69egsu7fuj20ye0swwh3.jpg)
-
-    ![image](http://rnxuex1zk.bkt.clouddn.com/bmiddle/ad5fbf65gy1g69eo1wls7j20ya0r0418.jpg)
-
 3. 证书签发
 
     证书通过申请后，会收到证书签发的邮件。
-
-    ![image](http://rnxuex1zk.bkt.clouddn.com/wap720/ad5fbf65gy1g69epoqw6uj21680cotaj.jpg)
 
 #### 设置自定义域名
 
@@ -54,13 +48,9 @@ Github/Gitee的Pages是一个免费的静态网页托管服务，您可以使用
 
     在证书签发成功后，添加DNS解析，将绑定了SSL证书的域名解析到 `YourRepo.github.io` 。
 
-    ![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g69evivrvqj21mi07it9g.jpg)
-
 2. 配置域名
 
     解析之后将域名添加到 `Custom domain` 并且点击 `Save` ，Github会自动验证，出现`Your site is published at https://YourDomainName.com/`则证明解析成功。
-    
-    ![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g69esrcn2tj21a210wwk0.jpg)
 
 ### Gitee Pages Pro 服务部署SSL证书
 
@@ -85,8 +75,6 @@ Github/Gitee的Pages是一个免费的静态网页托管服务，您可以使用
 
     拷贝验证信息内的`记录值`。
 
-    ![image](http://rnxuex1zk.bkt.clouddn.com/bmiddle/ad5fbf65gy1g69eo1wls7j20ya0r0418.jpg)
-
 4. 验证解析
 
     进入购买域名所在网站进行DNS解析，这里以[name.com](https://www.name.com/zh-cn/)为例：
@@ -103,8 +91,6 @@ Github/Gitee的Pages是一个免费的静态网页托管服务，您可以使用
 
     进入域名所在网站，添加DNS解析记录，将绑定了SSL证书的域名解析到`gitee.gitee.io`
 
-    ![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g69fyy5it5j21z606mjs9.jpg)
-
 2. 配置域名
 
     1. 域名添加到`自定义域名`
@@ -115,7 +101,7 @@ Github/Gitee的Pages是一个免费的静态网页托管服务，您可以使用
 
         - 证书下载，选择 nginx 类型。
 
-            ![image](http://rnxuex1zk.bkt.clouddn.com/bmiddle/ad5fbf65gy1g69g3pua7xj20ne0v0jus.jpg)
+            ![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g69g3pua7xj20ne0v0jus.jpg)
 
         - gitee pages 配置证书，将证书文件与私钥文件贴入并提交。
 

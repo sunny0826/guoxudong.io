@@ -19,7 +19,7 @@ image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1glomxhj37ej21hc0u0dve.j
 
 Jetbrains 推出的一些列 IDE 被称为 Jetbrains 全家桶，以其极好的用户体验，帅气的 UI 界面和离谱的价格在程序员中拥有极高的知名度。
 
-![全家桶价格](http://rnxuex1zk.bkt.clouddn.com/mw690/ad5fbf65gy1glokceqqkbj21zs0ue0y8.jpg)
+![全家桶价格](http://rnxuex1zk.bkt.clouddn.com/large/5011672817857_.pic.jpg)
 
 本篇文章就手把手的教大家免费获得正版的 Jetbrains 全家桶 License。
 
@@ -64,7 +64,7 @@ JetBrains 通过为开源项目核心项目贡献者免费提供一套一流的�
 - repo 仓库地址
 - License 地址：直接贴上 repo 中 License 的链接即可
 
-![申请](http://rnxuex1zk.bkt.clouddn.com/mw690/ad5fbf65gy1glol6tl35qj20vg1x210m.jpg)
+![申请](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1glol6tl35qj20vg1x210m.jpg)
 
 填写完点击提交。
 
@@ -72,15 +72,15 @@ JetBrains 通过为开源项目核心项目贡献者免费提供一套一流的�
 
 在提交申请后，会收到一封来自 `JetBrains Community Support` 的邮件，表示会有几天来评估你的项目。
 
-![收到申请](http://rnxuex1zk.bkt.clouddn.com/mw690/ad5fbf65gy1glolfekw0mj20ym0f6wk4.jpg)
+![收到申请](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1glolfekw0mj20ym0f6wk4.jpg)
 
 一般会在 2 个工作日内收到批准邮件。
 
-![批准申请](http://rnxuex1zk.bkt.clouddn.com/mw690/ad5fbf65gy1glolgt0ot7j215c0wsqlb.jpg)
+![批准申请](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1glolgt0ot7j215c0wsqlb.jpg)
 
 邮件内容除了为你颁发免费的 License，还会希望你将 JetBrains 的 logo 加入到你项目介绍中。
 
-![加入鸣谢](http://rnxuex1zk.bkt.clouddn.com/mw690/ad5fbf65gy1glolkyl3c6j21ck0fc0ty.jpg)
+![加入鸣谢](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1glolkyl3c6j21ck0fc0ty.jpg)
 
 ### License 激活
 
@@ -96,15 +96,15 @@ JetBrains 通过为开源项目核心项目贡献者免费提供一套一流的�
 
 在旧的 License 即将到期的 2 周前，`JetBrains Community Support` 会再次发来邮件，提醒 License 即将到期。如果你的项目还在积极开发中，可以申请续期，并附上续期链接。
 
-![提醒邮件](http://rnxuex1zk.bkt.clouddn.com/mw690/ad5fbf65gy1glom2dv7a7j21520l0guq.jpg)
+![提醒邮件](http://rnxuex1zk.bkt.clouddn.com/large/5021672817909_.pic.jpg)
 
 申请续期只需在申请页面 `Do we know you?` 中选择 `Yes`，然后填入去年颁发给你的 License ID，其余内容与之前一样。
 
-![申请续期](http://rnxuex1zk.bkt.clouddn.com/mw690/ad5fbf65gy1glolwsbn6ij21ma0uc78c.jpg)
+![申请续期](http://rnxuex1zk.bkt.clouddn.com/large/5031672817938_.pic.jpg)
 
 在申请续期后，同样会收到评估邮件，不过这回时间变成了一到两周。
 
-![续期评估邮件](http://rnxuex1zk.bkt.clouddn.com/mw690/ad5fbf65gy1glom4k0ttvj215g0haah7.jpg)
+![续期评估邮件](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1glom4k0ttvj215g0haah7.jpg)
 
 说是两周，但两天后我就收到了续期通过的邮件，内容与初次申请一样，这里就不做展示了。
 
@@ -112,7 +112,7 @@ JetBrains 通过为开源项目核心项目贡献者免费提供一套一流的�
 
 最后再推荐一下 JetBrains 的 Toolbox App，Toolbox 保持了 JetBrains 一贯优秀的用户体验。可以轻松管理本机所有 JetBrains 的应用，只需登录一次即可完成所有产品的激活，无需再输入 License，同时安装和更新也十分方便，通过 Toolbox 快速打开 IDE，体验极佳。
 
-![Toolbox](http://rnxuex1zk.bkt.clouddn.com/bmiddle/ad5fbf65gy1glomepqas8j20og12wdkb.jpg)
+![Toolbox](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1glomepqas8j20og12wdkb.jpg)
 
 ## 结语
 

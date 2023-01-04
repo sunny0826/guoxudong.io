@@ -37,7 +37,7 @@ Velero 由客户端和服务端组成，服务器部署在目标 k8s 集群上�
 
 创建 OSS 的时候一定要选对区域，要和 ACK 集群在同一个区域，存储类型和读写权限选择**标准存储**和**私有**：
 
-![image](http://rnxuex1zk.bkt.clouddn.com/wap720/ad5fbf65gy1g8w7t8c4xbj21021d8thq.jpg)
+![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g8w7t8c4xbj21021d8thq.jpg)
 
 ### 创建阿里云 RAM 用户
 

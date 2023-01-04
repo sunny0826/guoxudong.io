@@ -20,7 +20,7 @@ Ingress是kubernetes API的标准资源类型之一，其本质就是一组基�
 
 Ingress控制器(Ingress Controller)可以由任何具有反向代理(HTTP/HTTPS)功能的服务程序实现，如Nginx、Envoy、HAProxy、Vulcand和Traefik等。Ingress控制器本身也作为Pod对象与被代理的运行为Pod资源的应用运行于同一网络中。我们在这里选择了NGINX Ingress Controller，由于对NGINX的配置较为熟悉，同时我们使用的kubernetes是阿里云的容器服务，构建集群的时候，容器服务会自带NGINX Ingress Controller。
 
-![image](http://tva2.sinaimg.cn/large/ad5fbf65ly1g0t3yj7wecj20w50doab9.jpg)
+![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1g0t3yj7wecj20w50doab9.jpg)
 
 ## 根据实际情况Ingress调优
 
@@ -83,7 +83,7 @@ image:
 
 有一个数据导出功能，需要将大量数据进行处理，然后以Excel格式返回，在导出一个大约3W条数据的时候，出现访问超时情况。
 
-![image](http://rnxuex1zk.bkt.clouddn.com/mw690/ad5fbf65ly1g0ubdwwzo5j21b30bjaat.jpg)
+![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1g0ubdwwzo5j21b30bjaat.jpg)
 
 #### 解决方法
 

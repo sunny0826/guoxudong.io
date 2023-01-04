@@ -435,8 +435,6 @@ sys     0m0.000s
 
 文件读取异常，结果符合预期。
 
-![io-pod-read](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1gft2pqli3ug20p607i7nk.gif)
-
 在本例中，我们对 read 操作注入两种异常，异常率为百分之60:
 
 - 对 `read` 操作增加 1s 的延迟。

@@ -80,4 +80,4 @@ image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3jb8zw5hj20k00m27bc.j
 
     访问 rancher 可以看到右下角版本已经完成更新。
 
-    ![image](http://tva2.sinaimg.cn/large/ad5fbf65gy1g1lzcmucn6j20ck03qt8p.jpg)
+    ![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g1lzcmucn6j20ck03qt8p.jpg)

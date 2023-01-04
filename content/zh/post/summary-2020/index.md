@@ -23,7 +23,7 @@ image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gn9adtaz57j21hc0u0hdw.j
 
 内容方面，文章涉及范围有所拓宽，从理论到实践均有涉猎，并开始尝试写源码分析类文章。
 
-![涉及领域](http://rnxuex1zk.bkt.clouddn.com/wap720/ad5fbf65gy1gn85ejee5xj20wy184gqj.jpg)
+![涉及领域](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gn85ejee5xj20wy184gqj.jpg)
 
 ## 开源
 
@@ -33,7 +33,7 @@ image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gn9adtaz57j21hc0u0hdw.j
 
 2020 年我在 GitHub 上结识了很多志同道合的朋友，收获了他们的帮助与认可。
 
-![GitHub](http://rnxuex1zk.bkt.clouddn.com/wap720/ad5fbf65gy1gn85rhyxfmj20ra0akgs0.jpg)
+![GitHub](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gn85rhyxfmj20ra0akgs0.jpg)
 
 - [kubecm](https://github.com/sunny0826/kubecm) 在 2020 年迭代了 10 多个版本， star 数超过了 120，并迎来了多个贡献者
 - 作为[编委会](https://github.com/servicemesher/istio-handbook/blob/master/wg/editorial-board.md)成员参与编写开源书籍 [Istio handbook](https://github.com/servicemesher/istio-handbook/issues/42)，并贡献了多章内容

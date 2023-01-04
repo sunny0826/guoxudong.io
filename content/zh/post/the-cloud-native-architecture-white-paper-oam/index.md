@@ -61,7 +61,7 @@ OAM App Engine 由 CLI 命令行工具、 Dashboard UI 管理页面和一系列�
 
 欢迎对 OAM 有兴趣的朋友加入，社区每双周都会进行视频例会，欢迎大家发表自己的见解或提出相关疑问。
 
-![OAM 中国社区](http://rnxuex1zk.bkt.clouddn.com/wap360/ad5fbf65gy1gh3cx41p0gj20nc0uqtfu.jpg)
+![OAM 中国社区](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gh3cx41p0gj20nc0uqtfu.jpg)
 
 ## 结语
 
