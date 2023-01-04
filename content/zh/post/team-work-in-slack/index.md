@@ -8,7 +8,7 @@ date: 2021-07-14T15:30:12+08:00
 lastmod: 2021-07-14T15:30:12+08:00
 draft: false
 type: blog
-image: https://tvax2.sinaimg.cn/large/ad5fbf65gy1gsgm25e4t2j20p00anwfl.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gsgm25e4t2j20p00anwfl.jpg
 ---
 ## 前言
 
@@ -24,7 +24,7 @@ Channel 也就是 Slack 里的频道，作用类似于微信中的群的概念�
 
 但这样做会带来一些问题，就是存在过多的 Channel，大家应该都明白工作群多了之后会有多么的麻烦。这时，约定一套 Channel  的命名规则就变的很有必要了，这不但可以很好的保持  Channel 的主题，还加快检索 Channel 的时间，下图是 Slack 官方建议的  Channel 命名规则。
 
-![Channel 命名建议](https://tva1.sinaimg.cn/large/ad5fbf65gy1gsgjsqr6ymj21880t07fs.jpg)
+![Channel 命名建议](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gsgjsqr6ymj21880t07fs.jpg)
 
 ## #general 中的信息很重要
 
@@ -32,33 +32,33 @@ Slack 每个 WorkSpace 在创建时，都会默认创建一个名为 `#general` 
 
 相反 `#random` Channel 也是全体成员默认加入的，但这个 Channel 中的信息主要是和工作无关的一些信息，我司的同学就喜欢在这个 Channel 中晒自己的萌宠。如果觉得这个 Channel 打扰到了您的工作，将其设置静音即可。
 
-![#random Channel](https://tva1.sinaimg.cn/large/ad5fbf65gy1gsgkx5uz8qj20p20qye2f.jpg)
+![#random Channel](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gsgkx5uz8qj20p20qye2f.jpg)
 
 ## Reply in thread 使交流更专注
 
 除了通过 Channel 来划分讨论主题以外，Reply in thread（在消息列中回复）的功能是我认为非常好的一个功能。因为 Channel 的粒度还不够细，在 Channel 中进行的讨论往往有一个共同的主题，但同一主题也会有各种不同问题需要沟通。这时，Reply in thread 也就是在一条消息下单独开启一个 Thread 进行沟通，既不会影响整体讨论上下文的连贯，又可以专注于单一的问题，希望对该问题进行沟通的用户点开 Thread 进行沟通，不关心该问题的用户也不会被该问题的讨论影响了消息的连贯性，非常 Nice。
 
-![](https://tva3.sinaimg.cn/large/ad5fbf65gy1gsgoatvc9bj214o0wijzf.jpg)
+![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gsgoatvc9bj214o0wijzf.jpg)
 
 ## emoji 的妙用
 
 emoji 也就是表情符号，基本所有即时聊天软件中都有的功能。但在实际使用中，尤其是在通知到一些令人振奋的好消息时，往往会出现以下场景（聊天群中充斥着 👍）。
 
-![](https://tva1.sinaimg.cn/large/ad5fbf65gy1gsgl4n120ej20kk0hmdgb.jpg)
+![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gsgl4n120ej20kk0hmdgb.jpg)
 
 这虽然表示了大家的喜悦之情，但是这会淹没大量的有用信息，使查找讨论和记录变的十分困难。所以在 Slack（以及其他办公通讯软件中），建议使用在单条消息后添加 emoji 来表示类似情感，这其实也广泛应用于 GitHub 和 GitLab 的 Issue 中。
 
-![](https://tvax4.sinaimg.cn/large/ad5fbf65gy1gsgl7wd9iaj21880hu45f.jpg)
+![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gsgl7wd9iaj21880hu45f.jpg)
 
 这么做不但没有破坏消息的上下文完整性，同时还能通过 emoji 传达出更多的信息。
 
-![](https://tva1.sinaimg.cn/large/ad5fbf65gy1gsglbo7cewj21880f0jwi.jpg)
+![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gsglbo7cewj21880f0jwi.jpg)
 
 ## 集成其他应用
 
 Slack 还有一个不错的功能在于他可以集成其他应用，如笔者就集成了 Google Calendar、Google Drive 和 Zoom 等应用。Slack 会根据 Google Calendar 中将要到来的日程安排进行提醒，这对远程办公的笔者来说十分重要；而集成 Zoom 则可以通过一行命令 `/zoom` 快速创建会议，十分方便。
 
-![zoom 命令](https://tva4.sinaimg.cn/large/ad5fbf65gy1gsglk59e1cj21580luace.jpg)
+![zoom 命令](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gsglk59e1cj21580luace.jpg)
 
 ### ChatOps
 

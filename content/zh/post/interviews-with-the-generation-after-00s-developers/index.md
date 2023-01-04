@@ -8,7 +8,7 @@ date: 2021-09-13T10:09:29+08:00
 lastmod: 2021-09-13T10:09:29+08:00
 draft: false
 type: blog
-image: https://tva1.sinaimg.cn/large/003aQKoZgy1guev7pfdilj619x0uin0d02.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/003aQKoZgy1guev7pfdilj619x0uin0d02.jpg
 ---
 > 作者介绍：郭旭东，极狐(GitLab)云原生架构师、InfoQ 签约作者、阿里云 MVP、云原生社区管委会成员。
 

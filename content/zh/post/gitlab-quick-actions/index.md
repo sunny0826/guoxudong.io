@@ -8,7 +8,7 @@ date: 2022-02-23T10:05:26+08:00
 lastmod: 2022-02-23T10:05:26+08:00
 draft: false
 type: blog
-image: https://tvax1.sinaimg.cn/large/ad5fbf65gy1gqupsoso0bj20zk0f4q3w.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gqupsoso0bj20zk0f4q3w.jpg
 ---
 ## 前言
 
@@ -18,7 +18,7 @@ image: https://tvax1.sinaimg.cn/large/ad5fbf65gy1gqupsoso0bj20zk0f4q3w.jpg
 
 Quick Actions 的诞生就是为了解决上面提到的这些痛点，用户只需在 Epic、Issue 和 Merge Request 的**描述**或**评论**中键入 `/`，就可以获得 Quick Actions 命令提示，选择想要执行操作的命令并填入参数，最后完成创建或提交评论即可一次性完成输入的所有命令！这也就是为什么创建同样一个 Issue 你需要 1min 而我只需要 10s 的原因。
 
-![action](https://tvax4.sinaimg.cn/large/ad5fbf65gy1gzn8yganvvj21c20i2dio.jpg)
+![action](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gzn8yganvvj21c20i2dio.jpg)
 
 ### 使用说明
 
@@ -68,13 +68,13 @@ curl --request POST --header "PRIVATE-TOKEN: <your_access_token>" \
 
 如下图，在创建 Issue 的同时，快速设置了 label，assign 给了相应负责人，同时与相关 Epic 关联，并加入 `14.11` 里程碑中，并 `@` 了相关人员，最后配合快捷键  `Command` + `Enter` 完成提交。
 
-![create issue](https://tvax2.sinaimg.cn/large/ad5fbf65gy1gznb94447lj21ty0s6te9.jpg)
+![create issue](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gznb94447lj21ty0s6te9.jpg)
 
 #### 评论快速操作
 
 如下图，这个 Issue 与 `#669` 重复了，通过 Quick Actions 添加 label，标出重复，修改 Issue 标题，重新指派开发者，最后关闭这个 Issue。
 
-![comment quick action](https://tvax3.sinaimg.cn/large/ad5fbf65gy1gznc8f12hvj20xs0hqtbm.jpg)
+![comment quick action](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gznc8f12hvj20xs0hqtbm.jpg)
 
 ## 结语
 <!-- markdown-link-check-disable-next-line -->

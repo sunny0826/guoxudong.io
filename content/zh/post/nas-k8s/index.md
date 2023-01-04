@@ -7,7 +7,7 @@ authors: ["guoxudong"]
 summary: "记录在阿里云购买、配置、挂载 NAS 数据卷到 Kubernetes 集群，由于官方文档没有及时更新，可以看做是对官方文档的补充。"
 tags: ["阿里云","kubernetes","容器"]
 categories: ["kubernetes"]
-image: https://tva2.sinaimg.cn/large/ad5fbf65ly1ge3j8edws4j21y013ete4.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3j8edws4j21y013ete4.jpg
 
 ---
 ## 前言
@@ -18,17 +18,17 @@ image: https://tva2.sinaimg.cn/large/ad5fbf65ly1ge3j8edws4j21y013ete4.jpg
 
 在挂载 NAS 之前，首先要先购买 NAS 文件存储，这里推荐购买存储包，100G 的 SSD 急速型一年只需1400多，而容量型只要279，对于我这种只有少量 NAS 存储需求的人来说是是靠谱的，因为我只需要5G的左右的存储空间，SSD 急速型 NAS 一年只要18块，完美。
 
-![image](https://tva2.sinaimg.cn/large/ad5fbf65gy1g4sglwrx0gj22wa09gae4.jpg)
+![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g4sglwrx0gj22wa09gae4.jpg)
 
 选择想要创建 NAS 所在 VPC 和 区域
 
 ## 添加挂载点
 
 - 点击添加挂载点
-![image](https://tva2.sinaimg.cn/large/ad5fbf65gy1g4sgp0dos2j22ky0iowkr.jpg)
+![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g4sgp0dos2j22ky0iowkr.jpg)
 
 - 选择 VPC 网络、交换机和权限组
-![image](https://tva2.sinaimg.cn/large/ad5fbf65gy1g4sgpwqrgoj20xu0vowib.jpg)
+![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g4sgpwqrgoj20xu0vowib.jpg)
 
 ## Linux 挂载 NAS 数据卷
 
@@ -45,7 +45,7 @@ sudo yum install nfs-utils
 
 这里阿里云早就进行了优化，点击创建的文件系统，页面上就可以 copy 挂载命令。页面提供了挂载地址的 copy 和挂载命令的 copy 功能。
 
-![image](https://tva2.sinaimg.cn/large/ad5fbf65gy1g4sh2i33wnj22w40yyn55.jpg)
+![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g4sh2i33wnj22w40yyn55.jpg)
 
 挂载命令：
 
@@ -63,7 +63,7 @@ df -h
 
 就可以看到结果：
 
-![image](https://tva2.sinaimg.cn/large/ad5fbf65gy1g4sh6xwyt8j20lj0850tq.jpg)
+![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g4sh6xwyt8j20lj0850tq.jpg)
 
 ## Kubernetes 集群挂载 NAS 数据卷
 
@@ -77,7 +77,7 @@ K8S 的持久数据卷挂载大同小异，流程都是：__创建PV__ -> __创�
 
 这里要注意的是：__挂载点域名使用上面面的挂载地址__
 
-![image](https://tva2.sinaimg.cn/large/ad5fbf65gy1g4shuiiyyqj20hc0hp0tz.jpg)
+![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g4shuiiyyqj20hc0hp0tz.jpg)
 
 ### 创建存储声明（PVC）
 
@@ -85,7 +85,7 @@ __选择 NAS__ -> __已有存储卷__
 
 选择刚才创建的存储卷
 
-![image](https://tva2.sinaimg.cn/large/ad5fbf65gy1g4shv5vs1kj20hx0bvt9g.jpg)
+![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g4shv5vs1kj20hx0bvt9g.jpg)
 
 ### 使用PVC
 

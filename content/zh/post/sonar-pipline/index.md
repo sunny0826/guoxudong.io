@@ -1,5 +1,5 @@
 ---
-title: "Jenkins Pipeline集成Sonar进行代码质量检测"
+title: "Jenkins Pipeline 集成 Sonar 进行代码质量检测"
 date: 2019-03-07T9:14:39+08:00
 draft: false
 type: blog
@@ -7,14 +7,9 @@ authors: ["guoxudong"]
 summary: "在devops理念中，CI/CD毫无疑问是最重要的一环，而代码质量检查则是CI中必不可少的一步。在敏捷开发的思想下，代码的迭代周期变短，交付速度提升，这个时候代码的质量就很难保证，测试只能保证功能完整与可用，而代码的质量纯靠review的话效率又很低，这个时候sonar..."
 tags: ["devops","jenkins","sonar"]
 categories: ["devops"]
-image: https://tva1.sinaimg.cn/large/ad5fbf65ly1ge3jciuxh3j21pj15o4ji.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3jciuxh3j21pj15o4ji.jpg
 
 ---
-## 简介
-image:
-
----
-
 ### jenkins pipeline
 
 Jenkins Pipeline (或简称为 "Pipeline" )是一套插件，将持续交付的实现和实施集成到 Jenkins 中。
@@ -47,11 +42,11 @@ jenkins、sonarqube服务已经搭建完成，jenkins安装sonar插件```SonarQu
 
     **[系统管理]**-**[插件管理]**-**[可选插件]**-**[SonarQube Scanner for Jenkins]**
 
-    ![image](http://tva2.sinaimg.cn/large/ad5fbf65ly1g0u4q3ae1bj20t90233yt.jpg)
+    ![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1g0u4q3ae1bj20t90233yt.jpg)
 
 2. SonarQube生成token，**这个token不会显示第二次，所以一定要记住**
 
-    ![image](https://tva2.sinaimg.cn/mw690/ad5fbf65ly1g0u5902q6nj213f0hgwgn.jpg)
+    ![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1g0u5902q6nj213f0hgwgn.jpg)
 
 3. SonarQube配置Dependency-Check
 
@@ -62,7 +57,7 @@ jenkins、sonarqube服务已经搭建完成，jenkins安装sonar插件```SonarQu
     [INFO] Dependency-Check XML report does not exists. Please check property sonar.dependencyCheck.reportPath:/data/jenkinsHome/workspace/xxx/${WORKSPACE}/dependency-check-report.xml
     ```
 
-    ![image](http://tva2.sinaimg.cn/large/ad5fbf65ly1g0yvjjcvdaj211b0jhgod.jpg)
+    ![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1g0yvjjcvdaj211b0jhgod.jpg)
 
 4. 在pom.xml文件中添加
 
@@ -78,7 +73,7 @@ jenkins、sonarqube服务已经搭建完成，jenkins安装sonar插件```SonarQu
 
     **[系统管理]**-**[系统设置]**-**[SonarQube servers]**
 
-    ![image](http://tva2.sinaimg.cn/large/ad5fbf65ly1g0u50l8q4lj215o0b3myw.jpg)
+    ![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1g0u50l8q4lj215o0b3myw.jpg)
 
 6. sonar添加webhook
 
@@ -86,7 +81,7 @@ jenkins、sonarqube服务已经搭建完成，jenkins安装sonar插件```SonarQu
 
     **[配置]**-**[web回调接口]**-**[URL]**
 
-    ![image](http://tva2.sinaimg.cn/large/ad5fbf65ly1g0v4m590vhj212k0pw0vo.jpg)
+    ![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1g0v4m590vhj212k0pw0vo.jpg)
 
 7. 编辑jenkins pipeline
 
@@ -136,15 +131,15 @@ jenkins、sonarqube服务已经搭建完成，jenkins安装sonar插件```SonarQu
 
 ## 运行
 执行jenkins构建，构建成功后会显示如下，则证明sonar代码扫描成功且通过代码质量阈检查
-![image](https://tva2.sinaimg.cn/mw690/ad5fbf65ly1g0u6qrh8qrj21fu0q2dmw.jpg)
+![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1g0u6qrh8qrj21fu0q2dmw.jpg)
 
 查看sonar报告，这里有两种方式
 
 - 可直接登录SonarQube查看报告
-![image](https://tva2.sinaimg.cn/mw690/ad5fbf65ly1g0u6vbspv5j21260myadw.jpg)
+![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1g0u6vbspv5j21260myadw.jpg)
 
 - 也可直接在jenkins页面点击SonarQube图标进入，点击以下标记均可进去
-![image](https://tva2.sinaimg.cn/mw690/ad5fbf65ly1g0u6xzcryhj21fn0q7wkm.jpg)
+![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1g0u6xzcryhj21fn0q7wkm.jpg)
 
 ## 其他
 

@@ -10,7 +10,7 @@ lastmod: 2020-03-27T15:57:11+08:00
 featured: false
 draft: false
 type: blog
-image: https://tva2.sinaimg.cn/large/ad5fbf65ly1ge3iwpp1lvj20r80dmn3s.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3iwpp1lvj20r80dmn3s.jpg
 ---
 
 > `katacoda.com` 已经停止服务
@@ -39,13 +39,13 @@ Katacoda 可以快速的提供一套完整的临时环境，并在使用后将�
 Katacoda 提供了非常便利的学习方式，用户只需要打开相应课程，就可以跟着课程设计者的说明，按照设计好的步骤一步步完成学习。
 
 - 介绍会标明课程的难度和需要的时间，帮助用户了解该课程的基本信息：
-![image](https://tvax1.sinaimg.cn/large/ad5fbf65gy1gd8k9b4jwoj21ha0q7wha.jpg)
+![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gd8k9b4jwoj21ha0q7wha.jpg)
 
 - 进入课程，左侧是该步骤说明，右侧是一个已经准备好的终端，直接可以使用：
-![image](https://tvax2.sinaimg.cn/large/ad5fbf65gy1gd8kdmfr3ej21h90qeq8s.jpg)
+![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gd8kdmfr3ej21h90qeq8s.jpg)
 
 - 之后就是跟着步骤说明，一步步的完成学习即可：
-![image](https://tva3.sinaimg.cn/large/ad5fbf65gy1gd8kh1jcs1j21hb0q5do7.jpg)
+![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gd8kh1jcs1j21hb0q5do7.jpg)
 
 ## 创建课程
 
@@ -57,7 +57,7 @@ Katacoda 需要注册账号登录，这里直接使用 GitHub 账号登录即可
 
 这里推荐在页面新建仓库，访问 https://www.katacoda.com/teach/git-hosted-scenarios ，点击 `Automatically Create and Configure Github Repository` 按钮，Katacoda 会自动在您的 Github 中创建一个名为 `katacoda-scenarios` 的仓库，并自动为您配置 Webhook，每次更新该仓库时，都会自动更新您 Katacoda 中课程的内容。
 
-![katacoda 新建仓库页面](https://tvax3.sinaimg.cn/large/ad5fbf65gy1gd73rov21ij219q0pl42u.jpg)
+![katacoda 新建仓库页面](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gd73rov21ij219q0pl42u.jpg)
 
 创建完成后，就可以在您的 Github 上找到名为 `katacoda-scenarios` 的代码仓库。
 

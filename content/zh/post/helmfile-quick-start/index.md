@@ -9,7 +9,7 @@ date: 2020-12-22T15:59:28+08:00
 lastmod: 2020-12-22T15:59:28+08:00
 draft: false
 type: blog
-image: https://tvax4.sinaimg.cn/large/ad5fbf65gy1glxx3p2nzsj21jk15oh0o.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1glxx3p2nzsj21jk15oh0o.jpg
 ---
 ## 前言
 

@@ -10,7 +10,7 @@ lastmod: 2020-03-24T09:14:06+08:00
 featured: false
 draft: false
 type: blog
-image: https://tva3.sinaimg.cn/large/ad5fbf65ly1ge3i33qlz7j21qm15o4f6.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3i33qlz7j21qm15o4f6.jpg
 ---
 
 ## 前言
@@ -32,7 +32,7 @@ image: https://tva3.sinaimg.cn/large/ad5fbf65ly1ge3i33qlz7j21qm15o4f6.jpg
 （以上内容来自[官方文档](https://alibaba.github.io/kt-connect)）
 
 目前使用下来最实用的功能就是**直接连接 Kubernetes 网络**实现在本地使用 k8s 内网域名调用 Kubernetes 集群内的服务以及**将 Kubernetes 集群中的流量转发到本地**，作用类似于一个 VPN，将本地网络与 Kubernetes 集群网络连接。
-![](https://tvax1.sinaimg.cn/large/ad5fbf65gy1gd4wu5p3rmj20pb0dl75m.jpg)
+![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gd4wu5p3rmj20pb0dl75m.jpg)
 
 ## 安装
 
@@ -123,7 +123,7 @@ UP
 ```
 ### 直接使用浏览器
 
-![image](https://tvax3.sinaimg.cn/large/ad5fbf65ly1gd4zc1ddfij20fq03zglp.jpg)
+![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1gd4zc1ddfij20fq03zglp.jpg)
 
 ## 转发集群流量到本地
 
@@ -135,7 +135,7 @@ UP
 
 本地启动一个服务
 
-![image](https://tvax4.sinaimg.cn/large/ad5fbf65ly1gd4zsl7r14j20eq03r76o.jpg)
+![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1gd4zsl7r14j20eq03r76o.jpg)
 
 运行命令
 
@@ -182,7 +182,7 @@ UP
 ```
 
 **可以看到流量被抓发到了本地**
-![image](https://tvax3.sinaimg.cn/large/ad5fbf65ly1gd4zuym6ofj20eq052n0d.jpg)
+![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1gd4zuym6ofj20eq052n0d.jpg)
 
 ## 将本地服务暴露到 Kubernetes 集群
 
@@ -228,7 +228,7 @@ UP
 ```
 
 可以看到流量被转发到了本地
-![image](https://tva3.sinaimg.cn/large/ad5fbf65ly1gd50e6lkquj20ff05z782.jpg)
+![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1gd50e6lkquj20ff05z782.jpg)
 
 ## 总结
 

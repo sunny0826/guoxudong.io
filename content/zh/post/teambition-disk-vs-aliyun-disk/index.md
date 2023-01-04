@@ -9,13 +9,13 @@ date: 2020-11-11T11:23:40+08:00
 lastmod: 2020-11-11T11:23:40+08:00
 draft: false
 type: blog
-image: https://tva4.sinaimg.cn/large/ad5fbf65ly1gkl9o8fa9bj20r80ku12t.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1gkl9o8fa9bj20r80ku12t.jpg
 ---
 ## 前言
 
 在之前的文章[《试用阿里网盘内测版-不限速、无广告、隐私安全我全都要》](../alibaba-teambition-disk/)中笔者分享了阿里巴巴旗下 Teambition 网盘的内测试用体验。就在文章发布的当天，机缘巧合笔者获得了阿里巴巴另一款网盘产品：「**阿里云盘**」的 ”个人云种子用户“ 邀请码。惊奇的发现原来阿里巴巴同时存在两款不同的网盘产品，分别属于 **Teambition 团队**和**阿里云基础产品事业部的智能存储团队**。
 
-![个人云种子用户邀请页](https://tvax2.sinaimg.cn/wap800/ad5fbf65gy1gkl3hrdu81j20k80z27ii.jpg)
+![个人云种子用户邀请页](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gkl3hrdu81j20k80z27ii.jpg)
 
 一直以来，最为大众所知的是腾讯的赛马机制，如微信、王者荣耀都是这个机制的产物，而阿里的赛马机制鲜有人提。但据公开的信息显示，阿里内部其实早就存在了这一机制，只是笔者没有关注到而已。本文并不对这一机制做过多评价，而是着力于这两个网盘产品的使用体验，以一个网盘使用者的视角对比这两个产品的特点与差异。
 
@@ -25,7 +25,7 @@ image: https://tva4.sinaimg.cn/large/ad5fbf65ly1gkl9o8fa9bj20r80ku12t.jpg
 
 阿里云盘目前只有 IOS 和安卓的 APP，Windows 和 Mac 端暂时没有上线，并且也没有 web 端可以登录。官网极端的简洁，宛如一个直男...
 
-![阿里云盘官网](https://tva1.sinaimg.cn/large/ad5fbf65gy1gkl80aczdnj21h70q67wh.jpg)
+![阿里云盘官网](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gkl80aczdnj21h70q67wh.jpg)
 
 ## 阿里云盘 vs Teambition 网盘
 
@@ -35,7 +35,7 @@ image: https://tva4.sinaimg.cn/large/ad5fbf65ly1gkl9o8fa9bj20r80ku12t.jpg
 
 与 Teambition 相同的是上传下载同样不限速，实测都可以达到宽带提供的最大速率。
 
-![APP 页面](https://tvax4.sinaimg.cn/wap800/ad5fbf65ly1gkl84rikc7j20u01t0403.jpg)
+![APP 页面](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1gkl84rikc7j20u01t0403.jpg)
 
 不难发现，Teambition 网盘和阿里云盘的策略还是有差异的，Teambition 更强调协作，并且和 Teambition 产品绑定，没有独立的 APP；而阿里云盘则从手机用户入手，有独立的 APP 且操作更为丝滑。同样是没有 Windows 和 Mac 端，但 Teambition 提供了 web 端，而阿里云盘的手机操作体验更佳，也算是各有千秋。
 

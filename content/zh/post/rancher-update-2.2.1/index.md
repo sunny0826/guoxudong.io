@@ -6,7 +6,7 @@ type: blog
 summary: "Rancher 不仅可以在任何云提供商的任何地方部署 Kubernetes 集群，而且还将它们集中在集中式的身份验证和访问控制之下。由于它与资源的运行位置无关，因此您可以轻松地在不同的环境部署你的 kubernetes 集群并操作他们。 Rancher 不是将部署几个独立的 Kubernetes 集群，而是将它们统一为一个单独的托管Kubernetes Cloud。"
 tags: ["rancher","容器","kubernetes"]
 categories: ["部署安装"]
-image: https://tvax3.sinaimg.cn/large/ad5fbf65ly1ge3jb8zw5hj20k00m27bc.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3jb8zw5hj20k00m27bc.jpg
 
 ---
 > Rancher 不仅可以在任何云提供商的任何地方部署 Kubernetes 集群，而且还将它们集中在集中式的身份验证和访问控制之下。由于它与资源的运行位置无关，因此您可以轻松地在不同的环境部署你的 kubernetes 集群并操作他们。 Rancher 不是将部署几个独立的 Kubernetes 集群，而是将它们统一为一个单独的托管Kubernetes Cloud。
@@ -80,4 +80,4 @@ image: https://tvax3.sinaimg.cn/large/ad5fbf65ly1ge3jb8zw5hj20k00m27bc.jpg
 
     访问 rancher 可以看到右下角版本已经完成更新。
 
-    ![image](http://tva2.sinaimg.cn/large/ad5fbf65gy1g1lzcmucn6j20ck03qt8p.jpg)
+    ![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g1lzcmucn6j20ck03qt8p.jpg)

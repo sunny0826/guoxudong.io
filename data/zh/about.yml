@@ -42,14 +42,14 @@ contact:
   enable : true
   item:
     - title: "微信"
-      img: "https://tva4.sinaimg.cn/large/ad5fbf65ly1ghelq5ndvkj2050050dfz.jpg"
+      img: "http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ghelq5ndvkj2050050dfz.jpg"
       description: "**添加微信请备注姓名公司并说明来意**"
     - title: "GitHub"
-      img: "https://tvax3.sinaimg.cn/large/ad5fbf65ly1ghelosouakj2050050745.jpg"
+      img: "http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ghelosouakj2050050745.jpg"
       description: "[sunny0826](https://github.com/sunny0826)"
     - title: "邮箱"
-      img: "https://tvax3.sinaimg.cn/large/ad5fbf65ly1gheloxweaej2050050dfo.jpg"
+      img: "http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1gheloxweaej2050050dfo.jpg"
       description: "[guoxudong.dev@gmail.com](mailto:guoxudong.dev@gmail.com)"
     - title: "**微信公众号**"
-      img: "https://tva1.sinaimg.cn/large/ad5fbf65ly1ghelpfjpb8j205005074d.jpg"
+      img: "http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ghelpfjpb8j205005074d.jpg"
       description: "**扫码关注**"

@@ -7,7 +7,7 @@ authors: ["guoxudong"]
 summary: "“DevOps”这个词是 “development” 和 “operations”这两个词的组合。它是一种促进开发和运维团队之间的协作，以自动化和可重复的方式更快地将代码部署到生产中的文化。"
 tags: ["devops","翻译"]
 categories: ["翻译"]
-image: https://tvax4.sinaimg.cn/large/ad5fbf65ly1ge3ielgql8j21qi15owk9.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3ielgql8j21qi15owk9.jpg
 
 ---
 # DevOps 是什么？
@@ -17,7 +17,7 @@ DevOps 帮助团体提高软件和服务的交付速度。它使团队能够更�
 
 简而言之， DevOps 可以定义为通过更好的沟通和协作，使开发和运维保持一致。
 
-![what is devops](http://tva2.sinaimg.cn/large/ad5fbf65gy1g1wbobryucj20db07dq2w.jpg)
+![what is devops](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g1wbobryucj20db07dq2w.jpg)
 
 本手册中，您将学到：
 <!-- markdown-link-check-disable -->
@@ -79,7 +79,7 @@ DevOps 应该用于大型分布式应用程序，例如电子商务站点或托�
 它不应该用于关键任务应用程序，如银行，电力设施和其他敏感数据站点。此类应用程序需要对生产环境进行严格的访问控制，详细的变更管理策略，完善的数据中心访问控制策略。
 
 # DevOps 的生命周期
-![devops Lifecycle](http://tva2.sinaimg.cn/large/ad5fbf65gy1g1wekkedpcj20k509mjrp.jpg)
+![devops Lifecycle](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g1wekkedpcj20k509mjrp.jpg)
 
 DevOps 是开发和运维之间的深度集成。在不了解 DevOps 生命周期的情况下，是无法真正理解 DevOps 的。
 
@@ -107,22 +107,22 @@ DevOps 是开发和运维之间的深度集成。在不了解 DevOps 生命周�
 
 # DevOps 的工作流
 
-![ DevOps Work Flow ](http://tva2.sinaimg.cn/large/ad5fbf65gy1g1wewdq1elj20g009fa9y.jpg)
+![ DevOps Work Flow ](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g1wewdq1elj20g009fa9y.jpg)
 
 工作流允许排列和分离用户最需要的任务。它还能够在配置任务时反应其最理想过程。
 
 # DevOps 与敏捷有什么不同？ DevOps VS Agile
 这是一个典型的IT流程
 
-![](http://tva2.sinaimg.cn/large/ad5fbf65gy1g1wfmrcbafj20nq05wdg0.jpg)
+![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g1wfmrcbafj20nq05wdg0.jpg)
 
 敏捷解决了客户和开发人员沟通中的问题
 
-![](http://tva2.sinaimg.cn/large/ad5fbf65gy1g1wfn81bchj20no05q3ys.jpg)
+![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g1wfn81bchj20no05q3ys.jpg)
 
 DevOps 解决了开发人员运维人员沟通中的问题
 
-![](http://tva2.sinaimg.cn/large/ad5fbf65gy1g1wfnk7fi3j20nt05vt90.jpg)
+![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g1wfnk7fi3j20nt05vt90.jpg)
 
 | 敏捷 | DevOps |
 | --- | --- |

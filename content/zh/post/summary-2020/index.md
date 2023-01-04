@@ -9,7 +9,7 @@ date: 2021-02-01T09:55:06+08:00
 lastmod: 2021-02-01T09:55:06+08:00
 draft: false
 type: blog
-image: https://tvax2.sinaimg.cn/large/ad5fbf65gy1gn9adtaz57j21hc0u0hdw.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gn9adtaz57j21hc0u0hdw.jpg
 ---
 ## 前言
 
@@ -23,7 +23,7 @@ image: https://tvax2.sinaimg.cn/large/ad5fbf65gy1gn9adtaz57j21hc0u0hdw.jpg
 
 内容方面，文章涉及范围有所拓宽，从理论到实践均有涉猎，并开始尝试写源码分析类文章。
 
-![涉及领域](https://tva1.sinaimg.cn/wap720/ad5fbf65gy1gn85ejee5xj20wy184gqj.jpg)
+![涉及领域](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gn85ejee5xj20wy184gqj.jpg)
 
 ## 开源
 
@@ -33,7 +33,7 @@ image: https://tvax2.sinaimg.cn/large/ad5fbf65gy1gn9adtaz57j21hc0u0hdw.jpg
 
 2020 年我在 GitHub 上结识了很多志同道合的朋友，收获了他们的帮助与认可。
 
-![GitHub](https://tva1.sinaimg.cn/wap720/ad5fbf65gy1gn85rhyxfmj20ra0akgs0.jpg)
+![GitHub](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gn85rhyxfmj20ra0akgs0.jpg)
 
 - [kubecm](https://github.com/sunny0826/kubecm) 在 2020 年迭代了 10 多个版本， star 数超过了 120，并迎来了多个贡献者
 - 作为[编委会](https://github.com/servicemesher/istio-handbook/blob/master/wg/editorial-board.md)成员参与编写开源书籍 [Istio handbook](https://github.com/servicemesher/istio-handbook/issues/42)，并贡献了多章内容
@@ -46,11 +46,11 @@ image: https://tvax2.sinaimg.cn/large/ad5fbf65gy1gn9adtaz57j21hc0u0hdw.jpg
 
 这也是我第一次组织线下技术分享活动，从场地、赞助、讲师的邀请到宣传和主持，每一步都没有看上去那么容易，再加上新冠疫情反扑，让这场活动险些延期。所幸上海疫情得到了控制，活动有惊无险的举办了，现场的志愿者和来宾都十分给力，活动最终圆满结束。
 
-![现场](https://tva2.sinaimg.cn/large/ad5fbf65gy1gn8zymurorj264w43cx6p.jpg)
+![现场](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gn8zymurorj264w43cx6p.jpg)
 
 最近还完成了 [Cloud Native Community Groups](https://community.cncf.io/shanghai/) 上海活动组织者的申请，2021 年我们会组织更多的云原生活动，让更多的朋友参与进来学习、成长。
 
-![CNCG](https://tva1.sinaimg.cn/large/ad5fbf65gy1gn90qgpifkj223a1jwqe2.jpg)
+![CNCG](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gn90qgpifkj223a1jwqe2.jpg)
 
 ### 分享
 
@@ -62,19 +62,19 @@ image: https://tvax2.sinaimg.cn/large/ad5fbf65gy1gn9adtaz57j21hc0u0hdw.jpg
 
 年初我们复工的比较早，我现在还清晰的记的平时拥挤的上海地铁在当时空无一人，上下班乘坐公共交通都要全副武装。感觉到了同事们的担忧，我定制了一个用来展示疫情实时动态的 Grafana Dashboard，让办公室的同事可以实时看到疫情动态。看着这个监控，我们迎来了武汉的解封，迎来了全面复工。
 
-![疫情 Dashboard](https://tva2.sinaimg.cn/large/ad5fbf65gy1gn9ath44cbj21400u0hdt.jpg)
+![疫情 Dashboard](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gn9ath44cbj21400u0hdt.jpg)
 
 10 月份，我参加了阿里云线上举办的 CodeSample 挑战赛，混了个一等奖。
 
-![奖牌](https://tvax4.sinaimg.cn/large/ad5fbf65gy1gn96yyddlkj21400u0u0y.jpg)
+![奖牌](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gn96yyddlkj21400u0u0y.jpg)
 
 ## 柴猫双全
 
 熟悉我的朋友都知道我有一只叫做 **毛线** 的橘猫和一只叫 **Sunny** 的柴犬，2020 年他们也都有好好的吃饭，好好的长肉。年初在家办公时，他们陪着我写代码；年中加班时，他们在家默默地等我回家。
 
-![在家办公](https://tvax2.sinaimg.cn/large/ad5fbf65gy1gn96wl4mcmj21hc0u07wj.jpg)
+![在家办公](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gn96wl4mcmj21hc0u07wj.jpg)
 
-![毛线&Sunny](https://tvax3.sinaimg.cn/large/ad5fbf65gy1gn9akhtd4uj21410u0e82.jpg)
+![毛线&Sunny](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gn9akhtd4uj21410u0e82.jpg)
 
 ## 2021
 

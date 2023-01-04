@@ -7,7 +7,7 @@ author: "David Donchez"
 summary: "随着3年前重构 Dailymotion 核心API的决定，我们希望提供一种更有效的方式来托管应用程序，促进我们的开发和生产工作流程。 最终决定使用容器编排平台来实现这一目标，那么自然就选择了 Kubernetes。"
 tags: ["翻译","kubernetes"]
 categories: ["翻译"]
-image: https://tva2.sinaimg.cn/large/ad5fbf65ly1ge3ijjy5q6j20jg06sq36.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3ijjy5q6j20jg06sq36.jpg
 
 ---
 
@@ -27,7 +27,7 @@ image: https://tva2.sinaimg.cn/large/ad5fbf65ly1ge3ijjy5q6j20jg06sq36.jpg
 
 我们做出这个选择主要是出于技术原因，但也因为我们需要快速提供基础设施来满足 Dailymotion 的业务需求。并且对托管的应用程序（如地理分布，可伸缩性和弹性）有一些要求。
 
-![](https://tva2.sinaimg.cn/large/ad5fbf65gy1g5py1vm2k2j20hd0bbjtq.jpg)
+![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g5py1vm2k2j20hd0bbjtq.jpg)
 <center>Dailymotion 的 GKE 集群</center>
 
 Dailymotion 作为一个全球性的视频平台，需要通过减少延迟来改善用户体验。之前我们仅在巴黎提供 [API](https://developer.dailymotion.com/) ，但这样并非最佳，我们希望能够在欧洲、亚洲以及美国托管我们的应用程序。
@@ -36,7 +36,7 @@ Dailymotion 作为一个全球性的视频平台，需要通过减少延迟来�
 
 此外，Google Cloud 的网络和负载均衡服务非常棒。它可以将我们的用户路由到最近的集群，并且在发生故障的情况下，流量会自动路由到另一个区域而无需任何人为干预。
 
-![](https://tva2.sinaimg.cn/large/ad5fbf65gy1g5pytelbwnj20jg0avq4x.jpg)
+![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g5pytelbwnj20jg0avq4x.jpg)
 <center>Google 负载均衡监控</center>
 
 我们的平台同样需要使用 GPU，而 Google Cloud 允许我们以非常有效的方式直接在我们的 Kubernetes 集群中使用它们。
@@ -55,7 +55,7 @@ Dailymotion 多年来在全球拥有自己的内容分发网络，每月有超�
 
 我的目前拥有6个数据中心的2500多台服务器。所有这些都使用 Saltstack 进行配置，我们开始准备所有需要的公式来创建主节点、工作节点以及 Etcd 集群。
 
-![](https://tva2.sinaimg.cn/large/ad5fbf65gy1g5pzm4m985j20jg06tgm7.jpg)
+![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g5pzm4m985j20jg06tgm7.jpg)
 
 ### 网络部分
 
@@ -71,7 +71,7 @@ Dailymotion 多年来在全球拥有自己的内容分发网络，每月有超�
 
 在我们的设计中，我们决定在专用的 10Gbps 刀片服务器上托管我们的控制器。每个控制器都插入其所属集群的 kube-apiserver 端点。在这些服务器上，我们还使用Exabgp来广播公共或私有IP。我们的网络拓扑允许我们使用来自这些控制器的BGP将所有流量直接路由到我们的pod，而无需使用NodePort服务类型。这样可以避免节点之间的水平流量，从而提高效率。
 
-![](https://tva2.sinaimg.cn/large/ad5fbf65gy1g5q05ex27bj20in0fbt9q.jpg)
+![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g5q05ex27bj20in0fbt9q.jpg)
 <center>从 Internet 到 pods 的流量</center>
 
 现在我们已经看到了我们如何构建混合平台，我们可以深入了解流量迁移本身。
@@ -82,11 +82,11 @@ Dailymotion 多年来在全球拥有自己的内容分发网络，每月有超�
 
 经过近2年的构建、测试和微调，我们发现自己拥有完整的 Kubernetes 技术栈，可以接收部分流量。
 
-![](https://tva2.sinaimg.cn/large/ad5fbf65gy1g5q0b3o8laj20jg06sq36.jpg)
+![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g5q0b3o8laj20jg06sq36.jpg)
 
 目前，我们的路由策略非常简单，但足以解决我们的问题。除了我们的公共IP（Google Cloud和Dailymotion）之外，我们还使用AWS Route 53 来定义策略并将终端用户流量引入我们选择的集群。
 
-![](https://tva2.sinaimg.cn/large/ad5fbf65gy1g5q0ds3spjj20jg07a0tk.jpg)
+![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g5q0ds3spjj20jg07a0tk.jpg)
 <center>使用Route 53的路由策略示例</center>
 
 在 Google Cloud 上很简单，因为我们为所有群集使用唯一的IP，并且用户被路由到他最近的 GKE 群集。对于我们来说，我们不使用相同的技术，因此我们每个群集都有不同的IP。

@@ -9,7 +9,7 @@ date: 2021-04-06T09:40:41+08:00
 lastmod: 2021-04-06T09:40:41+08:00
 draft: false
 type: blog
-image: https://tva4.sinaimg.cn/large/ad5fbf65gy1gpa21vzq1zj20p00angrh.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gpa21vzq1zj20p00angrh.jpg
 ---
 ## 背景
 
@@ -25,7 +25,7 @@ Kubernetes 本身十分灵活且功能丰富，但正是由于其灵活多变，
 
 为了规避这种情况，各个公司的平台团队会基于 Kubernetes 开发自己的 PaaS 平台，平台团队通过“限制” Kubernetes 的能力，只放出有限的字段供业务团队使用，也就是基于自己的使用场景定制化开发一个上层平台，这样只是重复的造轮子且极大的限制了 Kubernetes 本身的拓展性。
 
-![传统 PaaS 的能力困境](https://tvax4.sinaimg.cn/large/ad5fbf65gy1gp9ucbg6zbj21b60qi12v.jpg)
+![传统 PaaS 的能力困境](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gp9ucbg6zbj21b60qi12v.jpg)
 
 KubeVela 的出现很好的解决了这些问题。
 
@@ -35,7 +35,7 @@ OAM 的出现提供了一种可拓展、方便快捷的将 Kubernetes 的能力�
 
 所以传统基于 Kubernetes 的 PaaS 平台会根据平台本身的某种垂直场景来制定一些内部的标准并提供部分 Kubernetes 的能力。而 KubeVela 打破了这些限制，KubeVela 为 Kubernetes 增加了一层抽象，平台团队只需定制自己的 `ComponentDefinition` 及 `Traits` 即可将 Kubernetes 的能力开放给应用研发团队，开发团队只需要编写一个 docker-compose 风格应用描述文件 `Appfile` 即可，不需要接触和学习任何 Kubernetes 层的相关细节。同时社区也会有很多现成的模板供用户使用，每个模板都像插件一样可以轻松的“安装”与“卸载”。
 
-![](https://tvax3.sinaimg.cn/large/ad5fbf65gy1gpa43rkaq9j21em0qadll.jpg)
+![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gpa43rkaq9j21em0qadll.jpg)
 
 而作为应用的管理和维护者，可以轻松的从 `Application` 这个 CR 中查看应用都包含哪些组件与运维特性，极大的提升了应用的可描述性及可维护性，非常方便新人接手运维以及问题排查。让云原生真正走进 **“以应用为中心”** 的时代。
 
@@ -111,7 +111,7 @@ Helm chart 中所有 value 值都可以在 `properties` 进行定义，同时还
 
 同时在 1.0 版本，所有的抽象定义都会自动生成 `Open-API-v3` 架构 JSON 格式的表单数据，方便前端进行集成。无论是 CUE、Helm 还是原生 Kubernetes 资源模板，都会已生成一个名为 `schema-<your-definition-name>` 的 ConfigMap，其中的 key  `openapi-v3-json-schema` 的值就是 JSON 格式的参数，可以非常方便生成一个前端表单供平台和应用团队使用，效果如下：
 
-![](https://tvax3.sinaimg.cn/large/ad5fbf65gy1gp9zsaw9cxj21cn0ebdhd.jpg)
+![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gp9zsaw9cxj21cn0ebdhd.jpg)
 
 查看 ConfigMap 内容：
 
@@ -218,7 +218,7 @@ $ kubectl get configmaps schema-webservice  -n vela-system  -o jsonpath="{.data.
 ```shell
 $ vela show webservice --web
 ```
-![CLI 打开文档页面](https://tva4.sinaimg.cn/large/ad5fbf65gy1gpax5vem5hj22qq202tmu.jpg)
+![CLI 打开文档页面](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gpax5vem5hj22qq202tmu.jpg)
 
 
 ### 关注点分离，实现真正的 DevOps
@@ -229,7 +229,7 @@ $ vela show webservice --web
 
 对于**平台团队**，KubeVela 是一个可以任意扩展的云原生平台内核，平台工程师可以轻松的将 Kubernetes 生态中的能力，通过 KubeVela 以类似插件的形式注入到 Kubernetes 集群中，简单高效且易于维护。
 
-![](https://tva4.sinaimg.cn/large/ad5fbf65gy1gp9zu2k1iaj20q00ds0yt.jpg)
+![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gp9zu2k1iaj20q00ds0yt.jpg)
 
 KubeVela 的出现，终结了应用开发团队和平台开发团队之间的”灰色地带“，大家对各自关注点有了清楚的认知，降低了团队之间的沟通成本及扯皮风险，真正的实现了 DevOps 的理念。
 

@@ -7,7 +7,7 @@ authors: ["guoxudong"]
 summary: "本篇为系列文章第四篇，将简述 kustomize 的核心配置文件 kustomization.yaml"
 tags: ["kubernetes", "kustomize", "工具"]
 categories: ["kustomize"]
-image: https://tva3.sinaimg.cn/large/ad5fbf65ly1ge3j5pw2egj21qi15o7bb.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3j5pw2egj21qi15o7bb.jpg
 
 ---
 ## 前言

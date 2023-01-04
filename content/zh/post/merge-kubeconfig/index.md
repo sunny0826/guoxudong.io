@@ -6,7 +6,7 @@ type: blog
 summary: "随着kubernetes集群的增加，集群管理的问题就凸显出来，不同的环境存在不同的集群，不同的业务线不同的集群，甚至有些开发人员都有自己的集群。这里介绍一款工具来自动合并Kubeconfig，实现多k8s集群切换。"
 tags: ["kubernetes","工具"]
 categories: ["kubernetes"]
-image: https://tva2.sinaimg.cn/large/ad5fbf65ly1ge3j8edws4j21y013ete4.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3j8edws4j21y013ete4.jpg
 
 ---
 ## 前言

@@ -10,7 +10,7 @@ lastmod: 2020-05-13T09:55:51+08:00
 featured: false
 draft: false
 type: blog
-image: https://tva3.sinaimg.cn/large/ad5fbf65gy1geblt77f4bj22bd0qqq91.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1geblt77f4bj22bd0qqq91.jpg
 
 ---
 
@@ -30,7 +30,7 @@ Tekton 作为一款开源的云原生 CI/CD 框架，前身是 Knative 的 build
 
 该教程属于官方教程的汉化版，并得到了[许可](https://github.com/ncskier/katacoda/issues/2)。
 
-![image](https://tvax1.sinaimg.cn/large/ad5fbf65gy1geqt0wmbtvj21hb0q779v.jpg)
+![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1geqt0wmbtvj21hb0q779v.jpg)
 
 ## Tekton Dashboard
 
@@ -71,7 +71,7 @@ Forwarding from [::1]:8097 -> 9097
 <!-- markdown-link-check-disable-next-line -->
 打开浏览器访问访问 http://localhost:8097
 
-![](https://tvax3.sinaimg.cn/large/ad5fbf65gy1geqnhem9i9j21mk0tu425.jpg)
+![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1geqnhem9i9j21mk0tu425.jpg)
 
 ### 导入资源
 
@@ -84,23 +84,23 @@ Forwarding from [::1]:8097 -> 9097
 
 输入内容如下：
 
-![image](https://tvax1.sinaimg.cn/large/ad5fbf65gy1geqnp36mk0j20yu0memze.jpg)
+![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1geqnp36mk0j20yu0memze.jpg)
 
 点击 `Import and Apply` 按钮，之后 Dashboard 会创建一个 PipelineRun 来导入指定的 Tekton 资源。
 
 点击页面底部的 `View status of this run` 链接，查看 MyApp 导入 Tekton 资源的状态。
 
-![](https://tvax4.sinaimg.cn/large/ad5fbf65gy1geqnqyx5g2j20a403et8q.jpg)
+![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1geqnqyx5g2j20a403et8q.jpg)
 
 PipelineRun 完成后，Tekton 资源已导入成功。
 
-![image](https://tvax4.sinaimg.cn/large/ad5fbf65gy1geqns0gqi8j21go0ozwhl.jpg)
+![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1geqns0gqi8j21go0ozwhl.jpg)
 
 ### 创建 PipelineResource
 
 选择 `default` 命名空间，并点击 `PipelineResource` 按钮。
 
-![](https://tvax3.sinaimg.cn/large/ad5fbf65gy1geqnukrb3aj20yb0enmyg.jpg)
+![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1geqnukrb3aj20yb0enmyg.jpg)
 
 点击页面右上方的 `Create +` 按钮，将弹出一个创建 PipelineResource 的表单。
 
@@ -114,7 +114,7 @@ PipelineRun 完成后，Tekton 资源已导入成功。
 
 该表单内容应如下：
 
-![image](https://tvax4.sinaimg.cn/large/ad5fbf65gy1geqnxalh2pj20pl0dbq3h.jpg)
+![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1geqnxalh2pj20pl0dbq3h.jpg)
 
 点击 `Create` 按钮，创建 PipelineResource。
 
@@ -122,7 +122,7 @@ PipelineRun 完成后，Tekton 资源已导入成功。
 
 选择 `default` 命名空间，并点击 `PipelineRuns` 按钮。
 
-![](https://tva4.sinaimg.cn/large/ad5fbf65gy1geqo2iatnhj20yb0ewjso.jpg)
+![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1geqo2iatnhj20yb0ewjso.jpg)
 
 点击页面右上方的 `Create +` 按钮，将弹出一个创建 PipelineRun 的表单。该表单是动态的，会根据所选的 Pipeline 提供 PipelineResource 和 Param 字段。
 
@@ -135,7 +135,7 @@ PipelineRun 完成后，Tekton 资源已导入成功。
 
 该表单内容应如下：
 
-![image](https://tva3.sinaimg.cn/large/ad5fbf65gy1geqrdvoaquj20pi0lzt9o.jpg)
+![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1geqrdvoaquj20pi0lzt9o.jpg)
 
 点击 `Create` 按钮，创建 PipelineRun。
 
@@ -143,7 +143,7 @@ PipelineRun 完成后，Tekton 资源已导入成功。
 
 点击页面顶部创建通知中的链接或在 PipelineRun 列表中对应的 PipelineRun，查看 pipeline-example-maven PipelineRun 的日志。
 
-![image](https://tva3.sinaimg.cn/large/ad5fbf65gy1geqrhrwspcj217x0i7425.jpg)
+![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1geqrhrwspcj217x0i7425.jpg)
 
 > deploy 步骤中，有时会出现权限错误，需要给 default:default 绑定上 admin 的 clusterrole 权限：
 
@@ -153,7 +153,7 @@ $ kubectl create rolebinding default-admin --clusterrole=admin --serviceaccount=
 
 确认 `build` 和 `deploy` 任务均已成功。
 
-![image](https://tvax1.sinaimg.cn/large/ad5fbf65gy1geqrmy2mc9j218w0jo0uj.jpg)
+![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1geqrmy2mc9j218w0jo0uj.jpg)
 
 {{% alert note %}}
 **注意**：这里为了方便，使用的是单节点的 Kubernetes，构建完并没有推送到镜像仓库，镜像拉取策略为 `imagePullPolicy: Never` ，所以启动时候也没有从远程仓库拉取镜像，而是启动的本地镜像。

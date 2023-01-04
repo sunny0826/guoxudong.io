@@ -8,7 +8,7 @@ date: 2021-05-18T13:37:31+08:00
 lastmod: 2021-05-18T13:37:31+08:00
 draft: false
 type: blog
-image: https://tva1.sinaimg.cn/large/ad5fbf65gy1gqnpvnkbo2j20xc0hidkn.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gqnpvnkbo2j20xc0hidkn.jpg
 ---
 ## 前言
 
@@ -23,7 +23,7 @@ Pulumi 是一个现代的基础设施设施即代码（IaC）平台。它利用�
 
 ## 结构
 
-![Pulumi 的结构和主要组件](https://tva1.sinaimg.cn/large/ad5fbf65gy1gqnoo4y1r0j20yg0pcgnr.jpg)
+![Pulumi 的结构和主要组件](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gqnoo4y1r0j20yg0pcgnr.jpg)
 
 程序结构如上图，Pulumi 代码是保存在一个项目中，该项目是一个包含程序源码和运行程序元数据的目录。程序编写完成后，只需在项目目录中运行 [Pulumi CLI](https://www.pulumi.com/docs/reference/cli/) 命令 `pulumi up`，就可以为你的程序创建了一个独立的、可配置的实例，称为堆栈（Stack）。堆栈类似于你在测试和部署应用程序更新时使用的不同部署环境。例如，你可以有不同的 dev、qa 和 prod 堆栈，并在其上测试和构建资源。同时还提供了 `pulumi new` 和 `pulumi destroy` 等命令来帮助构建和销毁项目和堆栈。
 

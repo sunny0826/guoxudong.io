@@ -7,7 +7,7 @@ authors: ["guoxudong"]
 summary: "Alpine以其小巧、简单在docker容器中得到了广泛的应用。但是Alpine Linux使用了musl，可能和其他Linux发行版使用的glibc实现会有些不同。这里主要介绍了它的基础用法，但是足以满足日常运维需要。"
 tags: ["Linux","Docker","容器"]
 categories: ["系统"]
-image: https://tvax3.sinaimg.cn/large/ad5fbf65ly1ge3ibi0d7yj21qi15o7k2.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3ibi0d7yj21qi15o7k2.jpg
 ---
 ### 简介
 >Small. Simple. Secure.Alpine Linux is a security-oriented, lightweight Linux distribution based on musl libc and busybox.

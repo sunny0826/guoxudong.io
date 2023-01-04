@@ -9,7 +9,7 @@ date: 2021-03-29T10:16:42+08:00
 lastmod: 2021-03-29T10:16:42+08:00
 draft: false
 type: blog
-image: https://tvax1.sinaimg.cn/large/ad5fbf65gy1gp0qzp2tq5j20p00anwgo.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gp0qzp2tq5j20p00anwgo.jpg
 ---
 ## 前言
 
@@ -51,7 +51,7 @@ image: https://tvax1.sinaimg.cn/large/ad5fbf65gy1gp0qzp2tq5j20p00anwgo.jpg
 - 宽松型许可证/弱著佐权许可证通常可以单向兼容严格型许可证
 - 严格型许可证往往互不兼容
 
-![开源许可证兼容性列表](https://tvax2.sinaimg.cn/large/ad5fbf65gy1gp0llx9xobj21o00r6hdt.jpg)
+![开源许可证兼容性列表](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gp0llx9xobj21o00r6hdt.jpg)
 
 图片来源：《开源许可证兼容性指南》- 云计算开源产业联盟
 
@@ -59,13 +59,13 @@ image: https://tvax1.sinaimg.cn/large/ad5fbf65gy1gp0qzp2tq5j20p00anwgo.jpg
 
 随着开源产业的扩张，越来多的人参与其中，而宽松型的开源许可证（如 MIT、Apache 2.0）也被越来越的开源项目选择，如无特殊需要，笔者建议尽量选择宽松型的开源许可证，同时这也是整个开源产业的趋势。
 
-![](https://tvax4.sinaimg.cn/large/ad5fbf65gy1gp0lqc78h3j20zl0k075j.jpg)
+![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gp0lqc78h3j20zl0k075j.jpg)
 
 图片来源：Open Source Licenses in 2021: Trends and Predictions
 
 另外再附上一张网上流传很广的图，可以更直观的了解如何选择开源许可证：
 
-![图解分析](https://tva2.sinaimg.cn/large/ad5fbf65gy1gp0lcmehjqj20m80dw3zd.jpg)
+![图解分析](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gp0lcmehjqj20m80dw3zd.jpg)
 
 ## 结语
 

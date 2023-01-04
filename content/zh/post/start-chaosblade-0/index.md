@@ -10,7 +10,7 @@ lastmod: 2020-06-04T17:02:58+08:00
 featured: false
 draft: false
 type: blog
-image: https://tva1.sinaimg.cn/large/ad5fbf65gy1gfgdamuzm1j212t0lq46x.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gfgdamuzm1j212t0lq46x.jpg
 ---
 ## 前言
 
@@ -39,7 +39,7 @@ image: https://tva1.sinaimg.cn/large/ad5fbf65gy1gfgdamuzm1j212t0lq46x.jpg
 
 ## ChaosBlade
 
-![](https://tvax3.sinaimg.cn/large/ad5fbf65gy1gfh7pe8dxnj21d407mgly.jpg)
+![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gfh7pe8dxnj21d407mgly.jpg)
 
 [ChaosBlade](https://github.com/chaosblade-io/chaosblade) 中文名混沌之刃，是阿里巴巴开源的一款遵循混沌工程原理和混沌实验模型的实验注入工具，是内部项目 MonkeyKing 对外开源的项目，其建立在阿里巴巴近十年故障测试和演练实践基础上，结合了集团各业务的最佳创意和实践。旨在帮助企业提升分布式系统的容错能力，并且在企业上云或往云原生系统迁移过程中业务连续性提供保障。
 
@@ -47,7 +47,7 @@ image: https://tva1.sinaimg.cn/large/ad5fbf65gy1gfgdamuzm1j212t0lq46x.jpg
 
 该项目体验极好，仅需一个可执行文件 `blade`，就可完成多种场景的实验（一些复杂场景如 Java 应用实验，则需要相关工具包），同时如果不想下载 chaosblade 工具包，快速体验 chaosblade，可以拉取 docker 镜像并运行，在容器内体验。
 
-![](https://tva4.sinaimg.cn/large/ad5fbf65gy1gfh7yajpkkg212i0mqu0y.gif)
+![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gfh7yajpkkg212i0mqu0y.gif)
 
 <center>快速体验</center>
 
@@ -57,7 +57,7 @@ image: https://tva1.sinaimg.cn/large/ad5fbf65gy1gfgdamuzm1j212t0lq46x.jpg
 
 ChaosBlade-Operator 是 ChaosBlade 的 Kubernetes 平台实验场景实现，也是本系列文章主要使用的工具。其将混沌实验通过 Kubernetes 标准的 CRD 方式定义，很方便的使用 Kubernetes 资源操作的方式来创建、更新、删除实验场景，包括使用 kubectl、client-go 等方式执行，而且还可以使用上述的 chaosblade cli 工具执行。
 
-![](https://tvax4.sinaimg.cn/large/ad5fbf65gy1gfh84jo6dgg20p606c1kx.gif)
+![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gfh84jo6dgg20p606c1kx.gif)
 
 <center>Pod 网络延迟场景</center>
 

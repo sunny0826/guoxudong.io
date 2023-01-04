@@ -7,7 +7,7 @@ summary: "本篇为系列文章第二篇，手把手教你使用 Kustomize 的�
 tags: ["kubernetes", "kustomize", "工具"]
 categories: ["kustomize"]
 keywords: ["kubernetes", "kustomize", "工具"]
-image: https://tva3.sinaimg.cn/large/ad5fbf65ly1ge3j4h35xpj21qi15oacw.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g2dicvhncxj20xc0hi7wh.jpg
 
 ---
 本文介绍使用和维护 Kustomize 的方法及步骤。
@@ -15,7 +15,7 @@ image: https://tva3.sinaimg.cn/large/ad5fbf65ly1ge3j4h35xpj21qi15oacw.jpg
 ## 定制配置
 在这个工作流方式中，所有的配置文件（ YAML 资源）都为用户所有，存在于私有 repo 中。其他人是无法使用的。
 
-![](http://tva2.sinaimg.cn/large/ad5fbf65gy1g2813d1ia7j20qo0f0dgk.jpg)
+![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g2813d1ia7j20qo0f0dgk.jpg)
 
 1. 创建一个目录用于版本控制
 
@@ -64,7 +64,7 @@ image: https://tva3.sinaimg.cn/large/ad5fbf65ly1ge3j4h35xpj21qi15oacw.jpg
 ## 使用现成的配置
 在这个工作流方式中，可从别人的 repo 中 fork kustomize 配置，并根据自己的需求来配置。
 
-![](http://tva2.sinaimg.cn/large/ad5fbf65gy1g281xyfebej20qo0f0dgr.jpg)
+![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g281xyfebej20qo0f0dgr.jpg)
 
 1. 通过 fork/modify/rebase 等方式获得配置
 

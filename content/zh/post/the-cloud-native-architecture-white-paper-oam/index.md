@@ -10,7 +10,7 @@ lastmod: 2020-07-24T10:53:04+08:00
 featured: false
 draft: false
 type: blog
-image: https://tvax4.sinaimg.cn/large/ad5fbf65gy1gh4iqcxmu7j20om0gomzp.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gh4iqcxmu7j20om0gomzp.jpg
 
 ---
 ## 前言
@@ -31,13 +31,13 @@ OAM 是什么？OAM 能做什么？我们为什么需要 OAM？每每被同事�
 
 OAM 的出现补充了“应用”这一概念，建立对应用和它所需的运维能力定义与描述的标准规范。换言之，OAM 既是标准“应用定义”同时也是帮助封装、组织和管理 Kubernetes 中各种“运维能力”的工具。通过 OAM 中应用的可交付对象 - Application Configuration，我们可以轻松的掌握我们的应用到底有那些 Kubernetes 工作负载组成，这些工作负载都使用了哪些运维特性，这些内容都会以 Kubernetes API 对象的形式展示，查看起来和查看 Deployment 与 Service 资源一样方便。
 
-![Application Configuration](https://tvax4.sinaimg.cn/large/ad5fbf65gy1gh3bn5n23zj20t80f0myj.jpg)
+![Application Configuration](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gh3bn5n23zj20t80f0myj.jpg)
 
 ### 关注点分离
 
 在实践中，如果基础架构和应用是由不同团队维护的，由于各个团队的关注点不同、对 Kubernetes 了解的程度不同、使用习惯不同，很容易产生混乱。实际上，对于业务研发人员和运维人员而言，他们并不想配置这些如此底层的资源信息，而希望有更高维度的抽象。这就要求一个真正面向最终用户侧的应用定义，一个能够为业务研发和应用运维人员提供各自所需的应用定义原语。
 
-![](https://tva2.sinaimg.cn/large/ad5fbf65gy1gh3cl2hzsaj20w80gmgnl.jpg)
+![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gh3cl2hzsaj20w80gmgnl.jpg)
 
 通过组件（Component）和运维特征（Trait）将业务研发人员与运维人员关注的不同特征进行分离，再将不同的运维特征（Trait）与业务组件（Component）进行绑定，最终再由OAM 可交付物 – Application Configuration 将所有组件组装为一个统一的应用。研发与运维对资源的控制进行细粒度的划分，可以有效的解决实际情况中存在的类似”我比你更懂 Kubernetes，要听我的“的现象，避免了研发与运维之间的甩锅与扯皮的情况。
 
@@ -47,7 +47,7 @@ OAM 的出现补充了“应用”这一概念，建立对应用和它所需的�
 
 Crossplane 的出现解决了平台维护者，也就是负责维护 Kubernetes 的基础设施工程师的难题。但是对于应用研发和运维人员，也就是 OAM 的最终用户，操作起来并不是十分的友好。基础设施工程师为他们提供了一堆 CRD，他们必须逐个去挑选、测试和甄别，尤其是一些运维特征（Trait）可能存在功能冲突，不能同时与一个业务组件（Component）绑定，这都都要应用研发和运维人员自己去学习和测试，虽然可以通过文档来规范，但显然这样做并不优雅，这时 OAM App Engine（暂定名 RdurX）就出现了。
 
-![OAM App Engine 所在位置](https://tva3.sinaimg.cn/large/ad5fbf65gy1gh3da963ouj20sj0at0ux.jpg)
+![OAM App Engine 所在位置](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gh3da963ouj20sj0at0ux.jpg)
 
 OAM App Engine 的目标用户群体是应用开发者，是希望终端开发者用户可以感受到 OAM 提倡的各类应用管理理念带来的价值。相比于其他基于 K8s 的应用管理平台（如 [rio](https://github.com/rancher/rio) ），OAM App Engine 将至少具备如下三大核心价值。
 
@@ -55,13 +55,13 @@ OAM App Engine 的目标用户群体是应用开发者，是希望终端开发�
 2. 用户体验：贴近开发者，一切设计以最终开发者使用体验至上，复杂的概念做抽象，用户熟悉的概念不隐藏。
 3. 最佳实践：App Engine 将成为 OAM 实现的最佳实践。
 
-![OAM 架构](https://tva1.sinaimg.cn/large/ad5fbf65gy1gh3cutnty0j227415w1kx.jpg)
+![OAM 架构](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gh3cutnty0j227415w1kx.jpg)
 
 OAM App Engine 由 CLI 命令行工具、 Dashboard UI 管理页面和一系列编排文件/DSL 组成，目前还处于功能设计与开发当中，预计在8月底会和用户见面。OAM App Engine 的开发者均来自 OAM 中国社区，来自不同的公司和组织，是真正的从社区中来，服务社区用户。
 
 欢迎对 OAM 有兴趣的朋友加入，社区每双周都会进行视频例会，欢迎大家发表自己的见解或提出相关疑问。
 
-![OAM 中国社区](https://tva1.sinaimg.cn/wap360/ad5fbf65gy1gh3cx41p0gj20nc0uqtfu.jpg)
+![OAM 中国社区](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gh3cx41p0gj20nc0uqtfu.jpg)
 
 ## 结语
 

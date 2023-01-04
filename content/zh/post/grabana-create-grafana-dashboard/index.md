@@ -9,7 +9,7 @@ date: 2020-08-26T09:35:23+08:00
 lastmod: 2020-08-26T09:35:23+08:00
 draft: false
 type: blog
-image: https://tva4.sinaimg.cn/large/ad5fbf65gy1gi48o1j7l6j21he0tydq9.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gi48o1j7l6j21he0tydq9.jpg
 ---
 ## 前言
 
@@ -53,9 +53,9 @@ builder := dashboard.New(
 {{% alert title="Tips" color="primary" %}}
 API Key 的创建方法 `Configuration` - `API Keys` - `Add API Keys` 如下图：
 
-![新建 API Key](https://tva1.sinaimg.cn/large/ad5fbf65gy1gi41u4pq30j21h10pn76o.jpg)
+![新建 API Key](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gi41u4pq30j21h10pn76o.jpg)
 
-![获得 API Key](https://tvax2.sinaimg.cn/large/ad5fbf65gy1gi41y39kz1j20li0biaaz.jpg)
+![获得 API Key](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gi41y39kz1j20li0biaaz.jpg)
 
 {{% /alert %}}
 

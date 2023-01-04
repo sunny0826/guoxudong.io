@@ -10,7 +10,7 @@ lastmod: 2020-04-09T09:06:57+08:00
 featured: false
 draft: false
 type: blog
-image: https://tva2.sinaimg.cn/large/ad5fbf65ly1ge3hdzo7x3j20iw0dwjuc.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3hdzo7x3j20iw0dwjuc.jpg
 ---
 
 在过去的几年里，我对多个正在进行数字化转型的产品团队进行了架构审查。发现大多数团队都会使用微服务架构来构建产品，他们使用微服务架构的意图都是正确的：更快的开发速度、更好的可扩展性、更小的独立团队、独立的部署、使用合适的技术来完成工作等等。但大多数时候，我发现团队在使用微服务时都很不顺利，他们没能利用微服务的优势。在这篇文章中，我将分享导致你的微服务走向失败的11个原因。
@@ -154,6 +154,6 @@ image: https://tva2.sinaimg.cn/large/ad5fbf65ly1ge3hdzo7x3j20iw0dwjuc.jpg
 
 关于这一点，我就不多写了，因为网上很多文章都有涉及该问题。下图是我从 Martin Fowler 网站上发表的[《微服务测试》](https://martinfowler.com/articles/microservice-testing/)文章中摘录的，讲的是基于微服务系统的测试金字塔。
 
-![](https://tvax3.sinaimg.cn/large/ad5fbf65gy1gdnnsqieu8j20bb0913yo.jpg)
+![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gdnnsqieu8j20bb0913yo.jpg)
 
 原文地址：https://medium.com/xebia-engineering/11-reasons-why-you-are-going-to-fail-with-microservices-29b93876268b

@@ -9,7 +9,7 @@ date: 2020-08-27T11:51:25+08:00
 lastmod: 2020-08-27T11:51:25+08:00
 draft: false
 type: blog
-image: https://tvax1.sinaimg.cn/large/ad5fbf65gy1gi5c4x0ekpj20j608qtam.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gi5c4x0ekpj20j608qtam.jpg
 ---
 ## 前言
 
@@ -20,7 +20,7 @@ image: https://tvax1.sinaimg.cn/large/ad5fbf65gy1gi5c4x0ekpj20j608qtam.jpg
 Kruise 是 OpenKruise 中的核心项目之一，Kruise 是 cruise的谐音，字面意义巡航，豪华游艇（'K' for Kubernetes）。寓意 Kubernetes 上应用的自动巡航，如果把原生 Kubernetes 资源 Deployment 或 StatefulSet 比作小船，那 Kruise 确实就是豪华游艇了。
 
 <center>
-  <img src="https://tvax4.sinaimg.cn/large/ad5fbf65gy1gi6knwioawj20ge0dp0ty.jpg">
+  <img src="http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gi6knwioawj20ge0dp0ty.jpg">
 </center>
 <br>
 
@@ -31,7 +31,7 @@ Kruise 提供一套在 Kubernetes 核心控制器之外的扩展 workload，但�
 记得 Kruise 最早还没有 CloneSet 这个 Workload，所以我之前还是将其归类为有状态应用的控制器增强（最早放出来的是 Advanced StatefulSet），但是自 `v0.4.0` 版本推出之后，CloneSet 一跃成为了最受欢迎，使用率最高的 Kruise 控制器之一，同时也补齐了 Kruise 没有无状态应用控制器这个短板。
 
 <center>
-  <img src="https://tvax4.sinaimg.cn/large/ad5fbf65gy1gi6knhrsvlj20d00ae0sy.jpg">
+  <img src="http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gi6knhrsvlj20d00ae0sy.jpg">
 </center>
 
 
@@ -53,7 +53,7 @@ Advanced StatefulSet 为 StatefulSet 提供了和 Deployment 一样的 `MaxUnava
 ### SidecarSet
 
 <center>
-  <img src="https://tva1.sinaimg.cn/large/ad5fbf65gy1gi6kn5e9t8j20cu0b5gm2.jpg">
+  <img src="http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gi6kn5e9t8j20cu0b5gm2.jpg">
 </center>
 
 SidecarSet 的作用就是对 Sidecar 容器做统一管理，支持在一个单独的 CR 中定义 Sidecar 容器，向将满足条件的 Pod 中注入指定的 Sidecar 容器，同时 SidecarSet 也支持 Sidecar 容器原地升级。这样就可以将业务容器和 Sidecar 容器的管理分离，更有利于分工合作，不同的团队只需关心和自己业务有关的容器，免去了大量的沟通成本。
@@ -63,7 +63,7 @@ SidecarSet 的作用就是对 Sidecar 容器做统一管理，支持在一个单
 ### UnitedDeployment
 
 <center>
-  <img src="https://tva3.sinaimg.cn/large/ad5fbf65gy1gi6kmw2uy3j20b707m74o.jpg">
+  <img src="http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gi6kmw2uy3j20b707m74o.jpg">
 </center>
 <br>
 
