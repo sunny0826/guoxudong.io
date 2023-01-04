@@ -302,7 +302,3 @@ $ kubectl replace -f samples/bookinfo/networking/virtual-service-reviews-v3.yaml
 <center>选择相应策略，策略下发即可</center>
 
 总的来说，华为云的 Istio 确实已经是商业化应用，这里只是展示了部分灰度发布的功能。其他比如流量治理，流量监控等功能还没展示，这些功能做的十分细致，值得尝试。
-## 参考
-[在Kubernetes上基于Istio实现Service Mesh智能路由](https://help.aliyun.com/document_detail/90563.html?spm=a2c4g.11186623.6.759.5dbd1f5fSB2m9T)
-
-[基于ISTIO服务网格的灰度发布](https://support.huaweicloud.com/bestpractice-cce/cce_bestpractice_0012.html)
