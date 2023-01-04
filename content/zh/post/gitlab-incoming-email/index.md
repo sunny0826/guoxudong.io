@@ -8,7 +8,7 @@ date: 2022-02-28T16:45:07+08:00
 lastmod: 2022-02-28T16:45:07+08:00
 draft: false
 type: blog
-image: https://tvax1.sinaimg.cn/large/ad5fbf65gy1gqupsoso0bj20zk0f4q3w.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gqupsoso0bj20zk0f4q3w.jpg
 ---
 ## 前言
 
@@ -26,7 +26,7 @@ image: https://tvax1.sinaimg.cn/large/ad5fbf65gy1gqupsoso0bj20zk0f4q3w.jpg
 
 这个地址中包含用户私人令牌，请勿泄露给他人，否则将会获得您创建 Issue 和 MR 的能力（下图令牌已重置），如果泄露点击 **重置这个令牌** 即可。
 
-![create issue](https://tvax4.sinaimg.cn/large/ad5fbf65gy1gztcdrisgij219y0js44m.jpg)
+![create issue](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gztcdrisgij219y0js44m.jpg)
 
 在 Email 中，email 主题将作为 Issue 的标题，而信息则作为 Issue 的内容，在内容中用户可以使用 [Markdown](https://jihulab.com/help/user/markdown) 和上一篇文章提到的 [Quick Actions](../gitlab-quick-actions/) 来操作 Issue 完成更多任务，非常方便。
 
@@ -36,7 +36,7 @@ image: https://tvax1.sinaimg.cn/large/ad5fbf65gy1gqupsoso0bj20zk0f4q3w.jpg
 
 合并请求目标分支是项目的默认分支，其他操作与创建 Issue 类似。
 
-![create mr](https://tvax3.sinaimg.cn/large/ad5fbf65gy1gztcxhid3kj21a60jgwks.jpg)
+![create mr](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gztcxhid3kj21a60jgwks.jpg)
 
 ## 结语
 

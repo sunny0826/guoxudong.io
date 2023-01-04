@@ -9,7 +9,7 @@ date: 2021-03-04T17:36:15+08:00
 lastmod: 2021-03-04T17:36:15+08:00
 draft: false
 type: blog
-image: https://tvax4.sinaimg.cn/large/ad5fbf65gy1go82bo07nyj20p00angmk.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1go82bo07nyj20p00angmk.jpg
 ---
 ## 前言
 
@@ -61,7 +61,7 @@ $ kubectl tree --help
 ```
 #### 示例
 
-![kubectl tree](https://tvax2.sinaimg.cn/large/ad5fbf65gy1go810e9dtxj21ps0rwtyh.jpg)
+![kubectl tree](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1go810e9dtxj21ps0rwtyh.jpg)
 
 ### status
 
@@ -78,9 +78,9 @@ $ kubectl status --help
 
 #### 示例
 
-![Pod](https://tvax2.sinaimg.cn/large/ad5fbf65gy1go81g4jkwxj21da0yg0vn.jpg)
+![Pod](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1go81g4jkwxj21da0yg0vn.jpg)
 
-![StatefulSet](https://tvax1.sinaimg.cn/large/ad5fbf65gy1go81gfyc56j21da0s8abh.jpg)
+![StatefulSet](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1go81gfyc56j21da0s8abh.jpg)
 
 ### view-allocations
 
@@ -191,7 +191,7 @@ $ kubectl images --help
 
 #### 示例
 
-![kubectl-images](https://tva4.sinaimg.cn/large/ad5fbf65gy1go81ui9oidj21sk17qx3l.jpg)
+![kubectl-images](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1go81ui9oidj21sk17qx3l.jpg)
 
 ## 结语
 

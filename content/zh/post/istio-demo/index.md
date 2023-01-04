@@ -7,7 +7,7 @@ authors: ["guoxudong"]
 summary: "极简的istio样例部署，可以帮助新手快速入门，相较官方提供的Bookinfo应用更容易上手。"
 tags: ["istio","service mesh","阿里云"]
 categories: ["istio"]
-image: https://tvax4.sinaimg.cn/large/ad5fbf65ly1ge3inbf8ahj21qi15otcd.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3inbf8ahj21qi15otcd.jpg
 ---
 # istio应用部署样例
 

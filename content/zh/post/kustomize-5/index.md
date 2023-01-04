@@ -7,7 +7,7 @@ authors: ["guoxudong"]
 summary: "在以往的 pipeline 中，使用 kubectl 进行部署 Deployment 后无法检查 Deployment 是否部署成功，只能通过使用命令/脚本来手动检查 Deployment 状态，而 kubedog 这个小工具完美解决了这个问题，完善了 CI/CD 流水线的最后一步。"
 tags: ["kubernetes", "kustomize", "工具"]
 categories: ["kustomize"]
-image: https://tvax1.sinaimg.cn/large/ad5fbf65ly1ge3j6dyag5j21qc15oq6d.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3j6dyag5j21qc15oq6d.jpg
 
 ---
 >在以往的 pipeline 中，使用 kubectl 进行部署 Deployment 后无法检查 Deployment 是否部署成功，只能通过使用命令/脚本来手动检查 Deployment 状态，而 kubedog 这个小工具完美解决了这个问题，完善了 CI/CD 流水线的最后一步。

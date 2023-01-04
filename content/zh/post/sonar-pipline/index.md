@@ -7,7 +7,7 @@ authors: ["guoxudong"]
 summary: "在devops理念中，CI/CD毫无疑问是最重要的一环，而代码质量检查则是CI中必不可少的一步。在敏捷开发的思想下，代码的迭代周期变短，交付速度提升，这个时候代码的质量就很难保证，测试只能保证功能完整与可用，而代码的质量纯靠review的话效率又很低，这个时候sonar..."
 tags: ["devops","jenkins","sonar"]
 categories: ["devops"]
-image: https://tva1.sinaimg.cn/large/ad5fbf65ly1ge3jciuxh3j21pj15o4ji.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3jciuxh3j21pj15o4ji.jpg
 
 ---
 ## 简介
@@ -51,7 +51,7 @@ jenkins、sonarqube服务已经搭建完成，jenkins安装sonar插件```SonarQu
 
 2. SonarQube生成token，**这个token不会显示第二次，所以一定要记住**
 
-    ![image](https://tva2.sinaimg.cn/mw690/ad5fbf65ly1g0u5902q6nj213f0hgwgn.jpg)
+    ![image](http://rnxuex1zk.bkt.clouddn.com/mw690/ad5fbf65ly1g0u5902q6nj213f0hgwgn.jpg)
 
 3. SonarQube配置Dependency-Check
 
@@ -136,15 +136,15 @@ jenkins、sonarqube服务已经搭建完成，jenkins安装sonar插件```SonarQu
 
 ## 运行
 执行jenkins构建，构建成功后会显示如下，则证明sonar代码扫描成功且通过代码质量阈检查
-![image](https://tva2.sinaimg.cn/mw690/ad5fbf65ly1g0u6qrh8qrj21fu0q2dmw.jpg)
+![image](http://rnxuex1zk.bkt.clouddn.com/mw690/ad5fbf65ly1g0u6qrh8qrj21fu0q2dmw.jpg)
 
 查看sonar报告，这里有两种方式
 
 - 可直接登录SonarQube查看报告
-![image](https://tva2.sinaimg.cn/mw690/ad5fbf65ly1g0u6vbspv5j21260myadw.jpg)
+![image](http://rnxuex1zk.bkt.clouddn.com/mw690/ad5fbf65ly1g0u6vbspv5j21260myadw.jpg)
 
 - 也可直接在jenkins页面点击SonarQube图标进入，点击以下标记均可进去
-![image](https://tva2.sinaimg.cn/mw690/ad5fbf65ly1g0u6xzcryhj21fn0q7wkm.jpg)
+![image](http://rnxuex1zk.bkt.clouddn.com/mw690/ad5fbf65ly1g0u6xzcryhj21fn0q7wkm.jpg)
 
 ## 其他
 

@@ -9,7 +9,7 @@ date: 2020-09-01T11:49:12+08:00
 lastmod: 2020-09-01T11:49:12+08:00
 draft: false
 type: blog
-image: https://tvax3.sinaimg.cn/large/ad5fbf65gy1gic33rn8o2j21qq15ogsv.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gic33rn8o2j21qq15ogsv.jpg
 ---
 ## OpenAPI
 
@@ -25,7 +25,7 @@ image: https://tvax3.sinaimg.cn/large/ad5fbf65gy1gic33rn8o2j21qq15ogsv.jpg
 
 Darabonba(原名 TeaDSL)，是一种 OpenAPI 应用的领域特定语言。可以利用它为任意风格的接口生成多语言的 SDK、代码示例、测试用例、接口编排等。
 
-![Darabonba 设计理念](https://tva3.sinaimg.cn/large/ad5fbf65ly1giba4r6z4aj20rs0ci400.jpg)
+![Darabonba 设计理念](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1giba4r6z4aj20rs0ci400.jpg)
 
 在笔者看来，操作云产品的功能是开发者的目的，而 OpenAPI 是实现这个目的的手段，SDK 则简化了这种手段，Darabonba 的作用则降低了开发 SDK 的成本，并提高了开发 SDK 的速度，对云厂商的效率会有非常明显的提升。同时 Darabonba 也为使用多种编程语言的团队提供了一条捷径，原先需要每种编程语言都要出人来参加 OpenAPI 的集成，现在只需要公有云维护团队出一名或几名同学即可完成全语言 SDK 的生成。而如果公司本身有需要开发大量的 OpenAPI，甚至可以直接使用 Darabonba，开发符合自己系统 OpenAPI 的工具，[Darabonba](https://github.com/aliyun/darabonba) 目前已经开源，使用 [Apache-2.0 LICENSE](https://github.com/aliyun/darabonba/blob/master/LICENSE)。
 
@@ -47,7 +47,7 @@ Darabonba 目前支持：**Java**、**C#**、**TypeScript**、**PHP**、**Golang
 
 下图可以看到完整的 Darabonba 运行流程，现在我们就来快速制作一套 Code Sample 吧。
 
-![](https://tva3.sinaimg.cn/large/ad5fbf65ly1gibatrt4puj21ao1e8tet.jpg)
+![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1gibatrt4puj21ao1e8tet.jpg)
 
 ### 安装
 
@@ -94,7 +94,7 @@ ext install darabonba.darabonba
 
 之后就可以使用语法高亮、代码提示、代码格式化、语法检查等功能了。
 
-![代码高亮](https://tva2.sinaimg.cn/large/ad5fbf65ly1gibbkgjhc5j20q80l3wh7.jpg)
+![代码高亮](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1gibbkgjhc5j20q80l3wh7.jpg)
 
 ### 安装依赖模块
 
@@ -157,11 +157,11 @@ $ dara install
 
 更多的模块，可在[模块仓库](https://darabonba.api.aliyun.com/module)中搜索。这里以 ECS 模块为例
 
-![ECS 模块](https://tva2.sinaimg.cn/large/ad5fbf65gy1gic1orwhjoj21h70q3gr4.jpg)
+![ECS 模块](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gic1orwhjoj21h70q3gr4.jpg)
 
 可以在 `Detail` 中看到所有可以调用的接口，通过还可以点击其他 tab 可以查看版本、安装方法等内容：
 
-![](https://tvax2.sinaimg.cn/large/ad5fbf65ly1gibbruwd1zj21at0pqadt.jpg)
+![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1gibbruwd1zj21at0pqadt.jpg)
 
 也可通过命令单独安装模块：
 
@@ -238,7 +238,7 @@ $ dara codegen python ./tmp
 
 命令执行成功后，就可以看到 Python 代码已经生成了：
 
-![](https://tva4.sinaimg.cn/large/ad5fbf65gy1gic21suu35j208a05h3yh.jpg)
+![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gic21suu35j208a05h3yh.jpg)
 
 如果代码还没有写完，想检查是否有语法错误，可以使用 `check` 命令检查：
 
@@ -255,13 +255,13 @@ Check success !
 
 同样的，也可以在 [OpenAPI Explorer Code Sample](https://darabonba.api.aliyun.com/sample)，通过 Web UI 来生成代码，除了调试速度比较慢之外，其余体验都十分不错。
 
-![Code Sample](https://tvax4.sinaimg.cn/large/ad5fbf65gy1gic2hxwdtaj21ha0qb441.jpg)
+![Code Sample](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gic2hxwdtaj21ha0qb441.jpg)
 
 ## Code Sample 全民赛码
 <!-- markdown-link-check-disable-next-line -->
 最近阿里云还推出了这么一个比赛，看了下奖品有机械键盘、无人机、双肩包和内推资格，有兴趣的同学可以关注一下，还是挺好玩的：[传送门](https://developer.aliyun.com/topic/codesample/active1?spm=dara_code_sample.home.0.0.2ee614e5L9uDCw)
 
-![](https://tvax4.sinaimg.cn/large/ad5fbf65gy1gic2ef0fxgj21o00hyh65.jpg)
+![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gic2ef0fxgj21o00hyh65.jpg)
 
 阿里云开放平台携手开发者社区、内容设计部，联合举办“OpenAPI 开发者挑战赛第三期—— CodeSample 全民赛码 ”，面向数万开发者，招募阿里云 OpenAPI 示例代码（CodeSample）。无论您是入门开发，或是运维大神，无论是利用 OpenAPI 解决一个轻量场景，或是满足一个小功能，通通到碗里来！
 

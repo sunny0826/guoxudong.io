@@ -10,7 +10,7 @@ lastmod: 2020-06-09T11:14:09+08:00
 featured: false
 draft: false
 type: blog
-image: https://tva1.sinaimg.cn/large/ad5fbf65gy1gfgdamuzm1j212t0lq46x.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gfgdamuzm1j212t0lq46x.jpg
 ---
 ## 前言
 
@@ -222,7 +222,7 @@ user    0m0.007s
 sys     0m0.001s
 ```
 
-![](https://tva3.sinaimg.cn/large/ad5fbf65gy1gfm2deqtdwg20p606c1kx.gif)
+![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gfm2deqtdwg20p606c1kx.gif)
 
 可以看到结果符合预期。
 

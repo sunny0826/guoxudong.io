@@ -7,7 +7,7 @@ summary: "本篇为系列文章第二篇，手把手教你使用 Kustomize 的�
 tags: ["kubernetes", "kustomize", "工具"]
 categories: ["kustomize"]
 keywords: ["kubernetes", "kustomize", "工具"]
-image: https://tva3.sinaimg.cn/large/ad5fbf65ly1ge3j4h35xpj21qi15oacw.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3j4h35xpj21qi15oacw.jpg
 
 ---
 本文介绍使用和维护 Kustomize 的方法及步骤。

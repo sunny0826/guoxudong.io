@@ -9,7 +9,7 @@ date: 2020-08-18T09:23:28+08:00
 lastmod: 2020-08-18T09:23:28+08:00
 draft: false
 type: blog
-image: https://tva4.sinaimg.cn/large/ad5fbf65gy1ghuq4vr97sj21qi15odgp.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1ghuq4vr97sj21qi15odgp.jpg
 ---
 ## 前言
 
@@ -197,33 +197,33 @@ DMG 文件用于分发应用程序，将 `.app` 文件压缩制成镜像，可�
 
 制作 DMG 文件首先需要制作模板。打开`磁盘工具 - 文件 - 新建映象 - 空白映象`（或直接按 `⌘N`）创建一个新的磁盘镜像。给它取个名字，设置足够的空间空间，分区选择`CD/DVD`。
 
-![新建模板](https://tvax1.sinaimg.cn/large/ad5fbf65gy1ghuwoma7w4j20bd09odig.jpg)
+![新建模板](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1ghuwoma7w4j20bd09odig.jpg)
 
 制作好后，打开该镜像，进行文件夹视图定制（按`⌘J`），选择展示图标的大小及背景图片，这里可以隐藏工具栏
 
-![文件夹视图定制](https://tva3.sinaimg.cn/large/ad5fbf65gy1ghuwwafpr1j20uy0jhb29.jpg)
+![文件夹视图定制](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1ghuwwafpr1j20uy0jhb29.jpg)
 
 右键`应用程序`选择制作替身，将替身移动到镜像中
 
-![制作替身](https://tva1.sinaimg.cn/large/ad5fbf65gy1ghuwthtnxqj20bh05xwey.jpg)
+![制作替身](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1ghuwthtnxqj20bh05xwey.jpg)
 
 将打包好的 app 加入到 DMG 镜像中就完成了 DMG 模板的定制
 
-![定制好的视图](https://tvax1.sinaimg.cn/large/ad5fbf65gy1ghuwzoih10j20lo0cqtof.jpg)
+![定制好的视图](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1ghuwzoih10j20lo0cqtof.jpg)
 
 #### 转换 DMG 文件
 
 目前的 DMG 模板文件还没有经过压缩并且是可写的状态，这样是不能作为程序发布的，所以这里需要对模板进行转换。
 
-![转换](https://tvax1.sinaimg.cn/large/ad5fbf65gy1ghux3e65ngj20ct04676t.jpg)
+![转换](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1ghux3e65ngj20ct04676t.jpg)
 
 打开 `磁盘工具 - 映象 - 转换`，然后选择压缩后存储的目录就完成了最后一步 DMG 文件的转换。
 
-![转换成功](https://tvax1.sinaimg.cn/large/ad5fbf65gy1ghux55kyzdj20pn0fqgt6.jpg)
+![转换成功](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1ghux55kyzdj20pn0fqgt6.jpg)
 
 现在点开 DMG 文件，将应用拖动到应用程序中，就可以在启动台中看到我们的应用程序了！
 
-![启动台](https://tvax1.sinaimg.cn/large/ad5fbf65gy1ghux7e0g5tj20hn0fq7e7.jpg)
+![启动台](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1ghux7e0g5tj20hn0fq7e7.jpg)
 
 #### 自动化
 
@@ -233,9 +233,9 @@ DMG 文件用于分发应用程序，将 `.app` 文件压缩制成镜像，可�
 
 我使用 Go + HTML5 制作了一个 `Kustomize Remote` 的项目，可以从远程 kustomize 项目中获取配置，并 build 成 yaml 文件，UI样式为微信风格，支持 public 和 private 项目。
 
-![kustomize-remote-observer](https://tva4.sinaimg.cn/large/ad5fbf65gy1ghuxhffoe1j20dc0h8wf1.jpg)
+![kustomize-remote-observer](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1ghuxhffoe1j20dc0h8wf1.jpg)
 
-![yaml result](https://tva1.sinaimg.cn/large/ad5fbf65gy1ghuxk4zxv2j20dc0h83zl.jpg)
+![yaml result](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1ghuxk4zxv2j20dc0h83zl.jpg)
 
 {{% pageinfo color="primary" %}}
 项目地址：[https://github.com/sunny0826/kustomize-remote-observer](https://github.com/sunny0826/kustomize-remote-observer)

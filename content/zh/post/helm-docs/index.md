@@ -10,7 +10,7 @@ lastmod: 2020-05-08T11:20:01+08:00
 featured: false
 draft: false
 type: blog
-image: https://tva1.sinaimg.cn/large/ad5fbf65gy1gekvrbpjl9j21qn15odjn.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gekvrbpjl9j21qn15odjn.jpg
 ---
 ## 前言
 

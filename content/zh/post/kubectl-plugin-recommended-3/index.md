@@ -8,7 +8,7 @@ date: 2021-03-17T09:54:18+08:00
 lastmod: 2021-03-17T09:54:18+08:00
 draft: false
 type: blog
-image: https://tva4.sinaimg.cn/large/ad5fbf65gy1gomurdt886j20p00an3zg.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gomurdt886j20p00an3zg.jpg
 ---
 ## 前言
 
@@ -38,11 +38,11 @@ Kubectl Plugin 的开发流程和注意事项：
 
 进入 krew-plugin-template 项目，点击 `Use this template`
 
-![使用模板](https://tva4.sinaimg.cn/large/ad5fbf65gy1gomp3m8xjqj22w81naaqb.jpg)
+![使用模板](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gomp3m8xjqj22w81naaqb.jpg)
 
 输入 `Repository name`，点击 `Create repository from template` 创建 repo
 
-![创建项目](https://tvax2.sinaimg.cn/large/ad5fbf65gy1gomp5bbcl2j21fk0x4wis.jpg)
+![创建项目](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gomp5bbcl2j21fk0x4wis.jpg)
 
 ### 配置项目
 
@@ -55,7 +55,7 @@ $ cd kubectl-demo
 
 使用 `make setup` 命令开始配置
 
-![set up](https://tvax4.sinaimg.cn/large/ad5fbf65gy1gomq1rr8vzj20y80eg0wp.jpg)
+![set up](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gomq1rr8vzj20y80eg0wp.jpg)
 
 根据提示，填入 `GitHub Organization or Username`、`GitHub Repo Namek` 和 `Plugin Name` 后，会自动对项目进行配置。
 
@@ -93,7 +93,7 @@ $ cd kubectl-demo
 
 在业务逻辑完成后，需要先在本地进行测试。使用 `make bin` 命令可以将项目构建为可执行文件并用来测试，该命令会完成基础的 `fmt`、`vet` 测试并完成 `build`。
 
-![make bin](https://tvax4.sinaimg.cn/large/ad5fbf65gy1gomqjcj5krj21py0uiwnd.jpg)
+![make bin](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gomqjcj5krj21py0uiwnd.jpg)
 
 ### 创建 Release
 
@@ -120,7 +120,7 @@ Release 完成后，就可以将已经开发好的 Kubectl Plugin 推送到 [kre
 
 使用这个 GitHub Action，首先需要一份 `.krew.yaml` 配置文件，该项目作者提供了一个不错的工具，可以根据已经提交的 Kubectl Plugin 自动生成 `.krew.yaml` 内容，将生成的配置拷贝到 `.krew.yaml`，之后的 Release 成功后会自动提交 PR 到 krew-index。
 
-![Krew Release Bot Helper](https://tva3.sinaimg.cn/large/ad5fbf65gy1gomu5iw2ngj22bk116afg.jpg)
+![Krew Release Bot Helper](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gomu5iw2ngj22bk116afg.jpg)
 
 工具地址：https://rajatjindal.com/tools/krew-release-bot-helper/
 
@@ -155,7 +155,7 @@ jobs:
 
 之后每次 Release 都会自动推送更新 PR，效果如下：
 
-![PR 自动合并](https://tva1.sinaimg.cn/large/ad5fbf65gy1gomu9xo7gij21ym1rgdu7.jpg)
+![PR 自动合并](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gomu9xo7gij21ym1rgdu7.jpg)
 
 ## 注意事项
 

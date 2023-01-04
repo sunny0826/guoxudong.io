@@ -7,7 +7,7 @@ authors: ["guoxudong"]
 summary: "随着公司容器化的深入，越来越多的服务陆续迁移到kubernetes集群中，有些问题在测试环境并未凸显，但是在生产环境中这些问题就显得格外的扎眼。这里就对实践中kubernetes集群中的7层负载均衡器ingress遇到的问题进行总结。"
 tags: ["kubernetes","容器"]
 categories: ["kubernetes"]
-image: https://tvax1.sinaimg.cn/large/ad5fbf65ly1ge3ipmye8jj20dw099aa9.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3ipmye8jj20dw099aa9.jpg
 
 ---
 ## 前言
@@ -83,7 +83,7 @@ image:
 
 有一个数据导出功能，需要将大量数据进行处理，然后以Excel格式返回，在导出一个大约3W条数据的时候，出现访问超时情况。
 
-![image](https://tva2.sinaimg.cn/mw690/ad5fbf65ly1g0ubdwwzo5j21b30bjaat.jpg)
+![image](http://rnxuex1zk.bkt.clouddn.com/mw690/ad5fbf65ly1g0ubdwwzo5j21b30bjaat.jpg)
 
 #### 解决方法
 

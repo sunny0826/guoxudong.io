@@ -8,7 +8,7 @@ date: 2022-02-17T17:45:46+08:00
 lastmod: 2022-02-17T17:45:46+08:00
 draft: false
 type: blog
-image: https://tvax1.sinaimg.cn/large/ad5fbf65gy1gqupsoso0bj20zk0f4q3w.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gqupsoso0bj20zk0f4q3w.jpg
 ---
 ## 前言
 <!-- markdown-link-check-disable -->
@@ -26,7 +26,7 @@ GitLab 提供了非常丰富事件以及 Webhook，这项功能常被用于与�
 
 **设置** -> **CI/CD** -> **流水线触发器** -> **添加触发器** -> **复制触发令牌**
 
-![pipeline triggers](https://tvax4.sinaimg.cn/large/ad5fbf65gy1gzgnuzrauxj22fe0y0qfb.jpg)
+![pipeline triggers](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gzgnuzrauxj22fe0y0qfb.jpg)
 
 ### 配置 Webhook
 
@@ -42,7 +42,7 @@ GitLab 提供了非常丰富事件以及 Webhook，这项功能常被用于与�
 
 最后点击 `Add Webhook`
 
-![webhook](https://tvax1.sinaimg.cn/large/ad5fbf65gy1gzgnwxwevsj22ci15kh3o.jpg)
+![webhook](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gzgnwxwevsj22ci15kh3o.jpg)
 
 ### 修改 .gitlab-ci.yml
 

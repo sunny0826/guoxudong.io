@@ -8,7 +8,7 @@ date: 2022-01-02T09:46:00+08:00
 lastmod: 2022-01-05T09:46:00+08:00
 draft: false
 type: blog
-image: https://tva1.sinaimg.cn/large/ad5fbf65gy1gy2qe7t0vpj21hc0zjgra.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gy2qe7t0vpj21hc0zjgra.jpg
 ---
 ## 前言
 
@@ -30,7 +30,7 @@ image: https://tva1.sinaimg.cn/large/ad5fbf65gy1gy2qe7t0vpj21hc0zjgra.jpg
 
 在我开启远程办公模式中受益最大的，居然是我的猫和狗！毛线（猫）收获了更多安全感，不用担心铲屎官出去打猎（搬砖）的时候被的捕食者叼走；Sunny（狗）收获了更大的活动空间，再也不用每天都被关在狭窄的围栏里，只有周末才能全天放风了。我在 8 月份接受[《中欧商业评论》关于远程办公的采访](https://mp.weixin.qq.com/s/gFQXlkUf0OvbocJ6Uyepeg)时，也描述了他们的快乐时光。
 
-![毛线（猫）与 Sunny（狗）](https://tvax4.sinaimg.cn/large/ad5fbf65gy1gy40vluzljj21240plgvc.jpg)
+![毛线（猫）与 Sunny（狗）](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gy40vluzljj21240plgvc.jpg)
 
 ### 疲惫与调整
 
@@ -50,7 +50,7 @@ image: https://tva1.sinaimg.cn/large/ad5fbf65gy1gy2qe7t0vpj21hc0zjgra.jpg
 
 之所以把 2050 单独拿出来介绍，是因为 2050 确实给了我一种奇妙的体验。一群青年人共同探索未知，畅聊未来，因科技而团聚。我在这里认识了很多朋友，也成为了一名“自愿者”。结识了庄表伟老师，我们一起发起了优化 2050 网站的活动，并因此有幸能和王坚博士面对面的交流，依然记得那天我们一群人一起聊到了凌晨。
 
-![2050](https://tva3.sinaimg.cn/large/ad5fbf65gy1gy41gvkg3aj21r70zj1ax.jpg)
+![2050](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gy41gvkg3aj21r70zj1ax.jpg)
 
 ### 开源社区
 
@@ -58,7 +58,7 @@ image: https://tva1.sinaimg.cn/large/ad5fbf65gy1gy2qe7t0vpj21hc0zjgra.jpg
 
 在云原生社区，今年依旧在上海组织了一场百人规模的云原生社区 meetup，同时还承办了 Kubernetes Community Day China 2021 上海站的活动。
 
-![KCD China 2021](https://tvax3.sinaimg.cn/large/ad5fbf65gy1gy3yjgfjekj20u00k0q4l.jpg)
+![KCD China 2021](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gy3yjgfjekj20u00k0q4l.jpg)
 
 **2021 年总共做了 12 场公开分享**，内容包括 GItLab、DevOps、开源文化、云原生技术、GitOps 等。
 
@@ -75,7 +75,7 @@ image: https://tva1.sinaimg.cn/large/ad5fbf65gy1gy2qe7t0vpj21hc0zjgra.jpg
 - KubeCon / CloudnNativeCon Summit China 2021 Speaker
 - 2021 QCon Shanghai 讲师
 
-![证书](https://tvax4.sinaimg.cn/large/ad5fbf65gy1gy3yf9fss9j23342bc4qq.jpg)
+![证书](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gy3yf9fss9j23342bc4qq.jpg)
 
 接受了两次专访：
 

@@ -10,7 +10,7 @@ lastmod: 2020-07-02T13:51:14+08:00
 featured: false
 draft: false
 type: blog
-image: https://tvax2.sinaimg.cn/large/ad5fbf65gy1ggcq0kzq1pj20tw0ctqe5.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1ggcq0kzq1pj20tw0ctqe5.jpg
 ---
 ## 前言
 
@@ -24,7 +24,7 @@ Flagger 使用 Service Mesh（App Mesh，Istio，Linkerd）或 Ingress Controlle
 
 >本文主要介绍 Flagger 使用 Nginx-Ingress 进行金丝雀发布并监控发布状态，更多内容见[官方文档](https://docs.flagger.app/)。
 
-![Flagger NGINX Ingress Controller](https://tvax4.sinaimg.cn/large/ad5fbf65ly1ggclsv45tqj21ok0skwfb.jpg)
+![Flagger NGINX Ingress Controller](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ggclsv45tqj21ok0skwfb.jpg)
 
 ### 前提条件
 
@@ -206,13 +206,13 @@ ingress.extensions/podinfo-canary   app.example.com                             
 
 这个页面会展示 `podinfo` 的版本已经其正在访问的 pod 名称：
 
-![app.example.com](https://tva4.sinaimg.cn/large/ad5fbf65ly1ggcndtuqzsj21ha0q940s.jpg)
+![app.example.com](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ggcndtuqzsj21ha0q940s.jpg)
 
 ### 自动金丝雀发布
 
 现在起发布由 Flagger 控制，在部署新版本后，Flagger 自动将流量按照比例切换到新版本上，同时监控性能指标，例如 HTTP 请求的成功率、请求的平均持续时间和 pod 运行状态，经过分析后提升流量或者回滚，并通知到 Slack。
 
-![自动金丝雀发布](https://tva4.sinaimg.cn/large/ad5fbf65ly1ggcng8c8vnj21q40t6q3n.jpg)
+![自动金丝雀发布](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ggcng8c8vnj21q40t6q3n.jpg)
 
 通过更新镜像版本触发金丝雀部署：
 
@@ -269,15 +269,15 @@ test        podinfo   Progressing   45       2020-07-02T07:23:25Z
 
 开始部署时的 Slack 通知：
 
-![Slack 通知](https://tvax3.sinaimg.cn/large/ad5fbf65ly1ggcnsojp0kj20kj07kdgc.jpg)
+![Slack 通知](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ggcnsojp0kj20kj07kdgc.jpg)
 
 页面上也能看出变化，访问到新版本的概率会越来越高，以蓝色和绿色的圆代表新版本和老版本：
 
-![金丝雀发布](https://tvax2.sinaimg.cn/large/ad5fbf65ly1ggco0nxzdrj21h80q8gnu.jpg)
+![金丝雀发布](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ggco0nxzdrj21h80q8gnu.jpg)
 
 发布成功后，会收到 Slack 通知：
 
-![Slack 通知](https://tva2.sinaimg.cn/large/ad5fbf65ly1ggco2mdlphj20kq01h0sn.jpg)
+![Slack 通知](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ggco2mdlphj20kq01h0sn.jpg)
 
 ### 自动回滚
 
@@ -307,13 +307,13 @@ test        podinfo   Failed   0        2020-07-02T07:45:16Z
 
 发布失败，也会收到 Slack 通知：
 
-![失败 Slack 通知](https://tva3.sinaimg.cn/large/ad5fbf65ly1ggcobt1f0bj20kd01vmx1.jpg)
+![失败 Slack 通知](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ggcobt1f0bj20kd01vmx1.jpg)
 
 ### A/B 测试
 
 除了加权路由，Flagger 还可以根据 HTTP 匹配条件将流量路由到新版本（当然，这个 Nginx-Ingress 的功能，Flagger 只是简化了操作）。可以根据 HTTP header 和 cookie 来定位用户并细分受众，对于需要关联会话的前端应用十分有用。
 
-![A/B 测试](https://tva1.sinaimg.cn/large/ad5fbf65ly1ggcoglbmnyj217q0q0q3h.jpg)
+![A/B 测试](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ggcoglbmnyj217q0q0q3h.jpg)
 
 修改 Canary 资源：
 
@@ -384,7 +384,7 @@ $ kubectl -n test set image deployment/podinfo podinfod=stefanprodan/podinfo:3.1
 
 可以收到 Slack 通知：
 
-![A/B 测试 Slack 通知](https://tva4.sinaimg.cn/large/ad5fbf65gy1ggcorvilrrj20kb07wdgb.jpg)
+![A/B 测试 Slack 通知](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1ggcorvilrrj20kb07wdgb.jpg)
 
 正常访问，还是访问到老的 `v3.1.1` 版：
 
@@ -445,7 +445,7 @@ $ curl -b 'canary=always' http://app.example.com
 
 在浏览器中访问也能得到相同的结果：
 
-![添加 cookie 在浏览器中访问](https://tva3.sinaimg.cn/large/ad5fbf65gy1ggcoy65l47j20yb0dvq49.jpg)
+![添加 cookie 在浏览器中访问](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1ggcoy65l47j20yb0dvq49.jpg)
 
 ## 结语
 
@@ -455,4 +455,4 @@ $ curl -b 'canary=always' http://app.example.com
 
 想了解 OAM 可以查看我之前的文章：[《以应用为中心：开放应用模型（OAM）初探》](../start-oam)。
 
-![](https://tva3.sinaimg.cn/large/ad5fbf65gy1gfm3j2vo79g20b90b9x6r.gif)
+![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gfm3j2vo79g20b90b9x6r.gif)

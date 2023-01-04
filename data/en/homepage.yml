@@ -5,7 +5,7 @@ slider:
      - subtitle : ""
        title : "My Conquest is the Sea of Stars 💫"
        content : "Guo Xudong's Blog | The Road Of Cloud Native"
-       bg_image : "https://tvax1.sinaimg.cn/large/ad5fbf65gy1h5hk65sy5hj21na0zkjvy.jpg"
+       bg_image : "http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1h5hk65sy5hj21na0zkjvy.jpg"
        animation : "fadeInUp" # animation select from : https://daneden.github.io/animate.css/
        button:
          enable : true
@@ -48,7 +48,7 @@ about:
   subtitle : ""
   content : "Xudong Guo is a Cloud Native Architect at JiHu Gitlab. He specializes in promoting and sharing DevOps and Cloud Native technologies, is a LF APAC Open Source Evangelist, and the maintainer of the CNCF SandBox project KubeVela / ChaosBlade."
   #bg_image : "images/backgrounds/about-us-bg.png"
-  image : "https://tva3.sinaimg.cn/large/ad5fbf65ly1ghds6bthggj21dv0rsb29.jpg"
+  image : "http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ghds6bthggj21dv0rsb29.jpg"
   button:
     enable : true
     label : "了解详情"
@@ -140,5 +140,5 @@ sponsor:
 contact:
   enable : true
   title : "Contact"
-  image : "https://tva3.sinaimg.cn/large/ad5fbf65gy1gfm3j2vo79g20b90b9x6r.gif"
+  image : "http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gfm3j2vo79g20b90b9x6r.gif"
   description : "欢迎扫描二维码关注公众号，了解更多云原生知识。"

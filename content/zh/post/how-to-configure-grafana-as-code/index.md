@@ -9,7 +9,7 @@ date: 2020-08-19T11:51:17+08:00
 lastmod: 2020-08-19T11:51:17+08:00
 draft: false
 type: blog
-image: https://tvax3.sinaimg.cn/large/ad5fbf65ly1ghw47grdiuj21he0tyjw8.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ghw47grdiuj21he0tyjw8.jpg
 ---
 ## 前言
 
@@ -29,7 +29,7 @@ Grafana Dashboard 可以通过很多方式创建：通过 Grafana UI、通过 Gr
 
 Grafana Dashboard 面板中的所有内容均为 JSON，非常简单易懂。但 JSON 本身“并不够好”，很难使用传统的模板系统为其制作模板。
 
-![](https://tvax1.sinaimg.cn/large/ad5fbf65gy1ghw6c59vh8j22bc1avwlg.jpg)
+![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1ghw6c59vh8j22bc1avwlg.jpg)
 
 ## Jsonnet
 
@@ -39,7 +39,7 @@ Grafana Dashboard 面板中的所有内容均为 JSON，非常简单易懂。但
 
 “Jsonnet 具有许多种语言功能，这使得生成 JSON 以及与他人合作生成 JSON 成为一种乐趣。” Holmes 补充到。
 
-![](https://tva2.sinaimg.cn/large/ad5fbf65gy1ghw6vj3mn3j22bc1av450.jpg)
+![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1ghw6vj3mn3j22bc1av450.jpg)
 
 上面这个示例：
 
@@ -53,7 +53,7 @@ Holmes 还强调了 Jsonnet 三个与众不同之处。
 
 ### Functions
 
-![](https://tvax1.sinaimg.cn/large/ad5fbf65gy1ghw76mjmj8j22bc1av0yt.jpg)
+![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1ghw76mjmj8j22bc1av0yt.jpg)
 
 在这个简化的示例中，定义了一个名为 `dashboard()` 的函数，包含两个参数：`title` 和 `uid`。Jsonnet 可以将很长的 JSON 内容封装在非常简单的命令中。
 
@@ -65,7 +65,7 @@ Holmes 还强调了 Jsonnet 三个与众不同之处。
 
 如下所示，`schemaVersion` 字段值被覆盖了：
 
-![](https://tva1.sinaimg.cn/large/ad5fbf65gy1ghw7lembckj22bc1av0y8.jpg)
+![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1ghw7lembckj22bc1av0y8.jpg)
 
 这些代码“功能非常强大”，其使您拥有了拓展更多内容的能力。
 
@@ -73,7 +73,7 @@ Holmes 还强调了 Jsonnet 三个与众不同之处。
 
 Jsonnet 不仅可以创建函数，还可以将写好的函数 Import 到文件中。
 
-![](https://tva4.sinaimg.cn/large/ad5fbf65gy1ghw8jfq0s1j22bc1avjyc.jpg)
+![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1ghw8jfq0s1j22bc1avjyc.jpg)
 
 在上述示例中，事先已经写好了一个函数，并将该函数放入名为 `dashboard.libsonnet` 的文件中。然后在 `main.jsonnet` 文件中，将该 Dashboard 文件加载到名为 `dashboard` 的局部变量中，并调用 `new()` 方法。然后添加`schemaVersion: 22` 字段，获得与之前相同的结果。
 
@@ -90,7 +90,7 @@ Jsonnet 还有有一个名为 Jsonnet bundler 的工具，有点类似于 Golang
 
 其中最突出的是 Grafonnet，也是 Holmes 和 Pivotto 在演示中使用的，这是一个非常简洁的库，提供了：创建 Dashboard ，创建 panel，创建 single stat panel 等基本功能。
 
-![](https://tva4.sinaimg.cn/large/ad5fbf65gy1ghw9403k2zj22bc1avk2w.jpg)
+![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1ghw9403k2zj22bc1avk2w.jpg)
 
 ## 演示
 

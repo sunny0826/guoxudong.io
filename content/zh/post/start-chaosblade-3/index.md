@@ -10,7 +10,7 @@ lastmod: 2020-07-22T17:30:53+08:00
 featured: false
 draft: false
 type: blog
-image: https://tvax4.sinaimg.cn/large/ad5fbf65ly1ggzvw3dwypj21ha0q8toq.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ggzvw3dwypj21ha0q8toq.jpg
 ---
 ## 前言
 
@@ -77,7 +77,7 @@ $ kubectl apply -f node_cpu_load.yaml
 
 进入该 Node 节点，可以看到该节点 CPU 达到预期效果：
 
-![节点 CPU 负载实验](https://tvax4.sinaimg.cn/large/ad5fbf65ly1ggzw9xq77mg20qg06i4qp.gif)
+![节点 CPU 负载实验](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ggzw9xq77mg20qg06i4qp.gif)
 
 **停止实验**
 
@@ -148,7 +148,7 @@ echo ""  0.00s user 0.00s system 35% cpu 0.003 total
 telnet 192.168.1.129 32436  0.01s user 0.00s system 0% cpu 3.248 total
 ```
 
-![节点网络延迟场景](https://tva4.sinaimg.cn/large/ad5fbf65ly1ggzwhc0n0yg20qg070dou.gif)
+![节点网络延迟场景](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ggzwhc0n0yg20qg070dou.gif)
 
 **停止实验**
 
@@ -220,7 +220,7 @@ Connected to 192.168.4.210.
 Escape character is '^]'.
 ```
 
-![节点网络丢包场景](https://tva2.sinaimg.cn/large/ad5fbf65ly1ggzwjjyj67g20qg07c4az.gif)
+![节点网络丢包场景](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ggzwjjyj67g20qg07c4az.gif)
 
 同样也可以直接从浏览器访问地址，验证实验。
 
@@ -281,7 +281,7 @@ $ ping www.baidu.com
 # 无响应
 ```
 
-![节点域名访问异常场景](https://tvax4.sinaimg.cn/large/ad5fbf65ly1ggzwluapg5g20qg07011a.gif)
+![节点域名访问异常场景](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ggzwluapg5g20qg07011a.gif)
 
 可以看到 Node 的 `/etc/hosts` 文件被修改，模拟了 dns 解析异常的场景。
 
@@ -354,7 +354,7 @@ tmpfs           1.6G     0  1.6G   0% /run/user/1000
 /dev/loop0       98M   98M     0 100% /snap/core/9289
 ```
 
-![节点磁盘填充场景](https://tva4.sinaimg.cn/large/ad5fbf65ly1ggzwq8gdtrg20t406k7fr.gif)
+![节点磁盘填充场景](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ggzwq8gdtrg20t406k7fr.gif)
 
 **停止实验**
 
@@ -419,7 +419,7 @@ root      2873  2872  0 06:23 ?        00:00:00 redis-server *:6379
 
 `redis-server` 的进程号发生改变，说明被杀掉后，又被重新拉起。
 
-![杀节点上指定进程](https://tva1.sinaimg.cn/large/ad5fbf65ly1ggzwsx3sbig20t407a4d6.gif)
+![杀节点上指定进程](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ggzwsx3sbig20t407a4d6.gif)
 
 **停止实验**
 
@@ -477,7 +477,7 @@ root      5632  0.0  0.0  41520  4168 ?        Tl   06:28   0:06 redis-server *:
 
 可以看到 `redis-server` 此刻进程处于暂停状态了（T）。
 
-![挂起节点上指定进程](https://tvax4.sinaimg.cn/large/ad5fbf65ly1ggzwuoz52eg20t407w7m0.gif)
+![挂起节点上指定进程](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ggzwuoz52eg20t407w7m0.gif)
 
 **停止实验**
 

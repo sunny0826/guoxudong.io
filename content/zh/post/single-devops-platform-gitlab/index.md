@@ -24,7 +24,7 @@ image: ""
 
 ### 持续走高的维护成本
 
-![传统 DevOps 体系](https://tva4.sinaimg.cn/large/003aQKoZgy1gv5efb302qj61tk0z67wh02.jpg)
+![传统 DevOps 体系](http://rnxuex1zk.bkt.clouddn.com/large/003aQKoZgy1gv5efb302qj61tk0z67wh02.jpg)
 
 传统 DevOps 体系需要同集成大量的（开源/闭源）软件来完成 DevOps 工具链的构建，DevOps 需要同时维护工具链上所有的软件以保证 DevOps 流程的顺利运行。同时不同角色的团队成员需要登陆和切换不同的软件来完成日常工作，而不同软件的功能可能还存在交叉。这就是的 DevOps 不得不付出更多的工作量来调整、测试这些功能，还要花费更多的时间给各个团队成员进行讲解并且说服他们按照设计好的方式使用 DevOps，随着团队人数的增长，工作量也呈指数型增长。
 
@@ -42,7 +42,7 @@ image: ""
 
 既然传统 DevOps 体系难以为继，那么有没有什么办法可以解决这些问题呢？我认为统一用户模型、统一数据存储、统一权限管理、统一用户界面的 **一体化 DevOps 平台** 是一个不错的选择，DevOps 团队只需维护一个平台即可获得全部 DevOps 功能的使用，同时各种开箱即用的功能更是拉平了用户学习曲线，可以让团队在更短的时间内形成战斗力，在激烈的市场竞争中先人一步，占据优势。
 
-![一体化 DevOps 平台](https://tva3.sinaimg.cn/large/003aQKoZgy1gv5fgnzdvjj61si0za4jq02.jpg)
+![一体化 DevOps 平台](http://rnxuex1zk.bkt.clouddn.com/large/003aQKoZgy1gv5fgnzdvjj61si0za4jq02.jpg)
 
 ### 极狐GItLab 为何要做一体化 DevOps 平台
 
@@ -53,7 +53,7 @@ GitLab 为开发者熟知是因为其 SCM（源代码管理）功能，目前占
 - 持续一切：一劳永逸地架起开发和运营之间的桥梁。业界领先 CI/CD 工具帮助团队实现高效协作，挑战更强大、可扩展的、端到端自动化。
 - 实时安全：通过全面的内置功能实现对安全、代码质量和漏洞的自动化管理。
 
-![十年发展](https://tva4.sinaimg.cn/large/003aQKoZgy1gv5fq5m4zyj61ts110hdt02.jpg)
+![十年发展](http://rnxuex1zk.bkt.clouddn.com/large/003aQKoZgy1gv5fq5m4zyj61ts110hdt02.jpg)
 
 GitLab 以源代码管理为中心构建完成的 DevOps 流程闭环：
 
@@ -62,13 +62,13 @@ GitLab 以源代码管理为中心构建完成的 DevOps 流程闭环：
 - 制品库管理：还提供了内置的二进制包与容器镜像管理用来存储各种制品。
 - DevSecOps：开箱即用的各类安全扫描，让用户无需过多的配置即可完成多种安全扫描。
 
-![架构图](https://tvax1.sinaimg.cn/large/003aQKoZgy1gv5h2mx03zj61to110b2902.jpg)
+![架构图](http://rnxuex1zk.bkt.clouddn.com/large/003aQKoZgy1gv5h2mx03zj61to110b2902.jpg)
 
 ### 一体化与集成其他项目并不冲突
 
 秉承开源开放的策略，不仅可以作为一体化 DevOps 平台，还可以通过与其他应用软件的集成，在不给用户带来更多负担的情况下，为用户提供更多更优质的 DevOps 能力。与其他应用的集成，也有专门的团队维护，在其升级后保证与 GitLab 的正常集成，而非放手不管。
 
-![集成与拓展](https://tvax3.sinaimg.cn/large/003aQKoZgy1gv5gbou3sej61tq10uav402.jpg)
+![集成与拓展](http://rnxuex1zk.bkt.clouddn.com/large/003aQKoZgy1gv5gbou3sej61tq10uav402.jpg)
 
 ### 开源开放、自主可控
 
@@ -84,7 +84,7 @@ GitLab 以源代码管理为中心构建完成的 DevOps 流程闭环：
 
 通过将应用程序安全和合规前置到软件开发生命周期，基于自动化流水线对软件全生命周期进行全面的安全扫描和防护，最后提供全面且结构化的安全报告供团队和安全部门进行分析，并结合议题功能进行安全问题修复的计划和跟踪。基于“安全左移”模式，每一次代码提交，触发安全门禁，即时反馈潜在的安全问题，提供持续的安全性测试能力。
 
-![Gartner 2021](https://tvax1.sinaimg.cn/large/003aQKoZgy1gv5hconz1yj61t210engg02.jpg)
+![Gartner 2021](http://rnxuex1zk.bkt.clouddn.com/large/003aQKoZgy1gv5hconz1yj61t210engg02.jpg)
 
 GitLab 作为 2021 年唯一进入 Gartner 应用安全测试挑战者象限的 DevOps 工具厂商在这方面投入了大量的人力物力，主要体现在以下几点：
 

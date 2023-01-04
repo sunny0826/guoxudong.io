@@ -7,7 +7,7 @@ authors: ["guoxudong"]
 summary: "通过这篇文章总结一下目前我们对 drone 进行了一些定制化开发以及使用技巧，由于 drone 官方的文档不是很详细，所以也希望通过这种方法来和其他使用 drone 的用户分享和交流使用经验。"
 tags: ["devops","drone","工具"]
 categories: ["devops"]
-image: https://tva2.sinaimg.cn/large/ad5fbf65ly1ge3ighqw3uj21hc120dpl.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3ighqw3uj21hc120dpl.jpg
 ---
 
 ## 前言
@@ -101,11 +101,11 @@ steps:
 
 - 有修改的子项目
 
-    ![image](https://tva2.sinaimg.cn/large/ad5fbf65gy1gkr5icm3onj21o016e4ij.jpg)
+    ![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gkr5icm3onj21o016e4ij.jpg)
 
 - 无修改的子项目
 
-    ![image](https://tvax3.sinaimg.cn/large/ad5fbf65gy1gkr5j5olenj21o014inf9.jpg)
+    ![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gkr5j5olenj21o014inf9.jpg)
 
 
 ## Kubernetes 发布状态检查

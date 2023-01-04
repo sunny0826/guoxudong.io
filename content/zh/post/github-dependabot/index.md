@@ -8,7 +8,7 @@ date: 2021-12-01T14:18:59+08:00
 lastmod: 2021-12-01T14:18:59+08:00
 draft: false
 type: blog
-image: https://tva4.sinaimg.cn/large/ad5fbf65gy1gwyf75bzdgj20p00anq9w.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gwyf75bzdgj20p00anq9w.jpg
 ---
 ## 前言
 
@@ -20,17 +20,17 @@ image: https://tva4.sinaimg.cn/large/ad5fbf65gy1gwyf75bzdgj20p00anq9w.jpg
 
 以上内容来自 GitHub 官方文档，简单的讲 Dependabot 就是一个没有感情的依赖更新机器人，在您的项目所依赖的上游软件包或应用程序发布新版本后，它会在您的 GitHub 仓库自动创建一个 PR 来更新依赖文件，并说明依赖更新内容，用户自己选择是否 merge 该 PR，效果如下图：
 
-![Dependabot PR](https://tva3.sinaimg.cn/large/ad5fbf65gy1gwybrb0l31j21z0144tud.jpg)
+![Dependabot PR](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gwybrb0l31j21z0144tud.jpg)
 
 ### 开启 Dependabot
 
 开启方式比较简单，仅需将 `dependabot.yml` 配置文件放入仓库的 `.github` 目录中即可开启。之后 Dependabot 就会自动提交 PR 来更新您项目中的依赖项了。您也可以在 GitHub 页面上进行操作，在仓库页面通过 `Insights` -> `Dependency graph` -> `Dependabot` -> `Enable Dependabot` 路径即可开启，之后就可以点击 `Create config file` 来创建配置文件了。
 
-![开启 Dependabot](https://tvax3.sinaimg.cn/large/ad5fbf65gy1gwyc6ro8brj21zq0vathl.jpg)
+![开启 Dependabot](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gwyc6ro8brj21zq0vathl.jpg)
 
 配置完成后，即可看到需要监控的依赖文件和上次检查更新的时间。
 
-![](https://tva4.sinaimg.cn/large/ad5fbf65gy1gwycg01mi7j21wo0ke11x.jpg)
+![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gwycg01mi7j21wo0ke11x.jpg)
 
 ### 配置 dependabot.yml
 

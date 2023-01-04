@@ -8,7 +8,7 @@ summary: "解决使用 Kustomize 时遇到的报错： error: failed to find an 
 tags: ["kubernetes", "kustomize", "工具"]
 categories: ["kustomize"]
 keywords: ["kubernetes", "kustomize", "工具"]
-image: https://tva2.sinaimg.cn/large/ad5fbf65ly1ge3j7v8sguj2098048a9z.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3j7v8sguj2098048a9z.jpg
 
 ---
 
@@ -26,8 +26,8 @@ image: https://tva2.sinaimg.cn/large/ad5fbf65ly1ge3j7v8sguj2098048a9z.jpg
 
 对该报错进行了搜索，搜索到如下结果：
 
-![image](https://tva2.sinaimg.cn/large/ad5fbf65gy1g4mmee8ctxj21900ns44c.jpg)
-![image](https://tva2.sinaimg.cn/large/ad5fbf65gy1g4mmgrdz0fj21ou1b6wro.jpg)
+![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g4mmee8ctxj21900ns44c.jpg)
+![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g4mmgrdz0fj21ou1b6wro.jpg)
 
 ？？？ 为何这个 issue 没有解决就被提出者关闭了？
 
@@ -37,4 +37,4 @@ image: https://tva2.sinaimg.cn/large/ad5fbf65ly1ge3j7v8sguj2098048a9z.jpg
 
 好吧，issue 关的是有道理的...
 
-![](https://tva2.sinaimg.cn/large/ad5fbf65gy1g4mmuqm6n2j2098048a9z.jpg)
+![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g4mmuqm6n2j2098048a9z.jpg)

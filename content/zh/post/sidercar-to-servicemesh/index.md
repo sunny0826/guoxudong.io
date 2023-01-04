@@ -8,7 +8,7 @@ summary: "谈谈从边车模式这一分布式架构的设计模式到 Service M
 tags: ["Service Mesh"]
 categories: ["服务网格"]
 keywords: ["Service Mesh"]
-image: https://tva4.sinaimg.cn/large/ad5fbf65ly1ge3jc2nizzj21qi15on1j.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3jc2nizzj21qi15on1j.jpg
 
 ---
 所谓边车模式（ Sidecar pattern ），也译作挎斗模式，是分布式架构中云设计模式的一种。因为其非常类似于生活中的边三轮摩托车而得名。该设计模式通过给应用程序加上一个“边车”的方式来拓展应用程序现有的功能。这种设计模式出现的很早，实现的方式也多种多样。现在这个模式更是随着微服务的火热与 Service Mesh 的逐渐成熟而进入人们的视野。

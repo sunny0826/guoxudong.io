@@ -7,7 +7,7 @@ tags: ["容器", "云原生"]
 categories: ["kubernetes"]
 authors: ["guoxudong"]
 summary: "自从微服务（Microservice）的出现，出于业务的需要，IT应用模型不断的变革。开发模式从瀑布式到敏捷开发；开发、运维和测试互相配合的devops思想；应用程序架构从单体模型到分层模型再到微服务；部署方式也从面向物理机到虚拟键再到容器；应用程序的基础架构从自建机房到托管再到云计算，等等。这些变革使得IT技术应用的效率大大提升，同时却以更低的成本交付更高质量的产品。"
-image: https://tva3.sinaimg.cn/large/ad5fbf65ly1ge3id08uwpj21qf15otch.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3id08uwpj21qf15otch.jpg
 ---
 # 背景
 

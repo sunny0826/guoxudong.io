@@ -6,7 +6,7 @@ type: blog
 summary: "Service Mesh 是一个专门用于使服务与服务之间的通信变得安全、快速和可靠的的基础设施。如果你正在在构建一个云原生（ Cloud Native ）应用，那么 Service Mesh 是你需要的。"
 tags: ["翻译","service mesh"]
 categories: ["翻译"]
-image: https://tva4.sinaimg.cn/large/ad5fbf65ly1ge3je975r1j21qg15ojvt.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3je975r1j21qg15ojvt.jpg
 
 ---
 >作者：William Morgan 发表于2017年4月25日，2018年11月26日有所修改。

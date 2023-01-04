@@ -7,7 +7,7 @@ authors: ["guoxudong"]
 summary: "记一次在 Rancher 官方小哥帮助下解决 Rancher 问题的过程。"
 tags: ["rancher","kubernetes","prometheus"]
 categories: ["问题解决"]
-image: https://tvax4.sinaimg.cn/large/ad5fbf65ly1ge3jaudev1j21qx15owo8.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3jaudev1j21qx15owo8.jpg
 ---
 ## 前言
 

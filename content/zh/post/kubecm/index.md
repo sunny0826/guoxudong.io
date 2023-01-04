@@ -10,7 +10,7 @@ lastmod: 2019-12-09T10:07:46+08:00
 featured: false
 draft: false
 type: blog
-image: https://tva1.sinaimg.cn/large/ad5fbf65ly1ge3ixa9p7oj21ae0sekjm.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3ixa9p7oj21ae0sekjm.jpg
 ---
 ## 前言
 
@@ -81,7 +81,7 @@ source $HOME/.zshrc
 
 之后，在输入 `kubecm` 后按 <kbd>tab</kbd> 键，就可以看到命令行自动补全的内容
 
-![image](https://tva2.sinaimg.cn/large/ad5fbf65gy1g9qa0yy3bvj21co0f2hdt.jpg)
+![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g9qa0yy3bvj21co0f2hdt.jpg)
 
 ## 操作 kubeconfig
 

@@ -6,7 +6,7 @@ type: blog
 tags: ["容器", "Linux"]
 categories: ["问题解决"]
 summary: "解决容器启动退出问题。"
-image: https://tva4.sinaimg.cn/large/ad5fbf65ly1ge3if5zqkzj21qq15ojvp.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3if5zqkzj21qq15ojvp.jpg
 
 ---
 # 现象

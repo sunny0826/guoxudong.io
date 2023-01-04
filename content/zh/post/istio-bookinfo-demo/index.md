@@ -6,7 +6,7 @@ authors: ["guoxudong"]
 summary: "正如Linux 的创始人 Linus Torvalds 的那句话：Talk is cheap. Show me the code. 这里我们部署一个demo，由四个单独的微服务构成（注意这里的四个微服务是由不同的语言编写的），用来演示多种 Istio 特性。"
 tags: ["istio","service mesh","阿里云","华为云"]
 categories: ["istio"]
-image: https://tvax1.sinaimg.cn/large/ad5fbf65ly1ge3imuejxuj21qi15odmu.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3imuejxuj21qi15odmu.jpg
 ---
 ## 前言
 之前介绍了 Istio 和 Service Mesh 能给我们带来什么，我们为什么要用 Istio ，但大家对 Istio 的认识可能还没有那么深刻。正如Linux 的创始人 [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds) 的那句话：**Talk is cheap. Show me the code.** 这里我们部署一个demo，由四个单独的微服务构成**（注意这里的四个微服务是由不同的语言编写的）**，用来演示多种 Istio 特性。这个应用模仿在线书店的一个分类，显示一本书的信息。页面上会显示一本书的描述，书籍的细节（ISBN、页数等），以及关于这本书的一些评论。

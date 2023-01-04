@@ -6,7 +6,7 @@ authors: ["guoxudong"]
 summary: "现在Service Mesh很热，但是到底什么事Service Mesh，Service Mesh能为我们做什么，我们为什么要用Service Mesh。"
 tags: ["Service Mesh"]
 categories: ["服务网格"]
-image: https://tvax4.sinaimg.cn/large/ad5fbf65ly1ge3insli0hj21qi15ogpc.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3insli0hj21qi15ogpc.jpg
 
 ---
 本文转自《Istio 服务网格进阶实战》

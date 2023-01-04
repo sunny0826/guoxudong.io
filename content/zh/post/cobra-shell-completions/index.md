@@ -9,7 +9,7 @@ date: 2020-08-12T16:48:34+08:00
 lastmod: 2020-08-12T16:48:34+08:00
 draft: false
 type: blog
-image: https://tva3.sinaimg.cn/large/ad5fbf65gy1gho5iaurclj20k00b9gsk.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gho5iaurclj20k00b9gsk.jpg
 ---
 ## 前言
 
@@ -21,7 +21,7 @@ Cobra 可以作为一个 Golang 包，用来构建功能强大的命令行程序
 
 由于文本主要介绍 Cobra 的命令自动补全功能，更多内容请查阅[官网](https://github.com/spf13/cobra)。
 
-![Cobra](https://tvax2.sinaimg.cn/large/ad5fbf65gy1gho68w1h0sj20tn09e0td.jpg)
+![Cobra](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gho68w1h0sj20tn09e0td.jpg)
 
 ### 基础用法
 

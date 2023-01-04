@@ -7,7 +7,7 @@ authors: ["guoxudong"]
 summary: "Docker 非常棒！ 它使软件开发者无需担心配置和依赖性，在任何地方打包，发送和运行他们的应用程序。而在与 kubernetes 相结合后，它使应用集群部署和管理变得更方便。这使得 Docker 深受软件开发者的喜爱，越来越多的开发者开始使用 Docker。"
 tags: ["翻译","Docker","容器"]
 categories: ["翻译"]
-image: https://tva3.sinaimg.cn/large/ad5fbf65ly1ge3jdcoeujj20rs0ijju6.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3jdcoeujj20rs0ijju6.jpg
 
 ---
 **Docker 非常棒！** 它使软件开发者无需担心配置和依赖性，在任何地方打包，发送和运行他们的应用程序。而在与 kubernetes 相结合后，它使应用集群部署和管理变得更方便。这使得 Docker 深受软件开发者的喜爱，越来越多的开发者开始使用 Docker。

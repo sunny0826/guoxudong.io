@@ -9,7 +9,7 @@ date: 2021-01-15T15:34:10+08:00
 lastmod: 2021-01-15T15:34:10+08:00
 draft: false
 type: blog
-image: https://tva2.sinaimg.cn/large/ad5fbf65gy1gmohurr6m0j21qi15owkb.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gmohurr6m0j21qi15owkb.jpg
 ---
 ## 前言
 
@@ -138,7 +138,7 @@ kubectl -n NAMESPACE get secret INSTANCE-default-user -o jsonpath="{.data.passwo
 
 现在就顺利登陆 UI 界面了
 
-![RabbitMQ UI](https://tvax3.sinaimg.cn/large/ad5fbf65gy1gmoh3scl4pj23ra1aidox.jpg)
+![RabbitMQ UI](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gmoh3scl4pj23ra1aidox.jpg)
 
 
 ### 监控 RabbitMQ
@@ -149,7 +149,7 @@ kubectl -n NAMESPACE get secret INSTANCE-default-user -o jsonpath="{.data.passwo
 $ kubectl rabbitmq observe test-rabbitmq 0
 ```
 
-![image](https://tvax4.sinaimg.cn/large/ad5fbf65gy1gmoh8s8qe0j21rc1a87lq.jpg)
+![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gmoh8s8qe0j21rc1a87lq.jpg)
 
 ### 验证 RabbitMQ
 
@@ -182,7 +182,7 @@ id: test-091555-328, time: 8.006s, sent: 20648 msg/s, received: 17156 msg/s, min
 
 在 UI 上也可以看到监控发生了变化。
 
-![](https://tvax3.sinaimg.cn/large/ad5fbf65gy1gmohfwtciuj23p21g8qfb.jpg)
+![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gmohfwtciuj23p21g8qfb.jpg)
 
 验证完成后删除 `perf-test`:
 

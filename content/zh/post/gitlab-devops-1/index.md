@@ -8,7 +8,7 @@ date: 2021-06-03T16:53:31+08:00
 lastmod: 2021-06-03T16:53:31+08:00
 draft: false
 type: blog
-image: https://tvax3.sinaimg.cn/large/ad5fbf65gy1gqupsoso0bj20zk0f4q3w.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gqupsoso0bj20zk0f4q3w.jpg
 ---
 
 ## 背景
@@ -75,19 +75,19 @@ Project 和 Issue 的可视化列表、有助于管理积压的团队工作，�
 
 将各种 Epic 进行可视化展示，以非常清晰状态来展现所有 Epic 的状态和进度。
 
-![Roadmap](https://tvax2.sinaimg.cn/large/ad5fbf65gy1gr576t79ljj22yi1d0nc0.jpg)
+![Roadmap](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gr576t79ljj22yi1d0nc0.jpg)
 
 ## 项目组织结构
 
 使用 GitLab 进行项目管理，首先需要了解的就是如何合理的组织项目，不同于 GitHub 中的 organization 的下一级只能是 repo，GitLab 中的 Group 可以有 Sub Group 也就是子组的存在，这对于企业的组织架构来说更加灵活，可以非常方便的展示组织和项目之间的从属关系，和更精细的权限管理，再配合 Epic 和 Roadmap 清晰的了解项目当前的进度。
 
-![组织结构](https://tvax2.sinaimg.cn/large/ad5fbf65gy1gr60mk43erj20mi0deqch.jpg)
+![组织结构](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gr60mk43erj20mi0deqch.jpg)
 
 ## Workflow 最佳实践
 
 GitLab 推荐使用 Issue 并配合 Label 完成整个 DevOps 工作流，在体验上与 GitHub 上的操作类似，但在企业内部团队协作方面 GitLab 做的更加精细。以 Issue 为起点，通过添加和删除不同 Label 进行协作，不同的 Label 可以代表不同的**团队**、**阶段**、**环境**以及一些特定需求（如需要技术文档团队或营销团队接入）；在不同阶段不同的团队介入开发，完成后提交 MR（合并请求）并运行 CI Pipeline 和 review，通过不同环境的 CI 直到最终审核通过；接下来就是合并触发 CD Pipeline 完成发布并关闭 Issue。之后是监控和分析的接入，然后开启下一轮的 DevOps 工作流。
 
-![gitlab workflow](https://tva2.sinaimg.cn/large/ad5fbf65gy1grawt8qrklj22yk1nuhdt.jpg)
+![gitlab workflow](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1grawt8qrklj22yk1nuhdt.jpg)
 
 ## 结语
 

@@ -10,7 +10,7 @@ lastmod: 2020-06-28T14:53:23+08:00
 featured: false
 draft: false
 type: blog
-image: https://tva3.sinaimg.cn/large/ad5fbf65ly1gg82nyjdvmj20s8089764.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1gg82nyjdvmj20s8089764.jpg
 ---
 ## 前言
 
@@ -55,7 +55,7 @@ Trait 是与 Component 绑定的，一个 Component 可以绑定多个 Trait，�
 
 下面这张图很好的描述了 OAM 架构的使用场景，开发与运维的**关注点分离**，而最终都由一份 `ApplicationConfiguration` 来描述整个应用：
 
-![image](https://tvax4.sinaimg.cn/large/ad5fbf65ly1gg82h3v1o1j20jg0bg77i.jpg)
+![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1gg82h3v1o1j20jg0bg77i.jpg)
 
 ## 上手实践
 
@@ -259,7 +259,7 @@ Commercial support is available at
 
 应用的整体结构如下图所示：
 
-![OMA](https://tva4.sinaimg.cn/large/ad5fbf65gy1gg94rq5fyij20ef0drdgg.jpg)
+![OMA](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gg94rq5fyij20ef0drdgg.jpg)
 
 ## 结语
 

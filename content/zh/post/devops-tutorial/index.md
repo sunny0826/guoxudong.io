@@ -7,7 +7,7 @@ authors: ["guoxudong"]
 summary: "“DevOps”这个词是 “development” 和 “operations”这两个词的组合。它是一种促进开发和运维团队之间的协作，以自动化和可重复的方式更快地将代码部署到生产中的文化。"
 tags: ["devops","翻译"]
 categories: ["翻译"]
-image: https://tvax4.sinaimg.cn/large/ad5fbf65ly1ge3ielgql8j21qi15owk9.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3ielgql8j21qi15owk9.jpg
 
 ---
 # DevOps 是什么？

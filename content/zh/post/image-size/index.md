@@ -6,7 +6,7 @@ type: blog
 tags: ["容器"]
 categories: ["问题解决"]
 summary: "精简Docker镜像的好处很多，不仅可以节省存储空间和带宽，还能减少安全隐患。优化镜像大小的手段多种多样，因服务所使用的基础开发语言不同而有差异。本文将介绍精简Docker镜像的几种通用方法。"
-image: https://tva1.sinaimg.cn/large/ad5fbf65ly1ge3ikihf7bj211f15ogrl.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3ikihf7bj211f15ogrl.jpg
 
 ---
 >精简Docker镜像的好处很多，不仅可以节省存储空间和带宽，还能减少安全隐患。优化镜像大小的手段多种多样，因服务所使用的基础开发语言不同而有差异。本文将介绍精简Docker镜像的几种通用方法。

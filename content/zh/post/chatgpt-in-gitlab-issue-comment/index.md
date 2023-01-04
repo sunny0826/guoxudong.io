@@ -8,7 +8,7 @@ date: 2022-12-13T08:55:02+08:00
 lastmod: 2022-12-13T08:55:02+08:00
 draft: false
 type: blog
-image: "https://tva2.sinaimg.cn/large/ad5fbf65gy1h922ztce3yj20p00anwkv.jpg"
+image: "http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1h922ztce3yj20p00anwkv.jpg"
 ---
 ## 前言
 
@@ -19,7 +19,7 @@ image: "https://tva2.sinaimg.cn/large/ad5fbf65gy1h922ztce3yj20p00anwkv.jpg"
 
 如果您只想和 ChatGPT 聊天，那么您仅需访问 https://gitlab.com/guoxudong.io/chatgpt-in-issue/-/issues/2 ，在该 Issue（或者新建的 Issue）中 Comment，ChatGPT 就会自动回复您的消息，效果如下：
 
-![ChatGPT in Issue](https://tvax1.sinaimg.cn/large/ad5fbf65gy1h91zg84tv4j21ke0qiajd.jpg)
+![ChatGPT in Issue](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1h91zg84tv4j21ke0qiajd.jpg)
 
 如果您想自己在 GitLab 中与 ChatGPT 进行聊天，那么你需要：
 
@@ -47,7 +47,7 @@ image: "https://tva2.sinaimg.cn/large/ad5fbf65gy1h922ztce3yj20p00anwkv.jpg"
 
 可以新建一个 GitLab Project 或使用已有的 Project。
 
-![创建 GitLab Project](https://tvax1.sinaimg.cn/large/ad5fbf65gy1h920vxligbj21u211ytjf.jpg)
+![创建 GitLab Project](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1h920vxligbj21u211ytjf.jpg)
 
 ### 配置 Pipeline Trigger
 
@@ -55,7 +55,7 @@ image: "https://tva2.sinaimg.cn/large/ad5fbf65gy1h922ztce3yj20p00anwkv.jpg"
 
 **Settings** -> **CI/CD** -> **Pipeline triggers** -> **Add trigger** -> **Copy Token**
 
-![pipeline triggers](https://tvax4.sinaimg.cn/large/ad5fbf65gy1gzgnuzrauxj22fe0y0qfb.jpg)
+![pipeline triggers](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gzgnuzrauxj22fe0y0qfb.jpg)
 
 ### 配置 Webhook
 
@@ -71,13 +71,13 @@ image: "https://tva2.sinaimg.cn/large/ad5fbf65gy1h922ztce3yj20p00anwkv.jpg"
 
 最后点击 `Add Webhook`
 
-![Webhook](https://tva1.sinaimg.cn/large/ad5fbf65gy1h9214k52uzj21n012e13w.jpg)
+![Webhook](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1h9214k52uzj21n012e13w.jpg)
 
 ### 获取 OpenAI API Token
 
 登录并访问 https://beta.openai.com/account/api-keys 点击 `Create new secret key` 并复制生成的 Token。
 
-![OpenAI API Token](https://tvax3.sinaimg.cn/large/ad5fbf65gy1h92170nvo6j21ei0xkb25.jpg)
+![OpenAI API Token](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1h92170nvo6j21ei0xkb25.jpg)
 
 ### 获取 GitLab Access Token
 
@@ -86,7 +86,7 @@ image: "https://tva2.sinaimg.cn/large/ad5fbf65gy1h922ztce3yj20p00anwkv.jpg"
 
 这里需要勾选 `api`。
 
-![Access Token](https://tvax4.sinaimg.cn/large/ad5fbf65gy1h921cpwicnj21oe18kdzb.jpg)
+![Access Token](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1h921cpwicnj21oe18kdzb.jpg)
 
 ### 配置 CI/CD Variables
 
@@ -96,7 +96,7 @@ image: "https://tva2.sinaimg.cn/large/ad5fbf65gy1h922ztce3yj20p00anwkv.jpg"
 
 将上文获取的 `OpenAI API Token` 和 `GitLab Access Token` 添加为 **Variables**，对应的 Key 分别为 `API_KEY` 和 `GITLAB_API_TOKEN`。
 
-![CI/CD Variables](https://tva2.sinaimg.cn/large/ad5fbf65gy1h921bbqlxcj22ia1bghdu.jpg)
+![CI/CD Variables](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1h921bbqlxcj22ia1bghdu.jpg)
 
 ### 新增 .gitlab-ci.yml
 
@@ -115,4 +115,4 @@ job:
 
 现在我们就可以在 Issue 中使用 comment 进行聊天了！开始我们开始快乐的聊天吧。本项目使用的源码均已上传，有兴趣的同学可以自行查看: https://gitlab.com/guoxudong.io/chatgpt-in-issue 。
 
-![chat with chagpt](https://tva1.sinaimg.cn/large/ad5fbf65gy1h921o7czs9j21lq0no7aa.jpg)
+![chat with chagpt](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1h921o7czs9j21lq0no7aa.jpg)

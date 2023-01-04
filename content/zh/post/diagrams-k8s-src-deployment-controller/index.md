@@ -9,7 +9,7 @@ date: 2020-09-28T15:00:38+08:00
 lastmod: 2020-09-28T15:00:38+08:00
 draft: false
 type: blog
-image: https://tvax2.sinaimg.cn/large/ad5fbf65gy1gj6tgx26vzj20rs0iqwii.jpg
+image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gj6tgx26vzj20rs0iqwii.jpg
 ---
 ## 前言
 
@@ -21,7 +21,7 @@ Deployment Controller 是 Kube-Controller-Manager 中最常用的 Controller 之
 
 ### Deployment、ReplicaSet 和 Pod
 
-![deployment-controller](https://tvax4.sinaimg.cn/large/ad5fbf65gy1gj6twofn24j20es09s43a.jpg)
+![deployment-controller](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gj6twofn24j20es09s43a.jpg)
 
 Deployment 通过控制 ReplicaSet，ReplicaSet 再控制 Pod，最终由 Controller 驱动达到期望状态。在控制器模式下，每次操作对象都会触发一次事件，然后 controller 会进行一次 syncLoop 操作，controller 是通过 informer 监听事件以及进行 ListWatch 操作的。
 
@@ -50,13 +50,13 @@ func startDeploymentController(ctx ControllerContext) (http.Handler, bool, error
 
 那么先从启动逻辑开始，Kube-Controller-Manager 中所有的 Controller 的启动逻辑都差不多，都是在 `Run()` 方法中完成初始化并启动，`NewControllerInitializers` 会初始化所有 Controller，而 `startXXXXController()` 则会启动对应的 Controller。
 
-![deployment-controller-启动流程](https://tva3.sinaimg.cn/large/ad5fbf65gy1gj6rw439nrj20mh12o7wh.jpg)
+![deployment-controller-启动流程](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gj6rw439nrj20mh12o7wh.jpg)
 
 ### 核心逻辑 syncHandler
 
 Deployment Controller 在初始化时指定了 `dc.syncHandler = dc.syncDeployment`，所以核心逻辑就是围绕 `syncDeployment()` 来展开的。
 
-![deployment-controller-核心逻辑](https://tvax4.sinaimg.cn/large/ad5fbf65gy1gj6s4tfuynj20my1zq7wi.jpg)
+![deployment-controller-核心逻辑](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gj6s4tfuynj20my1zq7wi.jpg)
 
 从源码可以看出，删除、暂停、回滚、扩缩容、更新策略的优先级为 `delete > pause > rollback > scale > rollout`。而最终都不是直接更新或修改对应资源，而是通过 `dc.client.AppsV1().Deployments().UpdateStatus()` 更新 Deployment Status。
 
