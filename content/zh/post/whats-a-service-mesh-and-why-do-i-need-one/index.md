@@ -6,7 +6,7 @@ type: blog
 summary: "Service Mesh 是一个专门用于使服务与服务之间的通信变得安全、快速和可靠的的基础设施。如果你正在在构建一个云原生（ Cloud Native ）应用，那么 Service Mesh 是你需要的。"
 tags: ["翻译","service mesh"]
 categories: ["翻译"]
-image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3je975r1j21qg15ojvt.jpg
+image: https://cdn.suuny0826.com/large/ad5fbf65ly1ge3je975r1j21qg15ojvt.jpg
 
 ---
 >作者：William Morgan 发表于2017年4月25日，2018年11月26日有所修改。
@@ -44,7 +44,7 @@ Service Mesh 是一个位于 TCP/IP 上的抽象层的网络模型。它假定�
 8. Linkerd 会记录指标和分布式的追踪上述行为的各个方面，将他们保存在集中的指标系统中。
 
 以上只是简化版的介绍， Linkerd 还可以启动和重试 TLS ，执行协议升级，动态切换流量，甚至在故障之后数据中心的切换。
-![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1g1in1q1jnuj20sg0gbt99.jpg)
+![image](https://cdn.suuny0826.com/large/ad5fbf65ly1g1in1q1jnuj20sg0gbt99.jpg)
 
 值得注意的是，这些功能旨在为每个实例和应用程序提供弹性伸缩。而大规模的分布式系统（无论是如何构建的）都有一个共同特点：都会因为许多小的故障，而升级为全系统灾难性的故障。Service Mesh 则被设计为通过快速的失效和减少负载来保护整个系统免受这样灾难性的故障。
 

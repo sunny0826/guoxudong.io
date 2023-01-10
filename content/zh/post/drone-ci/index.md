@@ -7,7 +7,7 @@ authors: ["guoxudong"]
 summary: "本文介绍一款轻量级的 CI 工具 Drone ，同时也介绍在实践中遇到的一些坑，帮助你快速搭建持续集成流水线。"
 tags: ["devops","drone","工具"]
 categories: ["devops"]
-image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3ifzmi4yj21jk15ognu.jpg
+image: https://cdn.suuny0826.com/large/ad5fbf65ly1ge3ifzmi4yj21jk15ognu.jpg
 
 ---
 ## 前言
@@ -161,7 +161,7 @@ trigger:
 
 值得注意的事：上面的这个 `.drone.yml` 文件将本地的`.m2`文件、kubeconfig文件、`docker.sock` 文件挂载到 pipeline 中以实现 maven 打包缓存，k8s 部署、docker 缓存的作用，以提高 CI 速度。而是用挂载需要管理员在项目 settings 中勾选 `Trusted` ，这个操作只能管理员进行，普通用户是看不到这个选项的。而管理员就是在docker运行时候 `--env=DRONE_USER_CREATE=username:{your-admin-username},admin:true ` 设置的。
 
-![WX20190521-104717@2x](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g38qvifxwij21d40tk76s.jpg)
+![WX20190521-104717@2x](https://cdn.suuny0826.com/large/ad5fbf65gy1g38qvifxwij21d40tk76s.jpg)
 
 而上传镜像和钉钉同时需要在 settings 设置中添加 secret
 
@@ -170,19 +170,19 @@ trigger:
 - dingding： 钉钉机器人 token
 
 > 注意这里的钉钉 token 是 webhook 中 `https://oapi.dingtalk.com/robot/send?access_token=` 后这部分
-![WX20190521-105337](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g38r1mkoztj20iy0ezgmg.jpg)
+![WX20190521-105337](https://cdn.suuny0826.com/large/ad5fbf65gy1g38r1mkoztj20iy0ezgmg.jpg)
 
-![WX20190521-104942@2x](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g38qxizsg1j21ia0tujtb.jpg)
+![WX20190521-104942@2x](https://cdn.suuny0826.com/large/ad5fbf65gy1g38qxizsg1j21ia0tujtb.jpg)
 
 ## 构建结果
 
 添加 `.drone.yml` 文件后，向 master 分支提交代码即可出发 CI 构建
 
-![WX20190521-105809@2x](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g38r68yb8pj21l40sawit.jpg)
+![WX20190521-105809@2x](https://cdn.suuny0826.com/large/ad5fbf65gy1g38r68yb8pj21l40sawit.jpg)
 
 CI 结束后，会在钉钉机器人所在群收到通知
 
-![WX20190521-110009](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g38r8cttcrj20e90bzacr.jpg)
+![WX20190521-110009](https://cdn.suuny0826.com/large/ad5fbf65gy1g38r8cttcrj20e90bzacr.jpg)
 
 
 ## 插件支持

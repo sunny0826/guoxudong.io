@@ -10,7 +10,7 @@ lastmod: 2020-02-17T11:51:39+08:00
 featured: false
 draft: false
 type: blog
-image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3ioptt0jj21qi15owjf.jpg
+image: https://cdn.suuny0826.com/large/ad5fbf65ly1ge3ioptt0jj21qi15owjf.jpg
 ---
 
 ## 前言
@@ -100,7 +100,7 @@ Events:
 <!-- markdown-link-check-disable-next-line -->
 前往 [release 页面](https://github.com/rancher/k3s/releases) 下载指定版本的镜像，这里我们下载最新的 [v1.17.2+k3s1](https://github.com/rancher/k3s/releases/tag/v1.17.2%2Bk3s1) 镜像。
 
-![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gbzdedmqpdj20sh0k776o.jpg)
+![image](https://cdn.suuny0826.com/large/ad5fbf65gy1gbzdedmqpdj20sh0k776o.jpg)
 
 下载到 `~/airgap` 目录中，并进行解压，将解压后的目录重命名为 `1.17.2`。
 
@@ -165,6 +165,6 @@ User:           user-485d6mhcfm
 
 ## 结语
 
-![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gbzegsyex5j20x90n70vv.jpg)
+![image](https://cdn.suuny0826.com/large/ad5fbf65gy1gbzegsyex5j20x90n70vv.jpg)
 
 k3s 同时支持 **x86_64**、**ARM64** 和 **ARMv7** 架构，它可以十分灵活地跨任何边缘基础架构工作。不提 k3s 在边缘计算领域的应用，与之前使用的 [minikube](https://github.com/kubernetes/minikube) 相比，k3s 裁剪掉了许多用不到的功能，并且安装更简单，启动更快，空间占用也更小。相信 k3s 在开发侧的作用也会越来越大，使云原生应用的开发更加的便利。

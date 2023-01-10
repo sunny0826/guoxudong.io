@@ -7,7 +7,7 @@ authors: ["guoxudong"]
 summary: "本文介绍了 Kubernetes 原生的应用管理工具 Kustomize。"
 tags: ["翻译", "kustomize", "kubernetes", "工具"]
 categories: ["翻译"]
-image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3imde420j21y012cqc6.jpg
+image: https://cdn.suuny0826.com/large/ad5fbf65ly1ge3imde420j21y012cqc6.jpg
 ---
 > 作者：Jeff Regan (Google), Phil Wittrock (Google) 2018-05-29
 

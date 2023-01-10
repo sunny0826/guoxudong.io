@@ -7,17 +7,17 @@ author: "Red Hat"
 summary: "DevOps 不仅仅是开发和运营团队。如果您想要充分发挥出 DevOps 方法的敏捷性和响应力，则必须在应用的整个生命周期内同时兼顾 IT 安全性。"
 tags: ["devops"]
 categories: ["devops"]
-image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3jds2cxfj21qi15owio.jpg
+image: https://cdn.suuny0826.com/large/ad5fbf65ly1ge3jds2cxfj21qi15owio.jpg
 ---
 DevOps 不仅仅是开发和运营团队。如果您想要充分发挥出 DevOps 方法的敏捷性和响应力，则必须在应用的整个生命周期内同时兼顾 [IT 安全性](https://www.redhat.com/zh/topics/security)。
 
 为什么？以往，安全性会在开发的最后阶段由特定的团队来负责实现。当开发周期长达数月、甚至数年时，上述做法不存在任何问题；但是，这种做法现在已经行不通了。有效的 DevOps 可顺利推进快速频繁的开发周期（有时全程只有数周或数天），但是过时的安全措施会对此造成负面影响，即使对于最高效的 DevOps 计划也是如此。
 
-![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g2o4h6asbfj20b9077q3d.jpg)
+![image](https://cdn.suuny0826.com/large/ad5fbf65gy1g2o4h6asbfj20b9077q3d.jpg)
 
 现在，安全防护在 DevOps 协作框架中属于共同责任，而且需要在整个周期中[整合](https://www.redhat.com/zh/challenges/integration)相应的安全功能。这是一个非常重要的理念。它还使得“DevSecOps”一词应运而生，以用于强调必须为 DevOps 计划打下扎实的安全基础。
 
-![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g2o4i7spd6j20b908k0t7.jpg)
+![image](https://cdn.suuny0826.com/large/ad5fbf65gy1g2o4i7spd6j20b908k0t7.jpg)
 
 DevSecOps 意味着，从一开始就要考虑应用和基础架构的安全性；同时还要让某些安全网关实现[自动化](https://www.redhat.com/zh/topics/automation)，以防止 DevOps 工作流程变慢。选择正确的工具来持续确保安全性有助于实现安全目标。但是，有效的 DevOps 安全防护需要的不仅是新工具。它建立在 DevOps 文化变革的基础上，以便尽早集成安全团队的工作。
 
@@ -33,7 +33,7 @@ DevSecOps 意味着，从一开始就要考虑应用和基础架构的安全性�
 
 企业应该：确保采用时间短、频率高的开发周期；采取安全措施，以最大限度地缩短运营中断时间；采用创新技术，如[容器](https://www.redhat.com/zh/topics/containers)和[微服务](https://www.redhat.com/zh/topics/microservices)；同时，还要促使常见的孤立团队加强合作 — 这对所有企业来说都是一项艰巨的任务。上述所有举措都与人有关，而且企业内部需要协同合作；但是，[自动化](https://www.redhat.com/zh/topics/automation/whats-it-automation)才是有助于在 DevSecOps 框架中实现这些人员变化的关键所在。
 
-![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g2o4kwhrauj20f9065aao.jpg)
+![image](https://cdn.suuny0826.com/large/ad5fbf65gy1g2o4kwhrauj20f9065aao.jpg)
 
 那么，企业应该在哪些方面实现自动化？具体又该怎么做呢？红帽提供了相应的[书面指南](https://itrevolution.com/book/devops-and-audit/)来帮助解答上述问题。企业应该退后一步，并着眼于整个开发和运营环境。其中涉及：源控制存储库；容器注册表；持续集成和持续部署 (CI/CD) 管道；应用编程接口 (API) 的管理、编排和发布自动化；以及运营管理和监控。
 

@@ -8,7 +8,7 @@ date: 2021-08-25T11:11:51+08:00
 lastmod: 2021-08-25T11:11:51+08:00
 draft: false
 type: blog
-image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gtt9lieoqqj21j10z942u.jpg
+image: https://cdn.suuny0826.com/large/ad5fbf65gy1gtt9lieoqqj21j10z942u.jpg
 ---
 ## 前言
 
@@ -33,14 +33,14 @@ GDK 配合 Gitpod 使用，让开发者完全不需要担心本地环境、项�
 - 打开 [GitLab 项目页面](https://gitlab.com/gitlab-jh/gitlab)
 - 点击 `Gitpod` 按钮即可，如果没有该按钮则需在 [Preferences](https://gitlab.com/-/profile/preferences) 中开启 Gitpod 集成
 
-![集成](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gtt7hqt9stj21lk0da76v.jpg)
+![集成](https://cdn.suuny0826.com/large/ad5fbf65gy1gtt7hqt9stj21lk0da76v.jpg)
 
 如果您是社区贡献者：
 
 - Fork [GitLab 项目代码库](https://gitlab.com/gitlab-jh/gitlab)
 - 在 Fork 的项目中点击 `Gitpod` 按钮
 
-![Gitpod按钮](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gtt7d5y8hbj22xs1fu4qp.jpg)
+![Gitpod按钮](https://cdn.suuny0826.com/large/ad5fbf65gy1gtt7d5y8hbj22xs1fu4qp.jpg)
 
 如果您从未使用过 Gitpod，则需要：
 
@@ -53,7 +53,7 @@ GDK 配合 Gitpod 使用，让开发者完全不需要担心本地环境、项�
 
 在完成上述步骤后，等待 7 到 8 分钟，就可以看到完整的 IDE UI 了，Gitpod 提供 IDE UI 为 VSCode（Theia 已弃用），以及 Light 和 Dark 两种 UI 主题。熟悉 VSCode 的同学对下面这个界面一定不会陌生。
 
-![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gtt8lhsemyj216o0mjdun.jpg)
+![](https://cdn.suuny0826.com/large/ad5fbf65gy1gtt8lhsemyj216o0mjdun.jpg)
 
 不过这时 GDK 还没有启动完毕，访问 GitLab Web 页面会显示 `504 Gateway Time-out`，耐心等待一会儿。当终端状态如上图，就表示 GDK 已正常启动，这时就就可以登录 GitLab 开发环境，进行开发和调试了。
 
@@ -63,7 +63,7 @@ GDK 配合 Gitpod 使用，让开发者完全不需要担心本地环境、项�
 <!-- markdown-link-check-disable-next-line -->
 GitLab 最新版本 `14.2` [与 Gitpod 进行了更深度的集成](https://about.gitlab.com/releases/2021/08/22/gitlab-14-2-released/#launch-a-preconfigured-gitpod-workspace-from-a-merge-request)，现在可以在 MR 中直接打开该分支的代码，在云上对运行效果进行 Review 了。
 
-![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gtt96u0pzgj21d90hgjxp.jpg)
+![](https://cdn.suuny0826.com/large/ad5fbf65gy1gtt96u0pzgj21d90hgjxp.jpg)
 
 GDK + Gitpod 将开发者的体验放在了首位，提供了快速、安全且易于销毁的开发环境，完美解决了本地开发中遇到的各种难题，实现了我 **随时随地都能 Coding** 的愿望。
 

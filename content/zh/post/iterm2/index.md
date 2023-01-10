@@ -9,7 +9,7 @@ date: 2021-01-04T14:14:02+08:00
 lastmod: 2021-01-04T14:14:02+08:00
 draft: false
 type: blog
-image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gmbpun02u3j20rs0ik0tn.jpg
+image: https://cdn.suuny0826.com/large/ad5fbf65gy1gmbpun02u3j20rs0ik0tn.jpg
 ---
 ## 前言
 
@@ -23,51 +23,51 @@ iTerm2 是默认终端的替代品，也是目前 macOS 下最好用的终端工
 
 直接前往 [iTerm2 官网](http://www.iterm2.com/) 下载即可，下载完成后解压并双击安装。
 
-![iTerm2 官网](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gmbncotndlj21km1gu7hm.jpg)
+![iTerm2 官网](https://cdn.suuny0826.com/large/ad5fbf65gy1gmbncotndlj21km1gu7hm.jpg)
 
 ### 设置热键
 
 为了快速唤出 iterm2 终端，这里推荐使用热键进行唤出。
 
-![设置热键](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gmbnhmj7w8j21k20y87el.jpg)
+![设置热键](https://cdn.suuny0826.com/large/ad5fbf65gy1gmbnhmj7w8j21k20y87el.jpg)
 
 ### 设置 Status bar
 
 iterm2 提供了很多 Status bar，可在在终端页面显示更多关于本机的信息，如：CPU、内存、电池电量等。
 
-![配置 Status bar](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gmbnkvtjloj21ey0tojwj.jpg)
+![配置 Status bar](https://cdn.suuny0826.com/large/ad5fbf65gy1gmbnkvtjloj21ey0tojwj.jpg)
 
 点击 `Configure Status bar` 进入配置页面，这里将想要的 Status bar 拖入下面的方框即可。这里还推荐选择 `Auto-Rainbow`，这样 Status bar 就是以彩色的形式展示了。
 
-![选择 Status bar](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gmbnn70borj21eu0skdjz.jpg)
+![选择 Status bar](https://cdn.suuny0826.com/large/ad5fbf65gy1gmbnn70borj21eu0skdjz.jpg)
 
 ### 配色
 
 选择一个自己喜欢的配色方案。
 
-![选择配色方案](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gmbnqt1lhej21fg0qqn26.jpg)
+![选择配色方案](https://cdn.suuny0826.com/large/ad5fbf65gy1gmbnqt1lhej21fg0qqn26.jpg)
 
 ### 光标选择
 
 这里提供了三种光标可供选择：`_`、`|`、`[]`。
 
-![光标选择](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gmbnsyh5rqj21g00qu79h.jpg)
+![光标选择](https://cdn.suuny0826.com/large/ad5fbf65gy1gmbnsyh5rqj21g00qu79h.jpg)
 
 ### 窗口设置
 
 这里可以设置窗口透明度、背景图片、行列数以及风格等。
 
-![窗口设置](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gmbnw0mzfej21fi0wmagb.jpg)
+![窗口设置](https://cdn.suuny0826.com/large/ad5fbf65gy1gmbnw0mzfej21fi0wmagb.jpg)
 
 ### 迁移配置
 
 如果你已经有配置好的 iterm2，可以将配置导出，迁移到新 Mac 上。
 
-![导出配置](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gmboqetam4j21fi17gkjl.jpg)
+![导出配置](https://cdn.suuny0826.com/large/ad5fbf65gy1gmboqetam4j21fi17gkjl.jpg)
 
 之后在新 Mac 上导入即可。
 
-![导入配置](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gmborddsylj21es176e81.jpg)
+![导入配置](https://cdn.suuny0826.com/large/ad5fbf65gy1gmborddsylj21es176e81.jpg)
 
 ## oh my zsh
 
@@ -107,7 +107,7 @@ p10k configure
 
 这里会进行交互式的配置，只需根据提示进行选择即可。
 
-![交互式的配置](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gmap0z93zdg20ok0l60xf.gif)
+![交互式的配置](https://cdn.suuny0826.com/large/ad5fbf65gy1gmap0z93zdg20ok0l60xf.gif)
 
 ### 插件
 
@@ -117,7 +117,7 @@ oh my zsh 还提供了多种好用的插件，这里介绍两款好用的插件�
 
 可以在命令行高亮显示语法，效果如下：
 
-![语法高亮](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gmbodvj2sej20lu0isdj6.jpg)
+![语法高亮](https://cdn.suuny0826.com/large/ad5fbf65gy1gmbodvj2sej20lu0isdj6.jpg)
 
 安装方式：
 
@@ -130,7 +130,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git  ~/.oh-my-zsh
 
 可以根据您的历史记录和完成情况给输入的命令提供建议，效果如下：
 
-![命令自动补全](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gmbojbb38wj20sy044wel.jpg)
+![命令自动补全](https://cdn.suuny0826.com/large/ad5fbf65gy1gmbojbb38wj20sy044wel.jpg)
 
 安装方式
 

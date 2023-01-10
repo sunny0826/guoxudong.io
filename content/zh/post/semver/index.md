@@ -7,7 +7,7 @@ authors: ["guoxudong"]
 summary: "语义化的版本控制，在这套约定下，版本号及其更新方式包含了相邻版本间的底层代码和修改内容的信息。"
 tags: ["软件设计", "云原生", "微服务"]
 categories: ["应用程序开发"]
-image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3j9d3bf0j20dw08ft8w.jpg
+image: https://cdn.suuny0826.com/large/ad5fbf65ly1ge3j9d3bf0j20dw08ft8w.jpg
 
 ---
 >原文地址：https://semver.org/lang/zh-CN/

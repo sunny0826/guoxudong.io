@@ -10,7 +10,7 @@ lastmod: 2019-12-04T17:09:51+08:00
 featured: false
 draft: false
 type: blog
-image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3j3k1yrrj21qx15on2p.jpg
+image: https://cdn.suuny0826.com/large/ad5fbf65ly1ge3j3k1yrrj21qx15on2p.jpg
 
 ---
 ## 前言
@@ -56,13 +56,13 @@ helm install kubewatch kubewatch \
 
 复制的 webhook 中 `https://oapi.dingtalk.com/robot/send?access_token={YOUR_TOKEN}`, `{YOUR_TOKEN}` 就是要填入的 token。
 
-![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g9ku2hvs16j20ep05smxk.jpg)
+![](https://cdn.suuny0826.com/large/ad5fbf65gy1g9ku2hvs16j20ep05smxk.jpg)
 
 ## 安全设置
 
 钉钉智能群助手在更新后新增了安全设置，提供三种验证方式 `自定义关键词` `加签` `IP地址（段）`，这里推荐使用 `IP地址（段）的方式`，直接将 Kubernetes 集群的出口 IP 填入设置即可。同时也提供了 `加签` 的方式，拷贝秘钥，将其填入 `dingtalk.sign` 中。
 
-![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g9ku6qjwy2j20fo077glw.jpg)
+![](https://cdn.suuny0826.com/large/ad5fbf65gy1g9ku6qjwy2j20fo077glw.jpg)
 
 
 ## 项目配置
@@ -195,36 +195,36 @@ Slack 为 kubewatch 默认的通知软件，这里就不简介 Slack 的安装�
 
 进去创建 [APP 页面](https://api.slack.com/apps)
 
-![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g9kum3x5npj21h40p6tdx.jpg)
+![image](https://cdn.suuny0826.com/large/ad5fbf65gy1g9kum3x5npj21h40p6tdx.jpg)
 
 选择 `App Name` 和 `Development Slack Workspace`
 
-![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g9kupp0av1j210c0uejvj.jpg)
+![](https://cdn.suuny0826.com/large/ad5fbf65gy1g9kupp0av1j210c0uejvj.jpg)
 
 ### 添加 Bot 用户
 
-![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g9kuszmgggj21n4156gu2.jpg)
+![image](https://cdn.suuny0826.com/large/ad5fbf65gy1g9kuszmgggj21n4156gu2.jpg)
 
 ### 添加 App 到 Workspace
 
-![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g9kuyzwzetj21qu0wmq9n.jpg)
+![image](https://cdn.suuny0826.com/large/ad5fbf65gy1g9kuyzwzetj21qu0wmq9n.jpg)
 
 ### 获取 Bot-token
 
-![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g9kv06dva8j21s60uajxf.jpg)
+![image](https://cdn.suuny0826.com/large/ad5fbf65gy1g9kv06dva8j21s60uajxf.jpg)
 
 
 ## 通知效果
 
 在 Slack 中，`创建` `更新` `删除` 分别以绿、黄和红色代表
 
-![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g9kv23nvmoj213c0mewj4.jpg)
+![image](https://cdn.suuny0826.com/large/ad5fbf65gy1g9kv23nvmoj213c0mewj4.jpg)
 
 在钉钉中，我进行了汉化
 
-![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g9kv5fppglj20dd08zdgs.jpg)
+![image](https://cdn.suuny0826.com/large/ad5fbf65gy1g9kv5fppglj20dd08zdgs.jpg)
 
-![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g9kv5uuxn4j20ea08fgmk.jpg)
+![image](https://cdn.suuny0826.com/large/ad5fbf65gy1g9kv5uuxn4j20ea08fgmk.jpg)
 
 
 ## 结语

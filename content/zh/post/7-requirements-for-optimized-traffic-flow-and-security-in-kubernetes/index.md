@@ -10,7 +10,7 @@ lastmod: 2020-02-18T14:15:42+08:00
 featured: false
 draft: false
 type: blog
-image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3i18tkb7j20sg0iyjui.jpg
+image: https://cdn.suuny0826.com/large/ad5fbf65ly1ge3i18tkb7j20sg0iyjui.jpg
 ---
 
 根据 [Portworx 在2018年进行的一项调查](https://portworx.com/wp-content/uploads/2018/12/Portworx-Container-Adoption-Survey-Report-2018.pdf)，五分之四的企业现在正在使用容器，其中83％的企业正在生产环境中使用。而这个数字在2017年只有67％，很明显，容器不仅仅是一种时尚。
@@ -36,7 +36,7 @@ Kubernetes 是一个开源的容器编排系统。根据 [Kubernetes’ own defi
 
 下图描述了 Kubernetes 的基本工作方式。图中可以看到一个主节点和两个工作节点。主节点用来告诉工作程序节点需要做什么工作，而工作程序节点则执行主节点提供给它们的指令。同时可以添加其他 Kubernetes 工作节点以扩展基础架构。
 
-![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gc0k2knw9zj20r30czq6p.jpg)
+![](https://cdn.suuny0826.com/large/ad5fbf65gy1gc0k2knw9zj20r30czq6p.jpg)
 
 如果仔细观察，您会发现在每个部分中都出现了 “Docker” 一词。Docker 是一个容器平台，非常适合在单个物理机或虚拟机（VM）上运行容器。
 
@@ -80,7 +80,7 @@ Kubernetes 的另一个主要功能是将信息打包到 “pod” 中，如果�
 
 ### 1. 高级应用程序交付控制器（ADC）
 
-![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gc0ldvmd2ij20r30bjad0.jpg)
+![](https://cdn.suuny0826.com/large/ad5fbf65gy1gc0ldvmd2ij20r30bjad0.jpg)
 
 虽然企业可能已经在其基础架构的其他区域使用了高级应用程序交付控制器，但也有必要为 Kubernetes 部署一个。默认情况下，这将允许管理员操作在 Kubernetes 前的高级负载均衡器。
 
@@ -92,7 +92,7 @@ Kubernetes 已经配备了名为 *kube-proxy* 的网络代理。它提供了简�
 
 ### 2. 使负载均衡器（LB）配置与基础架构保持同步
 
-![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gc0ll8lr83j20r30aytbc.jpg)
+![](https://cdn.suuny0826.com/large/ad5fbf65gy1gc0ll8lr83j20r30aytbc.jpg)
 
 由于在 Kubernetes 中一切都是可以不断变化的，因此位于集群前的负载均衡器是无法追踪所有事情的。除非您有类似上图紫色框所示的东西。
 
@@ -104,7 +104,7 @@ Kubernetes 已经配备了名为 *kube-proxy* 的网络代理。它提供了简�
 
 ### 3. 南北向流量的安全
 
-![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gc1hnwxcqlj20r30bpgon.jpg)
+![](https://cdn.suuny0826.com/large/ad5fbf65gy1gc1hnwxcqlj20r30bpgon.jpg)
 
 南北和东西方都是用来描述流量流向的通用术语。南北流量是指流量流入和流出 Kubernetes。
 
@@ -122,7 +122,7 @@ Kubernetes 已经配备了名为 *kube-proxy* 的网络代理。它提供了简�
 
 ### 4. 为大规模部署准备的中央控制器
 
-![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gc1i8wydpyj20r30bamzf.jpg)
+![](https://cdn.suuny0826.com/large/ad5fbf65gy1gc1i8wydpyj20r30bamzf.jpg)
 
 企业还需要考虑到横向扩展，特别是在安全性方面。
 
@@ -134,7 +134,7 @@ Ingress Controller 前方的蓝色圆圈是 [A10 Networks Harmony Controller](ht
 
 ### 5. 微服务之间的访问控制
 
-![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gc1ikekni3j20r30ckjuz.jpg)
+![](https://cdn.suuny0826.com/large/ad5fbf65gy1gc1ikekni3j20r30ckjuz.jpg)
 
 与流入和流出 Kubernetes 的南北流量相反，东西向流量在 Kubernetes 节点之间流动。在上图中，您可以看到东西向流量是如何运作的。
 
@@ -146,13 +146,13 @@ Ingress Controller 前方的蓝色圆圈是 [A10 Networks Harmony Controller](ht
 
 此外，服务网格可以在 Kubernetes 内部运行，而无需将流量发送到物理设备或 VM。使用服务网格，东西向的流量状况如下所示：
 
-![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gc1ikyysvtj20r30bcn0n.jpg)
+![](https://cdn.suuny0826.com/large/ad5fbf65gy1gc1ikyysvtj20r30bcn0n.jpg)
 
 通过这种解决方案，像金融机构这样的企业可以轻松地将信息保留在应有的位置，而不用担心影响安全性。
 
 ### 6. 东西向流量加密
 
-![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gc1ivrlln4j20r309ojtt.jpg)
+![](https://cdn.suuny0826.com/large/ad5fbf65gy1gc1ivrlln4j20r309ojtt.jpg)
 
 如果没有适当的加密，未加密的信息可能会从一个物理 Kubernetes 节点流到另一个。这是一个严重的问题，特别是对于需要处理特别敏感信息的金融机构和其他企业。
 
@@ -160,7 +160,7 @@ Ingress Controller 前方的蓝色圆圈是 [A10 Networks Harmony Controller](ht
 
 供应商可以通过两种方式提供这种类型的保护：
 
-![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gc1ixe7n4xj20r30b0aci.jpg)
+![](https://cdn.suuny0826.com/large/ad5fbf65gy1gc1ixe7n4xj20r30b0aci.jpg)
 
 第一个选择是 Sidecar 代理部署，这种方法也是最受欢迎的。
 
@@ -174,7 +174,7 @@ Ingress Controller 前方的蓝色圆圈是 [A10 Networks Harmony Controller](ht
 
 ### 7. 应用流量分析
 
-![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gc1j83rredj20r30dfn2i.jpg)
+![](https://cdn.suuny0826.com/large/ad5fbf65gy1gc1j83rredj20r30dfn2i.jpg)
 
 最后一点是，企业了解应用程序层流量的详细信息至关重要。
 

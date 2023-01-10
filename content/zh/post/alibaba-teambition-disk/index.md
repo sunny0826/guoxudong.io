@@ -9,7 +9,7 @@ date: 2020-11-02T09:26:27+08:00
 lastmod: 2020-11-02T09:26:27+08:00
 draft: false
 type: blog
-image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gkatai1vr8j20gq07wn0f.jpg
+image: https://cdn.suuny0826.com/large/ad5fbf65gy1gkatai1vr8j20gq07wn0f.jpg
 ---
 ## 前言
 
@@ -27,7 +27,7 @@ Teambition 网盘自开放内测申请以来已经过去了数月，上周五终
 
 经实测 Teambition 网盘的上传下载速度都能达到本地带宽的最大值，上传下载速度都非常丝滑。
 
-![上传速度](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1gkamt4yh6tj20b604p74d.jpg)
+![上传速度](https://cdn.suuny0826.com/large/ad5fbf65ly1gkamt4yh6tj20b604p74d.jpg)
 
 <br>
 
@@ -41,7 +41,7 @@ Teambition 网盘背靠阿里巴巴集团，由阿里云提供资源支持，所
 
 内测版开放了 2T 的免费容量，这个大小基本满足了个人用户的使用需求，后续应该会开放购买更大的容量。
 
-![网盘容量](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gkasv8u9fzj208n03xglh.jpg)
+![网盘容量](https://cdn.suuny0826.com/large/ad5fbf65gy1gkasv8u9fzj208n03xglh.jpg)
 
 ### 隐私安全
 
@@ -51,7 +51,7 @@ Teambition 网盘背靠阿里巴巴集团，由阿里云提供资源支持，所
 
 网盘页面简洁明了，功能一目了然，可以识别众多文件格式。确实也和承诺中的一样，没有广告推送和弹窗，整体保持简洁清新的风格。
 
-![网盘页面](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gkamyvsv50j21h60q7dj9.jpg)
+![网盘页面](https://cdn.suuny0826.com/large/ad5fbf65gy1gkamyvsv50j21h60q7dj9.jpg)
 
 ### 协作
 
@@ -59,11 +59,11 @@ Teambition 网盘背靠阿里巴巴集团，由阿里云提供资源支持，所
 
 #### 讨论功能
 
-![讨论](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1gkanbqdngbj20dd09dq3w.jpg)
+![讨论](https://cdn.suuny0826.com/large/ad5fbf65ly1gkanbqdngbj20dd09dq3w.jpg)
 
 参与协作的用户可以使用不同的颜色，将想要讨论的对象**圈出来**，这样就可以在同一幅图片或者视频中进行多组讨论，不用添加多余的描述。这个功能在视频中效果会更加明显，可以逐帧**圈**出修改对象并发表意见（剪辑师、设计师狂怒）。
 
-![圈出讨论](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gkandlm1cfj21780ppqil.jpg)
+![圈出讨论](https://cdn.suuny0826.com/large/ad5fbf65gy1gkandlm1cfj21780ppqil.jpg)
 
 你觉得是狗可爱还是猫可爱呢？：）
 
@@ -71,7 +71,7 @@ Teambition 网盘背靠阿里巴巴集团，由阿里云提供资源支持，所
 
 文档中并没有提到这个功能，是我在测试时偶然发现的，Teambition 网盘会自动识别你上传图像的内容，并在详情中的 **“包含的事物”** 中展示，如下图：
 
-![图像识别](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gkanoe8od2j214l0jo1gt.jpg)
+![图像识别](https://cdn.suuny0826.com/large/ad5fbf65gy1gkanoe8od2j214l0jo1gt.jpg)
 
 #### 分享
 

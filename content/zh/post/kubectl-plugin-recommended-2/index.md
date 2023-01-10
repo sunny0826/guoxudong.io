@@ -9,7 +9,7 @@ date: 2021-03-09T11:18:48+08:00
 lastmod: 2021-03-09T11:18:48+08:00
 draft: false
 type: blog
-image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1godp4trcrnj20p00an3zg.jpg
+image: https://cdn.suuny0826.com/large/ad5fbf65gy1godp4trcrnj20p00an3zg.jpg
 ---
 ## 补充
 
@@ -30,7 +30,7 @@ $ kubectl pod-lens --help
 
 #### 示例
 
-![pod-lens](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1godp0s6wj6j219014ugx8.jpg)
+![pod-lens](https://cdn.suuny0826.com/large/ad5fbf65gy1godp0s6wj6j219014ugx8.jpg)
 
 ## 前言
 
@@ -55,11 +55,11 @@ $ kubectl iexec --help
 
 该插件极大的简化了 `kubectl exec` 操作。其可以模糊匹配 pod name，如果只有一个 pod 匹配输入的名称，将会直接进入该 Pod。
 
-![单个匹配](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1godnu79ttxj20rs0fkq5e.jpg)
+![单个匹配](https://cdn.suuny0826.com/large/ad5fbf65gy1godnu79ttxj20rs0fkq5e.jpg)
 
 如果匹配到多个 Pod，则会出现下拉菜单来选择要进入的 Pod 和 Container。
 
-![多个匹配](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1godnw22airj20pw0gajts.jpg)
+![多个匹配](https://cdn.suuny0826.com/large/ad5fbf65gy1godnw22airj20pw0gajts.jpg)
 
 
 ### open-svc
@@ -77,7 +77,7 @@ $ kubectl open-svc --help
 
 #### 示例
 
-![open-svc](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1godnz8c836g20ok0aymzp.gif)
+![open-svc](https://cdn.suuny0826.com/large/ad5fbf65gy1godnz8c836g20ok0aymzp.gif)
 
 
 ### view-secret
@@ -101,7 +101,7 @@ $ kubectl view-secret --help
 
 #### 示例
 
-![view-secret](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1godoks7qwbj20oa11oq9n.jpg)
+![view-secret](https://cdn.suuny0826.com/large/ad5fbf65gy1godoks7qwbj20oa11oq9n.jpg)
 
 ### ksniff
 
@@ -118,7 +118,7 @@ $ kubectl sniff --help
 
 #### 示例
 
-![ksniff](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1godop5l1hqg21bp0oval7.gif)
+![ksniff](https://cdn.suuny0826.com/large/ad5fbf65gy1godop5l1hqg21bp0oval7.gif)
 
 ## 总结
 

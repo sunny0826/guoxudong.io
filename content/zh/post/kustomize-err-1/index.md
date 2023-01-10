@@ -8,7 +8,7 @@ summary: "解决使用 Kustomize 时遇到的报错： error: failed to find an 
 tags: ["kubernetes", "kustomize", "工具"]
 categories: ["kustomize"]
 keywords: ["kubernetes", "kustomize", "工具"]
-image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3j7v8sguj2098048a9z.jpg
+image: https://cdn.suuny0826.com/large/ad5fbf65ly1ge3j7v8sguj2098048a9z.jpg
 
 ---
 
@@ -16,7 +16,7 @@ image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3j7v8sguj2098048a9z.j
 
 在日常 CI/CD 流程中，已经将 Kustomize 集成到 pipeline 中使用，但是在对一个项目进行 Kustomize 改造时，将单个 `deploy.yaml` 拆分为了若干个 patch 以达到灵活 Kubernetes 部署的目的。但是在使用 `kubectl apply -k .` 命令进行部署的时候遇到了 `error: failed to find an object with apps_v1_Deployment|myapp to apply the patch` 的报错。
 
-![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g4mm1m3vx9j21oe10y102.jpg)
+![image](https://cdn.suuny0826.com/large/ad5fbf65gy1g4mm1m3vx9j21oe10y102.jpg)
 
 ## 解决之路
 
@@ -26,8 +26,8 @@ image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3j7v8sguj2098048a9z.j
 
 对该报错进行了搜索，搜索到如下结果：
 
-![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g4mmee8ctxj21900ns44c.jpg)
-![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g4mmgrdz0fj21ou1b6wro.jpg)
+![image](https://cdn.suuny0826.com/large/ad5fbf65gy1g4mmee8ctxj21900ns44c.jpg)
+![image](https://cdn.suuny0826.com/large/ad5fbf65gy1g4mmgrdz0fj21ou1b6wro.jpg)
 
 ？？？ 为何这个 issue 没有解决就被提出者关闭了？
 
@@ -37,4 +37,4 @@ image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3j7v8sguj2098048a9z.j
 
 好吧，issue 关的是有道理的...
 
-![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g4mmuqm6n2j2098048a9z.jpg)
+![](https://cdn.suuny0826.com/large/ad5fbf65gy1g4mmuqm6n2j2098048a9z.jpg)

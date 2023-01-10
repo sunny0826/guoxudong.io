@@ -10,7 +10,7 @@ lastmod: 2020-04-23T14:03:53+08:00
 featured: false
 draft: false
 type: blog
-image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3o9u1zfgj20e8086t99.jpg
+image: https://cdn.suuny0826.com/large/ad5fbf65ly1ge3o9u1zfgj20e8086t99.jpg
 
 ---
 
@@ -49,7 +49,7 @@ k3s 是一款轻量级的 Kubernetes 集群，主要面向边缘计算和 IOT �
 
 解释了海量 Kubernetes 集群的疑问，下面就从 Fleet 的架构入手，讲讲如何**集中管理**。
 
-![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3o40xe41j20qx0ljdm7.jpg)
+![](https://cdn.suuny0826.com/large/ad5fbf65ly1ge3o40xe41j20qx0ljdm7.jpg)
 
 Fleet 包含`Manager`和`agent`，`Manager`所在集群作为控制平面管理所有`agent`集群，同时 Fleet 根据 Kubernetes 部署 Pod 的模型，定义了一个 Bundles 对象，并且提供了一种内置机制，可以使用诸如`Helm`和`Kustomize`等行业标准工具为每个目标集群定制 Bundles，在我看来这种模式以及`bundle.yaml`的写法都和`Kustomize`很像(套娃行为？)...一旦用户在集群之间部署了 Bundles，Fleet 就会主动监视资源是否已就绪，以及是否被更改过。总的来说就是通过部署 Bundles，就可以将部署内容批量分发到所有目标集群，从而达到**集中管理**的目的。
 

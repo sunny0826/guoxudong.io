@@ -10,7 +10,7 @@ lastmod: 2020-02-14T10:12:52+08:00
 featured: false
 draft: false
 type: blog
-image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3ihjkwh8j23402c0npp.jpg
+image: https://cdn.suuny0826.com/large/ad5fbf65ly1ge3ihjkwh8j23402c0npp.jpg
 
 ---
 [Grafana]: https://grafana.com/
@@ -127,17 +127,17 @@ image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3ihjkwh8j23402c0npp.j
 
 这里只有一个值，所以要选择 `First`。
 
-![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gbvs6gmbzlj20x00ku0uk.jpg)
+![image](https://cdn.suuny0826.com/large/ad5fbf65gy1gbvs6gmbzlj20x00ku0uk.jpg)
 
 ### 病例数发展趋势图：
 
 这里将【确诊/疑似】和【治愈/死亡】数进行对比。
 
-![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gbvs8hmuvoj21gu0iu41j.jpg)
+![image](https://cdn.suuny0826.com/large/ad5fbf65gy1gbvs8hmuvoj21gu0iu41j.jpg)
 
 ### 数据表格：
 
-![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gbvsa2pharj21b30igdi1.jpg)
+![image](https://cdn.suuny0826.com/large/ad5fbf65gy1gbvsa2pharj21b30igdi1.jpg)
 
 ## 构建
 
@@ -179,13 +179,13 @@ docker run -d --name datasource -p 8088:3000 guoxudongdocker/feiyan-datasource
 
     选择 [SimpleJson] 类型的数据源，点击添加，填入数据源地址：
 
-    ![datasource](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gbvsocijjuj20jj0lagot.jpg)
+    ![datasource](https://cdn.suuny0826.com/large/ad5fbf65gy1gbvsocijjuj20jj0lagot.jpg)
 
 - 导入 Dashboard
 
     点击 `Upload.json file`，选择 `wuhan2020-grafana/dashboard.json`
 
-    ![import](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gbvspqvaz0j20uh0iracw.jpg)
+    ![import](https://cdn.suuny0826.com/large/ad5fbf65gy1gbvspqvaz0j20uh0iracw.jpg)
 
 - 使用 K8S 部署（可选）
 

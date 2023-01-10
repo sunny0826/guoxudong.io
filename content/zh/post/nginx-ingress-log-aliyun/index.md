@@ -10,7 +10,7 @@ lastmod: 2020-03-02T15:29:16+08:00
 featured: false
 draft: false
 type: blog
-image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3ja0bo02j21qi15owib.jpg
+image: https://cdn.suuny0826.com/large/ad5fbf65ly1ge3ja0bo02j21qi15owib.jpg
 ---
 
 ## 前言
@@ -19,7 +19,7 @@ image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3ja0bo02j21qi15owib.j
 
 日志采集方面，阿里云天生就提供了 nginx-ingress 日志和采集和展示，本身提供很多不错的基于 ingress 日志数据的图表与分析。如果你使用的是阿里云 ACK 容器服务，那么极端推荐使用，配置方法见官方文档：https://help.aliyun.com/document_detail/86532.html
 
-![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gcfmo5d410j21970nzwjg.jpg)
+![image](https://cdn.suuny0826.com/large/ad5fbf65gy1gcfmo5d410j21970nzwjg.jpg)
 
 让人头秃的是，我们这次不但要采集 ingress 日志上比较常规的 `url` `client_ip` `method` `status` 等字段，还要采集我们系统在 `Request Headers` 里面自定义的参数，这些参数是默认的 ingress 并不展示的，所以需要我们进行调整。
 
@@ -63,7 +63,7 @@ $ kubectl edit AliyunLogConfig k8s-nginx-ingress
 ```
 在修改配置之前，推荐先去 https://regex101.com/ 验证正则表达式是否正确，将调整过的正则表达式和 `ingress-controller` 打印的日志贴入下图指定位置，就可以看出正则表达式是否正确。
 
-![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gcfo9lxuc6j21gv0juwka.jpg)
+![image](https://cdn.suuny0826.com/large/ad5fbf65gy1gcfo9lxuc6j21gv0juwka.jpg)
 
 然后将添加的字段名称（这个名称将作为 key 在日志服务中展示，可以与 header 中的字段不同）和正则表达式贴入如下 CRD 中。
 
@@ -131,20 +131,20 @@ spec:
 
 添加指定字段查询，就可以快速查看添加的字段了。
 
-![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gcfohy9fv4j21460gxtc6.jpg)
+![image](https://cdn.suuny0826.com/large/ad5fbf65gy1gcfohy9fv4j21460gxtc6.jpg)
 
 ### 新增展示仪表盘
 
 日志既然已经取到了，那么展示就很容易了，直接在查询栏中输入分析语句，日志服务支持 SQL 聚合日志，并直接生成统计图表，点击添加到仪表盘可以就可以添加到现有仪表盘或者新建一个仪表盘。
 
-![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gcfos33c23j219a0nuae3.jpg)
+![image](https://cdn.suuny0826.com/large/ad5fbf65gy1gcfos33c23j219a0nuae3.jpg)
 
 
 ## 成果
 
 之后进行一些微调，添加过滤栏，由于这里统计的是登录用户，你甚至都可以添加一个词云来看看哪些用于使用系统比较频繁。当然，想添加什么都看您的喜好，日志在你手里，想怎么分析都可以。
 
-![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gcfowk10tjj21970ns79i.jpg)
+![image](https://cdn.suuny0826.com/large/ad5fbf65gy1gcfowk10tjj21970ns79i.jpg)
 
 ## 结语
 

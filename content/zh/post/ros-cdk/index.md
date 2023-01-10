@@ -8,7 +8,7 @@ date: 2021-06-22T09:13:24+08:00
 lastmod: 2021-06-22T09:13:24+08:00
 draft: false
 type: blog
-image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1grr2t5dhigj20p00anac1.jpg
+image: https://cdn.suuny0826.com/large/ad5fbf65gy1grr2t5dhigj20p00anac1.jpg
 ---
 ## 前言
 
@@ -121,7 +121,7 @@ tree .
 
 资源之间关系为：
 
-![可视化架构图](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1grqzmgfbsqj21020vgjug.jpg)
+![可视化架构图](https://cdn.suuny0826.com/large/ad5fbf65gy1grqzmgfbsqj21020vgjug.jpg)
 
 ### Show me the code
 
@@ -305,11 +305,11 @@ StackId: 54901066-6228-46d8-a0ff-4bf523a95f16
 
 资源栈部署成功，到控制台查看资源栈部署情况了
 
-![资源栈开始部署](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1grr0tenvhvj21iy0fk0uz.jpg)
+![资源栈开始部署](https://cdn.suuny0826.com/large/ad5fbf65gy1grr0tenvhvj21iy0fk0uz.jpg)
 
 等待部署成功，在输出中 copy 公网IP，将其写入本地 `hosts` 文件：
 
-![获取公网 IP](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1grr1376gofj217e0i6dhf.jpg)
+![获取公网 IP](https://cdn.suuny0826.com/large/ad5fbf65gy1grr1376gofj217e0i6dhf.jpg)
 
 ```bash
 # 写入 /etc/hosts
@@ -318,7 +318,7 @@ echo "47.100.198.131  jh.gxd">>/etc/hosts
 <!-- markdown-link-check-disable-next-line -->
 完成后访问 [http://jh.gxd](http://jh.gxd) 就可以使用 ROS CDK 部署的极狐 GitLab 了！
 
-![首页](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1grr17ezsf0j225e15ojy0.jpg)
+![首页](https://cdn.suuny0826.com/large/ad5fbf65gy1grr17ezsf0j225e15ojy0.jpg)
 
 测试完成后，删除资源栈，清理云资源：
 

@@ -9,7 +9,7 @@ date: 2020-12-29T10:19:18+08:00
 lastmod: 2020-12-29T10:19:18+08:00
 draft: false
 type: blog
-image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gm4uslnnn4j21y013e0ue.jpg
+image: https://cdn.suuny0826.com/large/ad5fbf65gy1gm4uslnnn4j21y013e0ue.jpg
 ---
 ## 前言
 
@@ -65,7 +65,7 @@ $ brew install --cask neo4j
 
 安装好后，运行 `Neo4j Desktop`，完成设置即可
 
-![设置 neo4j](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gm4ngqfkvzj21z41kwgqi.jpg)
+![设置 neo4j](https://cdn.suuny0826.com/large/ad5fbf65gy1gm4ngqfkvzj21z41kwgqi.jpg)
 
 #### 使用 docker 运行 Neo4j（可选）
 
@@ -105,17 +105,17 @@ $ kubectl graph pods --field-selector status.phase=Running -n kube-system | dot 
 
 查看 `pods.svg` ，资源果然很多：
 
-![pods.svg](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gm4nxnytzkj22d41zq19w.jpg)
+![pods.svg](https://cdn.suuny0826.com/large/ad5fbf65gy1gm4nxnytzkj22d41zq19w.jpg)
 
 ### Neo4j
 
 Neo4j 可以展示更为丰富且美观的关系图。在导入 kubernetes resource 之前，需要创建一个 Neo4j 数据库：
 
-![创建 neo4j 数据库](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gm4o4b56mzj21z41kw46d.jpg)
+![创建 neo4j 数据库](https://cdn.suuny0826.com/large/ad5fbf65gy1gm4o4b56mzj21z41kw46d.jpg)
 
 数据库创建好后，点击 `Start` 运行并点击 `Open` 打开 `Neo4j Browser`：
 
-![打开数据库](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gm4o605br2j20ow0fkjs1.jpg)
+![打开数据库](https://cdn.suuny0826.com/large/ad5fbf65gy1gm4o605br2j20ow0fkjs1.jpg)
 
 执行命令将 kubernetes resource 导入 Neo4j：
 
@@ -125,12 +125,12 @@ kubectl graph all -n kube-system -o cypher | cypher-shell -u neo4j -p <your-pass
 
 {{% alert title="注意" color="warning" %}}
 这里的 `-u` 需要输入 `neo4j` 而不是你创建的数据库名称，`Neo4j Browser` 上也有提示：
-![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gm4o9rsqtzj21ve0m440w.jpg)
+![](https://cdn.suuny0826.com/large/ad5fbf65gy1gm4o9rsqtzj21ve0m440w.jpg)
 {{% /alert %}}
 
 之后就可以在 Neo4j 上查看了，输入查询语句：`MATCH (n) RETURN n`：
 
-![关系图](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gm4ofe5jiwj22761midzp.jpg)
+![关系图](https://cdn.suuny0826.com/large/ad5fbf65gy1gm4ofe5jiwj22761midzp.jpg)
 
 这时一个美观的 kubernetes resource 关系图就出现了。
 

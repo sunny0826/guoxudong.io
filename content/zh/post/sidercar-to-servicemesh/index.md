@@ -8,14 +8,14 @@ summary: "谈谈从边车模式这一分布式架构的设计模式到 Service M
 tags: ["Service Mesh"]
 categories: ["服务网格"]
 keywords: ["Service Mesh"]
-image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3jc2nizzj21qi15on1j.jpg
+image: https://cdn.suuny0826.com/large/ad5fbf65ly1ge3jc2nizzj21qi15on1j.jpg
 
 ---
 所谓边车模式（ Sidecar pattern ），也译作挎斗模式，是分布式架构中云设计模式的一种。因为其非常类似于生活中的边三轮摩托车而得名。该设计模式通过给应用程序加上一个“边车”的方式来拓展应用程序现有的功能。这种设计模式出现的很早，实现的方式也多种多样。现在这个模式更是随着微服务的火热与 Service Mesh 的逐渐成熟而进入人们的视野。
 
 ## 什么是边车模式
 
-![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1g18zhnoh76j20dw0dw752.jpg)
+![](https://cdn.suuny0826.com/large/ad5fbf65ly1g18zhnoh76j20dw0dw752.jpg)
 
 在 [Azure Architecture Center](https://docs.microsoft.com/en-us/azure/architecture/patterns/) 的云设计模式中是这么介绍边车模式的：
 
@@ -83,7 +83,7 @@ Service Mesh 将底层那些难以控制的网络通讯统一管理，诸如：�
 
 >随着应用程序复杂性的增加，服务网格将成为实现服务到服务的能力的现实选择。
 
-![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g1yqgvxvzrj20sg0fxgnw.jpg)
+![](https://cdn.suuny0826.com/large/ad5fbf65gy1g1yqgvxvzrj20sg0fxgnw.jpg)
 
 随着我们的微服务越来越细分，我们所要管理的服务正在成倍的增长着，Kubernetes 提供了丰富的功能，使得我们可以快速的部署和调度这些服务，同时也提供了我们熟悉的方式来实现那些复杂的功能，但是当临界点到来时，可能就是我们真正要去考虑使用 Service Mesh 的时候了。
 

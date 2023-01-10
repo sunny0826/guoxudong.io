@@ -9,7 +9,7 @@ date: 2021-04-12T16:57:26+08:00
 lastmod: 2021-04-12T16:57:26+08:00
 draft: false
 type: blog
-image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gph2vhtwssj229616swxv.jpg
+image: https://cdn.suuny0826.com/large/ad5fbf65gy1gph2vhtwssj229616swxv.jpg
 ---
 ## 背景
 
@@ -37,13 +37,13 @@ Kubenav 基本上就是一个 Kubernetes Dashboard 的增强版，在其上可�
 
 #### Helm
 
-![Helm 插件](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gphviddn2cj21lc0xnk23.jpg)
+![Helm 插件](https://cdn.suuny0826.com/large/ad5fbf65gy1gphviddn2cj21lc0xnk23.jpg)
 
 Helm 插件 是Kubenav 默认开启的一个插件，通过插件页面可以很轻松的查看到 Helm Chart 的全部信息，包括**配置**、**状态**、**历史信息**和 **Value 值**。其中最实用的就是 Value 的展示，可以直观的看到该 Chart 在部署时 `--set` 的 Value 值，免去了调试时 `helm get values` 的麻烦。
 
 #### Prometheus
 
-![Prometheus 插件](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gphvoqpvxjj21lc0x0qb8.jpg)
+![Prometheus 插件](https://cdn.suuny0826.com/large/ad5fbf65gy1gphvoqpvxjj21lc0x0qb8.jpg)
 
 Prometheus 插件则是需要事先在集群中安装 Prometheus，并在 Kubenav 的 **Setting** -> **General** 中手动开启 Prometheus 插件，之后就可以在集群中通过 ConfigMap 来在 Kubenav 中展示各种 Dashboard 了，可以理解为一个简化版的 Grafana，ConfigMap 内容如下：
 
@@ -268,6 +268,6 @@ data:
 
 ## 总结
 
-![iPad 端](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gphvzznisbj22nw1vcx73.jpg)
+![iPad 端](https://cdn.suuny0826.com/large/ad5fbf65gy1gphvzznisbj22nw1vcx73.jpg)
 
 除了手机端，Kubenav 在 iPad 端有着更好的表现力，十分适合像笔者这样的 iPad 重度使用者。无论是问题排查还是使用的灵活度都有了大大的提升，结合 AWS Console 和阿里云 APP，基本上除写代码以外的大部分工作都可以在移动端完成，妈妈再也不用担心我蹲在日本街头拿手机远程指挥同事排查问题了！

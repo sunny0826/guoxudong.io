@@ -8,7 +8,7 @@ date: 2022-05-26T16:13:31+08:00
 lastmod: 2022-05-26T16:13:31+08:00
 draft: false
 type: blog
-image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gqupsoso0bj20zk0f4q3w.jpg
+image: https://cdn.suuny0826.com/large/ad5fbf65gy1gqupsoso0bj20zk0f4q3w.jpg
 ---
 ## 前言
 <!-- markdown-link-check-disable -->
@@ -18,11 +18,11 @@ image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gqupsoso0bj20zk0f4q3w.j
 
 与 GItHub 只能在 `README` 中，以 Markdown 形式展示 Badge 不同，GitLab 的 Project 页面，留有专门的 Badge 展示位。这样用户打开 Project 页面，无需再继续滑动到 `README` 内容，映入眼帘的就是醒目的 Badge。
 
-![project page](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1h2lwgsf9tgj20ye0hcgow.jpg)
+![project page](https://cdn.suuny0826.com/large/ad5fbf65gy1h2lwgsf9tgj20ye0hcgow.jpg)
 
 其设置方式也十分简单：**Settings**->**General**->**Badges**，根据要求依次填入名称、链接和徽章图片网址，即可看到 Badge 预览，如果这个 Badge 样式符合您的预期，点击 **Add badge** 即可将其添加到您的 Project 首页。同时还提供了[变量](https://jihulab.com/help/user/project/badges)以供用户填入通用值，这里的 Badge 也是可以展示 [shields.io](https://shields.io/) 中各种自定义 Badge 样式的。
 
-![settings](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1h2lwlcpxq2j21ie0tkjy0.jpg)
+![settings](https://cdn.suuny0826.com/large/ad5fbf65gy1h2lwlcpxq2j21ie0tkjy0.jpg)
 
 ## 常用 Pipeline badges
 
@@ -30,7 +30,7 @@ image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gqupsoso0bj20zk0f4q3w.j
 
 开启方式也很简单：**Settings**->**CI/CD**->**General pipelines** 然后下滑滚轮即可看到三个已经贴心配置好并提供了 `Markdown`、`HTML`、`AsciiDoc` 三种格式的 Badges。
 
-![Pipeline badges](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1h2lwv97udwj226u18wkit.jpg)
+![Pipeline badges](https://cdn.suuny0826.com/large/ad5fbf65gy1h2lwv97udwj226u18wkit.jpg)
 
 ### 配置 Coverage report
 
@@ -58,7 +58,7 @@ Coverage:
 
 细心研究过 [shields.io](https://shields.io/) 的同学肯定知道其提供了很多关于 GItHub 的 Badge，如 GItHub Open Issue 数量、PR 数量等。但是对于 GitLab 的支持却非常的少，不过我们可以根据其提供的 `Dynamic` 也就是动态功能配合 GitLab 的 API 在 GitLab 上实现相同的效果。
 
-![shields](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1h2lxqsbyg0j21rk0aidp0.jpg)
+![shields](https://cdn.suuny0826.com/large/ad5fbf65gy1h2lxqsbyg0j21rk0aidp0.jpg)
 
 以 Open Issue 数为例，首先找到 GitLab 相应的 API：[Get issues statistics](https://docs.gitlab.com/ee/api/issues_statistics.html)，使用 `Curl` 测试一下其返回值：
 
@@ -70,7 +70,7 @@ $ curl "https://jihulab.com/api/v4/projects/13953/issues_statistics"
 
 之后只需使用 `jsonpath` 来获取 `opened` 中的值即可，可以使用 [jsonpath.com/](https://jsonpath.com/) 来进行调试。通过调试得出其 `query` 表达式为 `$.statistics.counts.opened`，现在就可以将  `label`、`data-url`、`query` 和 `color` 填入并点击 **Make Badge** 按钮即可生成。
 
-![Dynamic](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1h2lxmyt6m0j21r40b6481.jpg)
+![Dynamic](https://cdn.suuny0826.com/large/ad5fbf65gy1h2lxmyt6m0j21r40b6481.jpg)
 
 Markdown:
 ```markdown

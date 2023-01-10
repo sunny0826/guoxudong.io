@@ -10,7 +10,7 @@ lastmod: 2020-02-10T10:52:26+08:00
 featured: true
 draft: false
 type: blog
-image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3jeoclz5j20yb0h9tfn.jpg
+image: https://cdn.suuny0826.com/large/ad5fbf65ly1ge3jeoclz5j20yb0h9tfn.jpg
 ---
 
 ## 前言
@@ -39,13 +39,13 @@ image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3jeoclz5j20yb0h9tfn.j
 
 同时由于中小学线上课堂的开始，各路人民教师纷纷转型十八线主播，网络环境更是变的拥挤不堪。
 
-![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gbr5wkd8puj20c809f74q.jpg)
+![](https://cdn.suuny0826.com/large/ad5fbf65gy1gbr5wkd8puj20c809f74q.jpg)
 
 故取消线上晨会，这里就显的比较合理，同时可以采用异步的协同方式，通过 jira 和 confluence 进行工作的协同。利用 jira 实时更新自己任务的状态，项目组长与组员也可以实时通过 jira 了解项目的实时进度，这样就减少了面对面的沟通，安全又高效。
 
 **例如：**
 
-![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gbr68kif3lj20me0xumzk.jpg)
+![image](https://cdn.suuny0826.com/large/ad5fbf65gy1gbr68kif3lj20me0xumzk.jpg)
 
 ## 目标分级
 
@@ -57,7 +57,7 @@ image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3jeoclz5j20yb0h9tfn.j
 
 推荐使用[四象限法](https://wiki.mbalib.com/wiki/%E6%97%B6%E9%97%B4%E2%80%9C%E5%9B%9B%E8%B1%A1%E9%99%90%E2%80%9D%E6%B3%95)来对自己目前的工作进行分级，根据紧急情况和重要情况，对自己的工作进行分级，优先处理那些紧急且重要的事情，同样个人看板也可以帮助您记录完成的任务和待完成的任务，这样写日报/周报就可以直接拿来用，不用再绞尽脑汁回忆今天/本周都做了什么，个人看板这里推荐 [Trello](https://trello.com)，个人免费使用。
 
-![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gbrai6ynydj20b407kdg6.jpg)
+![](https://cdn.suuny0826.com/large/ad5fbf65gy1gbrai6ynydj20b407kdg6.jpg)
 
 ## 提升个人效率
 
@@ -67,7 +67,7 @@ image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3jeoclz5j20yb0h9tfn.j
 
 在家办公，工作效率很容易变差。毕竟沙发和床就在身边，很容易工作着突然就想去休息一会儿。这里就需要在家里划分出一个 **【工作区】** ，并在工作区中准备上班所需的一切；同时要按时起床，穿戴整齐，吃好早点，然后进入工作区开始一天的工作，通过这种简单的 **仪式感** 可以让我们快速进入工作状态，更好的提高效率，不至于出现「在家工作居然比在公司下班晚」的情况。
 
-![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gbraur5ylbj20hi0fiwf8.jpg)
+![](https://cdn.suuny0826.com/large/ad5fbf65gy1gbraur5ylbj20hi0fiwf8.jpg)
 
 ### 按日程工作
 

@@ -7,7 +7,7 @@ authors: ["guoxudong"]
 summary: "本文介绍如何在 Homebrew 上发布 Golang 项目。"
 tags: ["go"]
 categories: ["go"]
-image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3ij34c4wj21qi15otcf.jpg
+image: https://cdn.suuny0826.com/large/ad5fbf65ly1ge3ij34c4wj21qi15otcf.jpg
 
 ---
 
@@ -35,7 +35,7 @@ Homebrew 给自己贴了个一句话简介：The missing package manager for OS 
 
 首先进入 release 页面，拷贝 macOS 的 Darwin 包地址
 
-![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g5c7b4mi5fj21lq0se4ck.jpg)
+![image](https://cdn.suuny0826.com/large/ad5fbf65gy1g5c7b4mi5fj21lq0se4ck.jpg)
 
 然后通过命令在本地创建 Formula
 

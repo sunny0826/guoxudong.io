@@ -9,7 +9,7 @@ date: 2020-12-03T11:17:34+08:00
 lastmod: 2020-12-03T11:17:34+08:00
 draft: false
 type: blog
-image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1glaoy24l1yj21qi15otb1.jpg
+image: https://cdn.suuny0826.com/large/ad5fbf65gy1glaoy24l1yj21qi15otb1.jpg
 ---
 ## 前言
 
@@ -19,7 +19,7 @@ Homebrew 标榜自己是 **“macOS（或 Linux）缺失的软件包的管理器
 
 [homebrew-core](https://github.com/Homebrew/homebrew-core) 中存储着所有官方的安装脚本，而这些安装脚本都是由软件开发者自己提交 PR 合并到仓库中的。同时 homebrew 也提供了查询页面，用户可以在网页 [Homebrew Formulae](https://formulae.brew.sh/) 上查询自己的软件总共被下载安装了多少次，如下：
 
-![kubecm](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1glap8xxcrlj2164204qc9.jpg)
+![kubecm](https://cdn.suuny0826.com/large/ad5fbf65gy1glap8xxcrlj2164204qc9.jpg)
 
 新的项目只需向这个仓库提交 PR 即可。
 
@@ -184,7 +184,7 @@ $ git push --set-upstream <YOUR_USERNAME> <YOUR_BRANCH_NAME>
 
 之后就可以在 GitHub 页面操作提交 PR 了。项目维护者的响应还是很及时的，在 PR 通过所有 CI test 后，就会有维护者进行 review 并指出需要修改的地方，根据要求修复即可。
 
-![提交 PR](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1glar44n4v3j22t61jck8j.jpg)
+![提交 PR](https://cdn.suuny0826.com/large/ad5fbf65gy1glar44n4v3j22t61jck8j.jpg)
 
 ## 提交新版本
 
@@ -235,7 +235,7 @@ jobs:
 
 {{% alert title="注意" color="warning" %}}
 这里的 `TOKEN` 需要在 [Personal Access Token](https://github.com/settings/tokens/new?scopes=public_repo) 上申请，并手动添加到 repo 的 setting 中。
-![TOKEN](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1glarq5rc3bj2258122n2n.jpg)
+![TOKEN](https://cdn.suuny0826.com/large/ad5fbf65gy1glarq5rc3bj2258122n2n.jpg)
 {{% /alert %}}
 
 ## 结语

@@ -7,7 +7,7 @@ authors: ["guoxudong"]
 summary: "本文介绍了使用 Velero 来进行 k8s 集群资源进行备份和迁移。"
 tags: ["阿里云","kubernetes","velero"]
 categories: ["kubernetes"]
-image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3ia8txjdj21qi15o0yu.jpg
+image: https://cdn.suuny0826.com/large/ad5fbf65ly1ge3ia8txjdj21qi15o0yu.jpg
 ---
 
 ## 前言
@@ -37,7 +37,7 @@ Velero 由客户端和服务端组成，服务器部署在目标 k8s 集群上�
 
 创建 OSS 的时候一定要选对区域，要和 ACK 集群在同一个区域，存储类型和读写权限选择**标准存储**和**私有**：
 
-![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g8w7t8c4xbj21021d8thq.jpg)
+![image](https://cdn.suuny0826.com/large/ad5fbf65gy1g8w7t8c4xbj21021d8thq.jpg)
 
 ### 创建阿里云 RAM 用户
 
@@ -45,7 +45,7 @@ Velero 由客户端和服务端组成，服务器部署在目标 k8s 集群上�
 
 - 新建权限策略
 
-    ![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g8w80cjiv2j21uo18cag8.jpg)
+    ![image](https://cdn.suuny0826.com/large/ad5fbf65gy1g8w80cjiv2j21uo18cag8.jpg)
 
     策略内容：
 
@@ -79,7 +79,7 @@ Velero 由客户端和服务端组成，服务器部署在目标 k8s 集群上�
 
     在新建用户的时候要选择 `编程访问`，来获取 `AccessKeyID` 和 `AccessKeySecret`，这里请创建一个新用于用于备份，不要使用老用户的 AK 和 AS。
 
-    ![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g8w8h4ek4uj21h40ue785.jpg)
+    ![image](https://cdn.suuny0826.com/large/ad5fbf65gy1g8w8h4ek4uj21h40ue785.jpg)
 
 ### 部署服务端
 
@@ -93,7 +93,7 @@ Velero 由客户端和服务端组成，服务器部署在目标 k8s 集群上�
 
     1. 修改 `install/credentials-velero` 文件，将新建用户中获得的 `AccessKeyID` 和 `AccessKeySecret` 填入，这里的 OSS EndPoint 为之前 OSS 的访问域名（**注：这里需要选择外网访问的 EndPoint。**）：
 
-        ![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g8w8xd1sgzj21c20cm75z.jpg)
+        ![image](https://cdn.suuny0826.com/large/ad5fbf65gy1g8w8xd1sgzj21c20cm75z.jpg)
 
         ```bash
         ALIBABA_CLOUD_ACCESS_KEY_ID=<ALIBABA_CLOUD_ACCESS_KEY_ID>
