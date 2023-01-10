@@ -9,7 +9,7 @@ date: 2020-10-14T10:28:06+08:00
 lastmod: 2020-10-14T10:28:06+08:00
 draft: false
 type: blog
-image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1gjoy0ydwbgj20rs0iiqgp.jpg
+image: https://cdn.suuny0826.com/large/ad5fbf65ly1gjoy0ydwbgj20rs0iiqgp.jpg
 ---
 
 ## 前言
@@ -20,7 +20,7 @@ image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1gjoy0ydwbgj20rs0iiqgp.j
 
 QoS(Quality of Service) 即服务质量，是 Kubernetes 中的一种控制机制，其会对运行在 Kubernetes 中的 Pod 进行一个质量划分，根据 Pod 中 container 的 Limit 和 request 将 Pod 分为 `Guaranteed`，`Burstable`，`BestEffort` 三类并对所有 Pod 进行一个打分。在资源尤其是内存这种不可压缩资源不够时，为保证整体质量的稳定，Kubernetes 就会根据 QoS 的不同优先级，对 Pod 进行资源回收。这也是有时集群中的 Pod 突然被 kill 掉的原因。
 
-![Qos](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1gjotxqvm4uj20mr0aw78n.jpg)
+![Qos](https://cdn.suuny0826.com/large/ad5fbf65ly1gjotxqvm4uj20mr0aw78n.jpg)
 
 ### QoS 分类
 
@@ -102,7 +102,7 @@ func GetPodQOS(pod *v1.Pod) v1.PodQOSClass {
 
 QoS 会根据不同的分类进行 OOMScore 打分，当宿主机上内存不足时，系统会优先 kill 掉 OOMScore 分数高的进程。
 
-![QoS 打分](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1gjoqlfe8cgj20mr0pcqmy.jpg)
+![QoS 打分](https://cdn.suuny0826.com/large/ad5fbf65ly1gjoqlfe8cgj20mr0pcqmy.jpg)
 
 值得注意的是不久之前 `guaranteedOOMScoreAdj` 的值还是 `-998`，今年 9 月 22 日才合并 [PR](https://github.com/kubernetes/kubernetes/pull/71269) 将其修改为 `-997`，而修改的 PR 及 [相关 ISSUE](https://github.com/kubernetes/kubernetes/issues/72294) 在 2018 年就已经提出了，感兴趣的同学可以去看看。这里附上源码：
 
@@ -160,7 +160,7 @@ func GetContainerOOMScoreAdjust(pod *v1.Pod, container *v1.Container, memoryCapa
   - `BestEffort` Pod Qos 的创建在 `RootCgroup/kubepods/BestEffort`下
 - 而在 Pod level CGroup 中还会创建 Container level CGroup，其结构如下图所示：
 
-![Qos-CGroup](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1gjoxdsmfs0j20mr0e8tjg.jpg)
+![Qos-CGroup](https://cdn.suuny0826.com/large/ad5fbf65ly1gjoxdsmfs0j20mr0e8tjg.jpg)
 
 ## 结语
 

@@ -8,7 +8,7 @@ summary: "本文档介绍了在 Github/Gitee 的静态页托管Pages服务部署
 tags: ["阿里云"]
 categories: ["部署安装"]
 keywords: ["https","ssl","阿里云"]
-image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3i9py7k6j21jk15odie.jpg
+image: https://cdn.suuny0826.com/large/ad5fbf65ly1ge3i9py7k6j21jk15odie.jpg
 ---
 
 本文档介绍了在 [Github](https://pages.github.com/) / [Gitee](https://gitee.com/help/articles/4136) 的静态页托管Pages服务部署SSL证书，配置HTTPS安全访问的操作说明。
@@ -26,13 +26,13 @@ Github/Gitee的Pages是一个免费的静态网页托管服务，您可以使用
 - GitHub 仓库
 - 开启 GitHub Pages
 
-![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g69e503ukoj21ig0hwad9.jpg)
+![image](https://cdn.suuny0826.com/large/ad5fbf65gy1g69e503ukoj21ig0hwad9.jpg)
 
 #### 证书签发
 
 1. 购买证书后点击申请
 
-    ![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g69ee2r500j22cc078t9z.jpg)
+    ![image](https://cdn.suuny0826.com/large/ad5fbf65gy1g69ee2r500j22cc078t9z.jpg)
 
 2. 证书申请
 
@@ -95,17 +95,17 @@ Github/Gitee的Pages是一个免费的静态网页托管服务，您可以使用
 
     1. 域名添加到`自定义域名`
 
-        ![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g69g11wx0qj21a60xiq7m.jpg)
+        ![image](https://cdn.suuny0826.com/large/ad5fbf65gy1g69g11wx0qj21a60xiq7m.jpg)
 
     2. 配置证书
 
         - 证书下载，选择 nginx 类型。
 
-            ![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g69g3pua7xj20ne0v0jus.jpg)
+            ![image](https://cdn.suuny0826.com/large/ad5fbf65gy1g69g3pua7xj20ne0v0jus.jpg)
 
         - gitee pages 配置证书，将证书文件与私钥文件贴入并提交。
 
-            ![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g69g64n1btj21bs0yogq8.jpg)
+            ![image](https://cdn.suuny0826.com/large/ad5fbf65gy1g69g64n1btj21bs0yogq8.jpg)
 
         - 勾选`强制使用HTTPS`，并保存。
 

@@ -7,7 +7,7 @@ authors: ["guoxudong"]
 summary: "本文介绍 GitOps 和 ChatOps 这两种 DevOps 实践，通过版本控制软件 Git 和实时聊天软件来达到提升交付速度和研发效率的目的。"
 tags: ["devops"]
 categories: ["devops"]
-image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3ii2keotj21l215on1f.jpg
+image: https://cdn.suuny0826.com/large/ad5fbf65ly1ge3ii2keotj21l215on1f.jpg
 
 ---
 ## 前言
@@ -24,7 +24,7 @@ GitOps 是一种实现持续交付的模型，它的核心思想是将应用系�
 
 通过应用 GitOps ，应用系统的基础架构和应用程序代码可以快速查找来源——基础架构和应用程序代码都存放在 gitlab 、或者 github 等版本控制系统上。这使开发团队可以提高开发和部署速度并提高应用系统可靠性。
 
-![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g4vpmjzylfj20qy09tq4b.jpg)
+![](https://cdn.suuny0826.com/large/ad5fbf65gy1g4vpmjzylfj20qy09tq4b.jpg)
 
 将 GitOps 应用在持续交付流水线上，有诸多优势和特点：
 
@@ -39,7 +39,7 @@ GitOps 是一种实现持续交付的模型，它的核心思想是将应用系�
 
 ChatOps 以聊天室（聊天群），即实时聊天软件为中心，通过一系列的机器人去对接后台的各种服务，开发&测试&运维人员只需要在聊天窗口中与机器人对话，即可与后台服务进行交互，整个工作的展开就像是使唤一个智能助手那样简单自然。
 
-![ChatOps](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g4vr2yialfj20rp0bbmyd.jpg)
+![ChatOps](https://cdn.suuny0826.com/large/ad5fbf65gy1g4vr2yialfj20rp0bbmyd.jpg)
 
 ChatOps 带来了很多好处：
 
@@ -61,15 +61,15 @@ DevOps 文化早已在我司落地，这也是为什么我们有将近百人的�
 经过调研我们选择了 [drone CI](https://drone.io/) 进行 GitOps ，通过自己开发不同功能的插件，完善了我们的整个 CI/CD 流水线。而插件的开发也并不是从头开始，而是直接 fork 现有的插件进行定制化的二次开发，有兴趣的可以到我的 [GitHub](https://github.com/sunny0826/drone-dingtalk-message)   和 [DockerHub](https://cloud.docker.com/repository/list) 上查看。
 
 将项目配置进行了分离，配置使用单独的 git 仓库维护，同时整合了镜像安全扫描，钉钉通知等功能。
-![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g4vvfow9w9j21k810243r.jpg)
+![image](https://cdn.suuny0826.com/large/ad5fbf65gy1g4vvfow9w9j21k810243r.jpg)
 
 由于 drone CI 的配置文件 `.drone.yml` 需要统一规范，所以我们在自己的 DevOps 平台开发了 Drone 配置页面，帮助开发自主配置。我们提供了 `Java` 、 `Node` 、 `Python` 三种配置模板，并且由于 DevOps 平台已与 GitLab 集成，可以直接将生成的 `.drone.yml` 文件插入到相应 git 项目中。
 
-![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g4vvoqggfoj22lk16aagu.jpg)
+![image](https://cdn.suuny0826.com/large/ad5fbf65gy1g4vvoqggfoj22lk16aagu.jpg)
 
 同时也提供了钉钉构建通知，在构建成功后会发送到相应的开发群组中，如果需希望自动发布的话，也可点击通知中的连接自行发布。
 
-![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g4vvrigyvlj20ec0bh40u.jpg)
+![image](https://cdn.suuny0826.com/large/ad5fbf65gy1g4vvrigyvlj20ec0bh40u.jpg)
 
 ### 自研平台配合钉钉 Outgoing 功能实现 ChatOps
 
@@ -79,7 +79,7 @@ DevOps 文化早已在我司落地，这也是为什么我们有将近百人的�
 
 小助手机器人的诞生，极大的提高了咨询类工作的效率，同时也释放了运维人员的工作时间，运维人员可以将更多精力投注到更有技术含量的事情上。
 
-![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g4vwfdgd2xj20iu0ajwgc.jpg)
+![image](https://cdn.suuny0826.com/large/ad5fbf65gy1g4vwfdgd2xj20iu0ajwgc.jpg)
 
 小助手机器人还有运维版本，功能包括：批量操作虚拟机、重启服务、DNS 解析、Kubernetes 信息检测&操作等功能，由于还是测试版本，这里就不做详细介绍了。
 

@@ -9,7 +9,7 @@ date: 2020-10-16T14:51:08+08:00
 lastmod: 2020-10-16T14:51:08+08:00
 draft: false
 type: blog
-image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1gjr78rkqcnj20sg0e879e.jpg
+image: https://cdn.suuny0826.com/large/ad5fbf65ly1gjr78rkqcnj20sg0e879e.jpg
 ---
 ## 前言
 
@@ -48,7 +48,7 @@ Google 搜索 **Golang GC** 排名靠前的文章都讲的不错，从设计到�
 
 具体流程如下图：
 
-![三色标记法](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1gjr5wkuzduj20mr0ra15z.jpg)
+![三色标记法](https://cdn.suuny0826.com/large/ad5fbf65ly1gjr5wkuzduj20mr0ra15z.jpg)
 
 ### 回收原理
 
@@ -60,7 +60,7 @@ Google 搜索 **Golang GC** 排名靠前的文章都讲的不错，从设计到�
 
 golang 中采用 span 数据结构管理内存，span 中维护了一个个内存块，并由一个位图 `allocBits` 表示内存块的分配情况，而上文中提到的 `gcmarkBits` 是记录每块内存块被引用情况的。
 
-![内存标记](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1gjr43y6br8j20mr07aq50.jpg)
+![内存标记](https://cdn.suuny0826.com/large/ad5fbf65ly1gjr43y6br8j20mr07aq50.jpg)
 
 如上图，`allocBits` 记录了每块内存的分配情况，而 `gcmarkBits` 记录了每块内存的标记情况。在标记阶段会对每块内存进行标记，有对象引用的内存标记为 1，没有对象引用的为 0。而 `allocBits` 和 `gcmarkBits` 的数据结构是完全一样的，在结束标记后，将 `allocBits` 指向 `gcmarkBits`，则有标记的才是存活的，这样就完成了内存回收。而 `gcmarkBits` 则会在下次标记时重新分配内存。
 

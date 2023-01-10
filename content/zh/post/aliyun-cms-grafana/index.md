@@ -7,7 +7,7 @@ authors: ["guoxudong"]
 summary: "本文介绍使用 Grafana 展示阿里云监控指标的方法，并提供了使用 helm chart 一键部署包含阿里云监控 dashboard 的 Grafana-Server。"
 tags: ["阿里云","kubernetes","grafana"]
 categories: ["kubernetes"]
-image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3i6sry8nj21y014swo7.jpg
+image: https://cdn.suuny0826.com/large/ad5fbf65ly1ge3i6sry8nj21y014swo7.jpg
 ---
 
 ## 前言
@@ -17,10 +17,10 @@ image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3i6sry8nj21y014swo7.j
 ### 手写前端 VS Grafana
 
 手写前端虽然可定制化程度更高，但是需要消耗大量精力进行调试，对于运维人员，哪怕是运维开发也是吃不消的（前端小哥哥和小姐姐是不会来帮你的，下图就是我去年拿 vue 写的伪 Grafana 展示页面，花费了大约一周时间在调整这些前端元素）。
-![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g8pfrw1licj22ye1gg4qp.jpg)
+![image](https://cdn.suuny0826.com/large/ad5fbf65gy1g8pfrw1licj22ye1gg4qp.jpg)
 
 Grafana 则标准化程度很高，展示也更加符合大众审美，某些定制化需求可以通过自定义 DataSource 或者 AJAX 插件的 iframe 模式完成。开发后端 DataSource 肯定就没有前端调整 css 那么痛苦和耗时了，整体配置开发一个这样的页面可能只消耗一人天就能完成。而在新产品上线时，构建一个专项监控展示页面速度就更快了，几分钟内就能完成。
-![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g8pfvp0keej22yc1g2khm.jpg)
+![image](https://cdn.suuny0826.com/large/ad5fbf65gy1g8pfvp0keej22yc1g2khm.jpg)
 ## 关于阿里云监控
 
 云监控（CloudMonitor）是一项针对阿里云资源和互联网应用进行监控的服务。
@@ -65,17 +65,17 @@ spec:
 
 1. Grafana 启动后，进入 `Configuration` 页面，选择 `DataSource` Tab 页，单击右上方的`Add data source`，添加数据源。
 2. 选中`CMS Grafana Service`，单击`select`。
-    ![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g8ph0ukr0pj21nm0jk76m.jpg)
+    ![image](https://cdn.suuny0826.com/large/ad5fbf65gy1g8ph0ukr0pj21nm0jk76m.jpg)
 3. 填写配置项，URL 根据云监控所在地域填写，并且填写阿里云账号的 accessKeyId 和 accessSecret，完成后单击`Save&Test`。
-    ![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g8ph4bg2bij218m194n9f.jpg)
+    ![image](https://cdn.suuny0826.com/large/ad5fbf65gy1g8ph4bg2bij218m194n9f.jpg)
 
 ### 创建 Dashboard
 
 1. 单击 `Create` -> `Dashboard` -> `Add Query`
 2. 配置图标，数据源选择之前添加的 `CMS Grafana Service`，然后文档中的配置项填入指标即可（这里要注意的是，云监控 API 给返回的只有实例 ID，并没有自定义的实例名称，这里需要手动将其填入 `Y - column describe` 中；而且只支持输入单个 Dimension，若输入多个，默认选第一个，由于这些问题才有了后续我开发的 `cms-grafana-builder` 的动机）。
-    ![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g8phck0irbj22ye13in79.jpg)
+    ![image](https://cdn.suuny0826.com/large/ad5fbf65gy1g8phck0irbj22ye13in79.jpg)
 3. 配置参考 [云产品监控项](https://help.aliyun.com/document_detail/28619.html)，
-    ![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g8phg832uvj21a40vo793.jpg)
+    ![image](https://cdn.suuny0826.com/large/ad5fbf65gy1g8phg832uvj21a40vo793.jpg)
 
 ## 使用 helm chart 的方式部署 Grafana
 
@@ -109,16 +109,16 @@ helm install my-release kk-grafana-cms \
 ### 效果
 
 ECS:
-![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g8pi9toh3dj21gv0pldyf.jpg)
+![](https://cdn.suuny0826.com/large/ad5fbf65gy1g8pi9toh3dj21gv0pldyf.jpg)
 
 RDS:
-![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g8pi9o91ejj21h80q316p.jpg)
+![](https://cdn.suuny0826.com/large/ad5fbf65gy1g8pi9o91ejj21h80q316p.jpg)
 
 EIP:
-![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g8pi9i9if3j21h70q3aif.jpg)
+![](https://cdn.suuny0826.com/large/ad5fbf65gy1g8pi9i9if3j21h70q3aif.jpg)
 
 Redis:
-![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g8pi8ss733j21h30pz7b6.jpg)
+![](https://cdn.suuny0826.com/large/ad5fbf65gy1g8pi8ss733j21h30pz7b6.jpg)
 
 ## 后记
 

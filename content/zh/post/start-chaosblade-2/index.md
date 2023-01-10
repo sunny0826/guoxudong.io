@@ -10,7 +10,7 @@ lastmod: 2020-06-15T15:45:36+08:00
 featured: false
 draft: false
 type: blog
-image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gfgdamuzm1j212t0lq46x.jpg
+image: https://cdn.suuny0826.com/large/ad5fbf65gy1gfgdamuzm1j212t0lq46x.jpg
 ---
 ## 前言
 
@@ -87,7 +87,7 @@ $ kubectl apply -f delete_pod_by_labels.yaml
 
 通过上面的观测命令，可以看到 pod 被删除并重启，结果符合预期。
 
-![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1gft22n0pnpg20pg06qhdt.gif)
+![](https://cdn.suuny0826.com/large/ad5fbf65ly1gft22n0pnpg20pg06qhdt.gif)
 
 **停止实验**
 
@@ -173,7 +173,7 @@ sys     0m0.001s
 
 可以看到访问实验 pod 6379 端口的延迟为 3s 左右，结果符合预期。
 
-![delay-pod-network](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1gft27x90skg20p606c1kx.gif)
+![delay-pod-network](https://cdn.suuny0826.com/large/ad5fbf65ly1gft27x90skg20p606c1kx.gif)
 
 **停止实验**
 
@@ -256,7 +256,7 @@ PING 10.42.69.44 (10.42.69.44) 56(84) bytes of data.
 
 可以看到观测 pod 访问实验 pod 丢包率 100%（无法访问），而其他 pod 不受影响，结果符合预期。
 
-![loss-pod-network](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1gft2c288oqg20p607i7wi.gif)
+![loss-pod-network](https://cdn.suuny0826.com/large/ad5fbf65ly1gft2c288oqg20p607i7wi.gif)
 
 这里在配置中将 `timeout` 设置为 60 秒，60 秒后 100% 丢包的情况将会消失，这个配置是为了防止因丢包率设置太高，造成机器无法连接的情况。与其有相似功能的还有 `exclude-port`，该配置指定一些端口不会丢包，以免该 pod 失联。
 
@@ -322,7 +322,7 @@ $ ping www.baidu.com
 
 可以看到访问指定域名 `www.baidu.com` 异常，结果符合预期。
 
-![dns-pod-network](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1gft2hti44bg20p607i4nj.gif)
+![dns-pod-network](https://cdn.suuny0826.com/large/ad5fbf65ly1gft2hti44bg20p607i4nj.gif)
 
 **停止实验**
 

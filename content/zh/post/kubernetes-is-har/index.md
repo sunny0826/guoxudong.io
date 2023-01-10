@@ -6,7 +6,7 @@ type: blog
 summary: "虽然 Kubernetes 赢得了容器战争，但是其仍然很难使用并且引起很多事故。"
 tags: ["翻译","kubernetes"]
 categories: ["翻译"]
-image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3izhwj5kj20xc0hi1kx.jpg
+image: https://cdn.suuny0826.com/large/ad5fbf65ly1ge3izhwj5kj20xc0hi1kx.jpg
 
 ---
 > 虽然 Kubernetes 赢得了容器之站，但是其仍然很难使用并且时长引起事故。

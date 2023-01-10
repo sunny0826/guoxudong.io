@@ -8,7 +8,7 @@ date: 2021-04-25T14:23:08+08:00
 lastmod: 2021-04-25T14:23:08+08:00
 draft: false
 type: blog
-image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gpya7y3fexj20p00an40o.jpg
+image: https://cdn.suuny0826.com/large/ad5fbf65gy1gpya7y3fexj20p00an40o.jpg
 ---
 ## 背景
 
@@ -34,17 +34,17 @@ image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gpya7y3fexj20p00an40o.j
 
 乌克兰程序员 Paul Bagwell（阮一峰译）的这张图，很直观的展示了如何选择开源许可证：
 
-![图解分析](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gp0lcmehjqj20m80dw3zd.jpg)
+![图解分析](https://cdn.suuny0826.com/large/ad5fbf65gy1gp0lcmehjqj20m80dw3zd.jpg)
 
 choosealicense.com 这个网站也可以很方便的选择和比较各种开源许可证。
 
-![choosealicense.com](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gpw0c9wjixj21qy1isn6a.jpg)
+![choosealicense.com](https://cdn.suuny0826.com/large/ad5fbf65gy1gpw0c9wjixj21qy1isn6a.jpg)
 
 ## GitHub
 
 GitHub 以更简单的方式的方式展示了开源许可证的内容，只需打开项目中的 `LICENSE` 文件，该许可证授予了使用者哪些权力、有哪些限制一目了然。
 
-![Apache License 2.0](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gpw06p16zlj21xi0fsgor.jpg)
+![Apache License 2.0](https://cdn.suuny0826.com/large/ad5fbf65gy1gpw06p16zlj21xi0fsgor.jpg)
 
 ## 拓展知识
 

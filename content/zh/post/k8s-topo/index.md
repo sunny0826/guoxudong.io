@@ -7,7 +7,7 @@ tags: ["kubernetes"]
 categories: ["kubernetes"]
 authors: ["guoxudong"]
 summary: "随着2017年AWS，Azure和阿里云相继在其原有容器服务上新增了对kubernetes的支持，而Docker官网也在同年10月宣布同时支持Swarm好kubernetes容器编排系统。kubernetes俨然已成为容器编排领域事实上的标准，而2018年更是各大公司相继将服务迁移到kubernetes上，而kubernetes则以惊人更新速度，保持着每个季度发布一个大版本的速度高速发展着。"
-image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3ivbmskjj21qi15owjf.jpg
+image: https://cdn.suuny0826.com/large/ad5fbf65ly1ge3ivbmskjj21qi15owjf.jpg
 
 ---
 >随着2017年AWS，Azure和阿里云相继在其原有容器服务上新增了对kubernetes的支持，而Docker官网也在同年10月宣布同时支持Swarm好kubernetes容器编排系统。kubernetes俨然已成为容器编排领域事实上的标准，而2018年更是各大公司相继将服务迁移到kubernetes上，而kubernetes则以惊人更新速度，保持着每个季度发布一个大版本的速度高速发展着。

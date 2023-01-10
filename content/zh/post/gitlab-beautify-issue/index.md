@@ -8,7 +8,7 @@ date: 2022-03-16T09:33:08+08:00
 lastmod: 2022-03-16T09:33:08+08:00
 draft: false
 type: blog
-image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gqupsoso0bj20zk0f4q3w.jpg
+image: https://cdn.suuny0826.com/large/ad5fbf65gy1gqupsoso0bj20zk0f4q3w.jpg
 ---
 ## 前言
 
@@ -60,19 +60,19 @@ Markdown 的灵活度非常高，用户只需简单的操作就可配制出非�
    1. [x] Sub-task 2
 ```
 
-![task list](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1h0bi12djx2j20cp08t75n.jpg)
+![task list](https://cdn.suuny0826.com/large/ad5fbf65gy1h0bi12djx2j20cp08t75n.jpg)
 
 所有任务会以 `n of x tasks completed`  的形式显示在 Issue list 的 Issue 详细中。
 
-![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1h0bi4tqkgrj20rw03ijsr.jpg)
+![image](https://cdn.suuny0826.com/large/ad5fbf65gy1h0bi4tqkgrj20rw03ijsr.jpg)
 
 ### 快速编辑表格
 
 除了 Markdown 表格的标准编辑方式以外，GitLab Issue 还可以从其他电子表格软件（例如 Microsoft Excel、Google Sheets 或 Apple Numbers）直接复制，不想用 Markdown 编辑表格的话，可以先在其他软件标记好，直接复制过来即可。
 
-![google sheets](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1h0bib6mzy5j20sg0lk7ka.jpg)
+![google sheets](https://cdn.suuny0826.com/large/ad5fbf65gy1h0bib6mzy5j20sg0lk7ka.jpg)
 
-![issue table](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1h0bibih0vxj20sg0gun3q.jpg)
+![issue table](https://cdn.suuny0826.com/large/ad5fbf65gy1h0bibih0vxj20sg0gun3q.jpg)
 
 ### 快速链接 GitLab 其他资源
 
@@ -127,7 +127,7 @@ end
 ```
 ````
 
-![mermaid](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1h0bisnmc0gj213e0x8gnv.jpg)
+![mermaid](https://cdn.suuny0826.com/large/ad5fbf65gy1h0bisnmc0gj213e0x8gnv.jpg)
 
 GitLab Markdown 还支持很多有趣的功能，这里就不一一列举了，有兴趣的朋友可以在[官方文档](https://jihulab.com/help/user/markdown)找到详细内容。
 
@@ -135,7 +135,7 @@ GitLab Markdown 还支持很多有趣的功能，这里就不一一列举了，�
 
 除了在可以输入 Markdown 的部分可以用 emoji 以外，Issue 的标题也可以展示 emoji，不过目前只有 Issue 详情中可以展示 emoji，Issue List 中还无法展示。这里推荐一个快速查找 emoji 的网站：[emoji-cheat-sheet](https://www.webfx.com/tools/emoji-cheat-sheet/)，进入网站点击相应的 emoji 就可以复制其代码，在 GitLab Issue 中黏贴即可。
 
-![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1h0bjlo7iofj214c07oabk.jpg)
+![image](https://cdn.suuny0826.com/large/ad5fbf65gy1h0bjlo7iofj214c07oabk.jpg)
 
 ## 结语
 

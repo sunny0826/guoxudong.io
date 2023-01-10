@@ -9,7 +9,7 @@ date: 2021-01-22T10:07:01+08:00
 lastmod: 2021-01-22T10:07:01+08:00
 draft: false
 type: blog
-image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gmwl7ox518j20rs0kut9l.jpg
+image: https://cdn.suuny0826.com/large/ad5fbf65gy1gmwl7ox518j20rs0kut9l.jpg
 ---
 ## 前言
 
@@ -193,7 +193,7 @@ cluster.add_auto_scaling_group_capacity(
 
 执行 `cdk diff` 命令，这时就会打印出一系列列表，告诉你会有哪些资源变化，大致内容如下图。
 
-![cdk diff](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gmwkeqhlblj23qq1i27wh.jpg)
+![cdk diff](https://cdn.suuny0826.com/large/ad5fbf65gy1gmwkeqhlblj23qq1i27wh.jpg)
 
 可以执行 `cdk synth` 命令用来查看生成的 AWS CloudFormation template，笔者统计了一下生成 AWS CloudFormation template 的行数，这几十行代码居然生成了 **1156** 行的 CloudFormation 配置！
 
@@ -201,7 +201,7 @@ cluster.add_auto_scaling_group_capacity(
 
 在检查无误后就可以开始部署了，执行命令 `cdk deploy` 并输入 `y` 确认，之后可以看到部署的进度条。如果部署中间出现错误， CDK 会自动进行回滚，之前创建和修改的资源都会被恢复原样，可以放心使用。
 
-![部署成功](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gmzpw3ltfkj21920h2n2q.jpg)
+![部署成功](https://cdn.suuny0826.com/large/ad5fbf65gy1gmzpw3ltfkj21920h2n2q.jpg)
 
 到这里，EKS 集群就已经部署成功了，执行两条命令，就能生成 `kubeconfig` 并使用 `kubectl` 访问了。
 

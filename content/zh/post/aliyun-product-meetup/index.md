@@ -7,7 +7,7 @@ authors: ["guoxudong"]
 summary: "9月25日晚受邀来到阿里云飞天园区参加阿里云MVP产品夜谈，在会上遇到了容器服务团队的负责人易立，并就容器服务进行了交流。"
 tags: ["阿里云","容器"]
 categories: ["kubernetes"]
-image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g7hdbw7rwij21zk13ax6s.jpg
+image: https://cdn.suuny0826.com/large/ad5fbf65gy1g7hdbw7rwij21zk13ax6s.jpg
 ---
 ## 前言
 
@@ -15,7 +15,7 @@ image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g7hdbw7rwij21zk13ax6s.j
 
 ## 容器服务交流
 
-![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g7hdbw7rwij21zk13ax6s.jpg)
+![](https://cdn.suuny0826.com/large/ad5fbf65gy1g7hdbw7rwij21zk13ax6s.jpg)
 ### 关于集群版本&集群升级
 
 众所周知，Kubernetes 以非常稳定的3个月发布一个版本速度在高速迭代这，Kubernetes v1.16.0 也即将 release ，但是目前 ACK 的 Kubernetes 版本依旧为 v1.12.6-aliyun.1 已落后官方4个大版本。得到的回复是新版本 1.14 已经上线，下周就可以升级了，1.14 版本之前已经上线，只不过一直在灰度测试，下周（2019年9月29日）就全面放开升级了。截止写这篇文章的时候，我们的多个 Kubernetes 集群已成功升级到 v1.14.6-aliyun.1 ，虽然在升级的时候出现了一点小问题，但是最后还是顺利解决了。
@@ -32,5 +32,5 @@ ACK 的 WEB 界面相对简陋，一直以来都是对 Kubernetes Dashboard 进�
 
 ## 后记
 
-![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g7hdrlln6vj21rm0ycwov.jpg)
+![image](https://cdn.suuny0826.com/large/ad5fbf65gy1g7hdrlln6vj21rm0ycwov.jpg)
 关于容器服务的交流主要是以上几点，其他的还包括监控、存储和 CI/CD 方面进行了交流，同时也获得了不少建议。当面给阿里云提需求的机会并不多，我也是抓住机会，把日常使用 ACK 的问题汇总之后一股脑的丢了出去。有类似需求的同学可以在[阿里云的聆听平台](https://connect.aliyun.com)上给阿里云提交建议，以我的经验，合理的需求会很快审核通过并排期开发，换句话说就是“人人都可以是阿里云的产品经理”。

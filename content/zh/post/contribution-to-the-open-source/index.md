@@ -10,7 +10,7 @@ lastmod: 2020-05-20T11:12:59+08:00
 featured: false
 draft: false
 type: blog
-image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gf12hx32qgj20m40bmq2z.jpg
+image: https://cdn.suuny0826.com/large/ad5fbf65gy1gf12hx32qgj20m40bmq2z.jpg
 ---
 ## 前言
 
@@ -28,7 +28,7 @@ image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gf12hx32qgj20m40bmq2z.j
 
 而代码贡献方面，如果有志于贡献高质量的代码、修复 bug 或贡献新功能，在开始时，可以打开 ISSUE，里面有一些打着 `good first issue` Label 的 ISSUE，这些 ISSUE 通常会使一些小功能的开发或者 bug 的修复，你可以通过完成这个 ISSUE 来踏出你贡献代码的第一步。当然，在该 ISSUE 中的交流时必不可少的，这样可以帮助你更详细的了解该 ISSUE 要解决的问题，从而在开发中少走弯路。
 
-![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gf0ylqtijgj20sx0bjabu.jpg)
+![image](https://cdn.suuny0826.com/large/ad5fbf65gy1gf0ylqtijgj20sx0bjabu.jpg)
 
 ## 贡献规范
 
@@ -44,7 +44,7 @@ image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gf12hx32qgj20m40bmq2z.j
 
 要参与项目贡献，首先需要 fork 项目代码，在项目页面点击 `fork` 按钮，将其 fork 到自己的仓库中：
 
-![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gf05j7h9uzj20ty07ywfd.jpg)
+![image](https://cdn.suuny0826.com/large/ad5fbf65gy1gf05j7h9uzj20ty07ywfd.jpg)
 
 **本地配置**
 
@@ -97,7 +97,7 @@ reviewer 会对你提交的内容进行一些评论，可能是需要更改的�
 
 PR 被成功合并后，就可以对之前开发的分支进行清理了，因为在 review 中，会提交多个 commit，而合并一般会将这些 commit 压缩为一个 commit 然后合并到 `master` 分支，这就导致了 commit 信息的不一致，这也是为什么在前文要求不要使用 `master` 分支的原因，如果使用 `master` 分支，在提交几次 PR 后，就会多出很多很多的 commit...
 
-![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gf07ejzdglj20mb04fdg6.jpg)
+![image](https://cdn.suuny0826.com/large/ad5fbf65gy1gf07ejzdglj20mb04fdg6.jpg)
 
 清理本地分支：
 

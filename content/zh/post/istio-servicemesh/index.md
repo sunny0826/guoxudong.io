@@ -6,7 +6,7 @@ authors: ["guoxudong"]
 summary: "现在Service Mesh很热，但是到底什么事Service Mesh，Service Mesh能为我们做什么，我们为什么要用Service Mesh。"
 tags: ["Service Mesh"]
 categories: ["服务网格"]
-image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3insli0hj21qi15ogpc.jpg
+image: https://cdn.suuny0826.com/large/ad5fbf65ly1ge3insli0hj21qi15ogpc.jpg
 
 ---
 本文转自《Istio 服务网格进阶实战》
@@ -46,7 +46,7 @@ Service mesh 又译作 “服务网格”，作为服务间通信的基础设施
 
 服务网格的架构如下图所示：
 
-![Service Mesh 架构图](http://rnxuex1zk.bkt.clouddn.com/large/6-b.png)
+![Service Mesh 架构图](https://cdn.suuny0826.com/large/6-b.png)
 
 图片来自：[Pattern: Service Mesh](http://philcalcado.com/2017/08/03/pattern_service_mesh.html)
 

@@ -6,7 +6,7 @@ type: blog
 summary: "这里总结了一些在 GitHub 上常见的<黑话>，这些乱七八糟的缩写着实给很多新司机带来了许多困扰 :)"
 tags: ["GitHub","翻译"]
 categories: ["程序员趣闻"]
-image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g2b5dhfuqqj206506cq2t.jpg
+image: https://cdn.suuny0826.com/large/ad5fbf65gy1g2b5dhfuqqj206506cq2t.jpg
 ---
 这里的**黑话**，其实就是 GitHub 上的一些**迷之缩写**，这些歪果老司机们在 GitHub 上肆无忌惮的使用着他们的“黑话”，让我们这些非英语母语国家的新司机在 code review 时经常是一脸懵逼 + 黑人问号...
 

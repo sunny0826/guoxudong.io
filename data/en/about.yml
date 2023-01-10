@@ -42,14 +42,14 @@ contact:
   enable : true
   item:
     - title: "WeChat"
-      img: "http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ghelq5ndvkj2050050dfz.jpg"
+      img: "https://cdn.suuny0826.com/large/ad5fbf65ly1ghelq5ndvkj2050050dfz.jpg"
       description: "**添加微信请备注姓名公司并说明来意**"
     - title: "GitHub"
-      img: "http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ghelosouakj2050050745.jpg"
+      img: "https://cdn.suuny0826.com/large/ad5fbf65ly1ghelosouakj2050050745.jpg"
       description: "[sunny0826](https://github.com/sunny0826)"
     - title: "Email"
-      img: "http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1gheloxweaej2050050dfo.jpg"
+      img: "https://cdn.suuny0826.com/large/ad5fbf65ly1gheloxweaej2050050dfo.jpg"
       description: "[guoxudong.dev@gmail.com](mailto:guoxudong.dev@gmail.com)"
     - title: "**Public WeChat**"
-      img: "http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ghelpfjpb8j205005074d.jpg"
+      img: "https://cdn.suuny0826.com/large/ad5fbf65ly1ghelpfjpb8j205005074d.jpg"
       description: "**扫码关注**"

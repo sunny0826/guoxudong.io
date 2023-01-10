@@ -7,7 +7,7 @@ author: "Omer Hamerman"
 summary: "8分钟快速了解 Kubernetes 基本概念，快速入门 K8S。"
 tags: ["翻译", "kubernetes"]
 categories: ["翻译"]
-image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3ic1v5x3j20xc0m87ci.jpg
+image: https://cdn.suuny0826.com/large/ad5fbf65ly1ge3ic1v5x3j20xc0m87ci.jpg
 ---
 > 读完 [Kubernetes: Up and Running](https://www.amazon.com/Kubernetes-Running-Dive-Future-Infrastructure/dp/1491935677) 后，我写下了这篇文章。旨在为那些认为文章 [TL;DR](https://guoxudong.io/post/cant/) 的人进行一些总结，这同时也是一种强迫自己检查所阅读内容的好方法。
 

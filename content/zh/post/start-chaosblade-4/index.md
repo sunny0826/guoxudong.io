@@ -9,7 +9,7 @@ date: 2020-08-06T16:34:23+08:00
 lastmod: 2020-08-06T16:34:23+08:00
 draft: false
 type: blog
-image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ggzvw3dwypj21ha0q8toq.jpg
+image: https://cdn.suuny0826.com/large/ad5fbf65ly1ggzvw3dwypj21ha0q8toq.jpg
 ---
 ## 前言
 
@@ -80,7 +80,7 @@ $ kubectl apply -f remove_container_by_id.yaml
 
 查看容易 ID，可以看到容器ID发生了变化，旧容器被删除了，拉起了新容器。
 
-![删除 container](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1ghh7lolrl9g20xq0g67wh.gif)
+![删除 container](https://cdn.suuny0826.com/large/ad5fbf65gy1ghh7lolrl9g20xq0g67wh.gif)
 
 **停止实验**
 
@@ -144,7 +144,7 @@ $ kubectl get pod redis-slave-55d8c8ffbd-jd8sm -o custom-columns=CONTAINER:.stat
 
 可从监控系统观测到结果
 
-![container 内CPU负载场景](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1ghh7p4zsblj20ct07eaac.jpg)
+![container 内CPU负载场景](https://cdn.suuny0826.com/large/ad5fbf65gy1ghh7p4zsblj20ct07eaac.jpg)
 
 **停止实验**
 
@@ -251,7 +251,7 @@ user    0m0.007s
 sys     0m0.001s
 ```
 
-![container 网络延迟场景](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1ghh7s2brmxg20si05w16r.gif)
+![container 网络延迟场景](https://cdn.suuny0826.com/large/ad5fbf65gy1ghh7s2brmxg20si05w16r.gif)
 
 可以看到结果符合预期。
 
@@ -352,7 +352,7 @@ PING 10.42.0.19 (10.42.0.19) 56(84) bytes of data.
 # 响应正常
 ```
 
-![container 网络丢包场景](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1ghh7th88pmg20si06au0x.gif)
+![container 网络丢包场景](https://cdn.suuny0826.com/large/ad5fbf65gy1ghh7th88pmg20si06au0x.gif)
 
 这里在配置中还将 `timeout` 设置为 60 秒，60 秒后 100% 丢包的情况将会消失，这个配置是为了防止因丢包率设置太高，造成机器无法连接的情况。与其有相似功能的还有 `exclude-port`，该配置用来指定排除掉的丢包端口。
 
@@ -427,7 +427,7 @@ $ ping www.baidu.com
 # 无响应
 ```
 
-![container 域名访问异常场景](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1ghh7wcg01ng20si06ah3v.gif)
+![container 域名访问异常场景](https://cdn.suuny0826.com/large/ad5fbf65gy1ghh7wcg01ng20si06ah3v.gif)
 
 可以看到 Pod 的 `/etc/hosts` 文件被修改，模拟了 dns 解析异常的场景。
 
@@ -499,7 +499,7 @@ POD_NAME                       CONTAINER     ID
 redis-slave-55d8c8ffbd-4pz8m   redis-slave   docker://94bc61ac84fb505f3f89b3ce5e4cc804ea8501ed091940b17b0f492835dc57d1
 ```
 
-![杀 container 内指定进程](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1ghh7y7r2nmg20r0068wxo.gif)
+![杀 container 内指定进程](https://cdn.suuny0826.com/large/ad5fbf65gy1ghh7y7r2nmg20r0068wxo.gif)
 
 容器 id 变化，主进程被杀掉后容器进行了重启，符合实验逾期。
 
@@ -574,7 +574,7 @@ root      5632  0.0  0.0  41520  4168 ?        Tl   06:28   0:06 redis-server *:
 
 可以看到 `redis-server` 此刻进程处于暂停状态了（T）。
 
-![挂起 container 内指定进程](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1ghh8090cr1g20t406y1kx.gif)
+![挂起 container 内指定进程](https://cdn.suuny0826.com/large/ad5fbf65gy1ghh8090cr1g20t406y1kx.gif)
 
 **停止实验**
 

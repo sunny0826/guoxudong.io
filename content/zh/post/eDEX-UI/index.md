@@ -7,7 +7,7 @@ authors: ["guoxudong"]
 summary: "eDEX-UI 是一个全屏且跨平台、可定制的终端模拟器，具有先进的监控和触摸屏支持。它的外观类似科幻的计算机界面。在保持未来感的外观和感觉的同时，它努力保持一定的功能水平并可用于现实场景，其更大的目标是将科幻用户体验纳入主流。"
 tags: ["工具"]
 categories: ["程序员趣闻"]
-image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3ih2v4pkj21hc0tznfr.jpg
+image: https://cdn.suuny0826.com/large/ad5fbf65ly1ge3ih2v4pkj21hc0tznfr.jpg
 
 ---
 马上就是五一假期了，而且今年的五一假期有4天！想必大家已经安排好是在家写代码还是出门去冒险了。不过在五一假期之前，我这里推荐一个好玩的又好用的软件给大家。
@@ -41,7 +41,7 @@ eDEX-UI 可以通过 `settings.json` 文件进行配置，配置包括执行的 
 
 `settings.json` 在 Mac 系统中，存放在 `/Users/guoxudong/Library/Application Support/eDEX-UI` 中，默认的工作目录也是这个路径
 
-![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g2jflhunukj21h30tck0r.jpg)
+![image](https://cdn.suuny0826.com/large/ad5fbf65gy1g2jflhunukj21h30tck0r.jpg)
 
 这里可以看到我选择使用 `zsh` 和 `tron-disrupted` 主题，并将工作目录改为了我的用户空间
 

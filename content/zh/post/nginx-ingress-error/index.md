@@ -7,7 +7,7 @@ authors: ["guoxudong"]
 summary: "记录 Nginx-Ingress 重定向失败问题的解决过程。"
 tags: ["kubernetes","容器"]
 categories: ["kubernetes"]
-image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3j9d3bf0j20dw08ft8w.jpg
+image: https://cdn.suuny0826.com/large/ad5fbf65ly1ge3j9d3bf0j20dw08ft8w.jpg
 ---
 
 ## 前言

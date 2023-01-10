@@ -7,7 +7,7 @@ authors: ["guoxudong"]
 summary: "本篇为系列文章第三篇，使用 jenkins 发布一个简单的使用 flask 写的 web 项目，来演示在 CI/CD 流程中 Kustomize 的简单使用。"
 tags: ["kubernetes", "kustomize", "工具"]
 categories: ["kustomize"]
-image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g2ji8i9dx3j20xc0m87ci.jpg
+image: https://cdn.suuny0826.com/large/ad5fbf65gy1g2ji8i9dx3j20xc0m87ci.jpg
 
 ---
 ## 前言
@@ -60,15 +60,15 @@ image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g2ji8i9dx3j20xc0m87ci.j
 
 Jenkins 的配置相对简单，只需要新建一个 pipeline 类型的 job
 
-![WX20190506-180159](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g2rr57oixbj20tn0ogq6v.jpg)
+![WX20190506-180159](https://cdn.suuny0826.com/large/ad5fbf65gy1g2rr57oixbj20tn0ogq6v.jpg)
 
 增加参数化构建，**注**：参数化构建需要安装 Jenkins 插件
 
-![WX20190506-180918](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g2rrcb5ic9j21470q7mz8.jpg)
+![WX20190506-180918](https://cdn.suuny0826.com/large/ad5fbf65gy1g2rrcb5ic9j21470q7mz8.jpg)
 
 然后配置代码仓库即可
 
-![WX20190507-094958](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g2sij1xlb2j214w0nw0uw.jpg)
+![WX20190507-094958](https://cdn.suuny0826.com/large/ad5fbf65gy1g2sij1xlb2j214w0nw0uw.jpg)
 
 ## Pipeline 
 
@@ -154,11 +154,11 @@ image:
 
 这里选择环境、分支，填入版本即可开始构建，**注意：**这里的版本将已 tag 的形式标记 docker 镜像。
 
-![WX20190507-095142](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g2sikst7tuj20ob0evabw.jpg)
+![WX20190507-095142](https://cdn.suuny0826.com/large/ad5fbf65gy1g2sikst7tuj20ob0evabw.jpg)
 
 这里就可以看到构建成功了
 
-![WX20190507-103721](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1g2sjw9w22ej20v80km0w3.jpg)
+![WX20190507-103721](https://cdn.suuny0826.com/large/ad5fbf65ly1g2sjw9w22ej20v80km0w3.jpg)
 
 ### 查看结果
 
@@ -168,13 +168,13 @@ image:
 
 这里看到这个服务正常启动了
 
-![WX20190507-104154](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1g2sk11dnzxj20av027jrn.jpg)
+![WX20190507-104154](https://cdn.suuny0826.com/large/ad5fbf65ly1g2sk11dnzxj20av027jrn.jpg)
 
 ### 发布新版本
 
 更新 web 服务并提交
 
-![WX20190507-104936](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g2sk94v1c5j209702vwej.jpg)
+![WX20190507-104936](https://cdn.suuny0826.com/large/ad5fbf65gy1g2sk94v1c5j209702vwej.jpg)
 
 
 按照上面步骤在 jenkins 中重新构建，当然也可以配置钩子，每次代码提交后自动构建
@@ -183,7 +183,7 @@ image:
 
 同上面一样，在构建成功后查看服务是否更新
 
-![WX20190507-105539](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g2skfczaz4j20by01smx7.jpg)
+![WX20190507-105539](https://cdn.suuny0826.com/large/ad5fbf65gy1g2skfczaz4j20by01smx7.jpg)
 
 可以看到，版本已经更新了
 
@@ -191,11 +191,11 @@ image:
 
 这里模拟一下发布生产环境，假设生产环境是在 `devops-prod` 的 namespace 中，这里只做演示之用，真正的生产环境中，可能存在不止一个 k8s 集群，这时需要修改 Jenkinsfile 中的 `secretVolume` 来挂载不同 k8s 的 kubeconfig 来达到发布到不同集群的目的。当然，一般发布生产环境只需选择测试通过的镜像来发布即可，不需要在进行构建打包。
 
-![WX20190507-110730](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g2skrnbjyuj20fc0bjmxp.jpg)
+![WX20190507-110730](https://cdn.suuny0826.com/large/ad5fbf65gy1g2skrnbjyuj20fc0bjmxp.jpg)
 
 ### 查看生产版本
 
-![WX20190507-110850](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1g2skt3rp4yj20aq010glj.jpg)
+![WX20190507-110850](https://cdn.suuny0826.com/large/ad5fbf65ly1g2skt3rp4yj20aq010glj.jpg)
 
 ### 总结
 

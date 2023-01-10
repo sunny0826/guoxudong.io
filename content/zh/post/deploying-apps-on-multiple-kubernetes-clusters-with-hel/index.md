@@ -7,7 +7,7 @@ author: "Smaine Kahlouch"
 summary: "本文将重点介绍我们如何在全球多个 Kubernetes 集群上部署我们的应用程序。为了将应用一次部署到多个 Kubernetes 集群，我们使用了 Helm ，并将所有 chart 存储在一个 git 仓库中。"
 tags: ["翻译","kubernetes"]
 categories: ["翻译"]
-image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3idyfogjj21qy15owly.jpg
+image: https://cdn.suuny0826.com/large/ad5fbf65ly1ge3idyfogjj21qy15owly.jpg
 ---
 > [Dailymotion](https://www.dailymotion.com/) 在生产环境使用 Kubernetes 已经3年了，但是也面临着多集群部署应用的挑战，这也是在过去的几年中我一直努力优化工具和改进工作流的原因。
 
@@ -37,7 +37,7 @@ image:
 
 我们使用 [Chartmuseum](https://chartmuseum.com/) 作为私有仓库来存储 chart ，每个环境都有一个 。这样我们就可以在__环境之间实现明确的隔离__，并且确保该 chart 在生产环境中使用之前已经过测试。
 
-![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g50h10d4xbj20ys0ee75e.jpg)
+![](https://cdn.suuny0826.com/large/ad5fbf65gy1g50h10d4xbj20ys0ee75e.jpg)
 <center>每个环境的 Chart 仓库</center>
 
 值得注意的是，当开发人员 push 代码到他们的 dev 分支时，他们的 chart 版本也会自动 push 到 dev 环境的 Chartmuseum 。因此，所有开发人员都使用相同的 dev 存储库，他们必须小心的指定自己的 chart 版本，以避免使用其他人的对 chart 的更改。
@@ -46,7 +46,7 @@ image:
 
 > chart 开发工作流
 
-![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g50hg9gmh2j20gr047t8o.jpg)
+![](https://cdn.suuny0826.com/large/ad5fbf65gy1g50hg9gmh2j20gr047t8o.jpg)
 
 1. 根据 [gazr.io](https://gazr.io/) 规范设置我们的 pipeline 任务（lint，unit-test）。
 2. push docker 镜像，该镜像包含部署应用程序的 Python 工具。
@@ -67,7 +67,7 @@ image:
 
 目前，我们的平台分布在6个地区，3个在自己的数据中心，3个在公有云。
 
-![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g50klup6yaj212w0ftq4h.jpg)
+![](https://cdn.suuny0826.com/large/ad5fbf65gy1g50klup6yaj212w0ftq4h.jpg)
 <center>分布式部署</center>
 
 > Helm global values
@@ -136,7 +136,7 @@ foo.world:                # Release name
 
 这是部署工作流的所有步骤，最后一步将在多个生产集群上同时部署应用程序。
 
-![](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g50ldllp33j20mw0bxglz.jpg)
+![](https://cdn.suuny0826.com/large/ad5fbf65gy1g50ldllp33j20mw0bxglz.jpg)
 <center>Jenkins deployment steps</center>
 
 ## Secrets 怎么办

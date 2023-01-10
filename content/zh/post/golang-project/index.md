@@ -7,7 +7,7 @@ authors: ["guoxudong"]
 summary: "接触 golang 时间很长，但是真正动手开始写 golang 也就是在最近。跟着我在 GitHub 上构建一个看上去正规的 Golang 项目。"
 tags: ["go"]
 categories: ["go"]
-image: http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3iinqxvnj21qf15oq62.jpg
+image: https://cdn.suuny0826.com/large/ad5fbf65ly1ge3iinqxvnj21qf15oq62.jpg
 
 ---
 ## 前言
@@ -23,7 +23,7 @@ Go 开发环境的安装网上教程很多，这里就不做介绍了。这里�
 `vgo` 是基于 Go Module 规范的包管理工具，同官方的 go mod 命令工具类似。
 
 1. 开启 `vgo`，`GoLand`->`Preferences`->`GO`->`Go Modules(vgo)`
-![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g556yudwh8j20s20jhgn4.jpg)
+![image](https://cdn.suuny0826.com/large/ad5fbf65gy1g556yudwh8j20s20jhgn4.jpg)
 
 2. 手动修改 `go.mod`
     
@@ -63,7 +63,7 @@ Go 开发环境的安装网上教程很多，这里就不做介绍了。这里�
 如果要选出 golang 最劝退一个原因，那么依赖下载难肯定得票最高！这个时候一个合适的梯子就很重要了，如果没有这个梯子，上面的这步就完全无法完成。这里主要介绍 GoLand 上的配置，Shadowsocks 的安装和配置就不做介绍了。
 
 `GoLand`->`Preferences`->`Appearance & Behavior`->`System Settings`->`HTTP Proxy` 这里设置好之后，别忘了点击 `Check connection` 测试一下梯子搭成没有。
-![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g557j6it07j20s20je40p.jpg)
+![image](https://cdn.suuny0826.com/large/ad5fbf65gy1g557j6it07j20s20je40p.jpg)
 
 ### 配置 `go fmt`、 `goimports` 和 `golangci-lint`
 
@@ -73,7 +73,7 @@ Go 开发环境的安装网上教程很多，这里就不做介绍了。这里�
 - `golangci-lint` : 静态代码质量检测工具，用于包的质量分析。
 - `goimports` : 自动 import 依赖包工具。
 
-![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g557ps83gsj20s30njtbs.jpg)
+![image](https://cdn.suuny0826.com/large/ad5fbf65gy1g557ps83gsj20s30njtbs.jpg)
 
 ### 安装配置 `golint`
 
@@ -92,7 +92,7 @@ go install
 
 GoLand 配置 `golint`，修改 `Name`, `Program`, `Arguments` 三项配置，其中 `Arguments` 需要加上 `-set_exit_status` 参数，如图所示：
 
-![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g557z8a5jgj20ln0i0t9z.jpg)
+![image](https://cdn.suuny0826.com/large/ad5fbf65gy1g557z8a5jgj20ln0i0t9z.jpg)
 
 ## Travis CI 持续集成
 
@@ -117,13 +117,13 @@ script:
 
 __装逼重点：__ 你以为使用 Travis CI 就是为了持续集成吗？那就太天真了！使用 Travis CI 当然为了他的 Badges ，将 `RESULT` 拷贝到你的 `README.md` 里面就好了。
 
-![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g558xf6io4j22dk15an4t.jpg)
+![image](https://cdn.suuny0826.com/large/ad5fbf65gy1g558xf6io4j22dk15an4t.jpg)
 
 ## GO Report Card
 
 __又一装逼重点__：我们在 GoLand 上安装了 `golint` 等工具进行代码质量检测，在撸码的时候就能进行代码检查，那么这个就是为了纯装逼了。[GO Report Card](https://goreportcard.com/) 是一个 golang 代码检测网站，你只需把 Github 地址填上去即可。获取 Badges 的方法和 Travis CI 类似，将 MarkDown 中的内容拷贝到 `RERADME.md` 中就好。
 
-![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g559flsl3xj21t410ok1a.jpg)
+![image](https://cdn.suuny0826.com/large/ad5fbf65gy1g559flsl3xj21t410ok1a.jpg)
 
 ## GoReleaser
 
@@ -160,12 +160,12 @@ git push origin v0.0.3
 goreleaser
 ```
 `goreleaser` 配合 CI 食用，效果更佳，这里就不做介绍了。
-![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g55a7t8bq4j20sq0liacm.jpg)
+![image](https://cdn.suuny0826.com/large/ad5fbf65gy1g55a7t8bq4j20sq0liacm.jpg)
 
 ## Badges 展示神器
 
 这里介绍一个展示 Badges 的神器：[https://shields.io/](https://shields.io/) 。这个网站提供各种各样的 Badges ，如果你愿意，完全可以把你的 GitHub README.md 填满，有兴趣的同学可以自取。
-![image](http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1g55aendhrwj22fg19igz0.jpg)
+![image](https://cdn.suuny0826.com/large/ad5fbf65gy1g55aendhrwj22fg19igz0.jpg)
 
 ## 后记
 

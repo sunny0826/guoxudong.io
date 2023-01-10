@@ -5,7 +5,7 @@ slider:
      - subtitle : "guoxudong.io"
        title : "我们的目标是星辰大海 💫"
        content : "郭旭东的博客 | 云原生之路"
-       bg_image : "http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1h5hk65sy5hj21na0zkjvy.jpg"
+       bg_image : "https://cdn.suuny0826.com/large/ad5fbf65gy1h5hk65sy5hj21na0zkjvy.jpg"
        animation : "fadeInUp" # animation select from : https://daneden.github.io/animate.css/
        button:
          enable : true
@@ -48,7 +48,7 @@ about:
   subtitle : ""
   content : "郭旭东，极狐(Gitlab)云原生架构师，宠物达人，柴猫双全，[Linux Foundation 开源布道师](https://training.linuxfoundation.cn/partners/evangelists)，[阿里云MVP](https://mvp.aliyun.com/mvp/detail/426)，[云原生社区管委会成员](https://cloudnative.to/team/)·[上海站](https://cloudnative.to/city/shanghai/)站长，CCF 会员，云原生爱好者、实践者，专注于云原生及周边干货知识分享，实践达人。"
   #bg_image : "images/backgrounds/about-us-bg.png"
-  image : "http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ghds6bthggj21dv0rsb29.jpg"
+  image : "https://cdn.suuny0826.com/large/ad5fbf65ly1ghds6bthggj21dv0rsb29.jpg"
   button:
     enable : true
     label : "了解详情"
@@ -138,7 +138,7 @@ testimonial:
 cta:
   enable : true
   title : "互动教程"
-  bg_image : "http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1ge3if5zqkzj21qq15ojvp.jpg"
+  bg_image : "https://cdn.suuny0826.com/large/ad5fbf65ly1ge3if5zqkzj21qq15ojvp.jpg"
   content : "Katacoda 是一个面向软件工程师的交互式学习和培训平台，可在浏览器中使用真实环境学习和测试新技术，帮助开发人员学习，并掌握最佳实践。这里有一些博主制作的交互教程[点击了解更多...](https://katacoda.com/guoxudong)"
   button:
     enable : true
@@ -157,5 +157,5 @@ blog:
 contact:
   enable : true
   title : "联系信息"
-  image : "http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65gy1gfm3j2vo79g20b90b9x6r.gif"
+  image : "https://cdn.suuny0826.com/large/ad5fbf65gy1gfm3j2vo79g20b90b9x6r.gif"
   description : "欢迎扫描二维码关注公众号，了解更多云原生知识。"
