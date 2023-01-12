@@ -82,6 +82,10 @@ name = "About"
 URL = "https://about.guoxudong.io/"
 weight = 4
 
+[[menu.main]]
+name = "Quick Reference"
+weight = 4
+URL = "https://reference.guoxudong.io/"
 
 # # footer menu
 # [[menu.footer]]
@@ -211,6 +215,11 @@ URL = "post"
 name = "关于"
 weight = 3
 URL = "https://about.guoxudong.io/"
+
+[[Languages.zh.menu.main]]
+name = "Quick Reference"
+weight = 4
+URL = "https://reference.guoxudong.io/"
 
 # footer menu
 # [[Languages.zh.menu.footer]]
