@@ -135,20 +135,21 @@ testimonial:
       content : ""
 
 ################################# blog ################################################
-cta:
-  enable : true
-  title : "互动教程"
-  bg_image : "https://cdn.suuny0826.com/large/ad5fbf65ly1ge3if5zqkzj21qq15ojvp.jpg"
-  content : "Katacoda 是一个面向软件工程师的交互式学习和培训平台，可在浏览器中使用真实环境学习和测试新技术，帮助开发人员学习，并掌握最佳实践。这里有一些博主制作的交互教程[点击了解更多...](https://katacoda.com/guoxudong)"
-  button:
-    enable : true
-    label : "查看"
-    link : "try"
+# cta:
+#   enable : true
+#   title : "互动教程"
+#   bg_image : "https://cdn.suuny0826.com/large/ad5fbf65ly1ge3if5zqkzj21qq15ojvp.jpg"
+#   content : "Katacoda 是一个面向软件工程师的交互式学习和培训平台，可在浏览器中使用真实环境学习和测试新技术，帮助开发人员学习，并掌握最佳实践。这里有一些博主制作的交互教程[点击了解更多...](https://katacoda.com/guoxudong)"
+#   button:
+#     enable : true
+#     label : "查看"
+#     link : "try"
 
 ################################# blog ################################################
 blog:
   enable : true
   subtitle : "最新博客"
+  bg_image : "https://cdn.suuny0826.com/large/ad5fbf65ly1ge3if5zqkzj21qq15ojvp.jpg"
   title : "博客"
   find_all: "查看全部"
   # blog post comes from "content/*/blog" folder
