@@ -149,7 +149,6 @@ testimonial:
 blog:
   enable : true
   subtitle : "最新博客"
-  bg_image : "https://cdn.suuny0826.com/large/ad5fbf65ly1ge3if5zqkzj21qq15ojvp.jpg"
   title : "博客"
   find_all: "查看全部"
   # blog post comes from "content/*/blog" folder
