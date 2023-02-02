@@ -1,6 +1,7 @@
 .PHONY: run new push
 
 TITLE=""
+BRANCH:=$(shell git symbolic-ref --short HEAD)
 
 run:
 	hugo server
@@ -11,4 +12,5 @@ new:
 push:
 	git add .
 	git commit -m 'new blog'
-	git push --set-upstream origin $(git symbolic-ref --short HEAD)
+	git push --set-upstream origin $(BRANCH)
+
