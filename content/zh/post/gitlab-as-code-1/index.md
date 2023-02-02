@@ -39,6 +39,7 @@ GitLab 作为一个发展了10多年的开源项目，其功能本身十分复�
 
 - 使用 gitlab.com （版本号>15.0的 GitLab 均可）
 - 新建一个空白的 GitLab 项目
+<!-- markdown-link-check-disable-next-line -->
 - 新建一个 [personal access token](https://gitlab.com/-/profile/personal_access_tokens) 并将其保存 CI/CD 变量中，Key 为 `TF_VAR_gitlab_access_token`
 
 ![CI/CD Variables](https://cdn.suuny0826.com/image/2023-02-02-20230202155550.png)
@@ -49,7 +50,7 @@ GitLab 默认提供了非常好用的 CI Template，直接将其加入 `include`
 - [Terraform.latest.gitlab-ci.yml](https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Terraform.latest.gitlab-ci.yml)
 - [Terraform/Base.latest.gitlab-ci.yml](https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Terraform/Base.latest.gitlab-ci.yml)
 
-```yaml
+```yml
 #。gitlab-ci.yml
 include:
   - template: Terraform.gitlab-ci.yml
