@@ -11,4 +11,4 @@ new:
 push:
 	git add .
 	git commit -m 'new blog'
-	git push -set-upstream origin $(git symbolic-ref --short HEAD)
+	git push --set-upstream origin $(git symbolic-ref --short HEAD)
