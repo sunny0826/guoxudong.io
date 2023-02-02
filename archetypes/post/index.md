@@ -8,5 +8,5 @@ date: {{ .Date }}
 lastmod: {{ .Date }}
 draft: false
 type: blog
-image: ""
+image: "http://rnxuex1zk.bkt.clouddn.com/large/ad5fbf65ly1g0s2czlmofj21jl15o43r.jpg"
 ---
