@@ -193,4 +193,4 @@ resource "gitlab_label" "bug" {
 
 本文只是简单的实践了一些 GitLab Terraform Provider 的功能，更详细的说明请阅读 [官方文档](https://registry.terraform.io/providers/gitlabhq/gitlab/latest/docs)。当然，除了本文介绍的 GitLab Terraform Provider 以及在 Merge Request 面板展示 Terraform Plan information 和 IaC 安全扫描报告以外，GitLab 还提供了诸如：[GitLab Terraform helpers](https://docs.gitlab.com/ee/user/infrastructure/iac/gitlab_terraform_helpers.html)、[Terraform module registry](https://docs.gitlab.com/ee/user/packages/terraform_module_registry/index.html) 等一系列非常好用的功能，这些功能会在后续的文档中进行介绍，敬请期待。
 
-项目 Demo 地址：https://gitlab.com/guoxudong.io/terraform/gitlab-as-code
+Demo 地址：<https://gitlab.com/guoxudong.io/terraform/gitlab-as-code>
