@@ -12,7 +12,7 @@ image: "https://cdn.suuny0826.com/image/2023-02-08-p5cc_262465.png"
 ---
 ## 前言
 
-本文是对[上一篇文章](../gitlab-as-code-1)（使用 GitLab + Terraform 管理 GitLab 的 Group 和 Project）的补充。在生产环境中，我们经常会遇到以下问题：
+本文是对[上一篇文章](../gitlab-as-code-1)（使用 GitLab + Terraform 管理 GitLab 的 Group 和 Project）的补充。在实际使用中，我们经常会遇到以下问题：
 
 - GitLab 部署在内网，未开放公网访问，无法访问 [Terraform Registry](https://registry.terraform.io)
 - Initializing Terraform Provider 时，频繁出现类似 `Get "https://registry.terraform.io/.well-known/terraform.json": net/http: TLS handshake timeout` 这样由网络卡顿引起的错误
@@ -24,7 +24,7 @@ image: "https://cdn.suuny0826.com/image/2023-02-08-p5cc_262465.png"
 
 - 在可以访问公网的机器（甚至是您的笔记本电脑）注册[私有 GitLab Runner](https://docs.gitlab.cn/runner/register/#%E6%B3%A8%E5%86%8C-runner)，通过该 Runner 运行 Pipeline
 
-> GitLab Runner 支持多系统（Linux、macOS、Windows、FreeBSD等）、多架构（x86、ARM）以及 Docker/Kubernetes 容器平台
+> GitLab Runner 支持多系统（Linux、macOS、Windows、FreeBSD 等）、多架构（x86、ARM）以及 Docker/Kubernetes 容器平台
 
 - 使用 [Terraform Providers Mirror](https://developer.hashicorp.com/terraform/cli/commands/providers/mirror) 将需要的 Terraform Provider 镜像下载到本地
 
