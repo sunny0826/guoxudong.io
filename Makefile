@@ -11,6 +11,6 @@ new:
 
 push:
 	git add .
-	git commit -m 'new blog'
+	git commit -m '$(BRANCH)'
 	git push --set-upstream origin $(BRANCH)
 
