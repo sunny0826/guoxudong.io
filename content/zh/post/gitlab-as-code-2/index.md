@@ -1,6 +1,6 @@
 ---
 title: "GitLab as Code (二) 离线运行优化"
-summary: "介绍离线运行 GitLab + Terraform 来提高用户的使用 GitOps 的体验。"
+summary: "介绍离线运行 GitLab + Terraform，提高用户的使用 GitOps 的体验。"
 authors: ["guoxudong"]
 tags: ["GitLab", "GitOps", "Terraform"]
 categories: ["GitOps"]
@@ -8,7 +8,7 @@ date: 2023-02-07T15:35:38+08:00
 lastmod: 2023-02-07T15:35:38+08:00
 draft: false
 type: blog
-image: "https://cdn.suuny0826.com/image/2023-02-07-gitlab-as-code-2.png"
+image: "https://cdn.suuny0826.com/image/2023-02-08-p5cc_262465.png"
 ---
 ## 前言
 
