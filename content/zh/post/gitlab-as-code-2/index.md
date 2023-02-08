@@ -96,12 +96,12 @@ provider_installation {
 
     ```yaml
     variables:
-    TF_STATE_NAME: default
-    TF_CACHE_KEY: default
-    # If your terraform files are in a subdirectory, set TF_ROOT accordingly. For example:
-    # TF_ROOT: terraform/production
-    TF_CLI_CONFIG_FILE: ${TF_ROOT}/.terraformrc
-    GITLAB_BASE_URL: ${CI_API_V4_URL}
+        TF_STATE_NAME: default
+        TF_CACHE_KEY: default
+        # If your terraform files are in a subdirectory, set TF_ROOT accordingly. For example:
+        # TF_ROOT: terraform/production
+        TF_CLI_CONFIG_FILE: ${TF_ROOT}/.terraformrc
+        GITLAB_BASE_URL: ${CI_API_V4_URL}
     ```
 
 - `TF_CLI_CONFIG_FILE`: 设置为指定的 terraform CLI 配置文件路径，即生成的 `.terraformrc` 文件路径。`${TF_ROOT}` 表示 Terraform 配置的根路径，该环境变量由 [GitLab Terraform helpers](https://docs.gitlab.com/ee/user/infrastructure/iac/gitlab_terraform_helpers.html#generic-variables) 提供
