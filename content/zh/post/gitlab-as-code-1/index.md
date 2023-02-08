@@ -1,5 +1,5 @@
 ---
-title: "Gitlab as Code (一)"
+title: "GitLab as Code (一)"
 summary: "使用 GitLab + Terraform 来管理你的 GitLab Group/Project"
 authors: ["guoxudong"]
 tags: ["GitLab", "GitOps", "Terraform"]
