@@ -1,6 +1,6 @@
 ---
-title: "使用 GitLab 为 OSPO 快速构建 GGI Dashboard"
-summary: "使用 GitLab 为 OSPO 快速构建 GGI Dashboard"
+title: "使用 GitLab 协助 OSPO 快速构建 GGI Dashboard"
+summary: "介绍如何使用 GitLab 为 OSPO 快速构建 GGI Dashboard"
 authors: ["guoxudong"]
 tags: ["OSPO", "GitLab"]
 categories: ["OSPO"]
@@ -8,7 +8,7 @@ date: 2023-02-20T09:41:55+08:00
 lastmod: 2023-02-20T09:41:55+08:00
 draft: false
 type: blog
-image: "https://cdn.suuny0826.com/image/2023-02-20-20230220120013.png"
+image: "https://cdn.suuny0826.com/image/2023-02-20-20230220120940.png"
 ---
 ## 前言
 
@@ -22,7 +22,7 @@ GitLab 作为一个开源的软件开发平台，也支持企业建立和运营�
 
 ## GGI Handbook
 
-GGI Handbook 是一本指导组织实施好的治理倡议（Good Governance Initiative）的手册。Good Governance Initiative 是一项旨在提高组织治理水平和透明度的计划，由 [OSPO Alliance](https://ospo.zone/)发起。该手册提供了一套标准化的流程和工具，帮助组织评估自身的治理状况，制定改进措施，并分享最佳实践。该手册于2021年10月9日首次发布，于2022年11月8日更新了 [v1.1](https://ospo.zone/docs/ggi_handbook_v1.1.pdf) 版本，增加了手册的多语言翻译和快速部署功能。
+GGI Handbook 是一本指导组织实施好的治理倡议（Good Governance Initiative）的手册。Good Governance Initiative 是一项旨在提高组织治理水平和透明度的计划，由 [OSPO Alliance](https://ospo.zone/) 发起。该手册提供了一套标准化的流程和工具，帮助组织评估自身的治理状况，制定改进措施，并分享最佳实践。该手册于2021年10月9日首次发布，于2022年11月8日更新了 [v1.1](https://ospo.zone/docs/ggi_handbook_v1.1.pdf) 版本，增加了手册的多语言翻译和快速部署功能。
 
 GGI Handbook 根据一个组织可能寻求通过开源完成的各种目标定义了 25 项活动或最佳实践。活动包括 “开源技能和资源管理”、“软件依赖性管理”、“Upstream first” 和 “积极参与开源项目” 等建议。这些活动中的每一项都有相应的描述和理由，Handbook 还提供了成功实施这些活动需要的资源、工具和提示。
 
@@ -100,8 +100,9 @@ Pipeline 运行成功后，你的 GGI Board 就已经准备就绪了！
 希望这个项目能帮助到正着手建立组织的开源项目办公室（OSPO）的你，希望可以有越来越多的组织建立和运营自己的 OSPO，共同推动开源文化和开源协作的发展。
 
 Demo 地址：
+
 - Project: <https://gitlab.com/guoxudong.io/my-ggi-board>
-- Dashboard: <https://guoxudong.io.gitlab.io/my-ggi-board/>
+- Dashboard: <https://guoxudong.io.gitlab.io/my-ggi-board>
 
 ## 参考
 
