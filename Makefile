@@ -1,13 +1,12 @@
 .PHONY: run new push
 
-TITLE=""
 BRANCH:=$(shell git symbolic-ref --short HEAD)
 
 run:
 	hugo server
 
 new:
-	hugo new  --kind post post/$(TITLE)
+	hugo new  --kind post post/$(BRANCH)
 
 push:
 	git add .
