@@ -16,7 +16,7 @@ image: "https://cdn.suuny0826.com/image/2023-02-20-20230220120940.png"
 
 GitLab 作为开源的软件开发平台，当然也支持企业建立和运营自己的开源项目办公室（OSPO），以推广开源文化和协作。OSPO 是一个专门负责管理和支持企业内外的开源活动的组织，可以帮助企业提高创新能力、降低风险、增加影响力。
 
-为了帮助更多的企业建立和发展自己的 OSPO，GitLab 与 OSPO Alliance 合作，共同制定了一份名为 GGI Handbook](https://ggi.ow2.io/my-ggi-onramp/) 的指南。GGI Handbook 是一个基于 GitLab 的可部署实例，包含了一套完整的方法论和最佳实践，指导企业如何从零开始创建、运行和优化自己的 OSPO。GGI Handbook 还提供了一些实用的工具和模板，例如 OSPO 成熟度模型、OSPO 策略框架、OSPO 指标仪表盘等。
+为了帮助更多的企业建立和发展自己的 OSPO，GitLab 与 OSPO Alliance 合作，共同制定了一份名为 [GGI Handbook](https://ggi.ow2.io/my-ggi-onramp/) 的指南。GGI Handbook 是一个基于 GitLab 的可部署实例，包含了一套完整的方法论和最佳实践，指导企业如何从零开始创建、运行和优化自己的 OSPO。GGI Handbook 还提供了一些实用的工具和模板，例如 OSPO 成熟度模型、OSPO 策略框架、OSPO 指标仪表盘等。
 
 > GGI Handbook 是一个开放和协作的项目，欢迎任何对 OSPO 感兴趣或有经验的人参与贡献。你可以在 [GitLab](https://gitlab.ow2.org/) 上找到 [GGI Handbook](https://gitlab.ow2.org/ggi/ggi) 和 [My GGI Board](https://gitlab.ow2.org/ggi/my-ggi-board) 的项目页面，并通过提交 Issue 或 Merge Qequest 来提出建议或改进。你也可以加入 [OSPO Alliance](https://ospo.zone/) 的社区，与其他 OSPO 从业者交流经验和想法。
 
