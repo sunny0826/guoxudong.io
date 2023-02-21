@@ -87,7 +87,7 @@ Pipeline 运行成功后，你的 GGI Board 就已经准备就绪了！
 
 ![Activities page](https://cdn.suuny0826.com/image/2023-02-20-20230220115012.png)
 
-> 这个页面是自动部署的，地址你可以在 `Project description` 中找到，比如说我部署的 Dashboard 地址就是：<http://guoxudong.io.gitlab.io/my-ggi-board>
+> 这个页面是自动部署的，地址你可以在 `Project description` 中找到，比如我部署的 Dashboard 地址就是：<http://guoxudong.io.gitlab.io/my-ggi-board>
 
 ![Project description](https://cdn.suuny0826.com/image/2023-02-20-20230220115252.png)
 
