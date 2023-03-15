@@ -15,7 +15,7 @@ DevOps 不仅仅是开发和运营团队。如果您想要充分发挥出 DevOps
 
 ![image](https://cdn.suuny0826.com/large/ad5fbf65gy1g2o4h6asbfj20b9077q3d.jpg)
 
-现在，安全防护在 DevOps 协作框架中属于共同责任，而且需要在整个周期中[整合](https://www.redhat.com/zh/challenges/integration)相应的安全功能。这是一个非常重要的理念。它还使得“DevSecOps”一词应运而生，以用于强调必须为 DevOps 计划打下扎实的安全基础。
+现在，安全防护在 DevOps 协作框架中属于共同责任，而且需要在整个周期中整合相应的安全功能。这是一个非常重要的理念。它还使得“DevSecOps”一词应运而生，以用于强调必须为 DevOps 计划打下扎实的安全基础。
 
 ![image](https://cdn.suuny0826.com/large/ad5fbf65gy1g2o4i7spd6j20b908k0t7.jpg)
 
