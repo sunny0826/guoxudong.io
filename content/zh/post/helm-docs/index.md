@@ -5,8 +5,9 @@ summary: "helm-docs 可以根据 charts 内容自动生成 markdown 文件。"
 authors: ["guoxudong"]
 tags: ["helm","kubernetes"]
 categories: ["kubernetes"]
-date: 2020-05-08T11:20:01+08:00
-lastmod: 2020-05-08T11:20:01+08:00
+date: 2022-05-08T11:20:01+08:00
+# date: 2020-05-08T11:20:01+08:00
+# xxx
 featured: false
 draft: false
 type: blog

@@ -5,8 +5,9 @@ summary: "Kruise 是 OpenKruise 中的核心项目之一，Kruise 是 cruise的�
 authors: ["guoxudong"]
 tags: ["Openkruise"]
 categories: ["Openkruise"]
-date: 2020-08-27T11:51:25+08:00
-lastmod: 2020-08-27T11:51:25+08:00
+date: 2022-08-27T11:51:25+08:00
+# date: 2020-08-27T11:51:25+08:00
+# xxx
 draft: false
 type: blog
 image: https://cdn.suuny0826.com/large/ad5fbf65gy1gi5c4x0ekpj20j608qtam.jpg

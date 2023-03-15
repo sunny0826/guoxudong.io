@@ -5,8 +5,9 @@ summary: "使用 k3d 在本地快速搭建轻量级 k8s 集群 - k3s，并使用
 authors: ["guoxudong"]
 tags: ["k3s","k3d","kubecm","Kubernetes"]
 categories: ["边缘计算"]
-date: 2020-02-17T11:51:39+08:00
-lastmod: 2020-02-17T11:51:39+08:00
+date: 2022-08-17T11:51:39+08:00
+# date: 2020-02-17T11:51:39+08:00
+# xxx
 featured: false
 draft: false
 type: blog

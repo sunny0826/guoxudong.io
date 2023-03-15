@@ -1,6 +1,8 @@
 ---
 title: "使用 Kustomize 帮你管理 kubernetes 应用（三）：将 Kustomize 应用于 CI/CD"
-date: 2019-05-06T16:46:28+08:00
+date: 2022-05-06T16:46:28+08:00
+# date: 2019-05-06T16:46:28+08:00
+# xxx
 draft: false
 type: blog
 authors: ["guoxudong"]

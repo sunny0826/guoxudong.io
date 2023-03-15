@@ -5,8 +5,9 @@ summary: "本篇为系列文章第三篇，将使用 ChaosBlade Operator 对 Kub
 authors: ["guoxudong"]
 tags: ["混沌工程"]
 categories: ["混沌工程"]
-date: 2020-06-15T15:45:36+08:00
-lastmod: 2020-06-15T15:45:36+08:00
+date: 2022-06-15T15:45:36+08:00
+# date: 2020-06-15T15:45:36+08:00
+# xxx
 featured: false
 draft: false
 type: blog

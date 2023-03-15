@@ -5,8 +5,9 @@ summary: "metadata 中熟悉又陌生的字段 finalizers"
 authors: ["guoxudong"]
 tags: ["kubernetes","operator"]
 categories: ["kubernetes"]
-date: 2020-09-11T08:47:51+08:00
-lastmod: 2020-09-11T08:47:51+08:00
+date: 2022-09-11T08:47:51+08:00
+# date: 2020-09-11T08:47:51+08:00
+# xxx
 draft: false
 type: blog
 image: https://cdn.suuny0826.com/large/ad5fbf65gy1gimpo3u78mj21qi15otcv.jpg

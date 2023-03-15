@@ -1,6 +1,8 @@
 ---
 title: "使用 Kustomize 帮你管理 kubernetes 应用（四）：简述核心配置 kustomization.yaml"
-date: 2019-05-23T12:50:12+08:00
+date: 2022-05-23T12:50:12+08:00
+# date: 2019-05-23T12:50:12+08:00
+# xxx
 draft: false
 type: blog
 authors: ["guoxudong"]

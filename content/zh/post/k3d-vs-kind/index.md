@@ -5,8 +5,9 @@ summary: "对比 K3d 和 Kind 在本地开发侧的能力。"
 authors: ["guoxudong"]
 tags: ["k3s","k3d","kind"]
 categories: ["kubernetes"]
-date: 2020-11-18T09:44:37+08:00
-lastmod: 2020-11-18T09:44:37+08:00
+date: 2022-11-18T09:44:37+08:00
+# date: 2020-11-18T09:44:37+08:00
+# xxx
 draft: false
 type: blog
 image: https://cdn.suuny0826.com/large/ad5fbf65gy1gktbsfimhuj21qi15o78d.jpg

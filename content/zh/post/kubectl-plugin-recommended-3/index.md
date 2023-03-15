@@ -4,8 +4,9 @@ subtitle: ""
 summary: "讲解如何快速开发一款自己的 Kubectl Plugin。"
 authors: ["guoxudong"]
 tags: ["Kubernetes","Kubernetes Plugin","Krew"]
-date: 2021-03-17T09:54:18+08:00
-lastmod: 2021-03-17T09:54:18+08:00
+date: 2022-05-17T09:54:18+08:00
+# date: 2021-03-17T09:54:18+08:00
+# xxx
 draft: false
 type: blog
 image: https://cdn.suuny0826.com/large/ad5fbf65gy1gomurdt886j20p00an3zg.jpg

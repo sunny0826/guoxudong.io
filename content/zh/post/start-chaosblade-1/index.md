@@ -5,8 +5,9 @@ summary: "本篇为系列文章第二篇，将介绍 ChaosBlade-Operator 的安�
 authors: ["guoxudong"]
 tags: ["混沌工程"]
 categories: ["混沌工程"]
-date: 2020-06-09T11:14:09+08:00
-lastmod: 2020-06-09T11:14:09+08:00
+date: 2022-06-09T11:14:09+08:00
+# date: 2020-06-09T11:14:09+08:00
+# xxx
 featured: false
 draft: false
 type: blog
