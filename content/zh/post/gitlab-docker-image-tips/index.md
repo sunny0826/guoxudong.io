@@ -8,7 +8,7 @@ date: 2023-03-30T08:36:01+08:00
 lastmod: 2023-03-30T08:36:01+08:00
 draft: false
 type: blog
-image: "https://cdn.suuny0826.com/large/ad5fbf65ly1g0s2czlmofj21jl15o43r.jpg"
+image: "https://cdn.suuny0826.com/image/2023-03-30-gitlab-docker-image-tips.png"
 ---
 ## 前言
 
