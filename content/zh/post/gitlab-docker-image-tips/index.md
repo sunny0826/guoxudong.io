@@ -34,7 +34,7 @@ image: "https://cdn.suuny0826.com/image/2023-03-30-gitlab-docker-image-tips.png"
 
 ### 获取依赖容器清单
 
-一般在 GitLab CI 中 DockerHub 的基础镜像被广泛使用，这些广泛分布在 `.gitlab-ci.yml` 与 `Dockerfile` 中，如果您想要快速找到自己项目中都使用了哪些镜像，不妨试试以下两个命令。
+一般在 GitLab CI 中 DockerHub 的基础镜像被广泛使用，一般分布在 `.gitlab-ci.yml` 与 `Dockerfile` 中，如果想要快速找到都使用了哪些镜像，不妨试试以下两个命令。
 
 1. 直接使用 `find` 命令来查看 `.gitlab-ci.yml` 中使用的镜像
 
@@ -42,7 +42,7 @@ image: "https://cdn.suuny0826.com/image/2023-03-30-gitlab-docker-image-tips.png"
 find . -type f -iname '*ci.yml' -exec sh -c "grep 'image:' '{}' && echo {}" \;
 ```
 
-2. GitLab API 提供了更简单的方法来查看查看 `Dockerfile` 中使用的镜像
+2. GitLab API 提供了更简单的方法来查看 `Dockerfile` 中使用的镜像
 
 ```shell
 curl --header "PRIVATE-TOKEN: $GITLAB_TOKEN" "https://${YOUR-GITLAB-HOST}/api/v4/projects/${YOUR-PROJECT-ID}/search?scope=blobs&search=FROM%20filename:Dockerfile*"
@@ -52,7 +52,7 @@ curl --header "PRIVATE-TOKEN: $GITLAB_TOKEN" "https://${YOUR-GITLAB-HOST}/api/v4
 
 ### 开启 Dependency Proxy
 
-强烈建议所有 GitLab 用户都开启这个功能，该功能提供了的 Docker 镜像缓存机制，可以减少下载和拉取镜像所需的带宽和时间，有助于缓解之前 DockerHub 开启的拉取速率限制。配置十分简单，只需开启  [Dependency Proxy](https://docs.gitlab.cn/jh/user/packages/dependency_proxy) 功能，并在在 `.gitlab-ci.yml` 中的 `image` 字段加入 `${CI_DEPENDENCY_PROXY_GROUP_IMAGE_PREFIX}` 变量，这样每次运行 Pipeline 的时候之后在没有找到缓存镜像时才会去拉取一次镜像，大大提升了 CI/CD 的运行速率。配置如下：
+强烈建议所有 GitLab 用户都开启这个功能，该功能提供了的 Docker 镜像缓存机制，可以减少下载和拉取镜像所需的带宽和时间，有助于缓解之前 DockerHub 开启的拉取速率限制。配置十分简单，只需开启  [Dependency Proxy](https://docs.gitlab.cn/jh/user/packages/dependency_proxy) 功能，并在 `.gitlab-ci.yml` 中的 `image` 字段加入 `${CI_DEPENDENCY_PROXY_GROUP_IMAGE_PREFIX}` 变量，这样每次运行 Pipeline 的时候只有在没有找到缓存镜像时才会去拉取一次镜像，大大提升了 CI/CD 的运行速度。类似配置如下：
 
 ```yaml
 .test-python-version:
@@ -87,4 +87,4 @@ skopeo copy \
 
 ## 结语
 
-同样来自主打开源产品团队的笔者，更能与 Docker, Inc. 共情，高昂的维护成本、巨大的竞争压力、下行的经济形势，哪一个都足以压倒这家成立了 10 年的公司。我不会去批判他们的决定，大家都有各自的现状与苦衷。只是会思考对于一家主打开源产品的公司，什么样的商业模式才更能让开源项目健康、可持续的发展。
+同样来自主打开源产品团队的笔者，更能与 Docker, Inc. 共情，高昂的维护成本、巨大的竞争压力、下行的经济形势，哪一个都足以压倒这家成立了 10 年的公司。我不会去批判他们的决定，大家都有各自的现状与苦衷。只是会思考对于一家主打开源产品的公司，什么样的商业模式才更能让开源项目健康、可持续地发展。
