@@ -23,12 +23,12 @@ banner_feature:
     # banner feature item loop
     - name : "开源"
       icon : "fa-gitlab" # font-awesome 4.7.0 : https://fontawesome.com/v4.7.0/icons/
-      content : "积极参与各种开源项目，推广布道开源文化。"
+      content : "开源布道者，积极参与开源项目，开源活动，推广布道开源文化。"
 
     # banner feature item loop
     - name : "云原生"
       icon : "fa-cloud" # font-awesome 4.7.0 : https://fontawesome.com/v4.7.0/icons/
-      content : "云原生爱好者、实践者，专注于云原生及周边干货知识分享。"
+      content : "云原生技术布道者、实践者，专注于云原生及周边干货知识分享。"
 
     # banner feature item loop
     - name : "DevOps"
@@ -38,7 +38,7 @@ banner_feature:
     # banner feature item loop
     - name : "宠物达人"
       icon : "fa-paw" # font-awesome 4.7.0 : https://fontawesome.com/v4.7.0/icons/
-      content : "柴猫双全，拥有一只柴犬 🐕 名叫 sunny，一只橘猫 🐈 名叫毛线，一只曼基康矮脚猫 🐈 名叫呆呆。"
+      content : "柴猫双全，柴犬 🐕 sunny，橘猫 🐈 毛线，曼基康矮脚猫 🐈 呆呆。"
 
 
 ################################## about ####################################

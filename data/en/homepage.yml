@@ -2,7 +2,7 @@
 slider:
   enable : true
   slider_item:
-     - subtitle : ""
+     - subtitle : "guoxudong.io"
        title : "👋 DIFFERENT BUT TOGETHER 🌏"
        content : "Guo Xudong's Blog | The Road Of Cloud Native"
        bg_image : "https://cdn.suuny0826.com/large/ad5fbf65gy1h5hk65sy5hj21na0zkjvy.jpg"
