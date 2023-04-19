@@ -1,5 +1,5 @@
 ---
-title: "给你的开源项目获取一枚 OpenSSF 最佳实践徽章吧"
+title: "给你的开源项目获取一枚 OpenSSF 最佳实践徽章吧！"
 summary: "文章介绍了 OpenSSF 的最佳实践徽章，旨在提高开源项目的安全性、质量和信任度。"
 authors: ["guoxudong"]
 tags: ["OpenSSF"]
