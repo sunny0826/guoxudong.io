@@ -14,7 +14,7 @@ image: "https://cdn.suuny0826.com/image/2023-04-19-20230419113427.png"
 
 随着开源软件在全球范围内的广泛应用，确保其安全性变得越来越重要。开源软件已经渗透到各个领域，成为许多企业、政府部门和个人的重要基础设施。然而，随着其使用范围的扩大，开源软件也面临着越来越多的安全威胁。黑客和网络犯罪分子不断寻找新的漏洞，以便利用这些开源系统进行攻击。为了有效地应对这些挑战，需要在全球范围内采取协同合作的措施，提高开源软件的安全性。
 
-Open Source Security Foundation（开源软件安全基金会，简称 OpenSSF）正是为了应对这一挑战而诞生的。这个由 Linux 基金会支持的项目，致力于提升开源软件的安全性、可靠性和可持续性。为了实现这一目标，OpenSSF 推出了 Best Practices Badge Program（最佳实践徽章项目）。
+Open Source Security Foundation（开源软件安全基金会，简称 OpenSSF）正是为了应对这一挑战而诞生的。这个由 Linux 基金会支持的项目，致力于提升开源软件的安全性、可靠性和可持续性。为了实现这一目标，OpenSSF 推出了 Best Practices Badge Program（最佳实践徽章项目）。这个项目最初是在 CII 下开发的，但现在它是开源安全基金会（OpenSSF）最佳实践工作组（WG）的一部分。该项目最初的名称是 CII Best Practices badge，但现在是 OpenSSF 最佳实践徽章计划。
 
 在这篇文章中，我们将详细介绍 OpenSSF 及其最佳实践徽章计划，探讨如何通过该计划帮助开源项目提高安全性。我们还将讨论如何为项目申请徽章，并了解徽章计划的不同级别和要求。最后，我们将强调开源社区成员对此项目的支持的重要性，以共同努力提高整个开源生态系统的安全性。
 
@@ -46,7 +46,7 @@ OpenSSF 的成立源于多个先前独立的安全项目和倡议的整合，包
 
 ### 注册并关联项目
 
-访问 OpenSSF 最佳实践徽章[项目网站](https://bestpractices.coreinfrastructure.org/)，使用 GitHub 账户或注册一个新帐户。完成注册后，登录您的帐户，点击 `Get Your Badge Now!`，如果你使用的是 GitHub 账户登录，则可以直接在 `Select one of your GitHub repos` 下拉框中选择你的项目。当然，也支持非 GitHub 平台的开源项目填写，只需按照要求填入 home page URL 和 version control repository 地址即可。
+访问 OpenSSF 最佳实践徽章[项目网站](https://bestpractices.coreinfrastructure.org/)，使用 GitHub 账户或注册一个新帐户。完成注册后，登录您的帐户，点击 `Get Your Badge Now!`，如果你使用的是 GitHub 账户登录，则可以直接在 `Select one of your GitHub repos` 下拉框中选择你的项目。当然，也支持非 GitHub 平台的开源项目填写，只需按照要求填入 **home page URL** 和 **version control repository** 地址即可。
 
 ![New badge](https://cdn.suuny0826.com/image/2023-04-19-20230419103555.png)
 
@@ -62,7 +62,7 @@ OpenSSF 的成立源于多个先前独立的安全项目和倡议的整合，包
 
 ### 展示徽章
 
-OpenSSF 会提供徽章的图像和嵌入代码，以方便您在各种平台上展示徽章。在你的项目页面，点击 `Show detailes`，就会展示徽章的 Markdown 与 HTML 格式，你可以将相应的内容添加到项目的 `README` 文件、官方网站等地方，以展示项目遵循软件安全最佳实践的承诺。
+OpenSSF 最佳实践徽章计划会提供徽章的图像和嵌入代码，以方便您在各种平台上展示徽章。在你的项目页面，点击 `Show detailes`，就会展示徽章的 Markdown 与 HTML 格式，你可以将相应的内容添加到项目的 `README` 文件、官方网站等地方，以展示项目遵循软件安全最佳实践的承诺。
 
 ![embedding md](https://cdn.suuny0826.com/image/2023-04-19-20230419105508.png)
 

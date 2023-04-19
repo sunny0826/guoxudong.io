@@ -11,7 +11,7 @@ type: blog
 image: "https://cdn.suuny0826.com/image/2023-04-19-20230419113427.png"
 ---
 
-As open-source software is widely used globally, ensuring its security becomes increasingly important. The Open Source Security Foundation (OpenSSF) was born to address this challenge. Supported by the Linux Foundation, this project aims to enhance the security, reliability, and sustainability of open-source software. To achieve this goal, OpenSSF has launched the Best Practices Badge Program.
+As open-source software is widely used globally, ensuring its security becomes increasingly important. The Open Source Security Foundation (OpenSSF) was born to address this challenge. Supported by the Linux Foundation, this project aims to enhance the security, reliability, and sustainability of open-source software. To achieve this goal, OpenSSF has launched the Best Practices Badge Program. This project was originally developed under the CII, but it is now part of the Open Source Security Foundation (OpenSSF) Best Practices Working Group (WG). The original name of the project was the CII Best Practices badge, but it is now the OpenSSF Best Practices badge project.
 
 ![Kubernetes README](https://cdn.suuny0826.com/image/2023-04-19-20230419101516.png)
 
