@@ -17,17 +17,17 @@ As open-source software is widely used globally, ensuring its security becomes i
 
 ## OpenSSF
 
-The Open Source Security Foundation (OpenSSF) is a project supported by the Linux Foundation, established in 2020. OpenSSF aims to protect and enhance the security, reliability, and sustainability of the entire open-source software (OSS) ecosystem. It is a cross-industry organization that brings together various stakeholders, including corporations, open-source projects, research institutions, and government agencies, to collectively address the security challenges faced by open-source software.
+The OpenSSF (Open Source Security Foundation) is a cross-industry organization dedicated to improving the security of open source software. Established in 2020, the organization was initiated by several technology companies (including Google, Microsoft, IBM, GitHub, Red Hat, and others) and later attracted many other companies and organizations to join. The establishment of OpenSSF aims to address the growing security challenges in the open source software ecosystem, striving to enhance the security of open source software through collaboration, education, research, and best practices.
 
-The main areas of work for OpenSSF include:
+The main work of OpenSSF includes:
 
-1. Security best practices: improving the overall security level of the open-source ecosystem by formulating and promoting security best practices for open-source projects. For example, OpenSSF has launched the Best Practices Badge Program to encourage and help open-source projects follow software security best practices.
-2. Tools and technologies: developing and maintaining tools and technologies for identifying, preventing, and fixing security vulnerabilities in open-source software. This includes vulnerability scanning tools, static code analysis tools, etc.
-3. Education and training: providing education and training resources related to open-source software security, helping developers, maintainers, and users improve their security awareness and skills. These resources include online courses, seminars, guides, and articles, etc.
-4. Security research: conducting research on open-source software security, providing strong support for the open-source ecosystem. Research topics include vulnerability trend analysis, security risk assessment, etc.
-5. Cross-organization collaboration: promoting collaboration within and outside the industry to jointly address security challenges. OpenSSF strengthens the security defenses of the entire open-source ecosystem by collaborating with other organizations, projects, and security research teams, sharing resources and experiences.
+1. Enhancing open source software supply chain security: OpenSSF focuses on software supply chain security to mitigate risks within the supply chain. This includes ensuring the security of source code, build processes, and distribution channels, thus preventing the infiltration of malware, backdoors, and other security vulnerabilities.
+2. Promoting open source security best practices: OpenSSF helps projects and organizations improve security by formulating and promoting open source security best practices. These practices involve various stages of the software development lifecycle, including design, coding, testing, and deployment.
+3. Training and education: OpenSSF provides training and education resources to raise awareness and skills of developers and maintainers in open source software security. These resources include online courses, guides, best practice documents, and more.
+4. Funding critical projects: OpenSSF ensures the continuous development and proper maintenance of projects that are of significant importance to open source security by providing funding. These projects may include infrastructure projects, security tools, and research projects, among others.
+5. Research and development: OpenSSF also supports security research and development efforts to continuously improve and innovate open source security technologies.
 
-OpenSSF was established as a result of the integration of several previously independent security projects and initiatives, including the Core Infrastructure Initiative and GitHub's Open Source Security Coalition. By bringing these projects and resources together under a unified framework, OpenSSF aims to achieve more efficient collaboration and stronger impact in addressing the increasingly severe challenges of open-source software security.
+In summary, OpenSSF is committed to enhancing the security of open source software through cross-industry collaboration, education, research, and funding, creating a safer future for the entire open source ecosystem.
 
 ## What is the OpenSSF Best Practices Badge Program
 
