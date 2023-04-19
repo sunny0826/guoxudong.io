@@ -1,6 +1,6 @@
 ---
 title: "给你的开源项目获取一枚 OpenSSF 最佳实践徽章吧"
-summary: "Openssf Best Practices Badge Program"
+summary: "文章介绍了 OpenSSF 的最佳实践徽章，旨在提高开源项目的安全性、质量和信任度。"
 authors: ["guoxudong"]
 tags: ["OpenSSF"]
 categories: ["OpenSSF"]
@@ -12,7 +12,11 @@ image: "https://cdn.suuny0826.com/image/2023-04-19-20230419113427.png"
 ---
 ## 前言
 
-随着开源软件在全球范围内的广泛应用，确保其安全性变得越来越重要。Open Source Security Foundation（开源软件安全基金会，简称 OpenSSF）正是为了应对这一挑战而诞生的。这个由 Linux 基金会支持的项目，致力于提升开源软件的安全性、可靠性和可持续性。为了实现这一目标，OpenSSF 推出了 Best Practices Badge Program（最佳实践徽章项目）。
+随着开源软件在全球范围内的广泛应用，确保其安全性变得越来越重要。开源软件已经渗透到各个领域，成为许多企业、政府部门和个人的重要基础设施。然而，随着其使用范围的扩大，开源软件也面临着越来越多的安全威胁。黑客和网络犯罪分子不断寻找新的漏洞，以便利用这些开源系统进行攻击。为了有效地应对这些挑战，需要在全球范围内采取协同合作的措施，提高开源软件的安全性。
+
+Open Source Security Foundation（开源软件安全基金会，简称 OpenSSF）正是为了应对这一挑战而诞生的。这个由 Linux 基金会支持的项目，致力于提升开源软件的安全性、可靠性和可持续性。为了实现这一目标，OpenSSF 推出了 Best Practices Badge Program（最佳实践徽章项目）。
+
+在这篇文章中，我们将详细介绍 OpenSSF 及其最佳实践徽章计划，探讨如何通过该计划帮助开源项目提高安全性。我们还将讨论如何为项目申请徽章，并了解徽章计划的不同级别和要求。最后，我们将强调开源社区成员对此项目的支持的重要性，以共同努力提高整个开源生态系统的安全性。
 
 ![Kubernetes README](https://cdn.suuny0826.com/image/2023-04-19-20230419101516.png)
 
@@ -32,21 +36,17 @@ OpenSSF 的成立源于多个先前独立的安全项目和倡议的整合，包
 
 ## 什么是 OpenSSF 最佳实践徽章计划
 
-最佳实践徽章项目旨在鼓励和协助开源项目遵循软件安全的最佳实践，受到 GitHub 上众多可获得的徽章系统的启发，发布了这个自愿、免费的自助认证项目，用户可以通过 Web 页面，根据填写每项最佳实践来快速完成对自己开源项目的评估，同时也为改进项目安全提供了引导与标准。徽章项目共有三个级别：PASSING（通过）、SILVER（银牌）和GOLD（金牌），每个级别都有一定数量的安全要求。
+最佳实践徽章项目旨在鼓励和协助开源项目遵循软件安全的最佳实践，受到 GitHub 上众多可获得的徽章系统的启发，发布了这个自愿、免费的自助认证项目，用户可以通过 Web 页面，根据填写每项最佳实践来快速完成对自己开源项目的评估，同时也为改进项目安全提供了引导与标准。徽章项目共有三个级别：PASSING（通过）、SILVER（银牌）和 GOLD（金牌），每个级别都有一定数量的安全要求。
 
 ### 徽章级别和要求
 
-首先，您需要了解徽章项目的三个级别：PASSING（通过）、SILVER（银牌）和GOLD（金牌），以及它们对应的安全要求。这些要求涵盖了诸如安全策略、版本控制、持续集成等多个方面。您可以通过访问 OpenSSF 最佳实践徽章项目的[官方文档](https://bestpractices.coreinfrastructure.org/en/criteria_stats)查看这些要求。
+首先，您需要了解徽章项目的三个级别：PASSING（通过）、SILVER（银牌）和 GOLD（金牌），以及它们对应的安全要求。这些要求涵盖了诸如安全策略、版本控制、持续集成等多个方面。您可以通过访问 OpenSSF 最佳实践徽章项目的[官方文档](https://bestpractices.coreinfrastructure.org/en/criteria_stats)查看这些要求。
 
-| Level   | Total active | MUST | SHOULD | SUGGESTED | Allow N/A | Met justification required | Require URL | Met justification or URL required | Includes details | New at this level | Future |
-|---------|--------------|------|--------|-----------|-----------|----------------------------|-------------|-----------------------------------|------------------|-------------------|--------|
-| Passing | 67           | 43   | 10     | 14        | 27        | 1                          | 8           | 9                                 | 52               | 67                | 0      |
-| Silver  | 55           | 44   | 10     | 1         | 40        | 38                         | 17          | 54                                | 39               | 48                | 0      |
-| Gold    | 23           | 21   | 2      | 0         | 9         | 13                         | 9           | 22                                | 16               | 14                | 0      |
+![Criteria Statistics](https://cdn.suuny0826.com/image/2023-04-19-20230419114806.png)
 
 ### 注册并关联项目
 
-访问 OpenSSF 最佳实践徽章[项目网站](https://bestpractices.coreinfrastructure.org/)，使用 GitHub 账户或注册一个新帐户。完成注册后，登录您的帐户，点击 `Get Your Badge Now!`，如果你使用的是 GitHub 账户登录，则可以直接在 `Select on of your GitHub repos` 下拉框中选择你的项目。当然，也支持非 GitHub 平台的开源项目填写，只需按照要求填入 home page URL 和 version control repository 地址即可。
+访问 OpenSSF 最佳实践徽章[项目网站](https://bestpractices.coreinfrastructure.org/)，使用 GitHub 账户或注册一个新帐户。完成注册后，登录您的帐户，点击 `Get Your Badge Now!`，如果你使用的是 GitHub 账户登录，则可以直接在 `Select one of your GitHub repos` 下拉框中选择你的项目。当然，也支持非 GitHub 平台的开源项目填写，只需按照要求填入 home page URL 和 version control repository 地址即可。
 
 ![New badge](https://cdn.suuny0826.com/image/2023-04-19-20230419103555.png)
 
@@ -54,7 +54,7 @@ OpenSSF 的成立源于多个先前独立的安全项目和倡议的整合，包
 
 ![邮件](https://cdn.suuny0826.com/image/2023-04-18-20230418142755.png)
 
-提交后，你就会收到一封说明邮件，其中包含一些必要的说明已经继续评估你的开源项目的地址，接下来就是对你的开源项目自行自评了。
+提交后，你就会收到一封说明邮件，其中包含一些必要的说明以及用于继续评估你的开源项目的地址，接下来就是对你的开源项目自行自评了。
 
 ![评估页面](https://cdn.suuny0826.com/image/2023-04-19-20230419110106.png)
 
@@ -70,4 +70,6 @@ OpenSSF 会提供徽章的图像和嵌入代码，以方便您在各种平台上
 
 ## 结语
 
-总之，OpenSSF 最佳实践徽章项目为开源项目提供了一个实用的框架，引导它们遵循软件安全的最佳实践。通过鼓励项目团队关注安全性、提供核心准则和明确的评估标准，这个项目有助于提升整个开源生态的安全水平。开源社区的每一个成员都应该关注并支持这一项目，共同努力，让我们的数字世界变得更加安全和可靠。
+总之，OpenSSF 最佳实践徽章项目为开源项目提供了一个实用的框架，引导它们遵循软件安全的最佳实践。这个项目旨在提高整个开源生态系统的安全水平，让开源社区成为一个更加安全和可靠的环境。通过鼓励项目团队关注安全性、提供核心准则和明确的评估标准，这个项目有助于项目团队了解和遵循软件安全的最佳实践。
+
+作为开源社区的一员，我们都应该关注并支持 OpenSSF 最佳实践徽章项目。我们鼓励项目团队积极参与该项目，以改进和提升自己的项目安全性。同时，我们也呼吁更多的组织、研究机构和个人参与到开源软件安全的倡导和推动中，共同努力，让我们的数字世界变得更加安全和可靠。
