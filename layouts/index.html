@@ -18,10 +18,10 @@
             <h2 class="mb-4">{{ .title | markdownify }}</h2>
             <p class="mb-5">{{ .content | markdownify }}</p>
             {{ if .button.enable }}
-            <a href="{{ .button.link1 | absLangURL }}" class="btn btn-gray hover-ripple" data-duration-in=".3"
-              data-animation-in="{{ .button.animation }}" data-delay-in=".4"><i class="fa fa-github"></i>&#32;{{ .button.label1 }}</a>
-              <a href="{{ .button.link2 | absLangURL }}" class="btn btn-gray hover-ripple" data-duration-in=".3"
-              data-animation-in="{{ .button.animation }}" data-delay-in=".4"><i class="fa fa-gitlab"></i>&#32;{{ .button.label2 }}</a>
+            <a href="{{ .button.link1 | absLangURL }}?WT.mc_id=AZ-MVP-5005283" class="btn btn-gray hover-ripple" data-duration-in=".3"
+              data-animation-in="{{ .button.animation }}" data-delay-in=".4" target="_blank" ><i class="fa fa-github"></i>&#32;{{ .button.label1 }}</a>
+              <a href="{{ .button.link2 | absLangURL }}?WT.mc_id=AZ-MVP-5005283" class="btn btn-gray hover-ripple" data-duration-in=".3"
+              data-animation-in="{{ .button.animation }}" data-delay-in=".4" target="_blank" ><i class="fa fa-gitlab"></i>&#32;{{ .button.label2 }}</a>
             {{ end }}
           </div>
         </div>
@@ -156,7 +156,7 @@
         {{ if .button.enable }}
         {{ with .button }}
         <div class="col-md-4 text-right align-self-end d-md-block d-none">
-          <a href="{{ .link | absLangURL }}" class="btn btn-primary mb-3 hover-ripple">{{ .label }}</a>
+          <a href="{{ .link | absLangURL }}?WT.mc_id=AZ-MVP-5005283" class="btn btn-primary mb-3 hover-ripple">{{ .label }}</a>
         </div>
         {{ end }}
         {{ end }}
@@ -197,7 +197,7 @@
       {{ with .button }}
       <div class="col-lg-4 col-md-2 col-2 text-center mx-auto" style="display: flex; align-items: center;">
         <a class="btn btn-outline-light btn-lg hover-ripple" ata-duration-in=".3"
-              data-animation-in="{{ .button.animation }}" data-delay-in=".4" href="{{ .link | absLangURL }}">
+              data-animation-in="{{ .button.animation }}" data-delay-in=".4" href="{{ .link | absLangURL }}?WT.mc_id=AZ-MVP-5005283">
           <i class="fa fa-play-circle-o fa-2x"></i>
         </a>
       </div>
@@ -223,7 +223,7 @@
             <h4 class="section-title-sm">{{ .subtitle }}</h4>
             <div class="section-title-border" style="margin-bottom: 0px;"></div>
           </div>
-          <a href="/post" class="btn btn-primary hover-ripple" style="padding: 10px 25px 10px 25px;">{{ .find_all }}</a>
+          <a href="/post?WT.mc_id=AZ-MVP-5005283" class="btn btn-primary hover-ripple" style="padding: 10px 25px 10px 25px;">{{ .find_all }}</a>
         </div>
         {{ end }}
       </div>
@@ -239,7 +239,7 @@
     <!-- mobile see all button -->
     <div class="row">
       <div class="col-12 text-center">
-        <a href="{{`blog` | relLangURL }}"
+        <a href="{{`blog` | relLangURL }}?WT.mc_id=AZ-MVP-5005283"
           class="btn btn-sm btn-primary-outline d-sm-none d-inline-block">{{ i18n "see_all" }}</a>
       </div>
     </div>
