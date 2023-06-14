@@ -5,9 +5,7 @@ summary: "推荐一些 Kubectl Plugin，本篇主要是提升可观测性篇的�
 authors: ["guoxudong"]
 tags: ["Kubernetes","Kubernetes Plugin","Krew"]
 categories: ["Kubernetes Plugin"]
-date: 2022-05-04T17:36:15+08:00
-# date: 2021-03-04T17:36:15+08:00
-# xxx
+date: 2021-03-04T17:36:15+08:00
 draft: false
 type: blog
 image: https://cdn.suuny0826.com/large/ad5fbf65gy1go82bo07nyj20p00angmk.jpg

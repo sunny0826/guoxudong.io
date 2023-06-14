@@ -1,8 +1,6 @@
 ---
 title: "使用 Kustomize 帮你管理 kubernetes 应用（二）： Kustomize 的使用方法"
-date: 2022-04-19T16:05:02+08:00
-# date: 2019-04-19T16:05:02+08:00
-# xxx
+date: 2019-04-19T16:05:02+08:00
 draft: false
 type: blog
 summary: "本篇为系列文章第二篇，手把手教你使用 Kustomize 的两种方式。"

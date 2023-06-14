@@ -1,8 +1,6 @@
 ---
 title: "使用 Kustomize 帮你管理 kubernetes 应用（五）：配合 kubedog 完善 CI/CD 的最后一步"
-date: 2022-07-03T15:20:31+08:00
-# date: 2019-07-03T15:20:31+08:00
-# xxx
+date: 2019-07-03T15:20:31+08:00
 draft: false
 type: blog
 authors: ["guoxudong"]

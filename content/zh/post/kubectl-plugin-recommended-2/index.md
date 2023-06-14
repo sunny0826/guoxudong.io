@@ -5,9 +5,7 @@ summary: "推荐一些 Kubectl Plugin，本篇主要是简化操作的插件。"
 authors: ["guoxudong"]
 tags: ["Kubernetes","Kubernetes Plugin","Krew"]
 categories: ["Kubernetes Plugin"]
-date: 2022-05-09T11:18:48+08:00
-# date: 2021-03-09T11:18:48+08:00
-# xxx
+date: 2021-03-09T11:18:48+08:00
 draft: false
 type: blog
 image: https://cdn.suuny0826.com/large/ad5fbf65gy1godp4trcrnj20p00an3zg.jpg

@@ -5,9 +5,7 @@ summary: "pod 和 containers 中熟悉又陌生的字段 SecurityContext"
 authors: ["guoxudong"]
 tags: ["Kubernetes"]
 categories: ["Kubernetes"]
-date: 2022-11-04T11:54:04+08:00
-# date: 2020-11-04T11:54:04+08:00
-# xxx
+date: 2020-11-04T11:54:04+08:00
 draft: false
 type: blog
 image: https://cdn.suuny0826.com/large/ad5fbf65ly1gkd7ceh6r0j21qi15otga.jpg

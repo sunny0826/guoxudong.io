@@ -1,8 +1,6 @@
 ---
 title: "使用 Kustomize 帮你管理 kubernetes 应用（一）：什么是 Kustomize ？"
-date: 2022-04-15T13:32:59+08:00
-# date: 2019-04-15T13:32:59+08:00
-# xxx
+date: 2019-04-15T13:32:59+08:00
 draft: false
 type: blog
 authors: ["guoxudong"]

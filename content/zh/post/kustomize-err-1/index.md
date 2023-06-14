@@ -1,8 +1,6 @@
 ---
 title: "记一次使用 Kustomize 时遇到的愚蠢问题"
-date: 2022-07-03T13:44:50+08:00
-# date: 2019-07-03T13:44:50+08:00
-# xxx
+date: 2019-07-03T13:44:50+08:00
 draft: false
 type: blog
 authors: ["guoxudong"]

@@ -5,9 +5,7 @@ summary: "本篇为系列文章第四篇，将介绍使用 ChaosBlade Operator �
 authors: ["guoxudong"]
 tags: ["混沌工程"]
 categories: ["混沌工程"]
-date: 2022-07-22T17:30:53+08:00
-# date: 2020-07-22T17:30:53+08:00
-# xxx
+date: 2020-07-22T17:30:53+08:00
 featured: false
 draft: false
 type: blog
