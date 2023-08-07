@@ -36,7 +36,7 @@
           <span class="text-white">{{ i18n "connect_with_us" }}:</span>
           <ul class="list-inline d-inline-block">
             {{ range .Site.Params.social }}
-            <li class="list-inline-item"><a class="text-white d-inline-block p-2" href="{{ .link | safeURL }}?WT.mc_id=AZ-MVP-5005283"><i
+            <li class="list-inline-item"><a class="text-white d-inline-block p-2" href="{{ .link | safeURL }}"><i
                   class="fa {{ .icon }}"></i></a></li>
             {{ end }}
           </ul>
@@ -83,7 +83,7 @@
 
 {{ "<!-- JS Plugins -->" | safeHTML }}
 {{ range .Site.Params.plugins.js}}
-<script src="{{ .link | relURL }}?WT.mc_id=AZ-MVP-5005283"></script>
+<script src="{{ .link | relURL }}"></script>
 {{ end }}
 
 {{ "<!-- Main Script -->" | safeHTML }}

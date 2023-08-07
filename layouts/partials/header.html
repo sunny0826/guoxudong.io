@@ -45,7 +45,7 @@
         <div class="collapse navbar-collapse text-center text-white" id="navigation" style="font-size:15px">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link text-white" href="{{ .Site.BaseURL | relLangURL }}?WT.mc_id=AZ-MVP-5005283">{{ .Site.Params.Home }}</a>
+              <a class="nav-link text-white" href="{{ .Site.BaseURL | relLangURL }}">{{ .Site.Params.Home }}</a>
             </li>
             {{ range .Site.Menus.main }}
             {{ if .HasChildren }}
@@ -56,16 +56,16 @@
               </a>
               <div class="dropdown-menu" >
                 {{ range .Children }}
-                <a class="dropdown-item text-white" href="{{ .URL | relLangURL }}?WT.mc_id=AZ-MVP-5005283">{{ .Name }}</a>
+                <a class="dropdown-item text-white" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
                 {{ end }}
               </div>
             </li>
             {{ else }}
             <li class="nav-item">
               {{ if eq .Name "关于" }}
-                  <a class="nav-link text-white" href="{{ .URL | relLangURL }}?WT.mc_id=AZ-MVP-5005283" target="_blank">{{ .Name }}</a>
+                  <a class="nav-link text-white" href="{{ .URL | relLangURL }}" target="_blank">{{ .Name }}</a>
               {{ else }}
-                  <a class="nav-link text-white" href="{{ .URL | relLangURL }}?WT.mc_id=AZ-MVP-5005283">{{ .Name }}</a>
+                  <a class="nav-link text-white" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
               {{ end }}
             </li>
             {{ end }}
@@ -107,7 +107,7 @@
           {{ end }}
           {{ if .Site.Params.navigation_button.enable }}
           {{ "<!-- get start btn -->" | safeHTML }}
-          <a href="{{ .Site.Params.navigation_button.link | relLangURL }}?WT.mc_id=AZ-MVP-5005283" class="btn" ><span class="fa fa-github text-white"></span></a>
+          <a href="{{ .Site.Params.navigation_button.link | relLangURL }}" class="btn" ><span class="fa fa-github text-white"></span></a>
           {{ end }}
         </div>
       </nav>

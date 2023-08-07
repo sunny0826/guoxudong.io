@@ -4,7 +4,7 @@
   <h2>{{ i18n "related_article" }}</h2>
   <ul class="related">
   {{ range . }}
-    <li><a href="{{ .RelPermalink }}?WT.mc_id=AZ-MVP-5005283">{{ .Title }}</a></li>
+    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
   {{ end }}
   </ul>
 </div>
