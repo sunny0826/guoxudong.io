@@ -66,7 +66,7 @@ MiniMax 提供的 API 以极简的形式供企业用户或企业开发者调用�
 
 详细测评内容请查看 [GitHub repo](https://github.com/sunny0826/llms-k8s-pk)。从结果来看，三个大模型的表现都非常好，除了一些小问题外，基本上都能够回答出正确的答案。其中，MiniMax 的回答结果最为准确，几乎没有错误的回答；ChatGLM 的回答结果也非常不错，只有一个问题回答的不太准确。测评的结果让笔记非常震惊，不仅是 OpenAI 其他的大模型对于 K8S 的理解情况要远远高于逾期，回答的内容不仅中英文结合得当，而且对于很多专有名词的翻译和理解都非常准确，这让笔者对于大模型的理解能力有了更深的认识。
 
-详细测评内容也可见腾讯文档，链接：https://docs.qq.com/sheet/DY1VUTmJjaG1veFNW
+详细测评内容也可见腾讯文档，链接：<https://docs.qq.com/sheet/DY1VUTmJjaG1veFNW>
 
 ## 结语
 
