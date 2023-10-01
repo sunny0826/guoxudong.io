@@ -158,7 +158,7 @@ distractionFreeMode= false # Enable hot key (cmd|ctrl + enter) submit comment.
 ########################### social icon ############################
 [[params.social]]
 icon = "fa-twitter"
-link = "https://twitter.com/GuoXudong2"
+link = "https://twitter.com/guoxudong_"
 
 [[params.social]]
 icon = "fa-github"
