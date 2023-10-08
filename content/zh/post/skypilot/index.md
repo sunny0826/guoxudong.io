@@ -14,7 +14,7 @@ image: "https://cdn.suuny0826.com/large/ad5fbf65ly1g0s2czlmofj21jl15o43r.jpg"
 
 在云计算日益普及的今天，如何有效、经济且无缝地在各种云平台上运行大语言模型（LLMs）、AI 和批处理作业成为了迫切的需求。SkyPilot 项目应运而生，旨在解决这一核心问题。它不仅抽象并简化了云基础设施操作，为用户提供了在任何云平台上轻松部署和扩展作业的能力，还通过自动获取多个云平台 GPU 的实时价格并进行实时比价，帮助用户选择最优的云平台来运行自己的 Job。这样做极大地降低了成本，提供了高度的 GPU 可用性，让云基础设施管理变得轻而易举。这样做极大的满足了市场对高效、低成本云资源利用的需求。通过 SkyPilot，企业和开发者能够最大化地利用 GPU，进一步推动了人工智能和大数据处理技术的发展，为云计算市场带来了新的可能。
 
-## SkyPilot 介绍
+## SkyPilot
 
 SkyPilot 是一个为大型语言模型（LLMs）、AI 和批处理作业设计的框架，能在任何云平台上运行。它是一个 CLI 工具，对于熟悉命令行的用户来说，使用起来非常方便。仅通过一行命令就能启动一个完整的云环境，而无需关心具体的 VM、网络或安全组配置。相较于使用 Terraform 进行自行配置，SkyPilot 提供了更快的速度和更好体验。最重要的是，它允许用户在多个云平台上使用同一套配置，大大节省了学习和适配的时间。
 
@@ -81,13 +81,13 @@ pip install ".[all]"
 
 ### 配置
 
-安装完成后，需进行配置以连接到你的云服务提供商，配置过程可能会因云服务提供商而异。整体配置相对简单，如果已经在本地配置了云服务提供商的 CLI，可以使用以下命令来检查 SkyPilot 是否可以正常访问已启动的云：
+安装完成后，需进行一些初步配置以连接到您的云服务提供商。这些配置步骤可能因云服务提供商而有所不同。整体配置流程相对简单。如果您已在本地配置了对应的云服务 CLI，可以使用以下命令检查 SkyPilot 是否可以正常访问：
 
 ```bash
 sky check
 ```
 
-这将获得如下的输出，访问成功和失败一目了然：
+您会看到如下输出，显示每个云服务的访问状态：
 
 ![sky check](https://cdn.suuny0826.com/image/2023-10-08-202310081156979.png)
 
@@ -105,7 +105,7 @@ sky check
     az account set -s <subscription_id>
     ```
 
-- 最后再次运行 `sky check` 检查是否配置成功。
+- 最后再次运行 `sky check` 以确认配置是否成功。
 
 ### 创建和运行 Llama-2 Chatbot
 
@@ -113,21 +113,21 @@ sky check
 
 #### 前提条件
 
-- 申请使用 Llama-2 模型，进入[申请页面](https://ai.meta.com/resources/models-and-libraries/llama-downloads/)，申请使用模型。
+- 访问[此链接](https://ai.meta.com/resources/models-and-libraries/llama-downloads/)申请使用 Llama-2 模型。
 - 从 huggingface 获取访问令牌，在 huggingface [生成只读访问令牌](https://huggingface.co/settings/token)，并确保你的 huggingface 账户[可以访问 Llama-2 模型](https://huggingface.co/meta-llama/Llama-2-7b-chat/tree/main)。
-- 在 `chatbot-hf.yaml` 文件中填写访问令牌。
+- 在 `chatbot-meta.yaml` 文件中填写获取的访问令牌。
 
     ```yaml
     envs:
-    MODEL_SIZE: 7
-    HF_TOKEN: <your-huggingface-token>
+      MODEL_SIZE: 7
+      HF_TOKEN: <your-huggingface-token>
     ```
 
     ![Access granted](https://cdn.suuny0826.com/image/2023-10-08-20231008140311.png)
 
 #### 使用 SkyPilot 运行 Llama-2 Chatbot
 
-- 创建一个新的 YAML 文件，例如 `chatbot-meta.yaml`，并添加以下内容：
+- 创建一个名为 `chatbot-meta.yaml` 的新 YAML 文件，并添加以下内容：
 
 ```yaml
 resources:
@@ -170,29 +170,29 @@ run: |
   ttyd /bin/bash -c "torchrun --nproc_per_node $SKYPILOT_NUM_GPUS_PER_NODE chat.py --ckpt_dir ~/sky_workdir/Llama-2-${MODEL_SIZE}b-chat --tokenizer_path ~/sky_workdir/Llama-2-${MODEL_SIZE}b-chat/tokenizer.model"
 ```
 
-- 运行以下命令以启动集群并运行任务
+- 运行以下命令启动集群并执行任务：
 
     ```bash
     sky launch -c llama chatbot-meta.yaml
     ```
 
-    ![launch](https://cdn.suuny0826.com/image/2023-10-08-202310081456420.png)
+    ![launch](https://cdn.suuny0826.com/image/2023-10-08-202310081742271.png)
 
-- 打开另一个终端，运行以下命令以将本地端口 7681 与集群中的端口 7681 进行绑定
+    在上述步骤中，`llama` 是集群的名称，而 `chatbot-meta.yaml` 是任务配置文件。在几分钟内，SkyPilot 将在 Azure 的 V100 GPU 上完成集群的创建、配置和任务执行。
+
+- 打开新的终端，执行以下命令将本地 `7681` 端口与集群中的 `7681` 端口绑定：
 
     ```bash
     ssh -L 7681:localhost:7681 llama
     ```
 
-- 在浏览器中打开 `http://localhost:7681` 并开始聊天！
+- 在浏览器中访问 `http://localhost:7681` 并开始聊天体验！
 
     ![ttyd chat](https://cdn.suuny0826.com/image/2023-10-08-202310081711404.png)
 
-在这个示例中，`llama` 是你的集群名称，`chatbot-meta.yaml` 是你的任务配置文件。在几分钟内，集群将被创建和配置，任务将在 Azure 的 V100 GPU 实例上运行。
-
 ### 停止并清理集群
 
-当使用完成后，可以使用以下命令停止或清理集群：
+任务完成后，可以使用以下命令来停止或彻底删除集群：
 
 - 停止集群
 
@@ -200,30 +200,30 @@ run: |
     sky stop lama  # or pass your custom name if you used "-c <other name>"
     ```
 
-- 您可以使用以下命令重启已停止的群集并重新启动 Chatbot：
+- 重启已停止的集群并重新运行 Chatbot：
 
     ```bash
     sky launch chatbot-meta.yaml -c llama --no-setup
     ```
 
-    `--no-setup`：停止的集群会保留其磁盘内容，因此可以跳过 setup 步骤。
-- 彻底清理集群
+    使用 `--no-setup` 旨在跳过 setup 步骤，因为停止的集群已保留了其磁盘内容。
+- 彻底删除集群：
 
     ```bash
     sky down llama  # or pass your custom name if you used "-c <other name>"
     ```
 
-清理完成后，可以使用 `sky status` 命令来查看集群，其可以查看你在不同 regions/clouds 中的所有集群。
+清理完成后，您可以运行 `sky status` 来查看您在不同 regions/clouds 中的所有集群。
 
 ## 进阶使用
 
-除了上文中介绍的基本使用方法外，SkyPilot 还提供了更多的功能，下面将介绍一些进阶功能。
+除了前述的基本使用方法，SkyPilot 还拥有众多高级功能，下面简要介绍其中一些。
 
 ### 显示支持的 GPU/TPU/accelerators 及其价格
 
-可以在任务 YAML 的 `accelerators` 字段或 CLI 命令的 `--gpus` flag 中显示的设置名称和数量。例如，如果该表显示支持 8xV100，那么上述命令将接受字符串 `V100:8`。
+您可以在任务 YAML 的 `accelerators` 字段或在 CLI 的 `--gpus` flag 中设置 GPU/TPU/accelerators 的名称和数量。例如，若支持列表显示 8xV100，您可以在 `accelerators` 字段中使用 `V100:8`。
 
-而各个云给出的 GPU 型号及其价格总是给人一种眼花缭乱的感觉，SkyPilot 将相同型号的 GPU 及价格进行了统一的整理与命名，并提供了一个命令来显示当前支持的 GPU/TPU/accelerators 及其价格：
+不同公有云给出的 GPU 型号及其价格十分混乱，SkyPilot 将相同型号的 GPU 及价格进行了统一的整理与命名，并提供了 `show-gpus` 命令来显示当前支持的 GPU/TPU/accelerators 及其价格：
 
 ```bash
 sky show-gpus <gpu>
@@ -321,7 +321,7 @@ python -m sky.clouds.service_catalog.data_fetchers.fetch_azure --all-regions
 
 ## 结语
 
-SkyPilot 不仅仅是一个为开发者和企业提供便捷的云资源管理和优化方案的工具，它更是一个为未来的云计算发展趋势奠定基础的项目。通过 SkyPilot，用户可以在不同的云平台上自如地部署和管理他们的应用，开发者和企业可以将更多的精力投入到实现他们的业务目标上，而非消耗在繁琐的云资源管理任务中。随着 SkyPilot 的不断完善和发展，未来的云计算将会变得更加高效、经济和人性化。
+SkyPilot 是一个强大的工具，让云基础设施的管理变得前所未有的简单和高效。通过 SkyPilot，用户可以轻松地在各大云平台上部署和扩展 AI 和批处理作业，而无需关心底层的配置细节。SkyPilot 还带有众多高级功能，为企业和开发者提供了一个完整的、高度灵活的解决方案，满足了他们对高效、低成本云资源利用的需求。在未来，随着更多的云平台和技术加入，我们期待 SkyPilot 能为用户带来更多的便利和价值。
 
 ## 参考资料
 
