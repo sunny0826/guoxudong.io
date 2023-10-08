@@ -108,7 +108,7 @@ Next, we'll briefly cover how to configure for Azure. For configurations for oth
 
 ### Creating and Running Llama-2 Chatbot
 
-Outlined below are the preliminary steps. For a comprehensive guide, please consult the [official documentation](https://github.com/skypilot-org/skypilot/tree/master/llm/llama-2)."
+Outlined below are the preliminary steps. For a comprehensive guide, please consult the [official documentation](https://github.com/skypilot-org/skypilot/tree/master/llm/llama-2).
 
 #### Pre-requisites
 
