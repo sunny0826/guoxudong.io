@@ -2,21 +2,20 @@
 title: "SkyPilot: Run LLMs and AI on any cloud with one click"
 summary: "A New Framework for Running AI and Batch Jobs Across Cloud Platforms"
 authors: ["guoxudong"]
-tags: []
-categories: []
+tags: ["AI","Cloud","Cross-platform"]
+categories: ["AI"]
 date: 2023-10-08T10:00:58+08:00
 lastmod: 2023-10-08T10:00:58+08:00
 draft: false
 type: blog
 image: "https://cdn.suuny0826.com/image/2023-10-08-skypilot.png"
 ---
-## Introduction
 
-With the increasing prevalence of cloud computing today, there is an urgent need to effectively, economically, and seamlessly run large language models (LLMs), AI, and batch jobs on various cloud platforms. The SkyPilot project was born to address this core issue. It not only abstracts and simplifies cloud infrastructure operations, giving users the ability to easily deploy and scale jobs on any cloud platform but also automatically fetches real-time GPU prices from multiple cloud platforms for real-time price comparison, helping users choose the best cloud platform to run their jobs. This greatly reduces costs, offers high GPU availability, and makes cloud infrastructure management a breeze. This approach greatly meets the market demand for efficient, low-cost cloud resource utilization. Through SkyPilot, enterprises and developers can maximize GPU utilization, further promoting the development of artificial intelligence and big data processing technologies, bringing new possibilities to the cloud computing market.
+With the growing prominence of cloud computing, there's a pressing demand for seamless, cost-effective deployment of large language models (LLMs), AI, and batch jobs across various cloud platforms. Enter SkyPilot, designed to tackle this challenge. It not only streamlines cloud infrastructure operations, allowing users to deploy and scale jobs effortlessly across any cloud platform, but also intelligently compares real-time GPU prices from multiple providers. This ensures users select the most cost-effective platform for their tasks, leading to substantial cost savings and optimized GPU availability. Consequently, SkyPilot responds to the market's call for efficient and affordable cloud resource utilization. By leveraging SkyPilot, both enterprises and individual developers can harness the full potential of GPUs, thereby advancing artificial intelligence and big data technologies and ushering in new horizons for the cloud computing industry.
 
 ## SkyPilot
 
-SkyPilot is a framework designed for large language models (LLMs), AI, and batch jobs that can run on any cloud platform. It's a CLI tool and is very convenient for users familiar with the command line. With just one command, a complete cloud environment can be started without worrying about the specifics of VM, network, or security group configurations. Compared to self-configuring with Terraform, SkyPilot offers faster speed and a better experience. Most importantly, it allows users to use the same configuration on multiple cloud platforms, saving a lot of learning and adaptation time.
+SkyPilot is a framework designed for large language models (LLMs), AI, and batch jobs that can run on any cloud platform. It's a CLI tool and is very convenient for users familiar with the command line. With just one command, a complete cloud environment can be initiated without delving into the specifics of VMs, networks, or security group configurations. Compared with Terraform, SkyPilot offers faster speed and a better experience. Most importantly, it allows users to use the same configuration on multiple cloud platforms, saving a lot of learning and adaptation time.
 
 Key advantages of SkyPilot include:
 
@@ -71,7 +70,7 @@ Moreover, you can opt to install the latest nightly build:
 pip install -U "skypilot-nightly[all]"
 ```
 
-Or install SkyPilot from the source code:
+Or install SkyPilot from source:
 
 ```bash
 git clone https://github.com/skypilot-org/skypilot.git
@@ -81,24 +80,22 @@ pip install ".[all]"
 
 ### Configuration
 
-After installation, some initial configurations are necessary to connect to your cloud service provider. These configuration steps may vary depending on the cloud service provider. The overall configuration process is relatively simple. If you've already set up the corresponding cloud service CLI locally, you can use the following command to check if SkyPilot can access it properly:
+After installation, some initial configurations are necessary to connect to your cloud provider. These configuration steps may vary depending on the cloud provider. The overall configuration process is relatively simple. If you've already set up the corresponding cloud CLI locally, you can use the following command to check if SkyPilot can access it properly:
 
 ```bash
 sky check
 ```
 
-You'll
-
- see output indicating the access status for each cloud service:
+You'll see output indicating the access status for each cloud:
 
 ![sky check](https://cdn.suuny0826.com/image/2023-10-08-202310081156979.png)
 
 Next, we'll briefly cover how to configure for Azure. For configurations for other clouds, refer to the [official documentation](https://skypilot.readthedocs.io/en/latest/getting-started/installation.html#cloud-account-setup).
 
-- Install the [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli?WT.mc_id=AZ-MVP-5005283).
-- Use the `az login` command to log into the Azure CLI.
-- Use the `az account subscription list` command to obtain the `subscription_id` list for your account.
-- Use the `az account set -s <subscription_id>` command to specify which subscription to use.
+- [Download and install the Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli?WT.mc_id=AZ-MVP-5005283).
+- Log in to the Azure CLI with `az login`.
+- Retrieve your account's `subscription_id` list using `az account subscription list`.
+- Set your desired subscription with `az account set -s <subscription_id>`.
 
     ```bash
     # Login
@@ -111,21 +108,20 @@ Next, we'll briefly cover how to configure for Azure. For configurations for oth
 
 ### Creating and Running Llama-2 Chatbot
 
-Below are basic steps; for detailed operations, please refer to the [official documentation](https://github.com/skypilot-org/skypilot/tree/master/llm/llama-2).
+"Outlined below are the preliminary steps. For a comprehensive guide, please consult the [official documentation](https://github.com/skypilot-org/skypilot/tree/master/llm/llama-2)."
 
-#### Prerequisites
+#### Pre-requisites
 
-- Visit [this link](https://ai.meta.com/resources/models-and-libraries/llama-downloads/) to apply for the Llama-2 model.
-- Obtain an access token from huggingface, [generate a read-only access token on huggingface](https://huggingface.co/settings/token), and ensure your huggingface account [can access the Llama-2 model](https://huggingface.co/meta-llama/Llama-2-7b-chat/tree/main).
-- Fill in the obtained access token in the `chatbot-meta.yaml` file.
+- Visit [this page](https://ai.meta.com/resources/models-and-libraries/llama-downloads/) to apply for the access to the Llama-2 model.
+    ![Access granted](https://cdn.suuny0826.com/image/2023-10-08-20231008140311.png)
+- Get the access token from huggingface, [generate a read-only access token on huggingface](https://huggingface.co/settings/token), and ensure your huggingface account [can access the Llama-2 model](https://huggingface.co/meta-llama/Llama-2-7b-chat/tree/main).
+- Fill the access token in the `chatbot-meta.yaml` file.
 
     ```yaml
     envs:
       MODEL_SIZE: 7
       HF_TOKEN: <your-huggingface-token>
     ```
-
-    ![Access granted](https://cdn.suuny0826.com/image/2023-10-08-20231008140311.png)
 
 #### Running Llama-2 Chatbot with SkyPilot
 
@@ -190,44 +186,44 @@ run: |
     ssh -L 7681:localhost:7681 llama
     ```
 
-- Visit `http://localhost:7681` in your browser to start the chat experience!
+- Open `http://localhost:7681` in your browser and start chatting!
 
     ![ttyd chat](https://cdn.suuny0826.com/image/2023-10-08-202310081711404.png)
 
-### Stopping and Cleaning Up the Cluster
+### Cleaning Up
 
-Once the task is completed, you can use the following commands to stop or completely delete the cluster:
+When you are done, you can use the following commands to stop or tear down the cluster:
 
-- Stop the cluster:
+- Stop the cluster, run:
 
     ```bash
     sky stop lama  # or pass your custom name if you used "-c <other name>"
     ```
 
-- Restart a stopped cluster and rerun Chatbot:
+- Restart a stopped cluster and relaunch the Chatbot:
 
     ```bash
     sky launch chatbot-meta.yaml -c llama --no-setup
     ```
 
     Using `--no-setup` aims to skip the setup step since the stopped cluster has retained its disk contents.
-- Completely delete the cluster:
+- To tear down the cluster (non-restartable), run:
 
     ```bash
     sky down llama  # or pass your custom name if you used "-c <other name>"
     ```
 
-After cleanup, you can run `sky status` to view all your clusters in different regions/clouds.
+To see your clusters, run `sky status`, which is a single pane of glass for all your clusters across regions/clouds.
 
 ## Advanced Usage
 
 Beyond the basic methods mentioned above, SkyPilot has numerous advanced features. Here's a brief introduction to some of them.
 
-### Display Supported GPU/TPU/Accelerators and Their Prices
+### Show Supported GPU/TPU/Accelerators and Their Prices
 
-You can set the name and number of GPU/TPU/accelerators in the task YAML's `accelerators` field or in the CLI's `--gpus` flag. For instance, if a supported list displays 8xV100, you can use `V100:8` in the `accelerators` field.
+The names and counts shown can be set in the `accelerators` field in task YAMLs, or in the `--gpus` flag in CLI commands. For example, if this table shows 8x V100s are supported, then the string `V100:8` will be accepted by the above.
 
-Different public clouds have confusing GPU model names and their prices. SkyPilot has standardized the naming and pricing of the same GPU model and provides a `show-gpus` command to display currently supported GPU/TPU/accelerators and their prices:
+Different clouds have confusing GPU model names and their prices. SkyPilot has standardized the naming and pricing of the same GPU model and provides a `show-gpus` command to display currently supported GPU/TPU/accelerators and their prices:
 
 ```bash
 sky show-gpus <gpu>
@@ -235,7 +231,7 @@ sky show-gpus <gpu>
 
 ### Public IP and Ports
 
-If you prefer to access your clusters using ssh or gradio, you can use the following command to get the cluster's Public IP:
+If you prefer to access your clusters using ssh, you can use the following command to get the cluster's Public IP:
 
 ```bash
 sky status --ip <your-custom-name>
@@ -252,15 +248,15 @@ resources:
     - 20000-20010
 ```
 
-Or directly specify in the CLI command with `--ports`:
+SkyPilot also support opening ports through the CLI:
 
 ```bash
 sky launch -c jupyter --ports 8888 jupyter_lab.yaml
 ```
 
-### Quickly Launch GPU/CPU/TPU Instances
+### Interactive Nodes
 
-SkyPilot also offers interactive nodes, allowing users to quickly start specified single node VMs on public clouds with simple CLI commands, without needing a YAML configuration file.
+SkyPilot also offers interactive nodes, allowing users to quickly start specified single node VMs on clouds with simple CLI commands, without needing a YAML configuration file.
 
 - `sky gpunode`
 - `sky cpunode`
@@ -286,7 +282,7 @@ sky gpunode -p 8080 -p 4650 -c cluster_name
 rsync -r . cluster_name:~/workdir
 ```
 
-### Display Estimated Cost of Running Clusters
+### Show Estimated Cost of Launched Clusters
 
 SkyPilot also provides a command to display the estimated cost of running clusters:
 
@@ -294,9 +290,9 @@ SkyPilot also provides a command to display the estimated cost of running cluste
 sky cost-report
 ```
 
-Note: This CLI is still experimental. The estimated cost is calculated based on the local cache of cluster status and may not be accurate.
+Note: This CLI is experimental. The estimated cost is calculated based on the local cache of cluster status and may not be accurate.
 
-### Obtain Global Region Information for Azure and GCP
+### Fetch Global Region Information for Azure and GCP
 
 By default, SkyPilot supports most global regions on AWS, but only US regions on GCP and Azure. If you specify a region outside of the US, you might encounter an error like:
 
@@ -309,21 +305,17 @@ If you wish to use all global regions, additional commands are required to fetch
 
 ```bash
 version=$(python -c 'import sky; print(sky.clouds.service_catalog.constants.CATALOG_SCHEMA_VERSION)')
-mkdir -p ~/.sky/catalogs/${version
+mkdir -p ~/.sky/catalogs/${version}
+cd ~/.sky/catalogs/${version}
+# GCP
+pip install lxml
+# Fetch all regions for GCP
+python -m sky.clouds.service_catalog.data_fetchers.fetch_gcp --all-regions
 
-}
-wget https://github.com/skypilot-org/service-catalog/blob/master/catalogs/${version}/gcp.json -O ~/.sky/catalogs/${version}/gcp.json
-wget https://github.com/skypilot-org/service-catalog/blob/master/catalogs/${version}/azure.json -O ~/.sky/catalogs/${version}/azure.json
+# Azure
+# Fetch all regions for Azure
+python -m sky.clouds.service_catalog.data_fetchers.fetch_azure --all-regions
 ```
-
-## Community and Contribution
-
-SkyPilot is a collaborative project. Everyone interested can participate in its development and improvement. Here are ways to contribute:
-
-- **Discussion**: If you have any ideas, suggestions, or problems, you can join the community discussion and share them.
-- **Bug Reports**: If you encounter any issues during use, please report them on GitHub.
-- **Documentation**: Improve documentation and tutorials to help more users.
-- **Code**: Improve SkyPilot's code or add new features.
 
 ## Conclusion
 

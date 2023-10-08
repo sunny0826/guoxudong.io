@@ -114,6 +114,7 @@ sky check
 #### 前提条件
 
 - 访问[此链接](https://ai.meta.com/resources/models-and-libraries/llama-downloads/)申请使用 Llama-2 模型。
+  ![Access granted](https://cdn.suuny0826.com/image/2023-10-08-20231008140311.png)
 - 从 huggingface 获取访问令牌，在 huggingface [生成只读访问令牌](https://huggingface.co/settings/token)，并确保你的 huggingface 账户[可以访问 Llama-2 模型](https://huggingface.co/meta-llama/Llama-2-7b-chat/tree/main)。
 - 在 `chatbot-meta.yaml` 文件中填写获取的访问令牌。
 
@@ -122,8 +123,6 @@ sky check
       MODEL_SIZE: 7
       HF_TOKEN: <your-huggingface-token>
     ```
-
-    ![Access granted](https://cdn.suuny0826.com/image/2023-10-08-20231008140311.png)
 
 #### 使用 SkyPilot 运行 Llama-2 Chatbot
 
