@@ -46,7 +46,7 @@ about:
   enable : true
   title : "About"
   subtitle : ""
-  content : "Xudong Guo is a Cloud Native Architect at JiHu Gitlab. He specializes in promoting and sharing DevOps and Cloud Native technologies, is a LF APAC Open Source Evangelist, and the maintainer of the CNCF SandBox project KubeVela / ChaosBlade."
+  content : "Xudong Guo is a OSS Engineer. He specializes in promoting and sharing DevOps and Cloud Native technologies, is a LF APAC Open Source Evangelist, and the maintainer of the CNCF SandBox project KubeVela / ChaosBlade."
   #bg_image : "images/backgrounds/about-us-bg.png"
   image : "https://cdn.suuny0826.com/large/ad5fbf65ly1ghds6bthggj21dv0rsb29.jpg"
   button:

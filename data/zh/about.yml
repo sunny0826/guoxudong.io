@@ -11,7 +11,7 @@ philosophy:
 
     # philosophy item loop
     - title : "云原生"
-      content : "云原生爱好者、实践者，专注于云原生及周边干货知识分享，实践达人，demo 小王子。"
+      content : "云原生爱好者、实践者，专注于云原生及周边干货知识分享，实践达人。"
       #bullet_point:
       #  - "Quality Services"
       #  - "Clients Satisfaction"
