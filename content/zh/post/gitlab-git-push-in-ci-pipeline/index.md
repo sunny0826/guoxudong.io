@@ -190,7 +190,7 @@ rspec:
 
 ```
 
-细心的读者可能会发现，上面这个 `git-push.yaml` 中并没有 `script` 关键字，也就是说，这个 Job 是不能单独运行的，您需要将其 `incloud` 到您的 `.gitlab-ci.yml` 并且 `extends` 到相关 Job，效果如下：
+细心的读者可能会发现，上面这个 `git-push.yaml` 中并没有 `script` 关键字，也就是说，这个 Job 是不能单独运行的，您需要将其 `include` 到您的 `.gitlab-ci.yml` 并且 `extends` 到相关 Job，效果如下：
 
 ```yaml
 #.gitlab-ci.yml
