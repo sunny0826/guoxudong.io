@@ -10,24 +10,27 @@ image: https://cdn.suuny0826.com/large/ad5fbf65ly1ge3if5zqkzj21qq15ojvp.jpg
 
 ---
 # 现象
-启动docker容器 
+
+启动docker容器
 
 ```bash
 docker run –name [CONTAINER_NAME] [CONTAINER_ID] 
 ```
 
-查看容器运行状态 
+查看容器运行状态
 
-```bash    
+```bash
 docker ps -a 
 ```
 
 发现刚刚启动的mydocker容器已经退出
 
 # 原因
+
 docker容器的主线程（dockfile中CMD执行的命令）结束，容器会退出
 
 # 解决办法
+
 1. 可以使用交互式启动
 
 	```bash
