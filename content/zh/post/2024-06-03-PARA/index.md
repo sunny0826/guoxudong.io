@@ -69,4 +69,4 @@ PARA不仅仅是一个知识管理的工具箱，它是一种生活与工作的�
 ## 参考资料
 
 - [Tiago Forte on PARA](https://www.buildingasecondbrain.com/)
-- [PARA Methodology Overview](https://fortelabs.co/post/para-overview/)
+- [The PARA Method: The Simple System for Organizing Your Digital Life in Seconds](https://fortelabs.com/blog/para/)
