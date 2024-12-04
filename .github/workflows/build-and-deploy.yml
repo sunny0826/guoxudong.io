@@ -26,6 +26,8 @@ jobs:
       #     personal_token: ${{ secrets.GITHUB_TOKEN }}
       #     publish_dir: ./public
       #     cname: sunny0826.com
+      - name: Install Algolia Search Client
+        run: pip install algoliasearch
       - uses: rxrw/algolia-index-uploader@v1
         with:
           algolia_index_id: 'QD329MV9NX'
