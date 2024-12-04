@@ -26,21 +26,11 @@ jobs:
       #     personal_token: ${{ secrets.GITHUB_TOKEN }}
       #     publish_dir: ./public
       #     cname: sunny0826.com
-      # - name: Install Algolia Search Client
-      #   run: pip install algoliasearch
-      # - uses: rxrw/algolia-index-uploader@v1
-      #   with:
-      #     algolia_index_id: 'QD329MV9NX'
-      #     algolia_index_admin_key: ${{ secrets.ADMIN_KEY }}
-      #     algolia_index_name: 'guoxudong.io'
-      #     index_path: 'public/algolia.json'
-      - uses: tilburgsciencehub/algolia-uploader@master
+      - name: Install Algolia Search Client
+        run:  pip install 'algoliasearch>=2.0,<3.0'
+      - uses: rxrw/algolia-index-uploader@v1
         with:
-          # Algolia app id
-          app_id: 'QD329MV9NX'
-          # Secret token in the organization's 'Setting > Secrets'
-          admin_key: ${{ secrets.ADMIN_KEY }}
-          # The index name
-          index_name: 'guoxudong.io'
-          # The index file path relative to repo root.
-          index_file_path: 'public/algolia.json'
+          algolia_index_id: 'QD329MV9NX'
+          algolia_index_admin_key: ${{ secrets.ADMIN_KEY }}
+          algolia_index_name: 'guoxudong.io'
+          index_path: 'public/algolia.json'
