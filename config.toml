@@ -91,6 +91,16 @@ name = "Quick Reference"
 weight = 4
 URL = "https://reference.guoxudong.io/"
 
+[[menu.main]]
+name = "Running"
+weight = 5
+URL = "https://run.guoxudong.io/"
+
+[[menu.main]]
+name = "Reading"
+weight = 6
+URL = "https://guoxudong.notion.site/13e86019c92c81edb20ee056b62d5fb5"
+
 # # footer menu
 # [[menu.footer]]
 # name = "Policy"
@@ -224,6 +234,16 @@ URL = "https://about.guoxudong.io/"
 name = "Quick Reference"
 weight = 4
 URL = "https://reference.guoxudong.io/"
+
+[[Languages.zh.menu.main]]
+name = "跑步"
+weight = 5
+URL = "https://run.guoxudong.io/"
+
+[[Languages.zh.menu.main]]
+name = "阅读"
+weight = 6
+URL = "https://guoxudong.notion.site/13e86019c92c81edb20ee056b62d5fb5"
 
 # footer menu
 # [[Languages.zh.menu.footer]]
