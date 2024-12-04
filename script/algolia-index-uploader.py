@@ -13,4 +13,4 @@ data = json.loads(content)
 
 index.save_objects(data)
 
-print("上传{}成功".format(os.environ.get("INDEX_PATH")))
+print("{} uploaded successfully".format(os.environ.get("INDEX_PATH")))
