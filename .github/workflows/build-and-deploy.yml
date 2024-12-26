@@ -35,9 +35,3 @@ jobs:
         run: |
           pip install 'algoliasearch>=2.0,<3.0'
           python3 script/algolia-index-uploader.py ${GITHUB_WORKSPACE}/${INDEX_PATH}
-      # - uses: rxrw/algolia-index-uploader@v1
-      #   with:
-      #     algolia_index_id: 'QD329MV9NX'
-      #     algolia_index_admin_key: ${{ secrets.ADMIN_KEY }}
-      #     algolia_index_name: 'guoxudong.io'
-      #     index_path: 'public/algolia.json'
