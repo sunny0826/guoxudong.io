@@ -46,7 +46,7 @@ about:
   enable : true
   title : "关于博主"
   subtitle : ""
-  content : "郭旭东 开放原子开源基金会（OpenAtom Foundation）运营部高级运营官，OSS Engineer，[Linux Foundation APAC 开源布道者](https://evangelists.linuxfoundation.cn/author/detail/59)、Education SIG Chair，CCF 开源发展委员会执委委员，曾获奖项：[2023 年度中国开源先锋 33 人](https://mp.weixin.qq.com/s/vdP3s3J17Hd7zsQCZ49dwQ)，[微软 MVP](https://mvp.microsoft.com/zh-CN/MVP/profile/26f43269-95fb-ed11-8f6d-000d3a560942)，阿里云 MVP，公众号“云原生之路”作者，是 CNCF 项目 KubeVela / ChaosBlade 的 Maintainer。有多年 DevOps、开源和云原生实践经验，主要工作涉及 DevOps、开源项目运营、维护，云原生技术等，专注于开源和云原生技术及周边干货知识分享。"
+  content : "郭旭东 开放原子开源基金会（OpenAtom Foundation）运营部高级运营官，[Linux Foundation APAC 开源布道者](https://evangelists.linuxfoundation.cn/author/detail/59)、Education SIG Chair，CCF 开源发展委员会执委委员，曾获奖项：[2023 年度中国开源先锋 33 人](https://mp.weixin.qq.com/s/vdP3s3J17Hd7zsQCZ49dwQ)，[微软 MVP](https://mvp.microsoft.com/zh-CN/MVP/profile/26f43269-95fb-ed11-8f6d-000d3a560942)，阿里云 MVP，公众号“云原生之路”作者，是 CNCF 项目 KubeVela / ChaosBlade 的 Maintainer。有多年 DevOps、开源和云原生实践经验，主要工作涉及 DevOps、开源项目运营、维护，云原生技术等，专注于开源和云原生技术及周边干货知识分享。"
   #bg_image : "images/backgrounds/about-us-bg.png"
   image : "https://cdn.suuny0826.com/large/ad5fbf65gy1gw7k5d4iflj22gw1n9461.jpg"
   button:
