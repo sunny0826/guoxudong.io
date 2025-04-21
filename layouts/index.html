@@ -18,10 +18,10 @@
             <h2 class="mb-4">{{ .title | markdownify }}</h2>
             <p class="mb-5">{{ .content | markdownify }}</p>
             {{ if .button.enable }}
-            <a href="{{ .button.link1 | absLangURL }}" class="btn btn-gray hover-ripple" data-duration-in=".3"
+              <a href="{{ .button.link1 | absLangURL }}" class="btn btn-gray hover-ripple" data-duration-in=".3"
               data-animation-in="{{ .button.animation }}" data-delay-in=".4" target="_blank" ><i class="fa fa-github"></i>&#32;{{ .button.label1 }}</a>
-              <a href="{{ .button.link2 | absLangURL }}" class="btn btn-gray hover-ripple" data-duration-in=".3"
-              data-animation-in="{{ .button.animation }}" data-delay-in=".4" target="_blank" ><i class="fa fa-gitlab"></i>&#32;{{ .button.label2 }}</a>
+              <!-- <a href="{{ .button.link2 | absLangURL }}" class="btn btn-gray hover-ripple" data-duration-in=".3" -->
+              <!-- data-animation-in="{{ .button.animation }}" data-delay-in=".4" target="_blank" ><i class="fa fa-gitlab"></i>&#32;{{ .button.label2 }}</a> -->
             {{ end }}
           </div>
         </div>
