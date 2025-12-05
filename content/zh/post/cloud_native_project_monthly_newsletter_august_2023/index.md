@@ -3,7 +3,7 @@ title: "Cloud Native Project Monthly Newsletter - 2023年8月"
 summary: "Cloud Native Project 月度新闻简报（2023年8月）"
 authors: ["guoxudong"]
 tags: ["云原生"]
-categories: ["CNPM Newsletter"]
+categories: ["CNPF Newsletter"]
 date: 2023-08-24T09:46:52+08:00
 lastmod: 2023-08-24T09:46:52+08:00
 draft: false
